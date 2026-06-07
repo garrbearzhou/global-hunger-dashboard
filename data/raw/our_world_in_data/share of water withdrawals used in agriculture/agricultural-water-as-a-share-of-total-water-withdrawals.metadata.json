@@ -1,0 +1,35 @@
+{
+  "chart": {
+    "title": "Agricultural water as a share of total water withdrawals",
+    "subtitle": "Agricultural water withdrawals as a percentage of total water withdrawals (which is the sum of water used for agriculture, industry and domestic purposes). Agricultural water is defined as the annual quantity of self-supplied water withdrawn for irrigation, livestock and aquaculture purposes.",
+    "citation": "Food and Agriculture Organization of the United Nations, OECD, and World Bank (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/agricultural-water-as-a-share-of-total-water-withdrawals?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "World",
+      "India",
+      "Low-income countries",
+      "High-income countries",
+      "Lower-middle-income countries",
+      "Upper-middle-income countries"
+    ]
+  },
+  "columns": {
+    "Annual freshwater withdrawals, agriculture (% of total freshwater withdrawal)": {
+      "titleShort": "Annual freshwater withdrawals, agriculture (% of total freshwater withdrawal)",
+      "titleLong": "Annual freshwater withdrawals, agriculture (% of total freshwater withdrawal)",
+      "shortUnit": "%",
+      "unit": "% of total freshwater withdrawal",
+      "timespan": "1965-2021",
+      "type": "Numeric",
+      "owidVariableId": 1106633,
+      "shortName": "er_h2o_fwag_zs",
+      "lastUpdated": "2025-09-08",
+      "nextUpdate": "2026-09-08",
+      "citationShort": "Food and Agriculture Organization of the United Nations, OECD, and World Bank (2025) – processed by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations, OECD, and World Bank (2025) – processed by Our World in Data. “Annual freshwater withdrawals, agriculture (% of total freshwater withdrawal)” [dataset]. Food and Agriculture Organization of the United Nations, OECD, and World Bank, “World Development Indicators 122” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1106633.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-11-28",
+  "activeFilters": {}
+}

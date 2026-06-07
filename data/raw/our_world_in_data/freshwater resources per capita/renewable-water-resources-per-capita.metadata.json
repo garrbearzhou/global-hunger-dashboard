@@ -1,0 +1,35 @@
+{
+  "chart": {
+    "title": "Renewable freshwater resources per capita",
+    "subtitle": "Renewable internal freshwater resources flows refer to internal renewable resources (internal river flows and groundwater from rainfall) in the country.",
+    "citation": "Food and Agriculture Organization of the United Nations (AQUASTAT), via World Bank (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/renewable-water-resources-per-capita?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "India",
+      "China",
+      "Pakistan",
+      "Brazil",
+      "Egypt",
+      "World",
+      "United States"
+    ]
+  },
+  "columns": {
+    "Renewable internal freshwater resources per capita (cubic meters)": {
+      "titleShort": "Renewable internal freshwater resources per capita (cubic meters)",
+      "titleLong": "Renewable internal freshwater resources per capita (cubic meters)",
+      "unit": "cubic meters",
+      "timespan": "1961-2021",
+      "type": "Numeric",
+      "owidVariableId": 1106640,
+      "shortName": "er_h2o_intr_pc",
+      "lastUpdated": "2025-09-08",
+      "nextUpdate": "2026-09-08",
+      "citationShort": "Food and Agriculture Organization of the United Nations (AQUASTAT), via World Bank (2025) – processed by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations (AQUASTAT), via World Bank (2025) – processed by Our World in Data. “Renewable internal freshwater resources per capita (cubic meters)” [dataset]. Food and Agriculture Organization of the United Nations (AQUASTAT), via World Bank, “World Development Indicators 122” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1106640.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-11-28",
+  "activeFilters": {}
+}

@@ -1,0 +1,270 @@
+original_name,standardized_name
+United States of America,United States
+United States,United States
+USA,United States
+US,United States
+United Kingdom of Great Britain and Northern Ireland,United Kingdom
+United Kingdom,United Kingdom
+UK,United Kingdom
+Britain,United Kingdom
+"China, mainland",China
+China,China
+People's Republic of China,China
+"China, Hong Kong SAR",Hong Kong
+"Hong Kong SAR, China",Hong Kong
+Hong Kong,Hong Kong
+"China, Macao SAR",Macao
+"Macao SAR, China",Macao
+Macao,Macao
+"China, Taiwan Province of",Taiwan
+Taiwan,Taiwan
+Republic of China,Taiwan
+"Korea, Republic of",South Korea
+Republic of Korea,South Korea
+South Korea,South Korea
+"Korea, Democratic People's Republic of",North Korea
+Democratic People's Republic of Korea,North Korea
+North Korea,North Korea
+Russian Federation,Russia
+Russia,Russia
+Viet Nam,Vietnam
+Vietnam,Vietnam
+Bolivia (Plurinational State of),Bolivia
+Bolivia,Bolivia
+Venezuela (Bolivarian Republic of),Venezuela
+Venezuela,Venezuela
+Iran (Islamic Republic of),Iran
+Iran,Iran
+Türkiye,Turkey
+Turkey,Turkey
+Republic of Moldova,Moldova
+Moldova,Moldova
+Congo,Republic of the Congo
+Republic of the Congo,Republic of the Congo
+Democratic Republic of the Congo,Democratic Republic of the Congo
+DRC,Democratic Republic of the Congo
+"Congo, Democratic Republic of the",Democratic Republic of the Congo
+United Republic of Tanzania,Tanzania
+Tanzania,Tanzania
+Côte d'Ivoire,Côte d'Ivoire
+Ivory Coast,Côte d'Ivoire
+Lao People's Democratic Republic,Laos
+Laos,Laos
+Kyrgyzstan,Kyrgyzstan
+Kyrgyz Republic,Kyrgyzstan
+Gambia,Gambia
+The Gambia,Gambia
+Bahamas,Bahamas
+The Bahamas,Bahamas
+"Bahamas, The",Bahamas
+Netherlands (Kingdom of the),Netherlands
+Netherlands,Netherlands
+Palestine,Palestine
+Palestinian Territory,Palestine
+Gaza,Gaza
+Gaza Strip,Gaza
+West Bank,West Bank
+West Bank and Gaza,West Bank
+Cabo Verde,Cabo Verde
+Cape Verde,Cabo Verde
+Micronesia (Federated States of),Micronesia
+Micronesia,Micronesia
+Federated States of Micronesia,Micronesia
+Saint Kitts and Nevis,Saint Kitts and Nevis
+St. Kitts and Nevis,Saint Kitts and Nevis
+Saint Lucia,Saint Lucia
+St. Lucia,Saint Lucia
+Saint Vincent and the Grenadines,Saint Vincent and the Grenadines
+St. Vincent and the Grenadines,Saint Vincent and the Grenadines
+Cook Islands,Cook Islands
+Niue,Niue
+Tokelau,Tokelau
+Puerto Rico,Puerto Rico
+Slovakia,Slovakia
+Slovak Republic,Slovakia
+Slovenia,Slovenia
+Republic of Slovenia,Slovenia
+Czech Republic,Czechia
+Czechia,Czechia
+North Macedonia,North Macedonia
+Macedonia,North Macedonia
+Macedonia FYR,North Macedonia
+"Macedonia, FYR",North Macedonia
+Former Yugoslav Republic of Macedonia,North Macedonia
+Bosnia and Herzegovina,Bosnia and Herzegovina
+Bosnia,Bosnia and Herzegovina
+Serbia,Serbia
+Republic of Serbia,Serbia
+Montenegro,Montenegro
+Republic of Montenegro,Montenegro
+Kosovo,Kosovo
+Republic of Kosovo,Kosovo
+Eswatini,Eswatini
+Swaziland,Eswatini
+"São Tomé and Príncipe",Sao Tome and Principe
+Sao Tome and Principe,Sao Tome and Principe
+Guinea-Bissau,Guinea-Bissau
+Equatorial Guinea,Equatorial Guinea
+Central African Republic,Central African Republic
+CAR,Central African Republic
+Chad,Chad
+Republic of Chad,Chad
+Niger,Niger
+Republic of Niger,Niger
+Mali,Mali
+Republic of Mali,Mali
+Burkina Faso,Burkina Faso
+Senegal,Senegal
+Republic of Senegal,Senegal
+Mauritania,Mauritania
+Islamic Republic of Mauritania,Mauritania
+Guinea,Guinea
+Republic of Guinea,Guinea
+Sierra Leone,Sierra Leone
+Republic of Sierra Leone,Sierra Leone
+Liberia,Liberia
+Republic of Liberia,Liberia
+Ghana,Ghana
+Republic of Ghana,Ghana
+Togo,Togo
+Togolese Republic,Togo
+Benin,Benin
+Republic of Benin,Benin
+Nigeria,Nigeria
+Federal Republic of Nigeria,Nigeria
+Cameroon,Cameroon
+Republic of Cameroon,Cameroon
+Gabon,Gabon
+Gabonese Republic,Gabon
+Angola,Angola
+Republic of Angola,Angola
+Zambia,Zambia
+Republic of Zambia,Zambia
+Zimbabwe,Zimbabwe
+Republic of Zimbabwe,Zimbabwe
+Botswana,Botswana
+Republic of Botswana,Botswana
+Namibia,Namibia
+Republic of Namibia,Namibia
+South Africa,South Africa
+Republic of South Africa,South Africa
+Lesotho,Lesotho
+Kingdom of Lesotho,Lesotho
+Madagascar,Madagascar
+Republic of Madagascar,Madagascar
+Mauritius,Mauritius
+Republic of Mauritius,Mauritius
+Seychelles,Seychelles
+Republic of Seychelles,Seychelles
+Comoros,Comoros
+Union of the Comoros,Comoros
+Djibouti,Djibouti
+Republic of Djibouti,Djibouti
+Somalia,Somalia
+Federal Republic of Somalia,Somalia
+Ethiopia,Ethiopia
+Federal Democratic Republic of Ethiopia,Ethiopia
+Eritrea,Eritrea
+State of Eritrea,Eritrea
+Sudan,Sudan
+Republic of the Sudan,Sudan
+South Sudan,South Sudan
+Republic of South Sudan,South Sudan
+Kenya,Kenya
+Republic of Kenya,Kenya
+Uganda,Uganda
+Republic of Uganda,Uganda
+Rwanda,Rwanda
+Republic of Rwanda,Rwanda
+Burundi,Burundi
+Republic of Burundi,Burundi
+Malawi,Malawi
+Republic of Malawi,Malawi
+Mozambique,Mozambique
+Republic of Mozambique,Mozambique
+Canada,Canada
+United States,United States
+United Kingdom,United Kingdom
+Germany,Germany
+France,France
+Italy,Italy
+Spain,Spain
+Japan,Japan
+Australia,Australia
+New Zealand,New Zealand
+Canada,Canada
+United States,United States
+United Kingdom,United Kingdom
+Germany,Germany
+France,France
+Italy,Italy
+Spain,Spain
+Japan,Japan
+Australia,Australia
+New Zealand,New Zealand
+"Congo, Dem. Rep.","Democratic Republic of the Congo"
+"Congo, Rep.",Republic of the Congo
+"Egypt, Arab Rep.",Egypt
+Egypt,Egypt
+"Yemen, Rep.",Yemen
+"Venezuela, RB",Venezuela
+"Gambia, The",Gambia
+"Korea, Dem. People's Rep.",North Korea
+"Micronesia, Fed. Sts.",Micronesia
+Lao PDR,Laos
+"Syrian Arab Republic",Syria
+Syria,Syria
+"Brunei Darussalam",Brunei
+Brunei,Brunei
+Timor-Leste,Timor-Leste
+"Islamic Republic of Afghanistan",Afghanistan
+Afghanistan,Afghanistan
+"Myanmar",Myanmar
+Burma,Myanmar
+"Lao People's Democratic Republic",Laos
+"Tanzania (United Republic of)",Tanzania
+"Iran (Islamic Republic of)",Iran
+"Bolivia (Plurinational State of)",Bolivia
+"Venezuela (Bolivarian Republic of)",Venezuela
+"Russian Federation",Russia
+"Viet Nam",Vietnam
+"Korea Republic of",South Korea
+"Korea Democratic People's Republic of",North Korea
+"Côte d'Ivoire",Côte d'Ivoire
+"Ivory Coast",Côte d'Ivoire
+"Hong Kong SAR China",Hong Kong
+"Macao SAR China",Macao
+"China Taiwan Province of",Taiwan
+"American Samoa",American Samoa
+"Northern Mariana Islands",Northern Mariana Islands
+Guam,Guam
+"French Polynesia",French Polynesia
+"New Caledonia",New Caledonia
+"Antigua and Barbuda",Antigua and Barbuda
+"Trinidad and Tobago",Trinidad and Tobago
+"Saint Kitts and Nevis",Saint Kitts and Nevis
+"Dominican Republic",Dominican Republic
+"Central African Republic",Central African Republic
+"Cabo Verde",Cabo Verde
+"Cape Verde",Cabo Verde
+"Dem. People's Republic of Korea",North Korea
+"Republic of Korea",South Korea
+"United Republic of Tanzania",Tanzania
+"Republic of Moldova",Moldova
+"Slovak Republic",Slovakia
+"Czech Republic",Czechia
+"Republic of North Macedonia",North Macedonia
+"West Bank and Gaza Strip",West Bank and Gaza
+"West Bank and Gaza",West Bank and Gaza
+"State of Palestine",Palestine
+"Palestinian Territory Occupied",Palestine
+"Venezuela (Bolivarian Republic of)",Venezuela
+"Libya",Libya
+"Libyan Arab Jamahiriya",Libya
+"Republic of the Sudan",Sudan
+"Côte d'Ivoire",Côte d'Ivoire
+"Cote d'Ivoire",Côte d'Ivoire
+"Congo Democratic Republic of the",Democratic Republic of the Congo
+"Congo Republic of the",Republic of the Congo
+"Congo Dem. Rep.",Democratic Republic of the Congo
+"Congo Rep.",Republic of the Congo

@@ -1,0 +1,36 @@
+{
+  "chart": {
+    "title": "Municipal water as a share of total water withdrawals",
+    "subtitle": "Municipal (domestic) water withdrawals as a percentage of total water withdrawals (which is the sum of water used for agriculture, industry, and municipal purposes).",
+    "note": "It is defined as the annual quantity of water withdrawn primarily for direct use by the population. It is usually computed as the total water withdrawn by the public distribution network. It can include that part of the industries and urban agriculture, which is connected to the municipal network.",
+    "citation": "Food and Agriculture Organization of the United Nations (AQUASTAT), via World Bank (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/municipal-water-as-a-share-of-total-water-withdrawals?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Low-income countries",
+      "High-income countries",
+      "Middle-income countries",
+      "Lower-middle-income countries",
+      "Upper-middle-income countries",
+      "World"
+    ]
+  },
+  "columns": {
+    "Annual freshwater withdrawals, domestic (% of total freshwater withdrawal)": {
+      "titleShort": "Annual freshwater withdrawals, domestic (% of total freshwater withdrawal)",
+      "titleLong": "Annual freshwater withdrawals, domestic (% of total freshwater withdrawal)",
+      "shortUnit": "%",
+      "unit": "% of total freshwater withdrawal",
+      "timespan": "1965-2021",
+      "type": "Numeric",
+      "owidVariableId": 1106634,
+      "shortName": "er_h2o_fwdm_zs",
+      "lastUpdated": "2025-09-08",
+      "nextUpdate": "2026-09-08",
+      "citationShort": "Food and Agriculture Organization of the United Nations (AQUASTAT), via World Bank (2025) – processed by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations (AQUASTAT), via World Bank (2025) – processed by Our World in Data. “Annual freshwater withdrawals, domestic (% of total freshwater withdrawal)” [dataset]. Food and Agriculture Organization of the United Nations (AQUASTAT), via World Bank, “World Development Indicators 122” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1106634.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-11-28",
+  "activeFilters": {}
+}

@@ -1,0 +1,1970 @@
+Country,Continent,ISO_Code,Level,GDLCODE,Region,Year,lifexp,lifexpf
+Afghanistan,Asia/Pacific,AFG,National,AFGt,Total,2023,66.04,67.54
+Afghanistan,Asia/Pacific,AFG,Subnat,AFGr101,"Central (Kabul Wardak Kapisa Logar Parwan Panjsher)",2023,67.77,69.46
+Afghanistan,Asia/Pacific,AFG,Subnat,AFGr102,"Central Highlands (Bamyan Daikundi)",2023,66.44,67.98
+Afghanistan,Asia/Pacific,AFG,Subnat,AFGr103,"East (Nangarhar Kunar Laghman Nooristan)",2023,65.56,67.01
+Afghanistan,Asia/Pacific,AFG,Subnat,AFGr104,"North (Samangan Sar-e-Pul Balkh Jawzjan Faryab)",2023,64.97,66.36
+Afghanistan,Asia/Pacific,AFG,Subnat,AFGr105,"North East (Baghlan Takhar Badakhshan Kunduz)",2023,64.65,66
+Afghanistan,Asia/Pacific,AFG,Subnat,AFGr106,"South (Uruzgan Helmand Zabul Nimroz Kandahar)",2023,65.88,67.36
+Afghanistan,Asia/Pacific,AFG,Subnat,AFGr107,"South East (Ghazni Paktya Paktika Khost)",2023,68.32,70.07
+Afghanistan,Asia/Pacific,AFG,Subnat,AFGr108,"West (Ghor Herat Badghis Farah)",2023,65.47,66.91
+Albania,Europe,ALB,National,ALBt,Total,2023,79.6,81.45
+Albania,Europe,ALB,Subnat,ALBr201," Berat",2023,79.6,81.45
+Albania,Europe,ALB,Subnat,ALBr202," Diber",2023,79.6,81.45
+Albania,Europe,ALB,Subnat,ALBr203," Durres",2023,79.6,81.45
+Albania,Europe,ALB,Subnat,ALBr204," Elbasan",2023,79.6,81.45
+Albania,Europe,ALB,Subnat,ALBr205," Fier",2023,79.6,81.45
+Albania,Europe,ALB,Subnat,ALBr206," Gjirokaster",2023,79.6,81.45
+Albania,Europe,ALB,Subnat,ALBr207," Korce",2023,79.6,81.45
+Albania,Europe,ALB,Subnat,ALBr208," Kukes",2023,79.6,81.45
+Albania,Europe,ALB,Subnat,ALBr209," Lezhe",2023,79.6,81.45
+Albania,Europe,ALB,Subnat,ALBr210," Shkoder",2023,79.6,81.45
+Albania,Europe,ALB,Subnat,ALBr211," Tirana",2023,79.6,81.45
+Albania,Europe,ALB,Subnat,ALBr212," Vlore",2023,79.6,81.45
+Algeria,Africa,DZA,National,DZAt,Total,2023,76.26,77.7
+Algeria,Africa,DZA,Subnat,DZAr104,"Hauts Plateaux Centre (Djelfa, Laghouat, MSila)",2023,75.86,77.26
+Algeria,Africa,DZA,Subnat,DZAr105,"Hauts Plateaux Est (Setif, Batna, Khenchela, Bordj Bou Arreridj, Oum El Bouaghi, Tebessa)",2023,75.92,77.32
+Algeria,Africa,DZA,Subnat,DZAr106,"Hauts Plateaux Ouest (Tiaret, Saida, Tissemsilt, Naama, El Bayadh)",2023,76.49,77.95
+Algeria,Africa,DZA,Subnat,DZAr101,"Nord Centre (Alger, Blida, Boumerdes, Tipaza, Bouira, Medea, Tizi-Ouzou, Bejaia, Chlef, Ain Defla)",2023,77.16,78.68
+Algeria,Africa,DZA,Subnat,DZAr102,"Nord Est (Annaba, Constantine, Skikda, Jijel, Mila, Souk Ahras, El Tarf, Guelma)",2023,73.97,75.19
+Algeria,Africa,DZA,Subnat,DZAr103,"Nord Ouest (Oran, Tlemcen, Mostaganem, Ain Temouchent, Relizane, Sidi Bel Abbes, Mascara)",2023,77.41,78.95
+Algeria,Africa,DZA,Subnat,DZAr107,"Sud (Bechar, Tindouf, Adrar, Ghardaia, Biskra, El Oued, Ouargla, Tamanrasset,Illizi)",2023,75.46,76.82
+Andorra,Europe,AND,National,ANDt,Total,2023,84.04,86.11
+Angola,Africa,AGO,National,AGOt,Total,2023,64.62,67.14
+Angola,Africa,AGO,Subnat,AGOr218," Bengo",2023,71.37,74.67
+Angola,Africa,AGO,Subnat,AGOr209," Benguela",2023,58.08,59.86
+Angola,Africa,AGO,Subnat,AGOr211," Bie",2023,64.57,67.09
+Angola,Africa,AGO,Subnat,AGOr201," Cabinda",2023,69.4,72.48
+Angola,Africa,AGO,Subnat,AGOr216," Cunene",2023,65.56,68.2
+Angola,Africa,AGO,Subnat,AGOr210," Huambo",2023,62.84,65.17
+Angola,Africa,AGO,Subnat,AGOr215," Huila",2023,60.58,62.65
+Angola,Africa,AGO,Subnat,AGOr213," Kuando Kubango",2023,65.52,68.15
+Angola,Africa,AGO,Subnat,AGOr205," Kuanza Norte",2023,63.64,66.06
+Angola,Africa,AGO,Subnat,AGOr206," Kuanza Sul",2023,58.99,60.86
+Angola,Africa,AGO,Subnat,AGOr204," Luanda",2023,68.72,71.72
+Angola,Africa,AGO,Subnat,AGOr208," Lunda Norte",2023,66.96,69.76
+Angola,Africa,AGO,Subnat,AGOr217," Lunda Sul",2023,69.07,72.11
+Angola,Africa,AGO,Subnat,AGOr207," Malange",2023,67.57,70.43
+Angola,Africa,AGO,Subnat,AGOr212," Moxico",2023,64.62,67.14
+Angola,Africa,AGO,Subnat,AGOr214," Namibe",2023,63.26,65.63
+Angola,Africa,AGO,Subnat,AGOr203," Uige",2023,65.47,68.09
+Angola,Africa,AGO,Subnat,AGOr202," Zaire",2023,67.92,70.83
+"Antigua and Barbuda",America,ATG,National,ATGt,Total,2023,77.6,80.29
+"Argentina urban",America,ARG,National,ARGt,Total,2023,77.4,79.88
+"Argentina urban",America,ARG,Subnat,ARGr104,Cuyo,2023,77.4,79.88
+"Argentina urban",America,ARG,Subnat,ARGr101,"Gran Buenos Aires",2023,77.4,79.88
+"Argentina urban",America,ARG,Subnat,ARGr103,NEA,2023,77.4,79.88
+"Argentina urban",America,ARG,Subnat,ARGr102,NOA,2023,77.4,79.88
+"Argentina urban",America,ARG,Subnat,ARGr105,Pampeana,2023,77.4,79.88
+"Argentina urban",America,ARG,Subnat,ARGr106,Patagonia,2023,77.4,79.88
+Armenia,Asia/Pacific,ARM,National,ARMt,Total,2023,75.68,79.45
+Armenia,Asia/Pacific,ARM,Subnat,ARMr101,Aragatsotn,2023,75.68,79.45
+Armenia,Asia/Pacific,ARM,Subnat,ARMr102,Ararat,2023,75.68,79.45
+Armenia,Asia/Pacific,ARM,Subnat,ARMr103,Armavir,2023,75.68,79.45
+Armenia,Asia/Pacific,ARM,Subnat,ARMr104,Gegharkunik,2023,75.68,79.45
+Armenia,Asia/Pacific,ARM,Subnat,ARMr106,Kotayk,2023,75.68,79.45
+Armenia,Asia/Pacific,ARM,Subnat,ARMr105,Lori,2023,75.68,79.45
+Armenia,Asia/Pacific,ARM,Subnat,ARMr107,Shirak,2023,75.68,79.45
+Armenia,Asia/Pacific,ARM,Subnat,ARMr108,Syunik,2023,75.68,79.45
+Armenia,Asia/Pacific,ARM,Subnat,ARMr110,Tavush,2023,75.68,79.45
+Armenia,Asia/Pacific,ARM,Subnat,ARMr109,"Vayots Dzor",2023,75.68,79.45
+Armenia,Asia/Pacific,ARM,Subnat,ARMr111,Yerevan,2023,75.68,79.45
+Australia,Asia/Pacific,AUS,National,AUSt,Total,2023,83.92,
+Australia,Asia/Pacific,AUS,Subnat,AUSr108,"Australian Capital Territory",2023,85.13,
+Australia,Asia/Pacific,AUS,Subnat,AUSr101,"New South Wales",2023,84.02,
+Australia,Asia/Pacific,AUS,Subnat,AUSr107,"Northern Territory",2023,79.19,
+Australia,Asia/Pacific,AUS,Subnat,AUSr103,Queensland,2023,83.52,
+Australia,Asia/Pacific,AUS,Subnat,AUSr104,"South Australia",2023,83.72,
+Australia,Asia/Pacific,AUS,Subnat,AUSr106,Tasmania,2023,82.92,
+Australia,Asia/Pacific,AUS,Subnat,AUSr102,Victoria,2023,84.33,
+Australia,Asia/Pacific,AUS,Subnat,AUSr105,"Western Australia",2023,84.43,
+Austria,Europe,AUT,National,AUTt,Total,2023,81.96,84.32
+Austria,Europe,AUT,Subnat,AUTr101,Burgenland,2023,81.99,84.2
+Austria,Europe,AUT,Subnat,AUTr104,Karnten,2023,81.99,84.6
+Austria,Europe,AUT,Subnat,AUTr102,Niederosterreich,2023,81.68,84.1
+Austria,Europe,AUT,Subnat,AUTr106,Oberosterreich,2023,82.39,84.8
+Austria,Europe,AUT,Subnat,AUTr107,Salzburg,2023,82.89,84.8
+Austria,Europe,AUT,Subnat,AUTr105,Steiermark,2023,82.09,84.7
+Austria,Europe,AUT,Subnat,AUTr108,Tirol,2023,83.09,85.31
+Austria,Europe,AUT,Subnat,AUTr109,Vorarlberg,2023,82.79,85.41
+Austria,Europe,AUT,Subnat,AUTr103,Wien,2023,80.88,83.09
+Azerbaijan,Europe,AZE,National,AZEt,Total,2023,74.43,77.13
+Azerbaijan,Europe,AZE,Subnat,AZEr102,Absheron,2023,75.21,77.99
+Azerbaijan,Europe,AZE,Subnat,AZEr107,Aran,2023,74.35,77.05
+Azerbaijan,Europe,AZE,Subnat,AZEr101,Baku,2023,75.83,78.67
+Azerbaijan,Europe,AZE,Subnat,AZEr109,"Dakhlik Shirvan",2023,74.43,77.13
+Azerbaijan,Europe,AZE,Subnat,AZEr103,"Ganja Gazakh",2023,73.72,76.36
+Azerbaijan,Europe,AZE,Subnat,AZEr106,"Guba Khachmaz",2023,71.99,74.46
+Azerbaijan,Europe,AZE,Subnat,AZEr105,Lankaran,2023,73.65,76.28
+Azerbaijan,Europe,AZE,Subnat,AZEr110,Nakhchivan,2023,74.54,77.26
+Azerbaijan,Europe,AZE,Subnat,AZEr104,"Shaki Zaqatala",2023,74.26,76.95
+Azerbaijan,Europe,AZE,Subnat,AZEr108,"Yukhari Karabakh",2023,73.41,76.02
+"Bahamas, The",America,BHS,National,BHSt,Total,2023,74.55,78.19
+Bahrain,Asia/Pacific,BHR,National,BHRt,Total,2023,81.28,81.99
+Bangladesh,Asia/Pacific,BGD,National,BGDt,Total,2023,74.67,76.37
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr214," Bagerhat, Khulna, Satkhira",2023,76.58,78.48
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr204," Bandarban, Cox s Bazar",2023,75.47,77.25
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr202," Barguna, Bhola, Patuakhali",2023,73.3,74.86
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr201," Barisal, Jhalokati, Pirojpur",2023,74.93,76.66
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr219," Bogra, Gaibandha, Jaypurhat",2023,74.39,76.06
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr207," Brahmanbaria, Chandpur, Comilla",2023,75.49,77.27
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr203," Chittagong",2023,75.08,76.83
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr216," Chuadanga, Jhenaidah, Kushtia, Meherpur",2023,74.61,76.31
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr208," Dhaka",2023,75.92,77.75
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr220," Dinajpur, Nilphamari, Panchagarh, Thakurgaon",2023,74.24,75.89
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr212," Faridpur, Manikganj, Rajbari",2023,72.36,73.82
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr206," Feni, Lakshmipur, Noakhali",2023,74.63,76.33
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr209," Gazipur, Narayanganj, Narsingdi",2023,74.47,76.15
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr213," Gopalganj, Madaripur, Munshiganj, Shariatpur",2023,76.43,78.32
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr223," Habiganj, Sunamganj",2023,72.49,73.96
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr210," Jamalpur, Sherpur, Tangail",2023,75.25,77.01
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr215," Jessore, Magura, Narail",2023,76.07,77.92
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr205," Khagrachhari, Rangamati (Chattagram)",2023,74.37,76.04
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr211," Kishoreganj, Mymensingh, Netrakona",2023,73.53,75.11
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr221," Kurigram, Lalmonirhat, Rangpur",2023,74.28,75.94
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr222," Maulvibazar, Sylhet",2023,70.84,72.13
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr217," Naogaon, Nawabganj, Rajshahi",2023,76.65,78.56
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr218," Natore, Pabna, Sirajganj",2023,75.43,77.21
+Barbados,America,BRB,National,BRBt,Total,2023,76.18,78.62
+Barbados,America,BRB,Subnat,BRBr102,"Christ Church and St. Philip",2023,76.18,78.62
+Barbados,America,BRB,Subnat,BRBr101,"St Michael",2023,76.18,78.62
+Barbados,America,BRB,Subnat,BRBr103,"St. James, St. George, and St. Thomas",2023,76.18,78.62
+Barbados,America,BRB,Subnat,BRBr104,"St. Lucy, St. Peter, St. Andrew, St. Joseph, and St. John",2023,76.18,78.62
+Belarus,Europe,BLR,National,BLRt,Total,2023,74.43,79.07
+Belarus,Europe,BLR,Subnat,BLRr101,"Brest region",2023,74.43,79.07
+Belarus,Europe,BLR,Subnat,BLRr103,"Gomel region",2023,74.43,79.07
+Belarus,Europe,BLR,Subnat,BLRr104,"Grodno region",2023,74.43,79.07
+Belarus,Europe,BLR,Subnat,BLRr105,"Minsk region",2023,74.43,79.07
+Belarus,Europe,BLR,Subnat,BLRr106,"Mogilev region",2023,74.43,79.07
+Belarus,Europe,BLR,Subnat,BLRr102,"Vitebsk region",2023,74.43,79.07
+Belgium,Europe,BEL,National,BELt,Total,2023,82.12,84.33
+Belgium,Europe,BEL,Subnat,BELr101,"Bruxelles - Brussel",2023,81.9,84.33
+Belgium,Europe,BEL,Subnat,BELr102,"Prov. Antwerpen",2023,83.1,85.04
+Belgium,Europe,BEL,Subnat,BELr107,"Prov. Brabant Wallon",2023,83.1,85.14
+Belgium,Europe,BEL,Subnat,BELr108,"Prov. Hainaut",2023,79.49,82.22
+Belgium,Europe,BEL,Subnat,BELr109,"Prov. Liege",2023,80.29,82.42
+Belgium,Europe,BEL,Subnat,BELr103,"Prov. Limburg",2023,83.1,84.94
+Belgium,Europe,BEL,Subnat,BELr110,"Prov. Luxembourg",2023,80.49,83.03
+Belgium,Europe,BEL,Subnat,BELr111,"Prov. Namur",2023,80.59,83.13
+Belgium,Europe,BEL,Subnat,BELr104,"Prov. Oost-Vlaanderen",2023,82.9,85.04
+Belgium,Europe,BEL,Subnat,BELr105,"Prov. Vlaams-Brabant",2023,83.51,85.64
+Belgium,Europe,BEL,Subnat,BELr106,"Prov. West-Vlaanderen",2023,83,85.24
+Belize,America,BLZ,National,BLZt,Total,2023,73.57,76.5
+Belize,America,BLZ,Subnat,BLZr102,Belize,2023,71.3,73.99
+Belize,America,BLZ,Subnat,BLZr103,Cayo,2023,72.4,75.2
+Belize,America,BLZ,Subnat,BLZr101,"Corozal, Orange Walk",2023,74.27,77.28
+Belize,America,BLZ,Subnat,BLZr104,"Stann Creek, Toledo",2023,75.05,78.14
+Benin,Africa,BEN,National,BENt,Total,2023,60.77,62.21
+Benin,Africa,BEN,Subnat,BENr101,"Atacora (incl Donga)",2023,61.17,62.64
+Benin,Africa,BEN,Subnat,BENr102,"Atlantique (incl Littoral (Cotonou))",2023,60.16,61.53
+Benin,Africa,BEN,Subnat,BENr103,"Borgou (incl Alibori)",2023,61.94,63.49
+Benin,Africa,BEN,Subnat,BENr104,"Mono (incl Couffo)",2023,58.75,59.97
+Benin,Africa,BEN,Subnat,BENr105,"Queme (incl Plateau)",2023,61.65,63.18
+Benin,Africa,BEN,Subnat,BENr106,"Zou (incl Collines)",2023,60.49,61.9
+Bhutan,Asia/Pacific,BTN,National,BTNt,Total,2023,72.98,74.97
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr101,Bumthang,2023,72.15,74.05
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr102,Chukha,2023,70.03,71.69
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr103,Dagana,2023,74.83,77.03
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr104,Gasa,2023,66.45,67.71
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr105,Haa,2023,78.94,81.6
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr106,Lhuntse,2023,78.07,80.63
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr107,Mongar,2023,70.99,72.76
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr108,Paro,2023,78.94,81.6
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr109,Pemagatshel,2023,71.08,72.86
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr110,Punakha,2023,73.34,75.38
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr111,"Samdrup jongkhar",2023,69.11,70.67
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr112,Samtse,2023,71.06,72.84
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr113,Sarpang,2023,75.54,77.82
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr114,Thimphu,2023,79.22,81.91
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr115,Trashigang,2023,69.51,71.11
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr116,Trashiyangtse,2023,72.61,74.55
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr117,Trongsa,2023,71.83,73.69
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr118,Tsirang,2023,74.6,76.78
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr119,Wangdi,2023,73.73,75.81
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr120,Zhemgang,2023,73.54,75.6
+Bolivia,America,BOL,National,BOLt,Total,2023,68.58,71.15
+Bolivia,America,BOL,Subnat,BOLr108,Beni,2023,71.08,73.92
+Bolivia,America,BOL,Subnat,BOLr101,Chuquisaca,2023,71.18,74.03
+Bolivia,America,BOL,Subnat,BOLr103,Cochabamba,2023,67.52,69.97
+Bolivia,America,BOL,Subnat,BOLr102,"La Paz",2023,67.97,70.47
+Bolivia,America,BOL,Subnat,BOLr104,Oruro,2023,69.46,72.12
+Bolivia,America,BOL,Subnat,BOLr109,Pando,2023,70.37,73.13
+Bolivia,America,BOL,Subnat,BOLr105,Potosi,2023,63.19,65.17
+Bolivia,America,BOL,Subnat,BOLr107,"Santa Cruz",2023,72.48,75.47
+Bolivia,America,BOL,Subnat,BOLr106,Tarija,2023,72.18,75.14
+"Bosnia and Herzegovina",Europe,BIH,National,BIHt,Total,2023,77.85,80.9
+"Bosnia and Herzegovina",Europe,BIH,Subnat,BIHr103,"Central Bosnia",2023,77.85,80.9
+"Bosnia and Herzegovina",Europe,BIH,Subnat,BIHr102,"Northern Bosnia",2023,77.85,80.9
+"Bosnia and Herzegovina",Europe,BIH,Subnat,BIHr105,"Republica Srpska",2023,77.85,80.9
+"Bosnia and Herzegovina",Europe,BIH,Subnat,BIHr101,"Western Bosnia",2023,77.85,80.9
+"Bosnia and Herzegovina",Europe,BIH,Subnat,BIHr104,"Western herzegovina",2023,77.85,80.9
+Botswana,Africa,BWA,National,BWAt,Total,2023,69.16,71.7
+Botswana,Africa,BWA,Subnat,BWAr101,Central,2023,68.95,71.46
+Botswana,Africa,BWA,Subnat,BWAr110,Chobe,2023,67.1,69.41
+Botswana,Africa,BWA,Subnat,BWAr102,Ghanzi,2023,68.76,71.25
+Botswana,Africa,BWA,Subnat,BWAr103,Kgalagadi,2023,68.54,71.01
+Botswana,Africa,BWA,Subnat,BWAr104,Kgatleng,2023,70.29,72.95
+Botswana,Africa,BWA,Subnat,BWAr105,Kweneng,2023,70.08,72.71
+Botswana,Africa,BWA,Subnat,BWAr106,North-East,2023,69.6,72.19
+Botswana,Africa,BWA,Subnat,BWAr107,"North-West, Ngamiland",2023,67.82,70.21
+Botswana,Africa,BWA,Subnat,BWAr108,South-East,2023,69.24,71.78
+Botswana,Africa,BWA,Subnat,BWAr109,Southern,2023,69.16,71.7
+Brazil,America,BRA,National,BRAt,Total,2023,75.85,78.98
+Brazil,America,BRA,Subnat,BRAr102,Acre,2023,74.93,77.96
+Brazil,America,BRA,Subnat,BRAr114,Alagoas,2023,74.07,77.01
+Brazil,America,BRA,Subnat,BRAr106,Amapa,2023,75.98,79.12
+Brazil,America,BRA,Subnat,BRAr103,Amazonas,2023,75.85,78.99
+Brazil,America,BRA,Subnat,BRAr116,Bahia,2023,74.89,77.93
+Brazil,America,BRA,Subnat,BRAr110,Ceara,2023,75.67,78.79
+Brazil,America,BRA,Subnat,BRAr127,"Distrito Federal",2023,78.1,81.48
+Brazil,America,BRA,Subnat,BRAr118,"Espirito Santo",2023,75.69,78.81
+Brazil,America,BRA,Subnat,BRAr126,Goias,2023,76.35,79.54
+Brazil,America,BRA,Subnat,BRAr108,Maranhao,2023,74.11,77.06
+Brazil,America,BRA,Subnat,BRAr125,"Mato Grosso",2023,76.37,79.56
+Brazil,America,BRA,Subnat,BRAr124,"Mato Grosso do Sul",2023,75.94,79.09
+Brazil,America,BRA,Subnat,BRAr117,"Minas Gerais",2023,76.28,79.46
+Brazil,America,BRA,Subnat,BRAr105,Para,2023,75.03,78.08
+Brazil,America,BRA,Subnat,BRAr112,Paraiba,2023,75.01,78.06
+Brazil,America,BRA,Subnat,BRAr121,Parana,2023,76.11,79.27
+Brazil,America,BRA,Subnat,BRAr113,Pernambuco,2023,74.85,77.88
+Brazil,America,BRA,Subnat,BRAr109,Piaui,2023,72.92,75.75
+Brazil,America,BRA,Subnat,BRAr119,"Rio de Janeiro",2023,77.36,80.66
+Brazil,America,BRA,Subnat,BRAr111,"Rio Grande do Norte",2023,75.06,78.12
+Brazil,America,BRA,Subnat,BRAr123,"Rio Grande do Sul",2023,76.7,79.92
+Brazil,America,BRA,Subnat,BRAr101,Rondonia,2023,76.21,79.38
+Brazil,America,BRA,Subnat,BRAr104,Roraima,2023,77.96,81.32
+Brazil,America,BRA,Subnat,BRAr122,"Santa Catarina",2023,76.69,79.91
+Brazil,America,BRA,Subnat,BRAr120,"Sao Paulo",2023,77.01,80.27
+Brazil,America,BRA,Subnat,BRAr115,Sergipe,2023,75.2,78.27
+Brazil,America,BRA,Subnat,BRAr107,Tocantins,2023,76.32,79.51
+"Brunei Darussalam",Asia/Pacific,BRN,National,BRNt,Total,2023,75.33,77.56
+Bulgaria,Europe,BGR,National,BGRt,Total,2023,75.64,79.21
+Bulgaria,Europe,BGR,Subnat,BGRr102,"Severen tsentralen",2023,74.62,78.24
+Bulgaria,Europe,BGR,Subnat,BGRr103,Severoiztochen,2023,75.53,79.05
+Bulgaria,Europe,BGR,Subnat,BGRr101,Severozapaden,2023,73.7,77.63
+Bulgaria,Europe,BGR,Subnat,BGRr104,Yugoiztochen,2023,75.13,78.85
+Bulgaria,Europe,BGR,Subnat,BGRr105,Yugozapaden,2023,76.66,79.96
+Bulgaria,Europe,BGR,Subnat,BGRr106,"Yuzhen tsentralen",2023,76.04,79.76
+"Burkina Faso",Africa,BFA,National,BFAt,Total,2023,61.09,63.22
+"Burkina Faso",Africa,BFA,Subnat,BFAr101,"Boucle de Mouhoun",2023,61.59,63.78
+"Burkina Faso",Africa,BFA,Subnat,BFAr102,Cascades,2023,58.57,60.41
+"Burkina Faso",Africa,BFA,Subnat,BFAr103,"Centre (incl Ouagadougou)",2023,63.09,65.44
+"Burkina Faso",Africa,BFA,Subnat,BFAr104,Centre-Est,2023,60.73,62.82
+"Burkina Faso",Africa,BFA,Subnat,BFAr105,Centre-Nord,2023,60.67,62.75
+"Burkina Faso",Africa,BFA,Subnat,BFAr106,Centre-Ouest,2023,62.65,64.96
+"Burkina Faso",Africa,BFA,Subnat,BFAr107,Centre-Sud,2023,61.45,63.62
+"Burkina Faso",Africa,BFA,Subnat,BFAr108,Est,2023,60.65,62.73
+"Burkina Faso",Africa,BFA,Subnat,BFAr109,"Hauts Bassins",2023,60.37,62.42
+"Burkina Faso",Africa,BFA,Subnat,BFAr110,Nord,2023,63.03,65.38
+"Burkina Faso",Africa,BFA,Subnat,BFAr111,"Plateau Central",2023,62.06,64.3
+"Burkina Faso",Africa,BFA,Subnat,BFAr112,Sahel,2023,56.78,58.42
+"Burkina Faso",Africa,BFA,Subnat,BFAr113,Sud-Ouest,2023,55.17,56.62
+Burundi,Africa,BDI,National,BDIt,Total,2023,63.65,65.7
+Burundi,Africa,BDI,Subnat,BDIr103,"East (Cankuzo, Rutana, Ruyigi )",2023,65.24,67.46
+Burundi,Africa,BDI,Subnat,BDIr105,"Middle (Gitega, Karuzi, Muramvya, Mwaro)",2023,64.57,66.72
+Burundi,Africa,BDI,Subnat,BDIr101,"North (Kayanza, Kirundo, Muyinga, Ngozi)",2023,60.51,62.21
+Burundi,Africa,BDI,Subnat,BDIr102,"South (Bururi, Makamba)",2023,66.59,68.97
+Burundi,Africa,BDI,Subnat,BDIr104,"West (Bubanza, Buja Rural, Cibitoke, Mairie de Bujumbura)",2023,64.83,67.01
+Cambodia,Asia/Pacific,KHM,National,KHMt,Total,2023,70.67,73.19
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr101,"Banteay Mean Chey",2023,70.91,73.46
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr113,"Bat Dambang-Krong Pailin",2023,69.45,71.85
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr102,"Kampong Cham (incl Tboung Khmum)",2023,69.99,72.44
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr103,"Kampong Chhnang",2023,68.26,70.53
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr104,"Kampong Spueu",2023,70.61,73.12
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr105,"Kampong Thum",2023,72.03,74.69
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr114,"Kampot-Krong Kaeb-Krong Preah Sihanouk",2023,69.35,71.73
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr106,Kandal,2023,71.71,74.33
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr107,"Kaoh Kong",2023,71.18,73.75
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr116,"Mondol Kiri-Rotanak Kiri",2023,67.48,69.68
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr108,"Phnom Penh",2023,72.74,75.47
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr110,Pousat,2023,70.77,73.3
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr115,"Preah Vihear-Stueng Traeng-Kracheh",2023,70.16,72.63
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr109,"Prey Veaeng",2023,69.73,72.15
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr117,"Siem Reab-Otdar Mean Chey",2023,71.58,74.19
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr111,"Svay Rieng",2023,68.54,70.84
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr112,Takaev,2023,71.46,74.06
+Cameroon,Africa,CMR,National,CMRt,Total,2023,63.7,65.94
+Cameroon,Africa,CMR,Subnat,CMRr101,Adamaoua,2023,62.95,65.11
+Cameroon,Africa,CMR,Subnat,CMRr102,"Centre (incl Yaounde)",2023,65.94,68.45
+Cameroon,Africa,CMR,Subnat,CMRr103,Est,2023,60.34,62.19
+Cameroon,Africa,CMR,Subnat,CMRr104,"Extreme Nord",2023,62.38,64.47
+Cameroon,Africa,CMR,Subnat,CMRr105,"Littoral (incl Douala)",2023,68.99,71.85
+Cameroon,Africa,CMR,Subnat,CMRr106,Nord,2023,59.32,61.06
+Cameroon,Africa,CMR,Subnat,CMRr107,"Nord Ouest",2023,67.67,70.38
+Cameroon,Africa,CMR,Subnat,CMRr108,Ouest,2023,65.02,67.42
+Cameroon,Africa,CMR,Subnat,CMRr109,Sud,2023,63.78,66.03
+Cameroon,Africa,CMR,Subnat,CMRr110,"Sud Ouest",2023,66.61,69.19
+Canada,America,CAN,National,CANt,Total,2023,82.63,84.83
+Canada,America,CAN,Subnat,CANr109,Alberta,2023,82.12,84.57
+Canada,America,CAN,Subnat,CANr110,"British Columbia",2023,83.05,85.66
+Canada,America,CAN,Subnat,CANr107,Manitoba,2023,80.52,82.82
+Canada,America,CAN,Subnat,CANr104,"New Brunswick",2023,81.49,83.62
+Canada,America,CAN,Subnat,CANr101,"Newfoundland and Labrador",2023,80.53,82.57
+Canada,America,CAN,Subnat,CANr103,"Nova Scotia",2023,81.11,83.26
+Canada,America,CAN,Subnat,CANr106,Ontario,2023,83,85.19
+Canada,America,CAN,Subnat,CANr102,"Prince Edward Island, Yukon Territory, Northwest Territories, Nunavut",2023,82.46,84.44
+Canada,America,CAN,Subnat,CANr105,Quebec,2023,83.24,85.03
+Canada,America,CAN,Subnat,CANr108,Saskatchewan,2023,80.64,83.27
+"Cape Verde",Africa,CPV,National,CPVt,Total,2023,76.06,79.21
+"Cape Verde",Africa,CPV,Subnat,CPVr105,Fogo,2023,76.06,79.21
+"Cape Verde",Africa,CPV,Subnat,CPVr101,S.Antao,2023,76.06,79.21
+"Cape Verde",Africa,CPV,Subnat,CPVr102,S.Vicente,2023,76.06,79.21
+"Cape Verde",Africa,CPV,Subnat,CPVr104,"Santiago- Praia",2023,76.06,79.21
+"Cape Verde",Africa,CPV,Subnat,CPVr103,Santiago-Interior,2023,76.06,79.21
+"Central African Republic CAR",Africa,CAF,National,CAFt,Total,2023,57.41,59.29
+"Central African Republic CAR",Africa,CAF,Subnat,CAFr106,Bangui,2023,61.55,63.91
+"Central African Republic CAR",Africa,CAF,Subnat,CAFr101,"RS I (Ombella Mpoko, Lobaye, Kemo, Nana Grebizi, Ouaka)",2023,56.2,57.94
+"Central African Republic CAR",Africa,CAF,Subnat,CAFr102,"RS II (Mambera Kadei, Nana Mambere, Sangha Mbaere)",2023,59.08,61.15
+"Central African Republic CAR",Africa,CAF,Subnat,CAFr103,"RS III (Ouham Pende, Ouham)",2023,57.01,58.85
+"Central African Republic CAR",Africa,CAF,Subnat,CAFr104,"RS IV (Haute-Kotto, Baminigui Bangoran, Vakaga)",2023,60.96,63.25
+"Central African Republic CAR",Africa,CAF,Subnat,CAFr105,"RS V (Basse Kotto, Mbornou, Houte Mbormou)",2023,55.1,56.72
+Chad,Africa,TCD,National,TCDt,Total,2023,55.07,57.01
+Chad,Africa,TCD,Subnat,TCDr101,"Zone 1 (N'Djamena)",2023,58.1,60.41
+Chad,Africa,TCD,Subnat,TCDr102,"Zone 2 (Borkou, Ennedi, Tibesti, Kanem, Barh El Gazal, Lac)",2023,58.97,61.38
+Chad,Africa,TCD,Subnat,TCDr103,"Zone 3 (Guera, Batha, Salamat)",2023,57.99,60.28
+Chad,Africa,TCD,Subnat,TCDr104,"Zone 4 (Ouaddai, Assongha, Sila, Biltine - Wadi Fira)",2023,60.33,62.91
+Chad,Africa,TCD,Subnat,TCDr105,"Zone 5 (Chari-Baguimi, Dababa, Baguirmi, Hadjer Lamis)",2023,53.06,54.76
+Chad,Africa,TCD,Subnat,TCDr106,"Zone 6 (Mayo-Kebbi Est and Ouest)",2023,54.85,56.77
+Chad,Africa,TCD,Subnat,TCDr107,"Zone 7 (Logone Occidental & Oriental, Monts de Lam, Tandjile Est & Ouest)",2023,50.78,52.21
+Chad,Africa,TCD,Subnat,TCDr108,"Zone 8 (Mandoul, Moyen-Chari, Bahr Koh, Lac Iro)",2023,54.21,56.05
+Chili,America,CHL,National,CHLt,Total,2023,81.17,83.08
+Chili,America,CHL,Subnat,CHLr111,Aisen,2023,80.96,82.85
+Chili,America,CHL,Subnat,CHLr102,Antofagasta,2023,79.43,81.2
+Chili,America,CHL,Subnat,CHLr109,Arbucania,2023,80.19,82.02
+Chili,America,CHL,Subnat,CHLr103,Atacama,2023,82.73,84.79
+Chili,America,CHL,Subnat,CHLr108,"Bio Bio",2023,81.41,83.35
+Chili,America,CHL,Subnat,CHLr104,Coquimbo,2023,81.87,83.84
+Chili,America,CHL,Subnat,CHLr110,"Los Lagos (incl Los Rios)",2023,81.03,82.93
+Chili,America,CHL,Subnat,CHLr112,"Magallanes and La Antartica Chilena",2023,80.36,82.21
+Chili,America,CHL,Subnat,CHLr107,Maule,2023,80.03,81.85
+Chili,America,CHL,Subnat,CHLr106,OHiggins,2023,81.56,83.51
+Chili,America,CHL,Subnat,CHLr113,"Region Metropolitana",2023,81.35,83.29
+Chili,America,CHL,Subnat,CHLr101,"Tarapaca (incl Arica and Parinacota)",2023,81.81,83.78
+Chili,America,CHL,Subnat,CHLr105,"Valparaiso (former Aconcagua)",2023,81.43,83.37
+China,Asia/Pacific,CHN,National,CHNt,Total,2023,77.95,80.93
+China,Asia/Pacific,CHN,Subnat,CHNr112,Anhui,2023,77.7,80.56
+China,Asia/Pacific,CHN,Subnat,CHNr101,Beijing,2023,82.22,84.45
+China,Asia/Pacific,CHN,Subnat,CHNr122,Chongqing,2023,78.3,81.48
+China,Asia/Pacific,CHN,Subnat,CHNr113,Fujian,2023,78.23,81.39
+China,Asia/Pacific,CHN,Subnat,CHNr128,Gansu,2023,75.39,77.69
+China,Asia/Pacific,CHN,Subnat,CHNr119,Guangdong,2023,79.05,82.06
+China,Asia/Pacific,CHN,Subnat,CHNr120,Guangxi,2023,77.8,81.82
+China,Asia/Pacific,CHN,Subnat,CHNr124,Guizhou,2023,74.95,78.55
+China,Asia/Pacific,CHN,Subnat,CHNr121,Hainan,2023,78.79,82.67
+China,Asia/Pacific,CHN,Subnat,CHNr103,Hebei,2023,77.49,80.36
+China,Asia/Pacific,CHN,Subnat,CHNr108,Heilongjiang,2023,77.99,81.26
+China,Asia/Pacific,CHN,Subnat,CHNr116,Henan,2023,77.34,80.68
+China,Asia/Pacific,CHN,Subnat,CHNr117,Hubei,2023,77.74,80.37
+China,Asia/Pacific,CHN,Subnat,CHNr118,Hunan,2023,77.62,80.59
+China,Asia/Pacific,CHN,Subnat,CHNr105,"Inner Mongolia",2023,77.3,80.29
+China,Asia/Pacific,CHN,Subnat,CHNr110,Jiangsu,2023,79.06,81.67
+China,Asia/Pacific,CHN,Subnat,CHNr114,Jiangxi,2023,77.38,80.36
+China,Asia/Pacific,CHN,Subnat,CHNr107,Jilin,2023,78.15,81.24
+China,Asia/Pacific,CHN,Subnat,CHNr106,Liaoning,2023,78.42,81.38
+China,Asia/Pacific,CHN,Subnat,CHNr130,Ningxia,2023,76.33,78.24
+China,Asia/Pacific,CHN,Subnat,CHNr129,Qinghai,2023,73.72,76.28
+China,Asia/Pacific,CHN,Subnat,CHNr127,Shaanxi,2023,77.54,80.08
+China,Asia/Pacific,CHN,Subnat,CHNr115,Shandong,2023,78.92,81.95
+China,Asia/Pacific,CHN,Subnat,CHNr109,Shanghai,2023,82.28,84.7
+China,Asia/Pacific,CHN,Subnat,CHNr104,Shanxi,2023,77.65,80.31
+China,Asia/Pacific,CHN,Subnat,CHNr123,Sichuan,2023,77.53,80.77
+China,Asia/Pacific,CHN,Subnat,CHNr102,Tianjin,2023,81.03,83.23
+China,Asia/Pacific,CHN,Subnat,CHNr126,Tibet,2023,71.95,74.6
+China,Asia/Pacific,CHN,Subnat,CHNr131,Xinjiang,2023,75.4,77.73
+China,Asia/Pacific,CHN,Subnat,CHNr125,Yunnan,2023,73.78,77.4
+China,Asia/Pacific,CHN,Subnat,CHNr111,Zhejiang,2023,79.92,82.42
+Colombia,America,COL,National,COLt,Total,2023,77.73,80.45
+Colombia,America,COL,Subnat,COLr129,Amazonas,2023,74.81,77.24
+Colombia,America,COL,Subnat,COLr101,"Antioquia (incl Medellin)",2023,78.12,80.89
+Colombia,America,COL,Subnat,COLr125,Arauca,2023,77.03,79.69
+Colombia,America,COL,Subnat,COLr102,"Atlantico (incl Barranquilla)",2023,77.56,80.28
+Colombia,America,COL,Subnat,COLr103,"Bogota D.C.",2023,78.15,80.92
+Colombia,America,COL,Subnat,COLr104,"Bolivar (Sur and Norte)",2023,78.2,80.98
+Colombia,America,COL,Subnat,COLr105,Boyaca,2023,78.28,81.06
+Colombia,America,COL,Subnat,COLr106,Caldas,2023,79.14,82.01
+Colombia,America,COL,Subnat,COLr107,Caqueta,2023,77.79,80.53
+Colombia,America,COL,Subnat,COLr126,Casanare,2023,78.37,81.16
+Colombia,America,COL,Subnat,COLr108,Cauca,2023,77.09,79.76
+Colombia,America,COL,Subnat,COLr109,Cesar,2023,76.41,79
+Colombia,America,COL,Subnat,COLr112,Choco,2023,75.35,77.83
+Colombia,America,COL,Subnat,COLr110,Cordoba,2023,77.42,80.12
+Colombia,America,COL,Subnat,COLr111,Cundinamarca,2023,78.96,81.81
+Colombia,America,COL,Subnat,COLr130,Guainja,2023,78.08,80.85
+Colombia,America,COL,Subnat,COLr114,Guajira,2023,71.81,73.94
+Colombia,America,COL,Subnat,COLr131,Guaviare,2023,77.99,80.75
+Colombia,America,COL,Subnat,COLr113,Huila,2023,78.05,80.81
+Colombia,America,COL,Subnat,COLr115,Magdalena,2023,76.64,79.25
+Colombia,America,COL,Subnat,COLr116,Meta,2023,79.74,82.67
+Colombia,America,COL,Subnat,COLr117,Narino,2023,77.65,80.37
+Colombia,America,COL,Subnat,COLr118,"Norte de Santander",2023,77.09,79.76
+Colombia,America,COL,Subnat,COLr127,Putumayo,2023,75.1,77.56
+Colombia,America,COL,Subnat,COLr119,Quindio,2023,78.63,81.45
+Colombia,America,COL,Subnat,COLr120,Risaralda,2023,78.27,81.05
+Colombia,America,COL,Subnat,COLr128,"San Andres",2023,78,80.76
+Colombia,America,COL,Subnat,COLr121,Santander,2023,77.82,80.56
+Colombia,America,COL,Subnat,COLr122,Sucre,2023,78.79,81.63
+Colombia,America,COL,Subnat,COLr123,Tolima,2023,78.03,80.79
+Colombia,America,COL,Subnat,COLr124,"Valle (incl Cali)",2023,78.54,81.35
+Colombia,America,COL,Subnat,COLr132,Vaupis,2023,72.56,74.76
+Colombia,America,COL,Subnat,COLr133,Vichada,2023,78.18,80.96
+Comoros,Africa,COM,National,COMt,Total,2023,66.78,68.93
+Comoros,Africa,COM,Subnat,COMr103,"Anjouan (Ndzouani)",2023,65.57,67.6
+Comoros,Africa,COM,Subnat,COMr101,"Grande Comore (Ngazidja)",2023,67.87,70.14
+Comoros,Africa,COM,Subnat,COMr102,Moheli,2023,68.27,70.58
+"Congo Brazzaville",Africa,COG,National,COGt,Total,2023,65.77,67.46
+"Congo Brazzaville",Africa,COG,Subnat,COGr204," Bouenza",2023,63.38,64.83
+"Congo Brazzaville",Africa,COG,Subnat,COGr211," Brazzaville",2023,66.44,68.2
+"Congo Brazzaville",Africa,COG,Subnat,COGr207," Cuvette",2023,67.09,68.91
+"Congo Brazzaville",Africa,COG,Subnat,COGr208," Cuvette Ouest",2023,60.89,62.1
+"Congo Brazzaville",Africa,COG,Subnat,COGr201," Kouilou",2023,62.41,63.77
+"Congo Brazzaville",Africa,COG,Subnat,COGr203," Lekoumou",2023,62.03,63.35
+"Congo Brazzaville",Africa,COG,Subnat,COGr210," Likouala",2023,62.43,63.78
+"Congo Brazzaville",Africa,COG,Subnat,COGr202," Niari",2023,66.76,68.55
+"Congo Brazzaville",Africa,COG,Subnat,COGr206," Plateaux",2023,67.44,69.29
+"Congo Brazzaville",Africa,COG,Subnat,COGr212," Pointe Noire",2023,70.31,72.44
+"Congo Brazzaville",Africa,COG,Subnat,COGr205," Pool",2023,61.69,62.98
+"Congo Brazzaville",Africa,COG,Subnat,COGr209," Sangha",2023,58.22,59.16
+"Congo Democratic Republic",Africa,COD,National,CODt,Total,2023,61.9,64.04
+"Congo Democratic Republic",Africa,COD,Subnat,CODr103,Bandundu,2023,63.86,66.22
+"Congo Democratic Republic",Africa,COD,Subnat,CODr102,Bas-Congo,2023,61.77,63.9
+"Congo Democratic Republic",Africa,COD,Subnat,CODr104,Equateur,2023,62.72,64.96
+"Congo Democratic Republic",Africa,COD,Subnat,CODr111,"Kasai Occidental",2023,55.99,57.47
+"Congo Democratic Republic",Africa,COD,Subnat,CODr110,"Kasai Oriental",2023,59.71,61.61
+"Congo Democratic Republic",Africa,COD,Subnat,CODr109,Katanga,2023,60.99,63.03
+"Congo Democratic Republic",Africa,COD,Subnat,CODr101,Kinshasa,2023,61.46,63.56
+"Congo Democratic Republic",Africa,COD,Subnat,CODr108,Maniema,2023,60.72,62.73
+"Congo Democratic Republic",Africa,COD,Subnat,CODr106,Nord-Kivu,2023,66.54,69.2
+"Congo Democratic Republic",Africa,COD,Subnat,CODr105,Orientale,2023,64.23,66.63
+"Congo Democratic Republic",Africa,COD,Subnat,CODr107,Sud-Kivu,2023,64.37,66.8
+"Costa Rica",America,CRI,National,CRIt,Total,2023,80.8,83.42
+"Costa Rica",America,CRI,Subnat,CRIr102,Alajuela,2023,81.44,84.13
+"Costa Rica",America,CRI,Subnat,CRIr103,Cartago,2023,81.24,83.9
+"Costa Rica",America,CRI,Subnat,CRIr105,Guanacaste,2023,81.56,84.25
+"Costa Rica",America,CRI,Subnat,CRIr104,Heredia,2023,78.85,81.28
+"Costa Rica",America,CRI,Subnat,CRIr107,Limon,2023,81.37,84.05
+"Costa Rica",America,CRI,Subnat,CRIr106,Puntarenas,2023,81.45,84.13
+"Costa Rica",America,CRI,Subnat,CRIr101,"San Jose",2023,80.51,83.1
+"Cote d'Ivoire",Africa,CIV,National,CIVt,Total,2023,61.94,64.13
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr101,Abidjan,2023,61.9,64.08
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr103,"Bas Sassandra",2023,62.82,65.11
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr104,Comoe,2023,60.89,62.95
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr105,Denguele,2023,60.44,62.45
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr106,Goh-Djiboua,2023,64.16,66.61
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr107,Lacs,2023,56.55,58.1
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr108,Lagunes,2023,58.91,60.74
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr109,Montagnes,2023,63.97,66.39
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr110,Sassandra-Marahoue,2023,62.85,65.15
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr102,Yamoussoukro,2023,66.42,69.14
+Croatia,Europe,HRV,National,HRVt,Total,2023,78.58,81.69
+Croatia,Europe,HRV,Subnat,HRVr101,"City of Zagreb",2023,79.78,82.41
+Croatia,Europe,HRV,Subnat,HRVr107,"County of Bjelovar-Bilogora",2023,76.48,79.53
+Croatia,Europe,HRV,Subnat,HRVr110,"County of Brod-Posavina",2023,78.07,81.06
+Croatia,Europe,HRV,Subnat,HRVr121,"County of Dubrovnik-Neretva",2023,81.18,84.11
+Croatia,Europe,HRV,Subnat,HRVr120,"County of Istria",2023,80.65,83.86
+Croatia,Europe,HRV,Subnat,HRVr113,"County of Karlovac",2023,77.89,81.09
+Croatia,Europe,HRV,Subnat,HRVr105,"County of Koprivnica-Krizevc",2023,76.43,80.21
+Croatia,Europe,HRV,Subnat,HRVr103,"County of Krapina-Zagorje",2023,75.91,80.21
+Croatia,Europe,HRV,Subnat,HRVr116,"County of Lika-Senj",2023,79.2,81.01
+Croatia,Europe,HRV,Subnat,HRVr106,"County of Medimurje",2023,78.47,81.89
+Croatia,Europe,HRV,Subnat,HRVr111,"County of Osijek-Baranja",2023,77.42,80.29
+Croatia,Europe,HRV,Subnat,HRVr109,"County of Pozega-Slavonia",2023,77.52,81
+Croatia,Europe,HRV,Subnat,HRVr115,"County of Primorje-Gorski Kotar",2023,80.24,82.82
+Croatia,Europe,HRV,Subnat,HRVr118,"County of Sibenik-Knin",2023,79.92,82.4
+Croatia,Europe,HRV,Subnat,HRVr114,"County of Sisak-Moslavina",2023,76.86,80.13
+Croatia,Europe,HRV,Subnat,HRVr119,"County of Split-Dalmatia",2023,80.53,83.16
+Croatia,Europe,HRV,Subnat,HRVr104,"County of Varazdin",2023,77.39,81.07
+Croatia,Europe,HRV,Subnat,HRVr108,"County of Virovitica-Podravina",2023,75.9,79.71
+Croatia,Europe,HRV,Subnat,HRVr112,"County of Vukovar-Srijem",2023,77.92,80.94
+Croatia,Europe,HRV,Subnat,HRVr117,"County of Zadar",2023,80.61,83.34
+Croatia,Europe,HRV,Subnat,HRVr102,"County of Zagreb",2023,78.73,81.87
+Cuba,America,CUB,National,CUBt,Total,2023,78.09,80.52
+Cuba,America,CUB,Subnat,CUBr103,"C. Habana",2023,78.09,80.52
+Cuba,America,CUB,Subnat,CUBr109,Camaguey,2023,78.09,80.52
+Cuba,America,CUB,Subnat,CUBr108,"Ciego de Avila",2023,78.09,80.52
+Cuba,America,CUB,Subnat,CUBr106,Cienfuegos,2023,78.09,80.52
+Cuba,America,CUB,Subnat,CUBr112,Granma,2023,78.09,80.52
+Cuba,America,CUB,Subnat,CUBr114,Guantanamo,2023,78.09,80.52
+Cuba,America,CUB,Subnat,CUBr111,Holguin,2023,78.09,80.52
+Cuba,America,CUB,Subnat,CUBr115,Isla,2023,78.09,80.52
+Cuba,America,CUB,Subnat,CUBr110,"Las Tunas",2023,78.09,80.52
+Cuba,America,CUB,Subnat,CUBr104,Matanzas,2023,78.09,80.52
+Cuba,America,CUB,Subnat,CUBr101,"Pinar del Rio",2023,78.09,80.52
+Cuba,America,CUB,Subnat,CUBr102,"Prov. Habana",2023,78.09,80.52
+Cuba,America,CUB,Subnat,CUBr107,S.Spiritus,2023,78.09,80.52
+Cuba,America,CUB,Subnat,CUBr113,"Santiago de Cuba",2023,78.09,80.52
+Cuba,America,CUB,Subnat,CUBr105,"Villa Clara",2023,78.09,80.52
+Cyprus,Europe,CYP,National,CYPt,Total,2023,81.65,83.67
+Czechia,Europe,CZE,National,CZEt,Total,2023,79.83,82.64
+Czechia,Europe,CZE,Subnat,CZEr106,Jihovychod,2023,80.3,83.2
+Czechia,Europe,CZE,Subnat,CZEr103,Jihozapad,2023,80,82.49
+Czechia,Europe,CZE,Subnat,CZEr108,Moravskoslezsko,2023,78.28,81.48
+Czechia,Europe,CZE,Subnat,CZEr101,Praha,2023,81.51,84.1
+Czechia,Europe,CZE,Subnat,CZEr105,Severovychod,2023,80.1,82.79
+Czechia,Europe,CZE,Subnat,CZEr104,Severozapad,2023,77.98,80.67
+Czechia,Europe,CZE,Subnat,CZEr102,"Stredni Cechy",2023,80.1,82.89
+Czechia,Europe,CZE,Subnat,CZEr107,"Stredni Morava",2023,79.79,82.89
+Denmark,Europe,DNK,National,DNKt,Total,2023,81.93,83.86
+Denmark,Europe,DNK,Subnat,DNKr101,Hovedstaden,2023,82.19,84.05
+Denmark,Europe,DNK,Subnat,DNKr104,Midtjylland,2023,82.39,84.35
+Denmark,Europe,DNK,Subnat,DNKr105,Nordjylland,2023,81.28,83.04
+Denmark,Europe,DNK,Subnat,DNKr102,Sjaelland,2023,81.18,83.24
+Denmark,Europe,DNK,Subnat,DNKr103,Syddanmark,2023,81.88,83.84
+Djibouti,Africa,DJI,National,DJIt,Total,2023,65.99,68.51
+Djibouti,Africa,DJI,Subnat,DJIr101,Djibouti,2023,65.04,67.45
+Djibouti,Africa,DJI,Subnat,DJIr102,"Other Districts",2023,71.53,74.68
+Dominica,America,DMA,National,DMAt,Total,2023,71.13,74.55
+"Dominican Republic",America,DOM,National,DOMt,Total,2023,73.72,76.98
+"Dominican Republic",America,DOM,Subnat,DOMr101,"Region 0 (Distrito Nacional, Santo Domingo, Monte Plata)",2023,72.23,75.31
+"Dominican Republic",America,DOM,Subnat,DOMr102,"Region I (Peravia, San Cristobal, San Jose de Ocoa, Azua)",2023,75.97,79.49
+"Dominican Republic",America,DOM,Subnat,DOMr103,"Region II (Espaillat, Puerto Plata, Santiago)",2023,73.69,76.94
+"Dominican Republic",America,DOM,Subnat,DOMr104,"Region III (Duarte, Maria Trinidad Sanchez, Salcedo, Samana)",2023,74.42,77.75
+"Dominican Republic",America,DOM,Subnat,DOMr105,"Region IV (Independencia, Bahoruco, Barahona, Pedernales)",2023,75.71,79.2
+"Dominican Republic",America,DOM,Subnat,DOMr106,"Region V (El Seibo, La Altagracia, La Romana, San Pedro de Macoris, Hato Mayor)",2023,74.11,77.41
+"Dominican Republic",America,DOM,Subnat,DOMr107,"Region VI (San Juan, Elias Pina)",2023,74.13,77.43
+"Dominican Republic",America,DOM,Subnat,DOMr108,"Region VII (Dajabon, Monte Cristi, Santiago Rodriguez, Valverde)",2023,74.74,78.12
+"Dominican Republic",America,DOM,Subnat,DOMr109,"Region VIII (La Vega, Monsenor Nouel, Sanchez Ramirez)",2023,74.67,78.04
+Ecuador,America,ECU,National,ECUt,Total,2023,77.39,80.14
+Ecuador,America,ECU,Subnat,ECUr101,Coste,2023,77.39,80.14
+Ecuador,America,ECU,Subnat,ECUr103,Oriente,2023,77.39,80.14
+Ecuador,America,ECU,Subnat,ECUr102,Sierra,2023,77.39,80.14
+Egypt,Africa,EGY,National,EGYt,Total,2023,71.63,73.81
+Egypt,Africa,EGY,Subnat,EGYr102,Alexandria,2023,72.14,74.37
+Egypt,Africa,EGY,Subnat,EGYr118,Assuit,2023,68.94,70.84
+Egypt,Africa,EGY,Subnat,EGYr121,Aswan,2023,71.02,73.13
+Egypt,Africa,EGY,Subnat,EGYr112,Behera,2023,73.21,75.55
+Egypt,Africa,EGY,Subnat,EGYr115,"Beni Suef",2023,69.9,71.9
+Egypt,Africa,EGY,Subnat,EGYr101,Cairo,2023,73.6,75.98
+Egypt,Africa,EGY,Subnat,EGYr106,Dakahlia,2023,72.75,75.05
+Egypt,Africa,EGY,Subnat,EGYr105,Damietta,2023,73.77,76.16
+Egypt,Africa,EGY,Subnat,EGYr116,Fayoum,2023,72.38,74.63
+Egypt,Africa,EGY,Subnat,EGYr122,"Frontier governorates (Red Sea, New Valley, Matroh, North Sainai, South Sainai)",2023,72.32,74.56
+Egypt,Africa,EGY,Subnat,EGYr110,Gharbia,2023,71.77,73.96
+Egypt,Africa,EGY,Subnat,EGYr114,Giza,2023,72.4,74.66
+Egypt,Africa,EGY,Subnat,EGYr113,Ismailia,2023,70.6,72.67
+Egypt,Africa,EGY,Subnat,EGYr109,"Kafr El-Sheikh",2023,72.74,75.03
+Egypt,Africa,EGY,Subnat,EGYr108,Kalyubia,2023,70.5,72.56
+Egypt,Africa,EGY,Subnat,EGYr111,Menoufia,2023,73.59,75.97
+Egypt,Africa,EGY,Subnat,EGYr117,Menya,2023,70.01,72.01
+Egypt,Africa,EGY,Subnat,EGYr103,"Port Said",2023,72.85,75.15
+Egypt,Africa,EGY,Subnat,EGYr120,Qena,2023,70.31,72.35
+Egypt,Africa,EGY,Subnat,EGYr107,Sharkia,2023,70.94,73.04
+Egypt,Africa,EGY,Subnat,EGYr119,Souhag,2023,69.37,71.31
+Egypt,Africa,EGY,Subnat,EGYr104,Suez,2023,72.9,75.21
+"El Salvador",America,SLV,National,SLVt,Total,2023,72.1,76.26
+"El Salvador",America,SLV,Subnat,SLVr102,"Central I",2023,72.5,76.71
+"El Salvador",America,SLV,Subnat,SLVr103,"Central II",2023,72.51,76.73
+"El Salvador",America,SLV,Subnat,SLVr101,Occidental,2023,71.32,75.39
+"El Salvador",America,SLV,Subnat,SLVr104,Oriental,2023,71.83,75.96
+"Equatorial Guinea",Africa,GNQ,National,GNQt,Total,2023,63.71,65.66
+"Equatorial Guinea",Africa,GNQ,Subnat,GNQr101,"Annobon, Bioko",2023,63.64,65.59
+"Equatorial Guinea",Africa,GNQ,Subnat,GNQr102,"Centro Sur",2023,64.32,66.34
+"Equatorial Guinea",Africa,GNQ,Subnat,GNQr103,"Kie Ntem",2023,63.17,65.06
+"Equatorial Guinea",Africa,GNQ,Subnat,GNQr104,Litoral,2023,66.09,68.32
+"Equatorial Guinea",Africa,GNQ,Subnat,GNQr105,"Wele Nzas",2023,60.97,62.61
+Eritrea,Africa,ERI,National,ERIt,Total,2023,68.62,70.66
+Eritrea,Africa,ERI,Subnat,ERIr104,Anseba,2023,73.09,75.58
+Eritrea,Africa,ERI,Subnat,ERIr106,Debub,2023,68.16,70.15
+Eritrea,Africa,ERI,Subnat,ERIr101,"Debubawi Keih Bahri",2023,61.2,62.47
+Eritrea,Africa,ERI,Subnat,ERIr105,Gash-Barka,2023,66.81,68.65
+Eritrea,Africa,ERI,Subnat,ERIr102,Maekel,2023,74.95,77.64
+Eritrea,Africa,ERI,Subnat,ERIr103,"Semenawi Keih Bahri",2023,63.82,65.36
+Estonia,Europe,EST,National,ESTt,Total,2023,79.15,83.04
+Estonia,Europe,EST,Subnat,ESTr103,Kesk-Eesti,2023,78.31,81.88
+Estonia,Europe,EST,Subnat,ESTr104,Kirde-Eesti,2023,75.9,82.2
+Estonia,Europe,EST,Subnat,ESTr102,Laane-Eesti,2023,79.28,83.5
+Estonia,Europe,EST,Subnat,ESTr105,Louna-Eesti,2023,79.2,83.07
+Estonia,Europe,EST,Subnat,ESTr101,Pohja-Eesti,2023,80.11,83.59
+Eswatini,Africa,SWZ,National,SWZt,Total,2023,64.12,66.95
+Eswatini,Africa,SWZ,Subnat,SWZr101,Hhohho,2023,66.57,69.68
+Eswatini,Africa,SWZ,Subnat,SWZr104,Lubombo,2023,65.9,68.93
+Eswatini,Africa,SWZ,Subnat,SWZr102,Manzini,2023,61.31,63.81
+Eswatini,Africa,SWZ,Subnat,SWZr103,Shiselweni,2023,63.4,66.14
+Ethiopia,Africa,ETH,National,ETHt,Total,2023,67.32,70.73
+Ethiopia,Africa,ETH,Subnat,ETHr110,Addis,2023,73.28,77.44
+Ethiopia,Africa,ETH,Subnat,ETHr102,Affar,2023,68.61,72.18
+Ethiopia,Africa,ETH,Subnat,ETHr103,Amhara,2023,67.15,70.54
+Ethiopia,Africa,ETH,Subnat,ETHr106,Ben-Gumz,2023,64.57,67.64
+Ethiopia,Africa,ETH,Subnat,ETHr111,"Dire Dawa",2023,65.83,69.05
+Ethiopia,Africa,ETH,Subnat,ETHr108,Gambela,2023,64.97,68.09
+Ethiopia,Africa,ETH,Subnat,ETHr109,Harari,2023,67.73,71.19
+Ethiopia,Africa,ETH,Subnat,ETHr104,Oromiya,2023,66.76,70.1
+Ethiopia,Africa,ETH,Subnat,ETHr107,SNNP,2023,68.83,72.43
+Ethiopia,Africa,ETH,Subnat,ETHr105,Somali,2023,63.29,66.2
+Ethiopia,Africa,ETH,Subnat,ETHr101,Tigray,2023,70.63,74.46
+Fiji,Asia/Pacific,FJI,National,FJIt,Total,2023,67.32,69.36
+Fiji,Asia/Pacific,FJI,Subnat,FJIr108,Ba,2023,67.56,69.62
+Fiji,Asia/Pacific,FJI,Subnat,FJIr106,"Cakaudrove, Bua",2023,67.32,69.36
+Fiji,Asia/Pacific,FJI,Subnat,FJIr105,"Kadavu, Lau, Lomaiviti, Rotuma",2023,67.32,69.36
+Fiji,Asia/Pacific,FJI,Subnat,FJIr107,Macuata,2023,67.32,69.36
+Fiji,Asia/Pacific,FJI,Subnat,FJIr109,"Nadroga or Navosa",2023,67.32,69.36
+Fiji,Asia/Pacific,FJI,Subnat,FJIr101,Naitasiri,2023,66.87,68.87
+Fiji,Asia/Pacific,FJI,Subnat,FJIr110,Ra,2023,67.32,69.36
+Fiji,Asia/Pacific,FJI,Subnat,FJIr102,Rewa,2023,68.79,70.97
+Fiji,Asia/Pacific,FJI,Subnat,FJIr103,"Serua, Namosi",2023,67.32,69.36
+Fiji,Asia/Pacific,FJI,Subnat,FJIr104,Tailevu,2023,67.32,69.36
+Finland,Europe,FIN,National,FINt,Total,2023,81.91,84.67
+Finland,Europe,FIN,Subnat,FINr105,Aland,2023,83.8,85.88
+Finland,Europe,FIN,Subnat,FINr103,Etela-Suomi,2023,81.88,84.77
+Finland,Europe,FIN,Subnat,FINr102,Helsinki-Uusimaa,2023,82.39,84.87
+Finland,Europe,FIN,Subnat,FINr101,Lansi-Suomi,2023,81.88,84.67
+Finland,Europe,FIN,Subnat,FINr104,"Pohjois-ja Ita-Suomi",2023,81.28,84.26
+France,Europe,FRA,National,FRAt,Total,2023,83.33,86.09
+France,Europe,FRA,Subnat,FRAr110,Alsace,2023,83.19,85.61
+France,Europe,FRA,Subnat,FRAr115,Aquitaine,2023,83.49,86.02
+France,Europe,FRA,Subnat,FRAr119,Auvergne,2023,82.89,85.82
+France,Europe,FRA,Subnat,FRAr106,Basse-Normandie,2023,82.18,85.41
+France,Europe,FRA,Subnat,FRAr107,Bourgogne,2023,82.58,85.61
+France,Europe,FRA,Subnat,FRAr113,Bretagne,2023,82.79,85.92
+France,Europe,FRA,Subnat,FRAr105,Centre,2023,82.79,85.71
+France,Europe,FRA,Subnat,FRAr102,Champagne-Ardenne,2023,82.28,85.41
+France,Europe,FRA,Subnat,FRAr122,Corse,2023,83.8,86.32
+France,Europe,FRA,Subnat,FRAr111,Franche-Comte,2023,82.99,85.82
+France,Europe,FRA,Subnat,FRAr127,"French Guyana",2023,79.45,82.79
+France,Europe,FRA,Subnat,FRAr125,Guadeloupe,2023,81.07,84.81
+France,Europe,FRA,Subnat,FRAr104,Haute-Normandie,2023,81.88,84.81
+France,Europe,FRA,Subnat,FRAr101,"Ile de France",2023,85.01,87.43
+France,Europe,FRA,Subnat,FRAr120,Languedoc-Roussillon,2023,82.99,85.82
+France,Europe,FRA,Subnat,FRAr117,Limousin,2023,82.89,85.82
+France,Europe,FRA,Subnat,FRAr109,Lorraine,2023,82.08,84.81
+France,Europe,FRA,Subnat,FRAr126,Martinique,2023,80.86,83.59
+France,Europe,FRA,Subnat,FRAr129,Mayotte,2023,75.1,75.11
+France,Europe,FRA,Subnat,FRAr116,Midi-Pyrenees,2023,83.9,86.52
+France,Europe,FRA,Subnat,FRAr108,Nord,2023,81.37,84.6
+France,Europe,FRA,Subnat,FRAr112,"Pays de la Loire",2023,83.59,86.52
+France,Europe,FRA,Subnat,FRAr103,Picardie,2023,81.77,84.71
+France,Europe,FRA,Subnat,FRAr114,Poitou-Charentes,2023,82.79,86.02
+France,Europe,FRA,Subnat,FRAr121,"Provence-Alpes-Cote dAzur",2023,83.7,86.32
+France,Europe,FRA,Subnat,FRAr128,Reunion,2023,80.86,83.9
+France,Europe,FRA,Subnat,FRAr118,Rhone-Alpes,2023,84.6,87.23
+Gabon,Africa,GAB,National,GABt,Total,2023,68.34,71.05
+Gabon,Africa,GAB,Subnat,GABr101,Estuaire,2023,67.78,70.43
+Gabon,Africa,GAB,Subnat,GABr102,"Haut Ogooue",2023,67.94,70.61
+Gabon,Africa,GAB,Subnat,GABr110,"Libreville-Port Gentil",2023,69.49,72.33
+Gabon,Africa,GAB,Subnat,GABr103,"Moyen Ogooue",2023,69.2,72.01
+Gabon,Africa,GAB,Subnat,GABr104,Ngounie,2023,67.17,69.75
+Gabon,Africa,GAB,Subnat,GABr105,Nyanga,2023,67.37,69.98
+Gabon,Africa,GAB,Subnat,GABr106,"Ogooue Ivindo",2023,63.21,65.34
+Gabon,Africa,GAB,Subnat,GABr107,"Ogooue Lolo",2023,66.61,69.12
+Gabon,Africa,GAB,Subnat,GABr108,"Ogooue Maritime",2023,70.14,73.06
+Gabon,Africa,GAB,Subnat,GABr109,"Woleu Ntem",2023,65.01,67.34
+Gambia,Africa,GMB,National,GMBt,Total,2023,65.86,67.53
+Gambia,Africa,GMB,Subnat,GMBr101,Banjul,2023,65.93,67.61
+Gambia,Africa,GMB,Subnat,GMBr108,Basse,2023,66.48,68.22
+Gambia,Africa,GMB,Subnat,GMBr103,Brikama,2023,66.34,68.06
+Gambia,Africa,GMB,Subnat,GMBr107,Janjabureh,2023,65.09,66.68
+Gambia,Africa,GMB,Subnat,GMBr102,Kanifing,2023,66.14,67.84
+Gambia,Africa,GMB,Subnat,GMBr105,Kerewan,2023,65.67,67.32
+Gambia,Africa,GMB,Subnat,GMBr106,Kuntaur,2023,63.65,65.09
+Gambia,Africa,GMB,Subnat,GMBr104,Mansakonko,2023,63.63,65.07
+Georgia,Asia/Pacific,GEO,National,GEOt,Total,2023,74.5,79.11
+Georgia,Asia/Pacific,GEO,Subnat,GEOr102,Ajaria,2023,73.89,78.43
+Georgia,Asia/Pacific,GEO,Subnat,GEOr103,Guria,2023,73.67,78.18
+Georgia,Asia/Pacific,GEO,Subnat,GEOr104,"Imereti Racha-Lochkhumi Kvemo Svaneti",2023,75.2,79.9
+Georgia,Asia/Pacific,GEO,Subnat,GEOr105,Kakheti,2023,72.44,76.79
+Georgia,Asia/Pacific,GEO,Subnat,GEOr106,"Kvemo Kartli",2023,75.24,79.95
+Georgia,Asia/Pacific,GEO,Subnat,GEOr107,Mtskheta-Mtianeti,2023,74.5,79.11
+Georgia,Asia/Pacific,GEO,Subnat,GEOr108,"Samegrelo-Zemo Svateni",2023,73.61,78.12
+Georgia,Asia/Pacific,GEO,Subnat,GEOr109,Samtskhe-Javakheti,2023,75.06,79.74
+Georgia,Asia/Pacific,GEO,Subnat,GEOr110,"Shida Kartli",2023,75.5,80.23
+Georgia,Asia/Pacific,GEO,Subnat,GEOr111,Tbilisi,2023,74.63,79.26
+Germany,Europe,DEU,National,DEUt,Total,2023,81.38,83.76
+Germany,Europe,DEU,Subnat,DEUr101,Baden-Wurttemberg,2023,82.59,84.69
+Germany,Europe,DEU,Subnat,DEUr102,Bayern,2023,82.09,84.35
+Germany,Europe,DEU,Subnat,DEUr103,Berlin,2023,81.57,84.11
+Germany,Europe,DEU,Subnat,DEUr104,Brandenburg,2023,80.96,83.91
+Germany,Europe,DEU,Subnat,DEUr105,Bremen,2023,79.85,82.49
+Germany,Europe,DEU,Subnat,DEUr106,Hamburg,2023,81.47,83.81
+Germany,Europe,DEU,Subnat,DEUr107,Hessen,2023,81.63,83.79
+Germany,Europe,DEU,Subnat,DEUr108,Mecklenburg-Vorpommern,2023,80.26,83.4
+Germany,Europe,DEU,Subnat,DEUr109,Niedersachsen,2023,80.83,83.28
+Germany,Europe,DEU,Subnat,DEUr110,Nordrhein-Westfalen,2023,80.9,83.13
+Germany,Europe,DEU,Subnat,DEUr111,Rheinland-Pfalz,2023,81.26,83.46
+Germany,Europe,DEU,Subnat,DEUr112,Saarland,2023,79.85,82.49
+Germany,Europe,DEU,Subnat,DEUr113,Sachsen,2023,81.52,84.59
+Germany,Europe,DEU,Subnat,DEUr114,Sachsen-Anhalt,2023,79.45,82.8
+Germany,Europe,DEU,Subnat,DEUr115,Schleswig-Holstein,2023,81.06,83.2
+Germany,Europe,DEU,Subnat,DEUr116,Thuringen,2023,80.46,83.3
+Ghana,Africa,GHA,National,GHAt,Total,2023,65.5,67.94
+Ghana,Africa,GHA,Subnat,GHAr106,Ashanti,2023,65.25,67.67
+Ghana,Africa,GHA,Subnat,GHAr107,"Brong Ahafo",2023,65.93,68.42
+Ghana,Africa,GHA,Subnat,GHAr102,Central,2023,65.13,67.53
+Ghana,Africa,GHA,Subnat,GHAr105,Eastern,2023,65.67,68.13
+Ghana,Africa,GHA,Subnat,GHAr103,"Greater Accra",2023,68.73,71.55
+Ghana,Africa,GHA,Subnat,GHAr108,Northern,2023,64.43,66.76
+Ghana,Africa,GHA,Subnat,GHAr110,"Upper East",2023,64.74,67.1
+Ghana,Africa,GHA,Subnat,GHAr109,"Upper West",2023,65.64,68.1
+Ghana,Africa,GHA,Subnat,GHAr104,Volta,2023,63.57,65.79
+Ghana,Africa,GHA,Subnat,GHAr101,Western,2023,65.32,67.74
+Greece,Europe,GRC,National,GRCt,Total,2023,81.86,84.33
+Greece,Europe,GRC,Subnat,GRCr105,"Anatoliki Makedonia, Thraki",2023,80.9,83.39
+Greece,Europe,GRC,Subnat,GRCr101,Attiki,2023,81.91,84.1
+Greece,Europe,GRC,Subnat,GRCr111,"Dytiki Ellada",2023,81.3,83.9
+Greece,Europe,GRC,Subnat,GRCr107,"Dytiki Makedonia",2023,82.42,85.52
+Greece,Europe,GRC,Subnat,GRCr110,"Ionia Nisia",2023,81.51,84.1
+Greece,Europe,GRC,Subnat,GRCr108,Ipeiros,2023,83.73,86.63
+Greece,Europe,GRC,Subnat,GRCr106,"Kentriki Makedonia",2023,81.2,83.7
+Greece,Europe,GRC,Subnat,GRCr104,Kriti,2023,82.72,85.62
+Greece,Europe,GRC,Subnat,GRCr103,"Notio Aigaio",2023,82.72,85.01
+Greece,Europe,GRC,Subnat,GRCr113,Peloponnisos,2023,81.81,84.51
+Greece,Europe,GRC,Subnat,GRCr112,"Sterea Ellada",2023,81.71,84.51
+Greece,Europe,GRC,Subnat,GRCr109,Thessalia,2023,82.11,84.71
+Greece,Europe,GRC,Subnat,GRCr102,"Voreio Aigaio",2023,83.33,85.82
+Grenada,America,GRD,National,GRDt,Total,2023,75.21,78.36
+Guatemala,America,GTM,National,GTMt,Total,2023,72.6,74.88
+Guatemala,America,GTM,Subnat,GTMr105,Central,2023,72.14,74.37
+Guatemala,America,GTM,Subnat,GTMr101,Metropolitan,2023,73.99,76.41
+Guatemala,America,GTM,Subnat,GTMr102,North,2023,72.66,74.94
+Guatemala,America,GTM,Subnat,GTMr107,North-Occidental,2023,70.96,73.07
+Guatemala,America,GTM,Subnat,GTMr103,North-Oriental,2023,71.83,74.02
+Guatemala,America,GTM,Subnat,GTMr108,Peten,2023,74.49,76.95
+Guatemala,America,GTM,Subnat,GTMr106,South-Occidental,2023,72.94,75.25
+Guatemala,America,GTM,Subnat,GTMr104,South-Oriental,2023,72.75,75.04
+Guinea,Africa,GIN,National,GINt,Total,2023,60.74,61.9
+Guinea,Africa,GIN,Subnat,GINr101,Boke,2023,59.27,60.27
+Guinea,Africa,GIN,Subnat,GINr102,Conakry,2023,67.92,69.82
+Guinea,Africa,GIN,Subnat,GINr103,Faranah,2023,59.27,60.27
+Guinea,Africa,GIN,Subnat,GINr104,Kankan,2023,58.25,59.15
+Guinea,Africa,GIN,Subnat,GINr105,Kindia,2023,59.12,60.11
+Guinea,Africa,GIN,Subnat,GINr106,Labe,2023,60.61,61.75
+Guinea,Africa,GIN,Subnat,GINr107,Mamou,2023,62.71,64.07
+Guinea,Africa,GIN,Subnat,GINr108,"N Zerekore",2023,62.36,63.68
+"Guinea Bissau",Africa,GNB,National,GNBt,Total,2023,64.09,66.36
+"Guinea Bissau",Africa,GNB,Subnat,GNBr106,Bafata,2023,69.33,72.22
+"Guinea Bissau",Africa,GNB,Subnat,GNBr104,Biombo,2023,60.03,61.83
+"Guinea Bissau",Africa,GNB,Subnat,GNBr109,Bissau,2023,64,66.27
+"Guinea Bissau",Africa,GNB,Subnat,GNBr105,Bolama,2023,64.04,66.31
+"Guinea Bissau",Africa,GNB,Subnat,GNBr108,Cacheu,2023,67.79,70.5
+"Guinea Bissau",Africa,GNB,Subnat,GNBr107,Gabu,2023,58.2,59.79
+"Guinea Bissau",Africa,GNB,Subnat,GNBr103,Oio,2023,66.38,68.92
+"Guinea Bissau",Africa,GNB,Subnat,GNBr102,Quinara,2023,61.96,63.99
+"Guinea Bissau",Africa,GNB,Subnat,GNBr101,Tombali,2023,65.32,67.74
+Guyana,America,GUY,National,GUYt,Total,2023,70.18,73.94
+Guyana,America,GUY,Subnat,GUYr101,Barima-Waini,2023,68.74,72.32
+Guyana,America,GUY,Subnat,GUYr107,Cuyuni-Mazaruni,2023,67.98,71.47
+Guyana,America,GUY,Subnat,GUYr104,Demerara-Mahaica,2023,70.55,74.35
+Guyana,America,GUY,Subnat,GUYr106,"East Berbice-Corentyne",2023,72.15,76.15
+Guyana,America,GUY,Subnat,GUYr103,"Essequibo Islands-West Demerara",2023,68.44,71.99
+Guyana,America,GUY,Subnat,GUYr105,Mahaica-Berbice,2023,70.18,73.94
+Guyana,America,GUY,Subnat,GUYr102,Pomeroon-Supenaam,2023,68.99,72.6
+Guyana,America,GUY,Subnat,GUYr108,Potaro-Siparuni,2023,70.18,73.94
+Guyana,America,GUY,Subnat,GUYr110,"Upper Demerara-Berbice",2023,68.36,71.91
+Guyana,America,GUY,Subnat,GUYr109,"Upper Takutu-Upper Essequibo",2023,71.9,75.87
+Haiti,America,HTI,National,HTIt,Total,2023,64.94,68.3
+Haiti,America,HTI,Subnat,HTIr105,Artibonite,2023,64.82,68.16
+Haiti,America,HTI,Subnat,HTIr106,Centre,2023,64.16,67.42
+Haiti,America,HTI,Subnat,HTIr108,"Grande-Anse, Nippes",2023,66.65,70.23
+Haiti,America,HTI,Subnat,HTIr103,North,2023,68.44,72.25
+Haiti,America,HTI,Subnat,HTIr104,North-East,2023,65.63,69.08
+Haiti,America,HTI,Subnat,HTIr109,North-West,2023,67.86,71.6
+Haiti,America,HTI,Subnat,HTIr107,South,2023,67.37,71.05
+Haiti,America,HTI,Subnat,HTIr102,South-East,2023,65.75,69.22
+Haiti,America,HTI,Subnat,HTIr101,"West (incl Metropolitain area)",2023,63.04,66.16
+Honduras,America,HND,National,HNDt,Total,2023,72.88,75.5
+Honduras,America,HND,Subnat,HNDr101,Atlantida,2023,72.18,74.73
+Honduras,America,HND,Subnat,HNDr106,Choluteca,2023,71.6,74.09
+Honduras,America,HND,Subnat,HNDr102,Colon,2023,71.97,74.5
+Honduras,America,HND,Subnat,HNDr103,Comayagua,2023,73.34,76
+Honduras,America,HND,Subnat,HNDr104,Copan,2023,72.73,75.33
+Honduras,America,HND,Subnat,HNDr105,Cortes,2023,73.62,76.31
+Honduras,America,HND,Subnat,HNDr107,"El Paraiso",2023,72.56,75.14
+Honduras,America,HND,Subnat,HNDr108,"Francisco Morazan",2023,72.89,75.51
+Honduras,America,HND,Subnat,HNDr109,"Gracias a Dios",2023,69.74,72.03
+Honduras,America,HND,Subnat,HNDr110,Intibuca,2023,71.67,74.16
+Honduras,America,HND,Subnat,HNDr111,"Islas de la Bahia",2023,73.77,76.48
+Honduras,America,HND,Subnat,HNDr112,"La Paz",2023,73.01,75.64
+Honduras,America,HND,Subnat,HNDr113,Lempira,2023,72.55,75.13
+Honduras,America,HND,Subnat,HNDr114,Ocotepeque,2023,72.62,75.21
+Honduras,America,HND,Subnat,HNDr115,Olancho,2023,73.36,76.03
+Honduras,America,HND,Subnat,HNDr116,"Santa Barbara",2023,73.34,76
+Honduras,America,HND,Subnat,HNDr117,Valle,2023,71.65,74.14
+Honduras,America,HND,Subnat,HNDr118,Yoro,2023,73.35,76.02
+Hungary,Europe,HUN,National,HUNt,Total,2023,77.02,80.19
+Hungary,Europe,HUN,Subnat,HUNr107,Del-Alfold,2023,77.07,80.33
+Hungary,Europe,HUN,Subnat,HUNr104,Del-Dunantul,2023,77.37,80.33
+Hungary,Europe,HUN,Subnat,HUNr106,Eszak-Alfold,2023,76.56,79.82
+Hungary,Europe,HUN,Subnat,HUNr105,Eszak-Magyarorszag,2023,75.64,78.91
+Hungary,Europe,HUN,Subnat,HUNr102,Kozep-Dunantul,2023,77.37,80.54
+Hungary,Europe,HUN,Subnat,HUNr101,Kozep-Magyarorszag,2023,79.09,81.41
+Hungary,Europe,HUN,Subnat,HUNr103,Nyugat-Dunantul,2023,78.5,81.45
+Iceland,Europe,ISL,National,ISLt,Total,2023,82.69,84.51
+India,Asia/Pacific,IND,National,INDt,Total,2023,72,73.6
+India,Asia/Pacific,IND,Subnat,INDr136,"Andaman and Nicobar Islands",2023,75.28,77.22
+India,Asia/Pacific,IND,Subnat,INDr101,"Andhra Pradesh",2023,72.42,74.06
+India,Asia/Pacific,IND,Subnat,INDr125,"Arunachal Pradesh",2023,75.64,77.62
+India,Asia/Pacific,IND,Subnat,INDr102,Assam,2023,72.64,74.3
+India,Asia/Pacific,IND,Subnat,INDr103,Bihar,2023,70.05,71.44
+India,Asia/Pacific,IND,Subnat,INDr131,Chandigarth,2023,74.36,76.21
+India,Asia/Pacific,IND,Subnat,INDr129,Chhattisgarh,2023,71.43,72.97
+India,Asia/Pacific,IND,Subnat,INDr132,"Dadra and Nagar Haveli",2023,72.99,74.69
+India,Asia/Pacific,IND,Subnat,INDr134,"Daman and Diu",2023,75.26,77.2
+India,Asia/Pacific,IND,Subnat,INDr104,Goa,2023,76.45,78.51
+India,Asia/Pacific,IND,Subnat,INDr105,Gujarat,2023,72.65,74.31
+India,Asia/Pacific,IND,Subnat,INDr106,Haryana,2023,72.27,73.9
+India,Asia/Pacific,IND,Subnat,INDr107,"Himachal Pradesh",2023,73.85,75.64
+India,Asia/Pacific,IND,Subnat,INDr108,"Jammu and Kashmir",2023,75.74,77.72
+India,Asia/Pacific,IND,Subnat,INDr128,Jharkhand,2023,71.16,72.66
+India,Asia/Pacific,IND,Subnat,INDr109,Karnataka,2023,73.99,75.8
+India,Asia/Pacific,IND,Subnat,INDr110,Kerala,2023,77.3,79.45
+India,Asia/Pacific,IND,Subnat,INDr135,Lakshadweep,2023,72,73.6
+India,Asia/Pacific,IND,Subnat,INDr111,"Madhya Pradesh",2023,70.81,72.28
+India,Asia/Pacific,IND,Subnat,INDr112,Maharashtra,2023,74.22,76.05
+India,Asia/Pacific,IND,Subnat,INDr113,Manipur,2023,74.07,75.88
+India,Asia/Pacific,IND,Subnat,INDr114,Meghalaya,2023,72.56,74.21
+India,Asia/Pacific,IND,Subnat,INDr115,Mizoram,2023,73.94,75.74
+India,Asia/Pacific,IND,Subnat,INDr116,Nagaland,2023,73.87,75.66
+India,Asia/Pacific,IND,Subnat,INDr124,"New Delhi",2023,73.55,75.31
+India,Asia/Pacific,IND,Subnat,INDr117,Orissa,2023,71.81,73.39
+India,Asia/Pacific,IND,Subnat,INDr133,Puducherry,2023,76.9,79.01
+India,Asia/Pacific,IND,Subnat,INDr118,Punjab,2023,72.8,74.48
+India,Asia/Pacific,IND,Subnat,INDr119,Rajasthan,2023,72.34,73.97
+India,Asia/Pacific,IND,Subnat,INDr120,Sikkim,2023,75.13,77.05
+India,Asia/Pacific,IND,Subnat,INDr121,"Tamil Nadu",2023,74.61,76.48
+India,Asia/Pacific,IND,Subnat,INDr130,Telangana,2023,73.46,75.21
+India,Asia/Pacific,IND,Subnat,INDr126,Tripura,2023,71.25,72.77
+India,Asia/Pacific,IND,Subnat,INDr123,"Uttar Pradesh",2023,69.87,71.24
+India,Asia/Pacific,IND,Subnat,INDr127,Uttaranchal,2023,71.98,73.58
+India,Asia/Pacific,IND,Subnat,INDr122,"West Bengal",2023,73.83,75.62
+Indonesia,Asia/Pacific,IDN,National,IDNt,Total,2023,71.15,73.27
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr116,Bali,2023,71.56,73.72
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr109,"Bangka Belitung",2023,68.53,70.4
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr115,Banten,2023,70.15,72.18
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr107,Bengkulu,2023,72.38,74.62
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr112,"Central Java",2023,72.63,74.89
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr121,"Central Kalimantan",2023,70.69,72.77
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr125,"Central Sulawesi",2023,69.45,71.41
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr101,"DI Aceh",2023,70.95,73.05
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr113,"DI Yogyakarta",2023,73.31,75.63
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr110,"DKI Jakarta",2023,72.41,74.65
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr114,"East Java",2023,71.25,73.38
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr123,"East Kalimantan",2023,71.93,74.12
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr118,"East Nusa Tenggara",2023,69.59,71.57
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr128,Gorontalo,2023,67.35,69.11
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr130,"Irian Jaya (Papua and Papua Barat)",2023,65.28,66.85
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr105,Jambi,2023,70.55,72.61
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr108,Lampung,2023,71.13,73.25
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr129,Maluku,2023,67.87,69.68
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr124,"North Sulawesi",2023,69.5,71.47
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr102,"North Sumatra",2023,70.9,73
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr104,"Riau (incl. Riau islands)",2023,71.48,73.64
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr122,"South Kalimantan",2023,70,72.01
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr126,"South Sulawesi (incl Sulawesi Barat)",2023,71.01,73.12
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr106,"South Sumatra",2023,71.17,73.29
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr127,"Southeast Sulawesi",2023,69.24,71.18
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr111,"West Java",2023,71.56,73.72
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr120,"West Kalimantan",2023,72.46,74.7
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr117,"West Nusa Tenggara",2023,71.27,73.4
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr103,"West Sumatra",2023,72.21,74.43
+Iran,Asia/Pacific,IRN,National,IRNt,Total,2023,77.65,79.63
+Iran,Asia/Pacific,IRN,Subnat,IRNr125,Ardebil,2023,74.66,76.34
+Iran,Asia/Pacific,IRN,Subnat,IRNr119,Bushehr,2023,77.58,79.55
+Iran,Asia/Pacific,IRN,Subnat,IRNr115,"Chaharmahal and Bakhtiyari",2023,78.42,80.47
+Iran,Asia/Pacific,IRN,Subnat,IRNr104,EastAzarbayejan,2023,77.5,79.46
+Iran,Asia/Pacific,IRN,Subnat,IRNr111,Esfahan,2023,77.98,79.99
+Iran,Asia/Pacific,IRN,Subnat,IRNr108,Fars,2023,77.58,79.55
+Iran,Asia/Pacific,IRN,Subnat,IRNr102,Gilan,2023,78.74,80.83
+Iran,Asia/Pacific,IRN,Subnat,IRNr128,Golestan,2023,78.35,80.39
+Iran,Asia/Pacific,IRN,Subnat,IRNr114,Hamedan,2023,77.71,79.69
+Iran,Asia/Pacific,IRN,Subnat,IRNr123,Hormozgan,2023,77.75,79.74
+Iran,Asia/Pacific,IRN,Subnat,IRNr117,Ilam,2023,78.76,80.84
+Iran,Asia/Pacific,IRN,Subnat,IRNr109,Kerman,2023,77.77,79.76
+Iran,Asia/Pacific,IRN,Subnat,IRNr106,Kermanshah,2023,78.16,80.19
+Iran,Asia/Pacific,IRN,Subnat,IRNr110,Khorasan-e-Razavi,2023,77.16,79.09
+Iran,Asia/Pacific,IRN,Subnat,IRNr107,Khuzestan,2023,77.91,79.9
+Iran,Asia/Pacific,IRN,Subnat,IRNr118,"Kohgiluyeh and Boyerahmad",2023,77.35,79.3
+Iran,Asia/Pacific,IRN,Subnat,IRNr113,Kordestan,2023,75.02,76.73
+Iran,Asia/Pacific,IRN,Subnat,IRNr116,Lorestan,2023,77.51,79.47
+Iran,Asia/Pacific,IRN,Subnat,IRNr101,Markazi,2023,77.52,79.48
+Iran,Asia/Pacific,IRN,Subnat,IRNr103,Mazandaran,2023,78.86,80.95
+Iran,Asia/Pacific,IRN,Subnat,IRNr129,"North Khorasan",2023,76.83,78.72
+Iran,Asia/Pacific,IRN,Subnat,IRNr127,Qazvin,2023,77.93,79.93
+Iran,Asia/Pacific,IRN,Subnat,IRNr126,Qom,2023,78.5,80.55
+Iran,Asia/Pacific,IRN,Subnat,IRNr121,Semnan,2023,77.8,79.78
+Iran,Asia/Pacific,IRN,Subnat,IRNr112,"Sistanand Baluchestan",2023,77.12,79.05
+Iran,Asia/Pacific,IRN,Subnat,IRNr130,"South Khorasan",2023,76.6,78.47
+Iran,Asia/Pacific,IRN,Subnat,IRNr124,"Tehran and Alborz",2023,77.9,79.89
+Iran,Asia/Pacific,IRN,Subnat,IRNr105,WestAzarbayejan,2023,76.88,78.78
+Iran,Asia/Pacific,IRN,Subnat,IRNr122,Yazd,2023,78.74,80.82
+Iran,Asia/Pacific,IRN,Subnat,IRNr120,Zanjan,2023,77.48,79.44
+Iraq,Asia/Pacific,IRQ,National,IRQt,Total,2023,72.32,74.06
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr107,Anbar,2023,72.72,74.49
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr109,Babylon,2023,73.55,75.4
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr108,Baghdad,2023,73,74.8
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr118,Basra,2023,70.5,72.05
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr106,Diala,2023,71.67,73.33
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr101,Dohouk,2023,73.38,75.21
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr105,Erbil,2023,72.88,74.67
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr110,Kerbela,2023,70.34,71.88
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr117,Maysan,2023,71.94,73.64
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr115,Muthanna,2023,72.9,74.69
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr113,Najaf,2023,72.4,74.14
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr102,Nenava,2023,72.38,74.12
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr114,Qadisiya,2023,71.98,73.68
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr112,Salaheldeen,2023,71.89,73.58
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr103,Suleimaniya,2023,72.91,74.7
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr104,Ta-amem-Karkuk,2023,71.09,72.69
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr116,Thi-Qar,2023,73.04,74.84
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr111,Wasit,2023,70.86,72.44
+Ireland,Europe,IRL,National,IRLt,Total,2023,82.41,84.48
+Ireland,Europe,IRL,Subnat,IRLr101,Border,2023,82.61,84.38
+Ireland,Europe,IRL,Subnat,IRLr104,Dublin,2023,82.35,84.17
+Ireland,Europe,IRL,Subnat,IRLr105,Mid-East,2023,82.86,84.48
+Ireland,Europe,IRL,Subnat,IRLr106,Mid-West,2023,81.58,83.36
+Ireland,Europe,IRL,Subnat,IRLr102,Midland,2023,82.5,84.07
+Ireland,Europe,IRL,Subnat,IRLr107,South-East,2023,82.25,83.97
+Ireland,Europe,IRL,Subnat,IRLr108,South-West,2023,82.15,84.17
+Ireland,Europe,IRL,Subnat,IRLr103,West,2023,82.91,84.78
+Israel,Asia/Pacific,ISR,National,ISRt,Total,2023,82.41,84.59
+Italy,Europe,ITA,National,ITAt,Total,2023,83.72,85.75
+Italy,Europe,ITA,Subnat,ITAr105,Abruzzo,2023,83.53,85.94
+Italy,Europe,ITA,Subnat,ITAr109,Basilicata,2023,83.12,85.44
+Italy,Europe,ITA,Subnat,ITAr110,Calabria,2023,82.72,84.73
+Italy,Europe,ITA,Subnat,ITAr107,Campania,2023,82.01,84.02
+Italy,Europe,ITA,Subnat,ITAr117,Emilia-Romagna,2023,84.34,86.04
+Italy,Europe,ITA,Subnat,ITAr116,"Friuli-Venezia Giulia",2023,84.03,86.25
+Italy,Europe,ITA,Subnat,ITAr121,Lazio,2023,84.13,86.14
+Italy,Europe,ITA,Subnat,ITAr103,Liguria,2023,83.73,85.74
+Italy,Europe,ITA,Subnat,ITAr104,Lombardia,2023,84.34,86.45
+Italy,Europe,ITA,Subnat,ITAr120,Marche,2023,84.34,86.35
+Italy,Europe,ITA,Subnat,ITAr106,Molise,2023,83.12,85.44
+Italy,Europe,ITA,Subnat,ITAr101,Piemonte,2023,83.53,85.64
+Italy,Europe,ITA,Subnat,ITAr113,"Provincia Autonoma di Bolzano",2023,84.64,86.75
+Italy,Europe,ITA,Subnat,ITAr114,"Provincia Autonoma di Trento",2023,85.35,87.36
+Italy,Europe,ITA,Subnat,ITAr108,Puglia,2023,83.73,85.64
+Italy,Europe,ITA,Subnat,ITAr112,Sardegna,2023,83.02,85.44
+Italy,Europe,ITA,Subnat,ITAr111,Sicilia,2023,82.41,84.33
+Italy,Europe,ITA,Subnat,ITAr118,Toscana,2023,84.34,86.25
+Italy,Europe,ITA,Subnat,ITAr119,Umbria,2023,84.44,86.55
+Italy,Europe,ITA,Subnat,ITAr102,"Valle dAosta",2023,83.32,85.03
+Italy,Europe,ITA,Subnat,ITAr115,Veneto,2023,84.44,86.55
+Jamaica,America,JAM,National,JAMt,Total,2023,71.48,73.99
+Jamaica,America,JAM,Subnat,JAMr101,"Kingston, St Andrew",2023,70.49,72.9
+Jamaica,America,JAM,Subnat,JAMr106,"Manchester, Clarendon",2023,72.04,74.62
+Jamaica,America,JAM,Subnat,JAMr103,"St Ann, St Catherine",2023,73.56,76.28
+Jamaica,America,JAM,Subnat,JAMr105,"St James, Hanover, Westmoreland",2023,70.04,72.41
+Jamaica,America,JAM,Subnat,JAMr102,"St Thomas, Portland, St Mary",2023,71.51,74.03
+Jamaica,America,JAM,Subnat,JAMr104,"Trelawny, St Elizabeth",2023,71.52,74.04
+Japan,Asia/Pacific,JPN,National,JPNt,Total,2023,84.71,87.74
+Japan,Asia/Pacific,JPN,Subnat,JPNr108,"Chugoku (Tottori, Shimane, Okayama, Hiroshima, Yamaguchi)",2023,84.97,88.08
+Japan,Asia/Pacific,JPN,Subnat,JPNr101,Hokkaido,2023,84.08,87.11
+Japan,Asia/Pacific,JPN,Subnat,JPNr105,"Hokuriku (Niigata, Toyama, Ishikawa, Fukui)",2023,84.8,87.84
+Japan,Asia/Pacific,JPN,Subnat,JPNr107,"Kansai region (Shiga, Kyoto, Osaka, Hyogo, Nara, Wakayama)",2023,84.62,87.72
+Japan,Asia/Pacific,JPN,Subnat,JPNr110,"Kyushu (Fukuoka, Saga, Nagasaki, Kumamoto, Oita, Miyazaki, Kagoshima, Okinawa)",2023,84.61,87.79
+Japan,Asia/Pacific,JPN,Subnat,JPNr103,"Northern-Kanto, Koshin (Ibaraki, Tochigi, Gunma)",2023,84.07,87.02
+Japan,Asia/Pacific,JPN,Subnat,JPNr109,"Shikoku (Tokushima, Kagawa, Ehime, Kochi)",2023,84.42,87.54
+Japan,Asia/Pacific,JPN,Subnat,JPNr104,"Southern-Kanto (Saitama, Chiba, Tokyo, Kanagawa, Yamanashi, Nagano)",2023,84.82,87.76
+Japan,Asia/Pacific,JPN,Subnat,JPNr102,"Tohoku (Aomori, Iwate, Miyagi, Akita, Yamagata, Fukushima)",2023,84.09,87.14
+Japan,Asia/Pacific,JPN,Subnat,JPNr106,"Toukai (Gifu, Shizuoka, Aichi, Mie)",2023,84.7,87.55
+Jordan,Asia/Pacific,JOR,National,JORt,Total,2023,77.81,80.19
+Jordan,Asia/Pacific,JOR,Subnat,JORr108,Aljoun,2023,77.81,80.19
+Jordan,Asia/Pacific,JOR,Subnat,JORr101,Amman,2023,78.53,80.99
+Jordan,Asia/Pacific,JOR,Subnat,JORr112,Aqaba,2023,77.81,80.19
+Jordan,Asia/Pacific,JOR,Subnat,JORr102,Balqa,2023,79.4,81.95
+Jordan,Asia/Pacific,JOR,Subnat,JORr105,Irbid,2023,73.81,75.75
+Jordan,Asia/Pacific,JOR,Subnat,JORr107,Jarash,2023,77.81,80.19
+Jordan,Asia/Pacific,JOR,Subnat,JORr109,Karak,2023,77.81,80.19
+Jordan,Asia/Pacific,JOR,Subnat,JORr111,Maan,2023,77.81,80.19
+Jordan,Asia/Pacific,JOR,Subnat,JORr104,Madaba,2023,75.35,77.46
+Jordan,Asia/Pacific,JOR,Subnat,JORr106,Mafraq,2023,77.81,80.19
+Jordan,Asia/Pacific,JOR,Subnat,JORr110,Tafiela,2023,77.81,80.19
+Jordan,Asia/Pacific,JOR,Subnat,JORr103,Zarqa,2023,77.35,79.68
+Kazakhstan,Asia/Pacific,KAZ,National,KAZt,Total,2023,74.4,78.39
+Kazakhstan,Asia/Pacific,KAZ,Subnat,KAZr101,"Almaty city",2023,72.91,76.75
+Kazakhstan,Asia/Pacific,KAZ,Subnat,KAZr104,"Central region (Karagandinskaya)",2023,76.88,81.12
+Kazakhstan,Asia/Pacific,KAZ,Subnat,KAZr106,"East region (East-Kazakhstanskaya)",2023,71.85,75.58
+Kazakhstan,Asia/Pacific,KAZ,Subnat,KAZr105,"North region (Akmolinskaya (incl Astana city), Kostnaiskaya, Pavlodarskaya, North-Kazakhstanskaya)",2023,76.37,80.57
+Kazakhstan,Asia/Pacific,KAZ,Subnat,KAZr102,"South region (Almatinskaya, Zhambylskaya, Kyzylordinskaya, South-Kazakhstanskaya)",2023,73.37,77.25
+Kazakhstan,Asia/Pacific,KAZ,Subnat,KAZr103,"West region (Aktyubinskaya, Atyrauskaya, Mangistauskaya, West-Kazakhstanskaya)",2023,74.48,78.48
+Kenya,Africa,KEN,National,KENt,Total,2023,63.65,65.92
+Kenya,Africa,KEN,Subnat,KENr102,Central,2023,63.49,65.75
+Kenya,Africa,KEN,Subnat,KENr103,Coast,2023,64.01,66.32
+Kenya,Africa,KEN,Subnat,KENr104,Eastern,2023,64.9,67.31
+Kenya,Africa,KEN,Subnat,KENr101,Nairobi,2023,63.6,65.86
+Kenya,Africa,KEN,Subnat,KENr108,"North Eastern",2023,64.25,66.59
+Kenya,Africa,KEN,Subnat,KENr105,Nyanza,2023,62.09,64.2
+Kenya,Africa,KEN,Subnat,KENr106,"Rift Valley",2023,64.07,66.39
+Kenya,Africa,KEN,Subnat,KENr107,Western,2023,62.7,64.88
+Kiribati,Asia/Pacific,KIR,National,KIRt,Total,2023,66.47,68.17
+Kiribati,Asia/Pacific,KIR,Subnat,KIRr103,"Central Gibert",2023,63.61,65.03
+Kiribati,Asia/Pacific,KIR,Subnat,KIRr105,"Line and Phoenix Group",2023,67.32,69.1
+Kiribati,Asia/Pacific,KIR,Subnat,KIRr102,"Northern Gilbert",2023,68.45,70.33
+Kiribati,Asia/Pacific,KIR,Subnat,KIRr104,"Southern Gilbert",2023,67,68.74
+Kiribati,Asia/Pacific,KIR,Subnat,KIRr101,"Souyth Tarawa",2023,65.83,67.47
+"Korea, Rep.",Asia/Pacific,KOR,National,KORt,Total,2023,84.33,87.16
+"Korea, Rep.",Asia/Pacific,KOR,Subnat,KORr101,"Capital Region",2023,85.37,87.31
+"Korea, Rep.",Asia/Pacific,KOR,Subnat,KORr105,"Chungcheong Region",2023,84.64,86.92
+"Korea, Rep.",Asia/Pacific,KOR,Subnat,KORr106,"Gangwon Region",2023,83.29,87.31
+"Korea, Rep.",Asia/Pacific,KOR,Subnat,KORr103,"Gyeongbuk Region",2023,83.81,86.04
+"Korea, Rep.",Asia/Pacific,KOR,Subnat,KORr102,"Gyeongnam Region",2023,83.81,86.75
+"Korea, Rep.",Asia/Pacific,KOR,Subnat,KORr107,Jeju,2023,85.88,86.65
+"Korea, Rep.",Asia/Pacific,KOR,Subnat,KORr104,"Jeolla Region",2023,84.12,87.26
+Kosovo,Europe,XKO,National,KSVt,Total,2023,73.5,
+Kosovo,Europe,XKO,Subnat,KSVr107,Ferizaj,2023,73.83,
+Kosovo,Europe,XKO,Subnat,KSVr101,Gjakova,2023,73.5,
+Kosovo,Europe,XKO,Subnat,KSVr102,Gjilan,2023,70.42,
+Kosovo,Europe,XKO,Subnat,KSVr103,Mitrovica,2023,73.17,
+Kosovo,Europe,XKO,Subnat,KSVr104,Peja,2023,72.7,
+Kosovo,Europe,XKO,Subnat,KSVr106,Pristina,2023,73.49,
+Kosovo,Europe,XKO,Subnat,KSVr105,Prizren,2023,74.41,
+Kuwait,Asia/Pacific,KWT,National,KWTt,Total,2023,80.41,81.85
+Kuwait,Asia/Pacific,KWT,Subnat,KWTr102,Ahmadi,2023,80.41,81.85
+Kuwait,Asia/Pacific,KWT,Subnat,KWTr101,"Al Asimah, Hawalli, Al-Farwaniyah, Mubarak al-Sabah",2023,80.41,81.85
+Kuwait,Asia/Pacific,KWT,Subnat,KWTr103,Al-Jahra,2023,80.41,81.85
+Kyrgyzstan,Asia/Pacific,KGZ,National,KGZt,Total,2023,71.68,75.25
+Kyrgyzstan,Asia/Pacific,KGZ,Subnat,KGZr108,Batken,2023,72.46,76.11
+Kyrgyzstan,Asia/Pacific,KGZ,Subnat,KGZr101,Bishkek,2023,71.15,74.67
+Kyrgyzstan,Asia/Pacific,KGZ,Subnat,KGZr103,Chuy,2023,73.13,76.85
+Kyrgyzstan,Asia/Pacific,KGZ,Subnat,KGZr102,Issyk-Kul,2023,71.28,74.81
+Kyrgyzstan,Asia/Pacific,KGZ,Subnat,KGZr105,Jalal-Abad,2023,71.2,74.73
+Kyrgyzstan,Asia/Pacific,KGZ,Subnat,KGZr107,Naryn,2023,70.01,73.42
+Kyrgyzstan,Asia/Pacific,KGZ,Subnat,KGZr106,Osh,2023,71.66,75.24
+Kyrgyzstan,Asia/Pacific,KGZ,Subnat,KGZr104,Talas,2023,70.89,74.38
+Lao,Asia/Pacific,LAO,National,LAOt,Total,2023,68.96,71.25
+Lao,Asia/Pacific,LAO,Subnat,LAOr117,Attapeu,2023,67.02,69.11
+Lao,Asia/Pacific,LAO,Subnat,LAOr105,Bokeo,2023,67.04,69.13
+Lao,Asia/Pacific,LAO,Subnat,LAOr111,Borikhamxay,2023,70.39,72.82
+Lao,Asia/Pacific,LAO,Subnat,LAOr116,Champasack,2023,69.5,71.84
+Lao,Asia/Pacific,LAO,Subnat,LAOr107,Huaphanh,2023,69.99,72.38
+Lao,Asia/Pacific,LAO,Subnat,LAOr112,Khammuane,2023,66.24,68.24
+Lao,Asia/Pacific,LAO,Subnat,LAOr103,Luangnamtha,2023,69.58,71.92
+Lao,Asia/Pacific,LAO,Subnat,LAOr106,Luangprabang,2023,71.3,73.83
+Lao,Asia/Pacific,LAO,Subnat,LAOr104,Oudomxay,2023,65.57,67.51
+Lao,Asia/Pacific,LAO,Subnat,LAOr102,Phongsaly,2023,65.59,67.54
+Lao,Asia/Pacific,LAO,Subnat,LAOr114,Saravane,2023,65.68,67.63
+Lao,Asia/Pacific,LAO,Subnat,LAOr113,Savannakhet,2023,67.38,69.51
+Lao,Asia/Pacific,LAO,Subnat,LAOr108,Sayabury,2023,75.87,78.86
+Lao,Asia/Pacific,LAO,Subnat,LAOr115,Sekong,2023,71.08,73.58
+Lao,Asia/Pacific,LAO,Subnat,LAOr101,"Vientiane Municipality",2023,74.06,76.86
+Lao,Asia/Pacific,LAO,Subnat,LAOr110,"Vientiane Province",2023,68.25,70.46
+Lao,Asia/Pacific,LAO,Subnat,LAOr109,Xiengkhuang,2023,69.94,72.32
+Latvia,Europe,LVA,National,LVAt,Total,2023,76.19,80.47
+Latvia,Europe,LVA,Subnat,LVAr104,"Kurzeme region",2023,75.63,79.97
+Latvia,Europe,LVA,Subnat,LVAr106,"Latgale region",2023,74,79.06
+Latvia,Europe,LVA,Subnat,LVAr102,"Pieriga region",2023,77.26,81.28
+Latvia,Europe,LVA,Subnat,LVAr101,"Riga region",2023,76.5,80.78
+Latvia,Europe,LVA,Subnat,LVAr103,"Vidzeme region",2023,76.24,80.67
+Latvia,Europe,LVA,Subnat,LVAr105,"Zemgale region",2023,76.24,80.27
+Lebanon,Asia/Pacific,LBN,National,LBNt,Total,2023,77.82,79.73
+Lebanon,Asia/Pacific,LBN,Subnat,LBNr101,Beirut,2023,77.82,79.73
+Lebanon,Asia/Pacific,LBN,Subnat,LBNr104,Beqaa,2023,77.82,79.73
+Lebanon,Asia/Pacific,LBN,Subnat,LBNr102,"Mount Lebanon",2023,77.82,79.73
+Lebanon,Asia/Pacific,LBN,Subnat,LBNr103,Northern,2023,77.82,79.73
+Lebanon,Asia/Pacific,LBN,Subnat,LBNr105,"Southern, Nabtieh",2023,77.82,79.73
+Lesotho,Africa,LSO,National,LSOt,Total,2023,57.38,60.01
+Lesotho,Africa,LSO,Subnat,LSOr103,Berea,2023,57.81,60.49
+Lesotho,Africa,LSO,Subnat,LSOr101,Butha-Buthe,2023,58.04,60.76
+Lesotho,Africa,LSO,Subnat,LSOr102,Leribe,2023,56.21,58.7
+Lesotho,Africa,LSO,Subnat,LSOr105,Mafeteng,2023,58.51,61.28
+Lesotho,Africa,LSO,Subnat,LSOr104,Maseru,2023,57.82,60.5
+Lesotho,Africa,LSO,Subnat,LSOr106,"Mohale s Hoek",2023,58.04,60.75
+Lesotho,Africa,LSO,Subnat,LSOr109,Mokhotlong,2023,56.97,59.56
+Lesotho,Africa,LSO,Subnat,LSOr108,"Qasha s Nek",2023,59.16,62.01
+Lesotho,Africa,LSO,Subnat,LSOr107,Quthing,2023,56.87,59.44
+Lesotho,Africa,LSO,Subnat,LSOr110,Thaba-Tseka,2023,55.89,58.34
+Liberia,Africa,LBR,National,LBRt,Total,2023,62.16,63.44
+Liberia,Africa,LBR,Subnat,LBRr101,Bomi,2023,63.75,65.2
+Liberia,Africa,LBR,Subnat,LBRr102,Bong,2023,64.23,65.73
+Liberia,Africa,LBR,Subnat,LBRr103,Gbarpolu,2023,60.04,61.1
+Liberia,Africa,LBR,Subnat,LBRr104,"Grand Bassa",2023,59.58,60.59
+Liberia,Africa,LBR,Subnat,LBRr105,"Grand Cape Mount",2023,57.01,57.75
+Liberia,Africa,LBR,Subnat,LBRr106,"Grand Gedeh",2023,62.09,63.36
+Liberia,Africa,LBR,Subnat,LBRr107,"Grand Kru",2023,61.14,62.32
+Liberia,Africa,LBR,Subnat,LBRr108,Lofa,2023,62.98,64.35
+Liberia,Africa,LBR,Subnat,LBRr109,Margibi,2023,60.84,61.98
+Liberia,Africa,LBR,Subnat,LBRr110,Maryland,2023,61.72,62.95
+Liberia,Africa,LBR,Subnat,LBRr111,Montserrado,2023,62.53,63.85
+Liberia,Africa,LBR,Subnat,LBRr112,Nimba,2023,64.02,65.49
+Liberia,Africa,LBR,Subnat,LBRr113,"River Cess",2023,62.91,64.27
+Liberia,Africa,LBR,Subnat,LBRr114,"River Gee",2023,62.71,64.05
+Liberia,Africa,LBR,Subnat,LBRr115,Sinoe,2023,57.85,58.68
+Libya,Africa,LBY,National,LBYt,Total,2023,69.34,70.42
+Libya,Africa,LBY,Subnat,LBYr101,Cyrenaica,2023,69.34,70.42
+Libya,Africa,LBY,Subnat,LBYr103,Fezzan,2023,69.34,70.42
+Libya,Africa,LBY,Subnat,LBYr102,Tripolitania,2023,69.34,70.42
+Liechtenstein,Europe,LIE,National,LIEt,Total,2023,83.63,85.32
+Lithuania,Europe,LTU,National,LTUt,Total,2023,76.03,80.68
+Lithuania,Europe,LTU,Subnat,LTUr101,"Alytus County",2023,75.87,80.99
+Lithuania,Europe,LTU,Subnat,LTUr102,"Kaunas County",2023,76.6,81.28
+Lithuania,Europe,LTU,Subnat,LTUr103,"Klaipeda County",2023,76.68,80.68
+Lithuania,Europe,LTU,Subnat,LTUr104,"Marijampole County",2023,76.08,80.85
+Lithuania,Europe,LTU,Subnat,LTUr105,"Panevezys County",2023,75.72,81.19
+Lithuania,Europe,LTU,Subnat,LTUr106,"Siauliai County",2023,75.97,80.6
+Lithuania,Europe,LTU,Subnat,LTUr107,"Taurage County",2023,75.36,81.21
+Lithuania,Europe,LTU,Subnat,LTUr108,"Telsiai County",2023,76.5,81.6
+Lithuania,Europe,LTU,Subnat,LTUr109,"Utena County",2023,74.77,79.63
+Lithuania,Europe,LTU,Subnat,LTUr110,"Vilnius County",2023,76.78,81.43
+Luxembourg,Europe,LUX,National,LUXt,Total,2023,82.23,83.84
+Madagascar,Africa,MDG,National,MDGt,Total,2023,63.63,65.38
+Madagascar,Africa,MDG,Subnat,MDGr112,"Alaotra Mangoro",2023,64.78,66.64
+Madagascar,Africa,MDG,Subnat,MDGr101,Analamanga,2023,66,67.99
+Madagascar,Africa,MDG,Subnat,MDGr111,Analanjirofo,2023,62.6,64.24
+Madagascar,Africa,MDG,Subnat,MDGr106,"Anamoroni Mania",2023,62.23,63.83
+Madagascar,Africa,MDG,Subnat,MDGr118,Androy,2023,65.5,67.44
+Madagascar,Africa,MDG,Subnat,MDGr119,Anosy,2023,62.68,64.33
+Madagascar,Africa,MDG,Subnat,MDGr117,"Atsimo Andrefana",2023,61.33,62.84
+Madagascar,Africa,MDG,Subnat,MDGr109,"Atsimo Atsinanana",2023,63.08,64.77
+Madagascar,Africa,MDG,Subnat,MDGr110,Atsinanana,2023,63.32,65.03
+Madagascar,Africa,MDG,Subnat,MDGr115,Betsiboka,2023,62.05,63.63
+Madagascar,Africa,MDG,Subnat,MDGr113,Boeny,2023,64.73,66.58
+Madagascar,Africa,MDG,Subnat,MDGr104,Bongolava,2023,61.86,63.43
+Madagascar,Africa,MDG,Subnat,MDGr121,Diana,2023,68.16,70.37
+Madagascar,Africa,MDG,Subnat,MDGr105,"Haute Matsiatra",2023,63.77,65.53
+Madagascar,Africa,MDG,Subnat,MDGr108,Ihorombe,2023,66.57,68.61
+Madagascar,Africa,MDG,Subnat,MDGr103,Itasy,2023,66,67.98
+Madagascar,Africa,MDG,Subnat,MDGr116,Melaky,2023,61.89,63.46
+Madagascar,Africa,MDG,Subnat,MDGr120,Menabe,2023,62.8,64.46
+Madagascar,Africa,MDG,Subnat,MDGr122,Sava,2023,67.1,69.2
+Madagascar,Africa,MDG,Subnat,MDGr114,Sofia,2023,63.33,65.04
+Madagascar,Africa,MDG,Subnat,MDGr102,Vakinankaratra,2023,63.42,65.14
+Madagascar,Africa,MDG,Subnat,MDGr107,"Vatovavy Fitovinany",2023,58.29,59.49
+Malawi,Africa,MWI,National,MWIt,Total,2023,67.35,70.56
+Malawi,Africa,MWI,Subnat,MWIr101,Blantyre,2023,67.24,70.43
+Malawi,Africa,MWI,Subnat,MWIr102,Kasungu,2023,70.77,74.4
+Malawi,Africa,MWI,Subnat,MWIr109,Lilongwe,2023,68.19,71.51
+Malawi,Africa,MWI,Subnat,MWIr103,Machinga,2023,67.39,70.6
+Malawi,Africa,MWI,Subnat,MWIr104,Mangochi,2023,65.59,68.58
+Malawi,Africa,MWI,Subnat,MWIr110,Mulanje,2023,67.49,70.72
+Malawi,Africa,MWI,Subnat,MWIr105,Mzimba,2023,67.99,71.28
+Malawi,Africa,MWI,Subnat,MWIr112,"Other central (Nkhota Kota, Mchinji, Dowa, Ntchisi, Dedza, Ntcheu)",2023,67.2,70.39
+Malawi,Africa,MWI,Subnat,MWIr111,"Other northern (Chitipa, Karonga, Rumphi, Nkhata Bay)",2023,70.53,74.13
+Malawi,Africa,MWI,Subnat,MWIr113,"Other southern (Balaka, Mwanza, Phalombe, Chiradzulu, Chikwawa, Nsanje, neno)",2023,66.45,69.54
+Malawi,Africa,MWI,Subnat,MWIr106,Salima,2023,66.27,69.34
+Malawi,Africa,MWI,Subnat,MWIr107,Thyolo,2023,64.29,67.13
+Malawi,Africa,MWI,Subnat,MWIr108,Zomba,2023,67.29,70.5
+Malaysia,Asia/Pacific,MYS,National,MYSt,Total,2023,76.66,79.37
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr101,Johor,2023,76.66,79.37
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr102,Kedah,2023,76.66,79.37
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr103,Kelantan,2023,76.66,79.37
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr114,"Kuala Lumpur Federal Territory",2023,76.66,79.37
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr115,"Labuan Federal Territory",2023,76.66,79.37
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr104,Melaka,2023,76.66,79.37
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr105,"Negeri Sembilan",2023,76.66,79.37
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr106,Pahang,2023,76.66,79.37
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr108,Perak,2023,76.66,79.37
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr109,Perlis,2023,76.66,79.37
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr107,"Pulau Pinang",2023,76.66,79.37
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr112,Sabah,2023,76.66,79.37
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr113,Sarawak,2023,76.66,79.37
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr110,Selangor,2023,76.66,79.37
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr111,Terengganu,2023,76.66,79.37
+Maldives,Asia/Pacific,MDV,National,MDVt,Total,2023,81.04,82.82
+Maldives,Asia/Pacific,MDV,Subnat,MDVr104,Central,2023,81.3,83.1
+Maldives,Asia/Pacific,MDV,Subnat,MDVr101,Male,2023,80.69,82.44
+Maldives,Asia/Pacific,MDV,Subnat,MDVr102,North,2023,80.81,82.57
+Maldives,Asia/Pacific,MDV,Subnat,MDVr103,"North Central",2023,82.13,84.02
+Maldives,Asia/Pacific,MDV,Subnat,MDVr106,South,2023,80.69,82.43
+Maldives,Asia/Pacific,MDV,Subnat,MDVr105,"South Central",2023,81.31,83.11
+Mali,Africa,MLI,National,MLIt,Total,2023,60.44,61.9
+Mali,Africa,MLI,Subnat,MLIr108,Bamako,2023,67.04,69.23
+Mali,Africa,MLI,Subnat,MLIr107,"Gao and Kidal",2023,64.32,66.21
+Mali,Africa,MLI,Subnat,MLIr101,Kayes,2023,58.74,60.01
+Mali,Africa,MLI,Subnat,MLIr102,Koulikoro,2023,60.92,62.44
+Mali,Africa,MLI,Subnat,MLIr105,Mopti,2023,58.87,60.16
+Mali,Africa,MLI,Subnat,MLIr104,Segou,2023,58.47,59.71
+Mali,Africa,MLI,Subnat,MLIr103,Sikasso,2023,60.65,62.13
+Mali,Africa,MLI,Subnat,MLIr106,Tombouctou,2023,58.72,59.99
+Mauritania,Africa,MRT,National,MRTt,Total,2023,68.48,70.48
+Mauritania,Africa,MRT,Subnat,MRTr107,Adrar,2023,63.3,64.75
+Mauritania,Africa,MRT,Subnat,MRTr103,Assaba,2023,67.15,69.01
+Mauritania,Africa,MRT,Subnat,MRTr105,Brakna,2023,68.37,70.36
+Mauritania,Africa,MRT,Subnat,MRTr104,Gorgol,2023,67.4,69.28
+Mauritania,Africa,MRT,Subnat,MRTr110,Guidimagha,2023,68.28,70.26
+Mauritania,Africa,MRT,Subnat,MRTr101,"Hodh Charghi",2023,67.84,69.77
+Mauritania,Africa,MRT,Subnat,MRTr102,"Hodh Gharbi",2023,67.71,69.63
+Mauritania,Africa,MRT,Subnat,MRTr112,Inchiri,2023,63.91,65.43
+Mauritania,Africa,MRT,Subnat,MRTr108,Nouadhibou,2023,69.06,71.12
+Mauritania,Africa,MRT,Subnat,MRTr109,Tagant,2023,64.34,65.9
+Mauritania,Africa,MRT,Subnat,MRTr111,Tiris-Zemmour,2023,71.29,73.58
+Mauritania,Africa,MRT,Subnat,MRTr106,"Trarza incl Nouakchott",2023,70.82,73.07
+Mauritius,Africa,MUS,National,MUSt,Total,2023,74.93,78.18
+Mauritius,Africa,MUS,Subnat,MUSr101,"North (Port Louis, Pamplemousses, Riviere du Rempart, Flacq, Moka)",2023,74.93,78.18
+Mauritius,Africa,MUS,Subnat,MUSr103,Rodrigues,2023,74.93,78.18
+Mauritius,Africa,MUS,Subnat,MUSr102,"South (Grand Port, Savanne, Plaines Wilhems, Black River)",2023,74.93,78.18
+Mexico,America,MEX,National,MEXt,Total,2023,75.07,77.81
+Mexico,America,MEX,Subnat,MEXr101,Aguascalientes,2023,74.83,77.7
+Mexico,America,MEX,Subnat,MEXr102,"Baja California",2023,75.45,78.38
+Mexico,America,MEX,Subnat,MEXr103,"Baja California Sur",2023,74.53,77.37
+Mexico,America,MEX,Subnat,MEXr104,Campeche,2023,76.12,79.12
+Mexico,America,MEX,Subnat,MEXr107,Chiapas,2023,72.34,74.95
+Mexico,America,MEX,Subnat,MEXr108,Chihuahua,2023,73.72,76.47
+Mexico,America,MEX,Subnat,MEXr105,Coahuila,2023,74.24,77.04
+Mexico,America,MEX,Subnat,MEXr106,Colima,2023,74.44,77.27
+Mexico,America,MEX,Subnat,MEXr109,"Distrito Federal",2023,74.85,77.72
+Mexico,America,MEX,Subnat,MEXr110,Durango,2023,72.31,74.92
+Mexico,America,MEX,Subnat,MEXr111,Guanajuato,2023,74.11,76.9
+Mexico,America,MEX,Subnat,MEXr112,Guerrero,2023,70.3,72.69
+Mexico,America,MEX,Subnat,MEXr113,Hidalgo,2023,74.26,77.06
+Mexico,America,MEX,Subnat,MEXr114,Jalisco,2023,74.4,77.22
+Mexico,America,MEX,Subnat,MEXr115,Mexico,2023,73.62,76.37
+Mexico,America,MEX,Subnat,MEXr116,"Michoacan de Ocampo",2023,74.05,76.84
+Mexico,America,MEX,Subnat,MEXr117,Morelos,2023,74.89,77.76
+Mexico,America,MEX,Subnat,MEXr118,Nayarit,2023,71.56,74.09
+Mexico,America,MEX,Subnat,MEXr119,"Nuevo Leon",2023,74.88,77.75
+Mexico,America,MEX,Subnat,MEXr120,Oaxaca,2023,72.92,75.59
+Mexico,America,MEX,Subnat,MEXr121,Puebla,2023,72.82,75.48
+Mexico,America,MEX,Subnat,MEXr122,Queretaro,2023,74.28,77.09
+Mexico,America,MEX,Subnat,MEXr123,"Quintana Roo",2023,74.62,77.46
+Mexico,America,MEX,Subnat,MEXr124,"San Luis Potosi",2023,73.58,76.32
+Mexico,America,MEX,Subnat,MEXr125,Sinaloa,2023,75.51,78.45
+Mexico,America,MEX,Subnat,MEXr126,Sonora,2023,74.69,77.54
+Mexico,America,MEX,Subnat,MEXr127,Tabasco,2023,75.56,78.5
+Mexico,America,MEX,Subnat,MEXr128,Tamaulipas,2023,74.71,77.56
+Mexico,America,MEX,Subnat,MEXr129,Tlaxcala,2023,73.19,75.89
+Mexico,America,MEX,Subnat,MEXr130,Veracruz,2023,72.94,75.61
+Mexico,America,MEX,Subnat,MEXr131,Yucatan,2023,73.63,76.38
+Mexico,America,MEX,Subnat,MEXr132,Zacatecas,2023,74.41,77.24
+"Micronesia, Fed. Sts.",Asia/Pacific,FSM,National,FSMt,Total,2023,67.2,71.12
+Moldova,Europe,MDA,National,MDAt,Total,2023,71.2,75.54
+Moldova,Europe,MDA,Subnat,MDAr102,Center,2023,70.78,75.06
+Moldova,Europe,MDA,Subnat,MDAr104,Chisinau,2023,71.44,75.8
+Moldova,Europe,MDA,Subnat,MDAr101,North,2023,71.02,75.34
+Moldova,Europe,MDA,Subnat,MDAr103,South,2023,72.02,76.46
+Mongolia,Asia/Pacific,MNG,National,MNGt,Total,2023,71.73,76.43
+Mongolia,Asia/Pacific,MNG,Subnat,MNGr103,"Central (Dornogovi, Dundgovi, Umnugovi, Selenge, Tuv, Darkhan-Uul, Govisumber)",2023,73.1,77.95
+Mongolia,Asia/Pacific,MNG,Subnat,MNGr104,"Eastern (Dornod, Sukhbaatar, Khentii)",2023,72.23,76.99
+Mongolia,Asia/Pacific,MNG,Subnat,MNGr102,"Khangai (Arkhangai, Bayankhongor, Bulgan, Uvurkhangai, Khuvsgul, Orkhon)",2023,69.46,73.89
+Mongolia,Asia/Pacific,MNG,Subnat,MNGr105,Ulaanbaatar,2023,72.57,77.36
+Mongolia,Asia/Pacific,MNG,Subnat,MNGr101,"Western (Bayan-Ulgii, Govi-Altai, Zavkhan, Uvs, Khovd)",2023,70.37,74.91
+Montenegro,Europe,MNE,National,MNEt,Total,2023,77.09,80.31
+Montenegro,Europe,MNE,Subnat,MNEr102,Centre,2023,77.09,80.31
+Montenegro,Europe,MNE,Subnat,MNEr101,North,2023,77.09,80.31
+Montenegro,Europe,MNE,Subnat,MNEr103,South,2023,77.09,80.31
+Morocco,Africa,MAR,National,MARt,Total,2023,75.31,77.6
+Morocco,Africa,MAR,Subnat,MARr103,Centre,2023,76.39,78.79
+Morocco,Africa,MAR,Subnat,MARr102,"Centre north",2023,74.61,76.82
+Morocco,Africa,MAR,Subnat,MARr105,"Centre south",2023,75.87,78.22
+Morocco,Africa,MAR,Subnat,MARr104,Eastern,2023,75.54,77.85
+Morocco,Africa,MAR,Subnat,MARr101,"North west",2023,75.47,77.77
+Morocco,Africa,MAR,Subnat,MARr107,South,2023,76.48,78.89
+Morocco,Africa,MAR,Subnat,MARr106,Tensift,2023,73.28,75.36
+Mozambique,Africa,MOZ,National,MOZt,Total,2023,63.61,66.54
+Mozambique,Africa,MOZ,Subnat,MOZr102,"Cabo delgado",2023,60.22,62.74
+Mozambique,Africa,MOZ,Subnat,MOZr109,Gaza,2023,61.86,64.59
+Mozambique,Africa,MOZ,Subnat,MOZr108,Inhambane,2023,65.07,68.18
+Mozambique,Africa,MOZ,Subnat,MOZr106,Manica,2023,62.43,65.21
+Mozambique,Africa,MOZ,Subnat,MOZr111,"Maputo Cidade",2023,63.72,66.67
+Mozambique,Africa,MOZ,Subnat,MOZr110,"Maputo Provincia",2023,65.5,68.67
+Mozambique,Africa,MOZ,Subnat,MOZr103,Nampula,2023,62.24,65.01
+Mozambique,Africa,MOZ,Subnat,MOZr101,Niassa,2023,62.72,65.55
+Mozambique,Africa,MOZ,Subnat,MOZr107,Sofala,2023,62.03,64.77
+Mozambique,Africa,MOZ,Subnat,MOZr105,Tete,2023,67.69,71.11
+Mozambique,Africa,MOZ,Subnat,MOZr104,Zambezia,2023,65.97,69.19
+Myanmar,Asia/Pacific,MMR,National,MMRt,Total,2023,66.89,70.16
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr114,Ayeyarwaddy,2023,65.66,68.78
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr107,Bago,2023,65.53,68.65
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr104,Chin,2023,63.21,66.05
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr101,Kachin,2023,68.26,71.7
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr102,Kayah,2023,69.67,73.28
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr103,Kayin,2023,65.47,68.57
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr108,Magway,2023,68.97,72.49
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr109,"Mandalay, NayPyitaw",2023,67.35,70.68
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr110,Mon,2023,70.55,74.26
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr111,Rakhine,2023,68.62,72.1
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr105,Sagaing,2023,67.31,70.63
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr113,Shan,2023,63.84,66.74
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr106,Taninthayi,2023,65.58,68.69
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr112,Yangon,2023,70.26,73.94
+Namibia,Africa,NAM,National,NAMt,Total,2023,67.39,71.34
+Namibia,Africa,NAM,Subnat,NAMr101,Caprivi,2023,65.38,69.07
+Namibia,Africa,NAM,Subnat,NAMr102,Erongo,2023,68.27,72.33
+Namibia,Africa,NAM,Subnat,NAMr103,Hardap,2023,70.61,74.98
+Namibia,Africa,NAM,Subnat,NAMr104,Karas,2023,69.67,73.93
+Namibia,Africa,NAM,Subnat,NAMr108,Kavango,2023,62.21,65.48
+Namibia,Africa,NAM,Subnat,NAMr105,Khomas,2023,70.06,74.36
+Namibia,Africa,NAM,Subnat,NAMr106,Kunene,2023,69.53,73.76
+Namibia,Africa,NAM,Subnat,NAMr107,Ohangwena,2023,64.49,68.06
+Namibia,Africa,NAM,Subnat,NAMr109,Omaheke,2023,69.31,73.51
+Namibia,Africa,NAM,Subnat,NAMr110,Omusati,2023,69.5,73.73
+Namibia,Africa,NAM,Subnat,NAMr111,Oshana,2023,69.28,73.49
+Namibia,Africa,NAM,Subnat,NAMr112,Oshikoto,2023,66.09,69.87
+Namibia,Africa,NAM,Subnat,NAMr113,Otjozondjupa,2023,68.58,72.68
+Nepal,Asia/Pacific,NPL,National,NPLt,Total,2023,70.35,71.84
+Nepal,Asia/Pacific,NPL,Subnat,NPLr103,"Bagmati province",2023,72.2,73.87
+Nepal,Asia/Pacific,NPL,Subnat,NPLr104,"Gandaki province",2023,72.33,74.02
+Nepal,Asia/Pacific,NPL,Subnat,NPLr106,"Karnali province",2023,69.24,70.61
+Nepal,Asia/Pacific,NPL,Subnat,NPLr101,"Koshi province",2023,70.87,72.41
+Nepal,Asia/Pacific,NPL,Subnat,NPLr105,"Lumbini province",2023,69.84,71.27
+Nepal,Asia/Pacific,NPL,Subnat,NPLr102,"Madhesh province",2023,69.59,70.99
+Nepal,Asia/Pacific,NPL,Subnat,NPLr107,"Sudurpashchim province",2023,68.87,70.2
+Netherlands,Europe,NLD,National,NLDt,Total,2023,82.16,83.74
+Netherlands,Europe,NLD,Subnat,NLDr103,Drenthe,2023,81.27,82.92
+Netherlands,Europe,NLD,Subnat,NLDr106,Flevoland,2023,82.18,83.83
+Netherlands,Europe,NLD,Subnat,NLDr102,Friesland,2023,82.08,83.53
+Netherlands,Europe,NLD,Subnat,NLDr105,Gelderland,2023,82.08,83.43
+Netherlands,Europe,NLD,Subnat,NLDr101,Groningen,2023,81.37,83.23
+Netherlands,Europe,NLD,Subnat,NLDr112,Limburg,2023,82.18,83.93
+Netherlands,Europe,NLD,Subnat,NLDr111,Noord-Brabant,2023,82.28,83.83
+Netherlands,Europe,NLD,Subnat,NLDr108,Noord-Holland,2023,82.28,83.83
+Netherlands,Europe,NLD,Subnat,NLDr104,Overijssel,2023,81.88,83.53
+Netherlands,Europe,NLD,Subnat,NLDr107,Utrecht,2023,82.58,84.03
+Netherlands,Europe,NLD,Subnat,NLDr110,Zeeland,2023,82.48,84.43
+Netherlands,Europe,NLD,Subnat,NLDr109,Zuid-Holland,2023,82.18,83.83
+"New Zealand",Asia/Pacific,NZL,National,NZLt,Total,2023,82.09,83.77
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr102,Auckland,2023,83,84.58
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr104,"Bay of Plenty",2023,81.84,83.67
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr113,Canterbury,2023,82.19,83.77
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr105,Gisborne,2023,79.01,80.95
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr106,"Hawkes Bay",2023,81.23,82.97
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr108,Manawatu-Wanganui,2023,81.13,82.97
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr111,Marlborough,2023,82.34,84.07
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr101,Northland,2023,81.33,83.27
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr114,Otago,2023,81.89,83.57
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr115,Southland,2023,80.98,82.76
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr107,Taranaki,2023,81.53,83.27
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr110,"Tasman - Nelson",2023,82.59,84.27
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr103,Waikato,2023,81.68,83.47
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr109,Wellington,2023,82.29,83.97
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr112,"West Coast",2023,81.13,82.76
+Nicaragua,America,NIC,National,NICt,Total,2023,74.95,77.42
+Nicaragua,America,NIC,Subnat,NICr103,"Atlantico (Rio San Juan, Atlantico Norte (Raan), Atlantico Sur (Raas))",2023,72.88,75.15
+Nicaragua,America,NIC,Subnat,NICr102,"Central-Norte (Boaco, Chontales, Jinotega, Matagalpa, Esteli, Madriz, Nueva Segovia)",2023,74.16,76.55
+Nicaragua,America,NIC,Subnat,NICr101,"Pacifico (Chinandega, Leon, Managua, Masaya, Granada, Carazo, Rivas)",2023,76.33,78.93
+Niger,Africa,NER,National,NERt,Total,2023,61.18,62.13
+Niger,Africa,NER,Subnat,NERr101,Agadez,2023,64.63,64.96
+Niger,Africa,NER,Subnat,NERr102,Diffa,2023,64.63,64.96
+Niger,Africa,NER,Subnat,NERr103,Dosso,2023,58.52,59.2
+Niger,Africa,NER,Subnat,NERr104,Maradi,2023,60.19,61.04
+Niger,Africa,NER,Subnat,NERr106,Tahoua,2023,62.27,63.33
+Niger,Africa,NER,Subnat,NERr105,"Tillabery (incl Niamey)",2023,61.92,62.94
+Niger,Africa,NER,Subnat,NERr107,Zinder,2023,60.59,61.48
+Nigeria,Africa,NGA,National,NGAt,Total,2023,54.46,54.74
+Nigeria,Africa,NGA,Subnat,NGAr122,Abia,2023,57.66,58.23
+Nigeria,Africa,NGA,Subnat,NGAr137,"Abuja FCT",2023,62.61,63.63
+Nigeria,Africa,NGA,Subnat,NGAr108,Adamawa,2023,59.71,60.46
+Nigeria,Africa,NGA,Subnat,NGAr101,"Akwa Ibom",2023,58.82,59.5
+Nigeria,Africa,NGA,Subnat,NGAr102,Anambra,2023,61.59,62.52
+Nigeria,Africa,NGA,Subnat,NGAr103,Bauchi,2023,49.9,49.77
+Nigeria,Africa,NGA,Subnat,NGAr131,Bayelsa,2023,53.2,53.37
+Nigeria,Africa,NGA,Subnat,NGAr105,Benue,2023,60.53,61.36
+Nigeria,Africa,NGA,Subnat,NGAr106,Borno,2023,54.22,54.48
+Nigeria,Africa,NGA,Subnat,NGAr107,"Cross River",2023,56.14,56.57
+Nigeria,Africa,NGA,Subnat,NGAr123,Delta,2023,55.9,56.31
+Nigeria,Africa,NGA,Subnat,NGAr132,Ebonyi,2023,64.55,65.74
+Nigeria,Africa,NGA,Subnat,NGAr104,Edo,2023,55.82,56.23
+Nigeria,Africa,NGA,Subnat,NGAr133,Ekiti,2023,59.49,60.23
+Nigeria,Africa,NGA,Subnat,NGAr124,Enugu,2023,63.82,64.95
+Nigeria,Africa,NGA,Subnat,NGAr134,Gombe,2023,56.17,56.61
+Nigeria,Africa,NGA,Subnat,NGAr109,Imo,2023,60.88,61.75
+Nigeria,Africa,NGA,Subnat,NGAr125,Jigawa,2023,48.72,48.48
+Nigeria,Africa,NGA,Subnat,NGAr110,Kaduna,2023,51.29,51.29
+Nigeria,Africa,NGA,Subnat,NGAr111,Kano,2023,49.7,49.55
+Nigeria,Africa,NGA,Subnat,NGAr112,Katsina,2023,50.77,50.71
+Nigeria,Africa,NGA,Subnat,NGAr126,Kebbi,2023,48.76,48.53
+Nigeria,Africa,NGA,Subnat,NGAr127,Kogi,2023,60.87,61.73
+Nigeria,Africa,NGA,Subnat,NGAr113,Kwara,2023,60.23,61.03
+Nigeria,Africa,NGA,Subnat,NGAr114,Lagos,2023,65.87,67.19
+Nigeria,Africa,NGA,Subnat,NGAr135,Nassarawa,2023,58.05,58.65
+Nigeria,Africa,NGA,Subnat,NGAr115,Niger,2023,59.68,60.44
+Nigeria,Africa,NGA,Subnat,NGAr116,Ogun,2023,56.27,56.72
+Nigeria,Africa,NGA,Subnat,NGAr117,Ondo,2023,60.22,61.02
+Nigeria,Africa,NGA,Subnat,NGAr128,Osun,2023,60.3,61.11
+Nigeria,Africa,NGA,Subnat,NGAr118,Oyo,2023,59.51,60.24
+Nigeria,Africa,NGA,Subnat,NGAr119,Plateau,2023,56.44,56.9
+Nigeria,Africa,NGA,Subnat,NGAr120,Rivers,2023,51.96,52.02
+Nigeria,Africa,NGA,Subnat,NGAr121,Sokoto,2023,49.32,49.14
+Nigeria,Africa,NGA,Subnat,NGAr129,Taraba,2023,59.21,59.93
+Nigeria,Africa,NGA,Subnat,NGAr130,Yobe,2023,60.74,61.6
+Nigeria,Africa,NGA,Subnat,NGAr136,Zamfora,2023,52.38,52.48
+"North Macedonia",Europe,MKD,National,MKDt,Total,2023,77.4,79.57
+"North Macedonia",Europe,MKD,Subnat,MKDr108,East,2023,77.4,79.57
+"North Macedonia",Europe,MKD,Subnat,MKDr104,"North East",2023,77.4,79.57
+"North Macedonia",Europe,MKD,Subnat,MKDr102,Pelagoniski,2023,77.4,79.57
+"North Macedonia",Europe,MKD,Subnat,MKDr107,Poloski,2023,77.4,79.57
+"North Macedonia",Europe,MKD,Subnat,MKDr101,Skopski,2023,77.91,80.13
+"North Macedonia",Europe,MKD,Subnat,MKDr106,"South East",2023,77.4,79.57
+"North Macedonia",Europe,MKD,Subnat,MKDr105,"South West",2023,77.4,79.57
+"North Macedonia",Europe,MKD,Subnat,MKDr103,Vardarski,2023,77.4,79.57
+Norway,Europe,NOR,National,NORt,Total,2023,83.31,84.85
+Norway,Europe,NOR,Subnat,NORr104,"Agder og Rogaland",2023,83.48,85.03
+Norway,Europe,NOR,Subnat,NORr102,"Hedmark og Oppland",2023,82.47,83.83
+Norway,Europe,NOR,Subnat,NORr107,Nord-Norge,2023,82.27,84.03
+Norway,Europe,NOR,Subnat,NORr101,"Oslo og Akershus",2023,84.28,85.73
+Norway,Europe,NOR,Subnat,NORr103,Sor-Ostlandet,2023,83.17,84.73
+Norway,Europe,NOR,Subnat,NORr106,Trondelag,2023,83.58,85.03
+Norway,Europe,NOR,Subnat,NORr105,Vestlandet,2023,84.08,85.73
+Oman,Asia/Pacific,OMN,National,OMNt,Total,2023,80.03,81.88
+Pakistan,Asia/Pacific,PAK,National,PAKt,Total,2023,67.65,70.16
+Pakistan,Asia/Pacific,PAK,Subnat,PAKr107,AJK,2023,66.33,68.68
+Pakistan,Asia/Pacific,PAK,Subnat,PAKr104,Balochistan,2023,67.55,70.05
+Pakistan,Asia/Pacific,PAK,Subnat,PAKr108,FATA,2023,73.45,76.7
+Pakistan,Asia/Pacific,PAK,Subnat,PAKr106,"Gilgit Baltistan",2023,67.65,70.16
+Pakistan,Asia/Pacific,PAK,Subnat,PAKr105,"Islamabad (ICT)",2023,71.26,74.23
+Pakistan,Asia/Pacific,PAK,Subnat,PAKr103,"Khyber Pakhtunkhwa (NWFrontier)",2023,69.3,72.03
+Pakistan,Asia/Pacific,PAK,Subnat,PAKr101,Punjab,2023,66.83,69.24
+Pakistan,Asia/Pacific,PAK,Subnat,PAKr102,Sindh,2023,67.76,70.28
+Palestine,Asia/Pacific,PSE,National,PSEt,Total,2023,65.17,71.5
+Palestine,Asia/Pacific,PSE,Subnat,PSEr110,Bethlehem,2023,65.02,71.33
+Palestine,Asia/Pacific,PSE,Subnat,PSEr114,"Deir El-Balah",2023,65.32,71.68
+Palestine,Asia/Pacific,PSE,Subnat,PSEr113,"Gaza City",2023,64.24,70.41
+Palestine,Asia/Pacific,PSE,Subnat,PSEr111,Hebron,2023,64.77,71.03
+Palestine,Asia/Pacific,PSE,Subnat,PSEr101,Jenin,2023,65.83,72.28
+Palestine,Asia/Pacific,PSE,Subnat,PSEr108,"Jericho and Al Aghwar",2023,66.21,72.73
+Palestine,Asia/Pacific,PSE,Subnat,PSEr109,Jerusalem,2023,66.87,73.5
+Palestine,Asia/Pacific,PSE,Subnat,PSEr115,"Khan Yunis",2023,66.15,72.66
+Palestine,Asia/Pacific,PSE,Subnat,PSEr104,Nablus,2023,63.95,70.06
+Palestine,Asia/Pacific,PSE,Subnat,PSEr112,"North Gaza",2023,64.75,71.01
+Palestine,Asia/Pacific,PSE,Subnat,PSEr105,Qalqiliya,2023,64.49,70.7
+Palestine,Asia/Pacific,PSE,Subnat,PSEr116,Rafah,2023,65.71,72.14
+Palestine,Asia/Pacific,PSE,Subnat,PSEr107,"Ramallah & Al-Bireh",2023,65.56,71.96
+Palestine,Asia/Pacific,PSE,Subnat,PSEr106,Salfit,2023,65.17,71.5
+Palestine,Asia/Pacific,PSE,Subnat,PSEr102,Tubas,2023,64.14,70.29
+Palestine,Asia/Pacific,PSE,Subnat,PSEr103,Tulkarm,2023,64.97,71.27
+Panama,America,PAN,National,PANt,Total,2023,79.59,82.56
+Panama,America,PAN,Subnat,PANr101,"Bocas del Toro",2023,79.59,82.56
+Panama,America,PAN,Subnat,PANr104,Chiriqui,2023,79.59,82.56
+Panama,America,PAN,Subnat,PANr102,Cocle,2023,79.59,82.56
+Panama,America,PAN,Subnat,PANr103,Colon,2023,79.59,82.56
+Panama,America,PAN,Subnat,PANr105,Darien,2023,79.59,82.56
+Panama,America,PAN,Subnat,PANr111,"Embera Wounaan",2023,79.59,82.56
+Panama,America,PAN,Subnat,PANr106,Herrera,2023,79.59,82.56
+Panama,America,PAN,Subnat,PANr110,"Kuna Yala",2023,79.59,82.56
+Panama,America,PAN,Subnat,PANr107,"Los Santos",2023,79.59,82.56
+Panama,America,PAN,Subnat,PANr112,"Ngobe Bugle",2023,79.59,82.56
+Panama,America,PAN,Subnat,PANr108,Panama,2023,79.59,82.56
+Panama,America,PAN,Subnat,PANr109,Veraguas,2023,79.59,82.56
+"Papua New Guinea",Asia/Pacific,PNG,National,PNGt,Total,2023,66.13,69.09
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr120,"Autonomous Region of Bougainville",2023,69.76,73.12
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr103,Central,2023,68.25,71.44
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr110,"Chimbu, Simbu",2023,65.09,67.93
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr118,"East New Britain",2023,68.05,71.21
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr114,"East Sepik",2023,65.53,68.41
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr111,"Eastern Highlands",2023,64.04,66.75
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr108,Enga,2023,61.14,63.52
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr102,Gulf,2023,67.16,70.23
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr121,Hela,2023,66.94,69.98
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr122,Jiwaka,2023,65.88,68.8
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr113,Madang,2023,67.92,71.07
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr116,Manus,2023,67.24,70.32
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr105,"Milne Bay",2023,68.91,72.18
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr112,Morobe,2023,65.96,68.89
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr104,"National Capital District",2023,66.47,69.46
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr117,"New Ireland",2023,66.61,69.62
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr106,"Northern, Oro",2023,66.51,69.51
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr107,"Southern Highlands",2023,60.71,63.05
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr119,"West New Britain",2023,68.45,71.67
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr115,"West Sepik, Sandaun",2023,67.14,70.21
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr101,Western,2023,67.19,70.26
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr109,"Western Highlands",2023,69.22,72.52
+Paraguay,America,PRY,National,PRYt,Total,2023,73.84,76.95
+Paraguay,America,PRY,Subnat,PRYr105,"Central (Asuncion, Central)",2023,74.81,78.02
+Paraguay,America,PRY,Subnat,PRYr102,"North-East (Caaguazu, Alto Parana, Canideyu)",2023,73.09,76.12
+Paraguay,America,PRY,Subnat,PRYr101,"North-West (Boqueron, Alto Paraguay, Presidente Hayes, Conception, Amambay, San pedro, Cordillera)",2023,72.97,75.98
+Paraguay,America,PRY,Subnat,PRYr104,"South-East (Guaira, Misiones, Paraguari, Neembucu)",2023,74.25,77.41
+Paraguay,America,PRY,Subnat,PRYr103,"South-West (Caazapa, Itapua)",2023,73.96,77.08
+Peru,America,PER,National,PERt,Total,2023,77.74,80.12
+Peru,America,PER,Subnat,PERr106,"Central (Huancavelica, Huanuco, Junin, Pasco)",2023,76.96,79.27
+Peru,America,PER,Subnat,PERr103,"East (Madre de Dios, Cusco, Puno, Apurimac)",2023,75.91,78.11
+Peru,America,PER,Subnat,PERr101,"North (Tumbes, Piura, Lambayeque, Cajamarca, La Libertad)",2023,78.11,80.52
+Peru,America,PER,Subnat,PERr102,"North East (Amazonas, Loreto, San Martin, Ucayali)",2023,76,78.21
+Peru,America,PER,Subnat,PERr104,"South (Tacna, Moquegua, Arequipa, Ica, Ayacucho)",2023,78.63,81.1
+Peru,America,PER,Subnat,PERr105,"West (Ancash, Lima, Callao)",2023,78.77,81.25
+Philippines,Asia/Pacific,PHL,National,PHLt,Total,2023,69.83,72.82
+Philippines,Asia/Pacific,PHL,Subnat,PHLr117,ARMM,2023,69.11,72.01
+Philippines,Asia/Pacific,PHL,Subnat,PHLr102,"Cordillera Admin Region",2023,71.23,74.37
+Philippines,Asia/Pacific,PHL,Subnat,PHLr103,I-Ilocos,2023,67.57,70.31
+Philippines,Asia/Pacific,PHL,Subnat,PHLr104,"II-Cagayan Valley",2023,71.54,74.71
+Philippines,Asia/Pacific,PHL,Subnat,PHLr105,"III-Central Luzon",2023,69.85,72.83
+Philippines,Asia/Pacific,PHL,Subnat,PHLr106,IVA-CALABARZON,2023,69.44,72.38
+Philippines,Asia/Pacific,PHL,Subnat,PHLr107,IVB-MIMAROPA,2023,69.29,72.21
+Philippines,Asia/Pacific,PHL,Subnat,PHLr112,"IX-Zamboanga Peninsula",2023,68.31,71.13
+Philippines,Asia/Pacific,PHL,Subnat,PHLr101,"National Capital Region",2023,71.67,74.86
+Philippines,Asia/Pacific,PHL,Subnat,PHLr108,V-Bicol,2023,69.46,72.4
+Philippines,Asia/Pacific,PHL,Subnat,PHLr109,"VI-Western Visayas",2023,70.07,73.09
+Philippines,Asia/Pacific,PHL,Subnat,PHLr110,"VII-Central Visayas",2023,69.33,72.26
+Philippines,Asia/Pacific,PHL,Subnat,PHLr111,"VIII-Eastern Visayas",2023,69.23,72.15
+Philippines,Asia/Pacific,PHL,Subnat,PHLr113,"X-Northern Mindanao",2023,70.4,73.45
+Philippines,Asia/Pacific,PHL,Subnat,PHLr114,XI-Davao,2023,71.22,74.36
+Philippines,Asia/Pacific,PHL,Subnat,PHLr115,XII-SOCCSKSARGEN,2023,68.92,71.8
+Philippines,Asia/Pacific,PHL,Subnat,PHLr116,XIII-Caraga,2023,71.02,74.13
+Poland,Europe,POL,National,POLt,Total,2023,78.63,82.35
+Poland,Europe,POL,Subnat,POLr112,Dolnoslaskie,2023,78.16,81.98
+Poland,Europe,POL,Subnat,POLr114,Kujawsko-Pomorskie,2023,78.26,81.57
+Poland,Europe,POL,Subnat,POLr101,Lodzkie,2023,77.55,81.27
+Poland,Europe,POL,Subnat,POLr105,Lubelskie,2023,78.77,82.89
+Poland,Europe,POL,Subnat,POLr111,Lubuskie,2023,77.95,81.67
+Poland,Europe,POL,Subnat,POLr103,Malopolskie,2023,79.99,83.6
+Poland,Europe,POL,Subnat,POLr102,Mazowieckie,2023,79.25,82.92
+Poland,Europe,POL,Subnat,POLr113,Opolskie,2023,78.97,82.89
+Poland,Europe,POL,Subnat,POLr106,Podkarpackie,2023,79.99,83.8
+Poland,Europe,POL,Subnat,POLr108,Podlaskie,2023,79.38,83.8
+Poland,Europe,POL,Subnat,POLr116,Pomorskie,2023,78.87,82.28
+Poland,Europe,POL,Subnat,POLr104,Slaskie,2023,78.06,81.57
+Poland,Europe,POL,Subnat,POLr107,Swietokrzyskie,2023,78.46,82.79
+Poland,Europe,POL,Subnat,POLr115,Warminsko-Mazurskie,2023,77.85,81.87
+Poland,Europe,POL,Subnat,POLr109,Wielkopolskie,2023,78.77,82.28
+Poland,Europe,POL,Subnat,POLr110,Zachodniopomorskie,2023,78.16,81.98
+Portugal,Europe,PRT,National,PRTt,Total,2023,82.36,85.12
+Portugal,Europe,PRT,Subnat,PRTr105,Alentejo,2023,80.89,84.08
+Portugal,Europe,PRT,Subnat,PRTr102,Algarve,2023,81.39,84.79
+Portugal,Europe,PRT,Subnat,PRTr104,"Area Metropolitana de Lisboa",2023,82.3,85.09
+Portugal,Europe,PRT,Subnat,PRTr103,Centro,2023,82.6,85.39
+Portugal,Europe,PRT,Subnat,PRTr101,Norte,2023,83.1,85.59
+Portugal,Europe,PRT,Subnat,PRTr107,"Regiao Autonoma da Madeira",2023,79.88,82.77
+Portugal,Europe,PRT,Subnat,PRTr106,"Regiao Autonoma dos Acores",2023,78.57,82.07
+Qatar,Asia/Pacific,QAT,National,QATt,Total,2023,82.37,83.37
+Romania,Europe,ROU,National,ROUt,Total,2023,75.94,79.56
+Romania,Europe,ROU,Subnat,ROUr108,Bucuresti,2023,77.42,80.31
+Romania,Europe,ROU,Subnat,ROUr107,Centru,2023,76.3,79.91
+Romania,Europe,ROU,Subnat,ROUr101,Nord-Est,2023,75.39,79.51
+Romania,Europe,ROU,Subnat,ROUr106,Nord-Vest,2023,76.1,79.41
+Romania,Europe,ROU,Subnat,ROUr103,Sud,2023,75.39,79.31
+Romania,Europe,ROU,Subnat,ROUr102,Sud-Est,2023,75.19,79.2
+Romania,Europe,ROU,Subnat,ROUr104,"Sud-Vest Oltenia",2023,76.3,79.81
+Romania,Europe,ROU,Subnat,ROUr105,Vest,2023,75.8,79
+"Russian Federation",Europe,RUS,National,RUSt,Total,2023,73.15,
+"Russian Federation",Europe,RUS,Subnat,RUSr101,"The Central Federal District",2023,74.36,
+"Russian Federation",Europe,RUS,Subnat,RUSr108,"The Far East  Federal District",2023,69.95,
+"Russian Federation",Europe,RUS,Subnat,RUSr102,"The North West Federal District",2023,73.48,
+"Russian Federation",Europe,RUS,Subnat,RUSr104,"The North-Caucasian Federal District",2023,76.22,
+"Russian Federation",Europe,RUS,Subnat,RUSr105,"The Privolzhsky (Volga) Federal District",2023,72.81,
+"Russian Federation",Europe,RUS,Subnat,RUSr107,"The Siberian  Federal District",2023,70.85,
+"Russian Federation",Europe,RUS,Subnat,RUSr103,"The South Federal District",2023,73.07,
+"Russian Federation",Europe,RUS,Subnat,RUSr106,"The Urals  Federal District",2023,72.83,
+Rwanda,Africa,RWA,National,RWAt,Total,2023,67.79,69.89
+Rwanda,Africa,RWA,Subnat,RWAr101,"City of Kigali",2023,70.47,72.86
+Rwanda,Africa,RWA,Subnat,RWAr105,East,2023,66.97,68.98
+Rwanda,Africa,RWA,Subnat,RWAr104,North,2023,66.88,68.88
+Rwanda,Africa,RWA,Subnat,RWAr102,South,2023,66.98,69
+Rwanda,Africa,RWA,Subnat,RWAr103,West,2023,68.62,70.81
+"Saint Lucia",America,LCA,National,LCAt,Total,2023,72.7,76.3
+"Saint Lucia",America,LCA,Subnat,LCAr102,"St Lucia rural",2023,72.7,76.3
+"Saint Lucia",America,LCA,Subnat,LCAr101,"St Lucia urban",2023,72.7,76.3
+Samoa,Asia/Pacific,WSM,National,WSMt,Total,2023,71.7,73.66
+Samoa,Asia/Pacific,WSM,Subnat,WSMr101,"Apia Urban Area",2023,70.97,73.3
+Samoa,Asia/Pacific,WSM,Subnat,WSMr102,"North West Upolu",2023,70.98,73.31
+Samoa,Asia/Pacific,WSM,Subnat,WSMr103,"Rest of Upolu",2023,71.67,74.07
+Samoa,Asia/Pacific,WSM,Subnat,WSMr104,Savaii,2023,72.29,74.75
+"Sao Tome & Principe",Africa,STP,National,STPt,Total,2023,69.72,73.73
+"Sao Tome & Principe",Africa,STP,Subnat,STPr101,"Regiao Centro",2023,70.64,74.77
+"Sao Tome & Principe",Africa,STP,Subnat,STPr104,"Regiao do Principe",2023,69.63,73.62
+"Sao Tome & Principe",Africa,STP,Subnat,STPr103,"Regiao Norte",2023,68.11,71.9
+"Sao Tome & Principe",Africa,STP,Subnat,STPr102,"Regiao Sul",2023,69.05,72.97
+"Saudi Arabia",Asia/Pacific,SAU,National,SAUt,Total,2023,78.73,81.16
+"Saudi Arabia",Asia/Pacific,SAU,Subnat,SAUr101,"Center (Riadh, Qassim)",2023,78.73,81.16
+"Saudi Arabia",Asia/Pacific,SAU,Subnat,SAUr104,"Eastern province",2023,78.73,81.16
+"Saudi Arabia",Asia/Pacific,SAU,Subnat,SAUr105,"North (Northern Borders, Al Jawf, Hail)",2023,78.73,81.16
+"Saudi Arabia",Asia/Pacific,SAU,Subnat,SAUr103,"South (Bahah, Jizan, Asir, Najran)",2023,78.73,81.16
+"Saudi Arabia",Asia/Pacific,SAU,Subnat,SAUr102,"West (Makka, Madinah, Tabuk)",2023,78.73,81.16
+Senegal,Africa,SEN,National,SENt,Total,2023,68.68,70.75
+Senegal,Africa,SEN,Subnat,SENr101,Dakar,2023,71.11,73.44
+Senegal,Africa,SEN,Subnat,SENr103,Diourbel,2023,67.32,69.25
+Senegal,Africa,SEN,Subnat,SENr109,Fatick,2023,69.53,71.69
+Senegal,Africa,SEN,Subnat,SENr106,Kaolack,2023,68.62,70.69
+Senegal,Africa,SEN,Subnat,SENr110,Kolda,2023,64.54,66.16
+Senegal,Africa,SEN,Subnat,SENr108,Louga,2023,67.3,69.22
+Senegal,Africa,SEN,Subnat,SENr104,"Saint Louis",2023,69.33,71.47
+Senegal,Africa,SEN,Subnat,SENr105,Tambacounda,2023,67.06,68.96
+Senegal,Africa,SEN,Subnat,SENr107,Thies,2023,69.25,71.38
+Senegal,Africa,SEN,Subnat,SENr102,Ziguinchor,2023,71.92,74.34
+Serbia,Europe,SRB,National,SRBt,Total,2023,76.77,80.04
+Serbia,Europe,SRB,Subnat,SRBr101,Belgrade,2023,76.77,80.04
+Serbia,Europe,SRB,Subnat,SRBr104,"South and East Serbia",2023,76.77,80.04
+Serbia,Europe,SRB,Subnat,SRBr103,"Sumadija and West Serbia",2023,76.77,80.04
+Serbia,Europe,SRB,Subnat,SRBr102,Vojvodina,2023,76.77,80.04
+"Sierra Leone",Africa,SLE,National,SLEt,Total,2023,61.79,63.5
+"Sierra Leone",Africa,SLE,Subnat,SLEr109,Bo,2023,60.41,61.97
+"Sierra Leone",Africa,SLE,Subnat,SLEr101,Bombali,2023,64.52,66.55
+"Sierra Leone",Africa,SLE,Subnat,SLEr110,Bonthe,2023,67.34,69.7
+"Sierra Leone",Africa,SLE,Subnat,SLEr106,Kailahun,2023,64.87,66.94
+"Sierra Leone",Africa,SLE,Subnat,SLEr102,Kambia,2023,60.1,61.62
+"Sierra Leone",Africa,SLE,Subnat,SLEr107,Kenema,2023,58.86,60.23
+"Sierra Leone",Africa,SLE,Subnat,SLEr103,Koinadugu,2023,64.57,66.61
+"Sierra Leone",Africa,SLE,Subnat,SLEr108,Kono,2023,62.37,64.16
+"Sierra Leone",Africa,SLE,Subnat,SLEr111,Moyamba,2023,60.84,62.45
+"Sierra Leone",Africa,SLE,Subnat,SLEr104,"Port Loko",2023,57.04,58.2
+"Sierra Leone",Africa,SLE,Subnat,SLEr112,Pujehun,2023,63.35,65.25
+"Sierra Leone",Africa,SLE,Subnat,SLEr105,Tonkolili,2023,63.72,65.66
+"Sierra Leone",Africa,SLE,Subnat,SLEr113,"Western Rural",2023,60.21,61.75
+"Sierra Leone",Africa,SLE,Subnat,SLEr114,"Western Urban",2023,65.14,67.25
+Singapore,Asia/Pacific,SGP,National,SGPt,Total,2023,83.74,86.24
+"Slovak Republic",Europe,SVK,National,SVKt,Total,2023,78.34,81.58
+"Slovak Republic",Europe,SVK,Subnat,SVKr101,"Bratislavsky kraj",2023,80.4,82.69
+"Slovak Republic",Europe,SVK,Subnat,SVKr103,"Stredne Slovensko",2023,77.96,81.58
+"Slovak Republic",Europe,SVK,Subnat,SVKr104,"Vychodne Slovensko",2023,77.66,81.07
+"Slovak Republic",Europe,SVK,Subnat,SVKr102,"Zapadne Slovensko",2023,78.37,81.58
+Slovenia,Europe,SVN,National,SVNt,Total,2023,81.6,84.34
+Slovenia,Europe,SVN,Subnat,SVNr110,Gorenjska,2023,82.49,84.68
+Slovenia,Europe,SVN,Subnat,SVNr111,Goriska,2023,81.63,84.81
+Slovenia,Europe,SVN,Subnat,SVNr107,"Jugovzhodna Slovenija",2023,80.32,83.13
+Slovenia,Europe,SVN,Subnat,SVNr103,Koroska,2023,81.81,83.96
+Slovenia,Europe,SVN,Subnat,SVNr112,Obalno-kraska,2023,82.8,85.56
+Slovenia,Europe,SVN,Subnat,SVNr109,Osrednjeslovenska,2023,81.84,84.25
+Slovenia,Europe,SVN,Subnat,SVNr102,Podravska,2023,80.41,83.01
+Slovenia,Europe,SVN,Subnat,SVNr101,Pomurska,2023,80.29,83.11
+Slovenia,Europe,SVN,Subnat,SVNr106,Posavska,2023,80.96,83.71
+Slovenia,Europe,SVN,Subnat,SVNr108,Primorsko-notranjska,2023,82.43,84.7
+Slovenia,Europe,SVN,Subnat,SVNr104,Savinjska,2023,80.45,83.35
+Slovenia,Europe,SVN,Subnat,SVNr105,Zasavska,2023,80.74,83.47
+"Solomon Islands",Asia/Pacific,SLB,National,SLBt,Total,2023,70.53,71.98
+Somalia,Africa,SOM,National,SOMt,Total,2023,54.4,61.39
+Somalia,Africa,SOM,Subnat,SOMr102,Awdal,2023,67.24,77.02
+Somalia,Africa,SOM,Subnat,SOMr109,Bakool,2023,54.27,61.24
+Somalia,Africa,SOM,Subnat,SOMr116,Banadir,2023,52.34,58.87
+Somalia,Africa,SOM,Subnat,SOMr108,Bari,2023,58.62,66.53
+Somalia,Africa,SOM,Subnat,SOMr110,Bay,2023,51.96,58.42
+Somalia,Africa,SOM,Subnat,SOMr117,Galguduud,2023,54.57,61.59
+Somalia,Africa,SOM,Subnat,SOMr111,Gedo,2023,55.33,62.52
+Somalia,Africa,SOM,Subnat,SOMr113,Hiran,2023,68.08,78.05
+Somalia,Africa,SOM,Subnat,SOMr118,"Lower Juba",2023,50.71,56.89
+Somalia,Africa,SOM,Subnat,SOMr115,"Lower Shabelle",2023,50.52,56.67
+Somalia,Africa,SOM,Subnat,SOMr112,"Middle Juba",2023,59.29,67.34
+Somalia,Africa,SOM,Subnat,SOMr114,"Middle Shabelle",2023,57.12,64.69
+Somalia,Africa,SOM,Subnat,SOMr106,Mudug,2023,57.83,65.56
+Somalia,Africa,SOM,Subnat,SOMr107,Nugal,2023,57.16,64.75
+Somalia,Africa,SOM,Subnat,SOMr103,Sanaag,2023,62.91,71.75
+Somalia,Africa,SOM,Subnat,SOMr104,Sool,2023,60,68.2
+Somalia,Africa,SOM,Subnat,SOMr105,Togdhere,2023,53.53,60.33
+Somalia,Africa,SOM,Subnat,SOMr101,"W Galbeed",2023,55.83,63.13
+"South Africa",Africa,ZAF,National,ZAFt,Total,2023,66.14,69.6
+"South Africa",Africa,ZAF,Subnat,ZAFr102,"Eastern Cape",2023,64.28,67.5
+"South Africa",Africa,ZAF,Subnat,ZAFr104,"Free State",2023,64.31,67.54
+"South Africa",Africa,ZAF,Subnat,ZAFr107,Gauteng,2023,66.87,70.42
+"South Africa",Africa,ZAF,Subnat,ZAFr105,"KwaZulu Natal",2023,67.13,70.71
+"South Africa",Africa,ZAF,Subnat,ZAFr108,Mpumalanga,2023,63.36,66.48
+"South Africa",Africa,ZAF,Subnat,ZAFr106,"North West",2023,64.18,67.39
+"South Africa",Africa,ZAF,Subnat,ZAFr103,"Northern Cape",2023,66.09,69.54
+"South Africa",Africa,ZAF,Subnat,ZAFr109,"Northern Province",2023,68.66,72.43
+"South Africa",Africa,ZAF,Subnat,ZAFr101,"Western Cape",2023,67.26,70.86
+"South Sudan",Africa,SSD,National,SSDt,Total,2023,57.62,60.63
+"South Sudan",Africa,SSD,Subnat,SSDr109,"Central Equatoria",2023,55.46,58.18
+"South Sudan",Africa,SSD,Subnat,SSDr110,"Eastern Equatoria",2023,55.01,57.67
+"South Sudan",Africa,SSD,Subnat,SSDr102,Jonglei,2023,63.15,66.9
+"South Sudan",Africa,SSD,Subnat,SSDr107,Lakes,2023,60.94,64.39
+"South Sudan",Africa,SSD,Subnat,SSDr105,"Northern Bahr El Ghazal",2023,52.81,55.18
+"South Sudan",Africa,SSD,Subnat,SSDr103,Unity,2023,64.67,68.63
+"South Sudan",Africa,SSD,Subnat,SSDr101,"Upper Nile",2023,59.24,62.47
+"South Sudan",Africa,SSD,Subnat,SSDr104,Warrap,2023,55.82,58.59
+"South Sudan",Africa,SSD,Subnat,SSDr106,"Western Bahr El Ghazal",2023,57.22,60.18
+"South Sudan",Africa,SSD,Subnat,SSDr108,"Western Equatoria",2023,56.31,59.15
+Spain,Europe,ESP,National,ESPt,Total,2023,83.67,86.31
+Spain,Europe,ESP,Subnat,ESPr115,Andalucia,2023,82.42,85.07
+Spain,Europe,ESP,Subnat,ESPr107,Aragon,2023,83.43,86.28
+Spain,Europe,ESP,Subnat,ESPr119,Canarias,2023,82.72,85.27
+Spain,Europe,ESP,Subnat,ESPr103,Cantabria,2023,83.53,85.97
+Spain,Europe,ESP,Subnat,ESPr109,"Castilla y Leon",2023,84.23,87.08
+Spain,Europe,ESP,Subnat,ESPr110,"Castilla-la Mancha",2023,83.83,86.38
+Spain,Europe,ESP,Subnat,ESPr112,Cataluna,2023,84.13,86.78
+Spain,Europe,ESP,Subnat,ESPr117,"Ciudad Autonoma de Ceuta",2023,80.81,82.56
+Spain,Europe,ESP,Subnat,ESPr118,"Ciudad Autonoma de Melilla",2023,82.12,84.17
+Spain,Europe,ESP,Subnat,ESPr108,"Comunidad de Madrid",2023,85.64,88.08
+Spain,Europe,ESP,Subnat,ESPr105,"Comunidad Foral de Navarra",2023,84.33,87.28
+Spain,Europe,ESP,Subnat,ESPr113,"Comunidad Valenciana",2023,83.02,85.67
+Spain,Europe,ESP,Subnat,ESPr111,Extremadura,2023,82.92,85.57
+Spain,Europe,ESP,Subnat,ESPr101,Galicia,2023,83.83,86.58
+Spain,Europe,ESP,Subnat,ESPr114,"Illes Balears",2023,83.63,86.28
+Spain,Europe,ESP,Subnat,ESPr106,"La Rioja",2023,83.63,86.48
+Spain,Europe,ESP,Subnat,ESPr104,"Pais Vasco",2023,84.03,86.78
+Spain,Europe,ESP,Subnat,ESPr102,"Principado de Asturias",2023,82.92,85.57
+Spain,Europe,ESP,Subnat,ESPr116,"Region de Murcia",2023,82.52,85.27
+"Sri Lanka",Asia/Pacific,LKA,National,LKAt,Total,2023,77.48,80.59
+"St. Kitts and Nevis",America,KNA,National,KNAt,Total,2023,72.15,76.02
+"St. Vincent and the Grenadines",America,VCT,National,VCTt,Total,2023,71.23,74.32
+Sudan,Africa,SDN,National,SDNt,Total,2023,66.33,69.63
+Sudan,Africa,SDN,Subnat,SDNr105,"Al Gedarif",2023,66,69.25
+Sudan,Africa,SDN,Subnat,SDNr107,"Al Gezira",2023,68.16,71.69
+Sudan,Africa,SDN,Subnat,SDNr110,"Blue Nile",2023,62.17,64.94
+Sudan,Africa,SDN,Subnat,SDNr104,Kassala,2023,68.24,71.78
+Sudan,Africa,SDN,Subnat,SDNr106,Khartoum,2023,68.31,71.85
+Sudan,Africa,SDN,Subnat,SDNr102,"Nahr El Nil",2023,71.22,75.13
+Sudan,Africa,SDN,Subnat,SDNr113,"North Darfur",2023,64.22,67.25
+Sudan,Africa,SDN,Subnat,SDNr111,"North Kordofan",2023,68.12,71.63
+Sudan,Africa,SDN,Subnat,SDNr101,Northern,2023,71.07,74.95
+Sudan,Africa,SDN,Subnat,SDNr103,"Red Sea",2023,68.19,71.71
+Sudan,Africa,SDN,Subnat,SDNr109,Sinnar,2023,68.01,71.52
+Sudan,Africa,SDN,Subnat,SDNr115,"South Darfur",2023,64.43,67.49
+Sudan,Africa,SDN,Subnat,SDNr112,"South Kordofan",2023,65.7,68.92
+Sudan,Africa,SDN,Subnat,SDNr114,"West Darfur",2023,65.03,68.17
+Sudan,Africa,SDN,Subnat,SDNr108,"White Nile",2023,65.84,69.07
+Suriname,America,SUR,National,SURt,Total,2023,73.63,76.84
+Suriname,America,SUR,Subnat,SURr105,"Brokopondo and Sipaliwini",2023,75.18,78.56
+Suriname,America,SUR,Subnat,SURr104,"Commewijne and Marowijne",2023,74.48,77.78
+Suriname,America,SUR,Subnat,SURr103,"Nickerie, Coronie and Saramacca",2023,74.95,78.3
+Suriname,America,SUR,Subnat,SURr101,Paramaribo,2023,72.33,75.39
+Suriname,America,SUR,Subnat,SURr102,"Wanica and Para",2023,73.62,76.82
+Sweden,Europe,SWE,National,SWEt,Total,2023,83.26,85.1
+Sweden,Europe,SWE,Subnat,SWEr107,"Mellersta Norrland",2023,82.3,83.97
+Sweden,Europe,SWE,Subnat,SWEr106,"Norra Mellansverige",2023,82.8,84.57
+Sweden,Europe,SWE,Subnat,SWEr102,"Ostra Mellansverige",2023,83,84.87
+Sweden,Europe,SWE,Subnat,SWEr108,"Ovre Norrland",2023,82.4,84.07
+Sweden,Europe,SWE,Subnat,SWEr103,"Smaland med oarna",2023,83.6,85.67
+Sweden,Europe,SWE,Subnat,SWEr101,Stockholm,2023,84.1,85.87
+Sweden,Europe,SWE,Subnat,SWEr104,Sydsverige,2023,82.8,84.67
+Sweden,Europe,SWE,Subnat,SWEr105,Vastsverige,2023,83.3,85.17
+Switzerland,Europe,CHE,National,CHEt,Total,2023,83.95,85.83
+Switzerland,Europe,CHE,Subnat,CHEr106,"Central Switzerland",2023,84.62,86.31
+Switzerland,Europe,CHE,Subnat,CHEr105,"Eastern Switzerland",2023,84.02,85.91
+Switzerland,Europe,CHE,Subnat,CHEr102,"Espace Mittelland",2023,84.02,85.71
+Switzerland,Europe,CHE,Subnat,CHEr101,"Lake Geneva region",2023,84.83,86.51
+Switzerland,Europe,CHE,Subnat,CHEr103,"Northwestern Switzerland",2023,84.73,86.31
+Switzerland,Europe,CHE,Subnat,CHEr107,Ticino,2023,85.43,87.42
+Switzerland,Europe,CHE,Subnat,CHEr104,Zurich,2023,84.73,86.11
+Tajikistan,Asia/Pacific,TJK,National,TJKt,Total,2023,71.79,73.98
+Tajikistan,Asia/Pacific,TJK,Subnat,TJKr104,DRS,2023,72.34,74.57
+Tajikistan,Asia/Pacific,TJK,Subnat,TJKr101,Duchanbe,2023,75.22,77.67
+Tajikistan,Asia/Pacific,TJK,Subnat,TJKr105,GBAO,2023,72.35,74.58
+Tajikistan,Asia/Pacific,TJK,Subnat,TJKr102,Khatlon,2023,70.8,72.91
+Tajikistan,Asia/Pacific,TJK,Subnat,TJKr103,"Sughd (formerly Leninabad)",2023,71.84,74.03
+Tanzania,Africa,TZA,National,TZAt,Total,2023,67,69.78
+Tanzania,Africa,TZA,Subnat,TZAr202," Arusha, Manyara",2023,68.4,71.34
+Tanzania,Africa,TZA,Subnat,TZAr207," Dar Es Salam",2023,65.16,67.73
+Tanzania,Africa,TZA,Subnat,TZAr201," Dodoma",2023,69.91,73.02
+Tanzania,Africa,TZA,Subnat,TZAr211," Iringa, Njombe",2023,64.53,67.03
+Tanzania,Africa,TZA,Subnat,TZAr218," Kagera",2023,65.9,68.56
+Tanzania,Africa,TZA,Subnat,TZAr216," Kigoma",2023,65.3,67.89
+Tanzania,Africa,TZA,Subnat,TZAr203," Kilimanjaro",2023,66,68.67
+Tanzania,Africa,TZA,Subnat,TZAr208," Lindi",2023,71.77,75.09
+Tanzania,Africa,TZA,Subnat,TZAr220," Mara",2023,68.44,71.39
+Tanzania,Africa,TZA,Subnat,TZAr212," Mbeya",2023,66.2,68.89
+Tanzania,Africa,TZA,Subnat,TZAr205," Morogoro",2023,65.03,67.59
+Tanzania,Africa,TZA,Subnat,TZAr209," Mtwara",2023,67.99,70.88
+Tanzania,Africa,TZA,Subnat,TZAr219," Mwanza, Geita",2023,67.45,70.28
+Tanzania,Africa,TZA,Subnat,TZAr224," Pemba North",2023,67.83,70.71
+Tanzania,Africa,TZA,Subnat,TZAr225," Pemba South",2023,66.1,68.78
+Tanzania,Africa,TZA,Subnat,TZAr206," Pwani",2023,64.06,66.5
+Tanzania,Africa,TZA,Subnat,TZAr215," Rukwa, Katavi",2023,66.2,68.89
+Tanzania,Africa,TZA,Subnat,TZAr210," Ruvuma",2023,64,66.44
+Tanzania,Africa,TZA,Subnat,TZAr217," Shinyanga, Simiyu",2023,68.42,71.37
+Tanzania,Africa,TZA,Subnat,TZAr213," Singida",2023,70.6,73.79
+Tanzania,Africa,TZA,Subnat,TZAr214," Tabora",2023,66.34,69.04
+Tanzania,Africa,TZA,Subnat,TZAr204," Tanga",2023,68.46,71.41
+Tanzania,Africa,TZA,Subnat,TZAr221," Zanzibar North",2023,68.46,71.41
+Tanzania,Africa,TZA,Subnat,TZAr222," Zanzibar South",2023,64.29,66.77
+Tanzania,Africa,TZA,Subnat,TZAr223," Zanzibar West",2023,67.07,69.86
+Thailand,Asia/Pacific,THA,National,THAt,Total,2023,76.41,80.86
+Thailand,Asia/Pacific,THA,Subnat,THAr101,Bangkok,2023,76.41,80.86
+Thailand,Asia/Pacific,THA,Subnat,THAr102,Central,2023,76.41,80.86
+Thailand,Asia/Pacific,THA,Subnat,THAr103,North,2023,76.39,80.84
+Thailand,Asia/Pacific,THA,Subnat,THAr104,Northeast,2023,76.41,80.86
+Thailand,Asia/Pacific,THA,Subnat,THAr105,South,2023,75.96,80.35
+"Timor Leste",Asia/Pacific,TLS,National,TLSt,Total,2023,67.69,69.44
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr101,Aileu,2023,68.64,70.47
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr102,Ainaro,2023,65.64,67.2
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr103,Baucau,2023,67.4,69.12
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr104,Bobonaro,2023,68.31,70.11
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr105,"Cova Lima",2023,69.2,71.09
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr106,Dili,2023,68.19,69.99
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr107,Ermera,2023,68.63,70.46
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr109,Lautem,2023,68.71,70.55
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr108,Liquica,2023,70.62,72.63
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr111,Manatuto,2023,67.74,69.5
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr110,Manufahi,2023,67.39,69.11
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr112,Oecussi,2023,63.26,64.6
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr113,Viqueque,2023,66.63,68.28
+Togo,Africa,TGO,National,TGOt,Total,2023,62.74,62.92
+Togo,Africa,TGO,Subnat,TGOr104,Centrale,2023,62.82,63.01
+Togo,Africa,TGO,Subnat,TGOr105,Kara,2023,60.39,60.38
+Togo,Africa,TGO,Subnat,TGOr101,Lome,2023,63.39,63.63
+Togo,Africa,TGO,Subnat,TGOr102,Maritime,2023,61.87,61.98
+Togo,Africa,TGO,Subnat,TGOr103,Plateaux,2023,64.07,64.37
+Togo,Africa,TGO,Subnat,TGOr106,Savanes,2023,62.35,62.5
+Tonga,Asia/Pacific,TON,National,TONt,Total,2023,72.9,76.41
+Tonga,Asia/Pacific,TON,Subnat,TONr104,Eua,2023,72.9,76.41
+Tonga,Asia/Pacific,TON,Subnat,TONr103,Ha-apai,2023,72.9,76.41
+Tonga,Asia/Pacific,TON,Subnat,TONr105,"Ongo Niua",2023,72.9,76.41
+Tonga,Asia/Pacific,TON,Subnat,TONr101,Tongatapu,2023,72.9,76.41
+Tonga,Asia/Pacific,TON,Subnat,TONr102,Vava-u,2023,72.9,76.41
+"Trinidad & Tobago",America,TTO,National,TTOt,Total,2023,73.49,76.68
+"Trinidad & Tobago",America,TTO,Subnat,TTOr103,Central,2023,73.49,76.68
+"Trinidad & Tobago",America,TTO,Subnat,TTOr102,East,2023,73.49,76.68
+"Trinidad & Tobago",America,TTO,Subnat,TTOr101,"North West",2023,73.49,76.68
+"Trinidad & Tobago",America,TTO,Subnat,TTOr104,"South West",2023,73.49,76.68
+"Trinidad & Tobago",America,TTO,Subnat,TTOr105,Tobago,2023,73.49,76.68
+Tunisia,Africa,TUN,National,TUNt,Total,2023,76.51,79.15
+Tunisia,Africa,TUN,Subnat,TUNr105,"Centre Est (Sousse, Monastir, Mahdia, Sfax)",2023,76.51,79.15
+Tunisia,Africa,TUN,Subnat,TUNr104,"Centre Ouest (Kairouan, Kasserine, Sidi Bouzid)",2023,73.52,75.84
+Tunisia,Africa,TUN,Subnat,TUNr101,"Grand Tunis (Tunis, Ariana, Ben Arous, Manouba)",2023,77.66,80.43
+Tunisia,Africa,TUN,Subnat,TUNr102,"Nord Est (Nabeul, Zaghouan, Bizerte)",2023,75.2,77.7
+Tunisia,Africa,TUN,Subnat,TUNr103,"Nord Ouest (Beja, Jendouba, Kef, Siliana)",2023,75.49,78.02
+Tunisia,Africa,TUN,Subnat,TUNr107,"Sud Est (Gabes, Medinine, Tataouine)",2023,77.12,79.82
+Tunisia,Africa,TUN,Subnat,TUNr106,"Sud Ouest (Gafsa, Tozeur, Kebili)",2023,75.1,77.59
+Turkey,Asia/Pacific,TUR,National,TURt,Total,2023,77.16,79.86
+Turkey,Asia/Pacific,TUR,Subnat,TURr103,"Aegean (Afyon, Aydin, Denizli, Izmir, Kutahya, Man",2023,76.89,79.73
+Turkey,Asia/Pacific,TUR,Subnat,TURr107,"Central Anatolia (Kayseri, Kirsehir, Nevsehir, Nig",2023,76.93,79.47
+Turkey,Asia/Pacific,TUR,Subnat,TURr111,"Central East Anatolia (Bingol, Bitlis, Elazig, Hak",2023,77.2,79.73
+Turkey,Asia/Pacific,TUR,Subnat,TURr109,"East Black Sea (Artvin, Giresun, Gumushane, Ordu,",2023,78.64,81.77
+Turkey,Asia/Pacific,TUR,Subnat,TURr104,"East Marmara (Bilecik, Bolu, Bursa, Duzce, Eskiseh",2023,76.79,79.38
+Turkey,Asia/Pacific,TUR,Subnat,TURr101,Istanbul,2023,77.57,80.21
+Turkey,Asia/Pacific,TUR,Subnat,TURr106,"Mediterranean (Adana, Antalya, Burdur, Hatay, Ispa",2023,77.1,79.6
+Turkey,Asia/Pacific,TUR,Subnat,TURr110,"North East Anatolia (Agri, Erzincan, Erzurum, Kars",2023,76.83,79.53
+Turkey,Asia/Pacific,TUR,Subnat,TURr112,"South East Anatolia (Adiyaman, Diyarbakir, Gaziant",2023,76.76,79.55
+Turkey,Asia/Pacific,TUR,Subnat,TURr105,"West Anatolia (Ankara, Konya, Karaman)",2023,77.65,80.3
+Turkey,Asia/Pacific,TUR,Subnat,TURr108,"West Black Sea (Amasya, Cankiri, Corum, Kastamonu,",2023,77.1,79.96
+Turkey,Asia/Pacific,TUR,Subnat,TURr102,"West Marmara (Balikesir, Canakkale, Edirne, Kirkla",2023,76.45,79.48
+Turkmenistan,Asia/Pacific,TKM,National,TKMt,Total,2023,70.07,72.84
+Turkmenistan,Asia/Pacific,TKM,Subnat,TKMr102,Akhal,2023,70.28,73.07
+Turkmenistan,Asia/Pacific,TKM,Subnat,TKMr101,"Ashgabat City",2023,71.81,74.73
+Turkmenistan,Asia/Pacific,TKM,Subnat,TKMr103,Balkan,2023,70.86,73.7
+Turkmenistan,Asia/Pacific,TKM,Subnat,TKMr104,Dashoguz,2023,69.71,72.45
+Turkmenistan,Asia/Pacific,TKM,Subnat,TKMr105,Lebap,2023,71.17,74.03
+Turkmenistan,Asia/Pacific,TKM,Subnat,TKMr106,Mary,2023,67.9,70.47
+Tuvalu,Asia/Pacific,TUV,National,TUVt,Total,2023,67.11,70.7
+Tuvalu,Asia/Pacific,TUV,Subnat,TUVr103,Funafuti,2023,66.73,70.28
+Tuvalu,Asia/Pacific,TUV,Subnat,TUVr101,"Nanumea, Nanumaga, Niutao",2023,67.11,70.7
+Tuvalu,Asia/Pacific,TUV,Subnat,TUVr102,"Vaitupu, Nui, Nukufetau",2023,67.11,70.7
+Uganda,Africa,UGA,National,UGAt,Total,2023,68.25,71.12
+Uganda,Africa,UGA,Subnat,UGAr101,"Central 1 (Central South)",2023,70.09,73.18
+Uganda,Africa,UGA,Subnat,UGAr102,"Central 2 (Central North)",2023,68.13,70.98
+Uganda,Africa,UGA,Subnat,UGAr104,"East Central (Busoga)",2023,66.86,69.56
+Uganda,Africa,UGA,Subnat,UGAr105,"Eastern (Bukedi, Bugishu, Teso)",2023,69.37,72.37
+Uganda,Africa,UGA,Subnat,UGAr103,Kampala,2023,69.41,72.41
+Uganda,Africa,UGA,Subnat,UGAr106,"North (Karamoja, Lango, Acholi)",2023,68.05,70.88
+Uganda,Africa,UGA,Subnat,UGAr109,"Southwest (Ankole, Kigezi)",2023,68.62,71.53
+Uganda,Africa,UGA,Subnat,UGAr107,"West Nile",2023,66.68,69.36
+Uganda,Africa,UGA,Subnat,UGAr108,"Western (Bunyoro, Tooro)",2023,66.88,69.57
+Ukraine,Europe,UKR,National,UKRt,Total,2023,73.42,80.2
+Ukraine,Europe,UKR,Subnat,UKRr102,Central,2023,73.42,80.2
+Ukraine,Europe,UKR,Subnat,UKRr103,East,2023,73.42,80.2
+Ukraine,Europe,UKR,Subnat,UKRr101,North,2023,73.42,80.2
+Ukraine,Europe,UKR,Subnat,UKRr104,South,2023,73.42,80.2
+Ukraine,Europe,UKR,Subnat,UKRr105,West,2023,73.42,80.2
+"United Arab Emirates",Asia/Pacific,ARE,National,AREt,Total,2023,82.91,84.2
+"United Kingdom",Europe,GBR,National,GBRt,Total,2023,81.3,83.21
+"United Kingdom",Europe,GBR,Subnat,GBRr104,"East Midlands",2023,81.12,82.95
+"United Kingdom",Europe,GBR,Subnat,GBRr106,"East of England",2023,82.12,83.98
+"United Kingdom",Europe,GBR,Subnat,GBRr107,London,2023,82.84,84.81
+"United Kingdom",Europe,GBR,Subnat,GBRr101,"North East",2023,79.83,81.89
+"United Kingdom",Europe,GBR,Subnat,GBRr102,"North West",2023,80.22,82.09
+"United Kingdom",Europe,GBR,Subnat,GBRr112,"Northern Ireland",2023,80.87,82.67
+"United Kingdom",Europe,GBR,Subnat,GBRr111,Scotland,2023,79.23,81.23
+"United Kingdom",Europe,GBR,Subnat,GBRr108,"South East",2023,82.6,84.37
+"United Kingdom",Europe,GBR,Subnat,GBRr109,"South West",2023,82.12,84.04
+"United Kingdom",Europe,GBR,Subnat,GBRr110,Wales,2023,80.34,82.44
+"United Kingdom",Europe,GBR,Subnat,GBRr105,"West Midlands",2023,80.75,82.7
+"United Kingdom",Europe,GBR,Subnat,GBRr103,"Yorkshire and The Humber",2023,80.55,82.43
+"United States of America",America,USA,National,USAt,Total,2023,79.3,
+"United States of America",America,USA,Subnat,USAr101,Alabama,2023,75.12,
+"United States of America",America,USA,Subnat,USAr102,Alaska,2023,78.61,
+"United States of America",America,USA,Subnat,USAr103,Arizona,2023,78.3,
+"United States of America",America,USA,Subnat,USAr104,Arkansas,2023,75.73,
+"United States of America",America,USA,Subnat,USAr105,California,2023,81.07,
+"United States of America",America,USA,Subnat,USAr106,Colorado,2023,80.35,
+"United States of America",America,USA,Subnat,USAr107,Connecticut,2023,80.45,
+"United States of America",America,USA,Subnat,USAr108,Delaware,2023,78.71,
+"United States of America",America,USA,Subnat,USAr109,"District of Columbia",2023,77.27,
+"United States of America",America,USA,Subnat,USAr110,Florida,2023,79.53,
+"United States of America",America,USA,Subnat,USAr111,Georgia,2023,77.58,
+"United States of America",America,USA,Subnat,USAr112,Hawaii,2023,82.81,
+"United States of America",America,USA,Subnat,USAr113,Idaho,2023,80.45,
+"United States of America",America,USA,Subnat,USAr114,Illinois,2023,78.81,
+"United States of America",America,USA,Subnat,USAr115,Indiana,2023,76.96,
+"United States of America",America,USA,Subnat,USAr116,Iowa,2023,79.53,
+"United States of America",America,USA,Subnat,USAr117,Kansas,2023,78.4,
+"United States of America",America,USA,Subnat,USAr118,Kentucky,2023,75.43,
+"United States of America",America,USA,Subnat,USAr119,Louisiana,2023,75.02,
+"United States of America",America,USA,Subnat,USAr120,Maine,2023,79.84,
+"United States of America",America,USA,Subnat,USAr121,Maryland,2023,78.81,
+"United States of America",America,USA,Subnat,USAr122,Massachusetts,2023,81.07,
+"United States of America",America,USA,Subnat,USAr123,Michigan,2023,77.99,
+"United States of America",America,USA,Subnat,USAr124,Minnesota,2023,81.17,
+"United States of America",America,USA,Subnat,USAr125,Mississippi,2023,73.78,
+"United States of America",America,USA,Subnat,USAr126,Missouri,2023,77.07,
+"United States of America",America,USA,Subnat,USAr127,Montana,2023,78.81,
+"United States of America",America,USA,Subnat,USAr128,Nebraska,2023,79.74,
+"United States of America",America,USA,Subnat,USAr129,Nevada,2023,78.3,
+"United States of America",America,USA,Subnat,USAr130,"New Hampshire",2023,81.07,
+"United States of America",America,USA,Subnat,USAr131,"New Jersey",2023,79.53,
+"United States of America",America,USA,Subnat,USAr132,"New Mexico",2023,76.45,
+"United States of America",America,USA,Subnat,USAr133,"New York",2023,79.74,
+"United States of America",America,USA,Subnat,USAr134,"North Carolina",2023,78.09,
+"United States of America",America,USA,Subnat,USAr135,"North Dakota",2023,78.91,
+"United States of America",America,USA,Subnat,USAr136,Ohio,2023,77.27,
+"United States of America",America,USA,Subnat,USAr137,Oklahoma,2023,76.04,
+"United States of America",America,USA,Subnat,USAr138,Oregon,2023,80.86,
+"United States of America",America,USA,Subnat,USAr139,Pennsylvania,2023,78.81,
+"United States of America",America,USA,Subnat,USAr140,"Rhode Island",2023,80.25,
+"United States of America",America,USA,Subnat,USAr141,"South Carolina",2023,76.76,
+"United States of America",America,USA,Subnat,USAr142,"South Dakota",2023,78.71,
+"United States of America",America,USA,Subnat,USAr143,Tennessee,2023,75.73,
+"United States of America",America,USA,Subnat,USAr144,Texas,2023,78.5,
+"United States of America",America,USA,Subnat,USAr145,Utah,2023,80.66,
+"United States of America",America,USA,Subnat,USAr146,Vermont,2023,80.86,
+"United States of America",America,USA,Subnat,USAr147,Virginia,2023,79.63,
+"United States of America",America,USA,Subnat,USAr148,Washington,2023,81.27,
+"United States of America",America,USA,Subnat,USAr149,"West Virginia",2023,74.71,
+"United States of America",America,USA,Subnat,USAr150,Wisconsin,2023,79.74,
+"United States of America",America,USA,Subnat,USAr151,Wyoming,2023,78.3,
+Uruguay,America,URY,National,URYt,Total,2023,78.14,81.92
+Uruguay,America,URY,Subnat,URYr105,"Centro (Durazno and Tacuarembo)",2023,78.14,81.92
+Uruguay,America,URY,Subnat,URYr106,"Centro Sur (Flores, Florida and Lavalleja)",2023,78.14,81.92
+Uruguay,America,URY,Subnat,URYr103,"Costa Este (Canelones, Maldonado and Rocha)",2023,78.14,81.92
+Uruguay,America,URY,Subnat,URYr107,"Litoral Norte (Paysandu, Salto and Rio Negro)",2023,78.14,81.92
+Uruguay,America,URY,Subnat,URYr104,"Litoral Sur (Soriano, Colonia and San Jose)",2023,78.14,81.92
+Uruguay,America,URY,Subnat,URYr101,"Montevideo and Metropolitan area",2023,78.14,81.92
+Uruguay,America,URY,Subnat,URYr102,"Norte (Artigas, Rivera, Cerro Largo and Trienta y Tres)",2023,78.14,81.92
+Uzbekistan,Asia/Pacific,UZB,National,UZBt,Total,2023,72.39,75.4
+Uzbekistan,Asia/Pacific,UZB,Subnat,UZBr102,"Central (Navoi, Bukhara, Samarkand)",2023,71.75,74.71
+Uzbekistan,Asia/Pacific,UZB,Subnat,UZBr104,"Central-East (Dzhizak, Syrdarya)",2023,76.17,79.52
+Uzbekistan,Asia/Pacific,UZB,Subnat,UZBr105,"East (Namangan, Fergana, Andizhan)",2023,73.02,76.09
+Uzbekistan,Asia/Pacific,UZB,Subnat,UZBr103,"South (Kashkadarya, Surkhandarya)",2023,69.85,72.64
+Uzbekistan,Asia/Pacific,UZB,Subnat,UZBr106,Tashkent,2023,74.98,78.22
+Uzbekistan,Asia/Pacific,UZB,Subnat,UZBr101,"West (Karakalpakstan, Khorezm)",2023,71.32,74.24
+Vanuatu,Asia/Pacific,VUT,National,VUTt,Total,2023,71.48,73.93
+Vanuatu,Asia/Pacific,VUT,Subnat,VUTr108,Luganville,2023,71.48,73.93
+Vanuatu,Asia/Pacific,VUT,Subnat,VUTr103,Malampa,2023,71.48,73.93
+Vanuatu,Asia/Pacific,VUT,Subnat,VUTr104,Penama,2023,71.48,73.93
+Vanuatu,Asia/Pacific,VUT,Subnat,VUTr107,"Port Vila",2023,71.48,73.93
+Vanuatu,Asia/Pacific,VUT,Subnat,VUTr105,Sanma,2023,71.48,73.93
+Vanuatu,Asia/Pacific,VUT,Subnat,VUTr102,Shefa,2023,71.48,73.93
+Vanuatu,Asia/Pacific,VUT,Subnat,VUTr101,Tafea,2023,71.48,73.93
+Vanuatu,Asia/Pacific,VUT,Subnat,VUTr106,Torba,2023,71.48,73.93
+Venezuela,America,VEN,National,VENt,Total,2023,72.51,76.5
+Venezuela,America,VEN,Subnat,VENr110,"Amacuros Delta Federal Territory",2023,72.89,76.93
+Venezuela,America,VEN,Subnat,VENr102,"Amazonas Federal Territory",2023,68.92,72.47
+Venezuela,America,VEN,Subnat,VENr103,Anzoategui,2023,73.71,77.84
+Venezuela,America,VEN,Subnat,VENr104,Apure,2023,72.95,76.99
+Venezuela,America,VEN,Subnat,VENr105,Aragua,2023,73.58,77.7
+Venezuela,America,VEN,Subnat,VENr106,Barinas,2023,72.29,76.25
+Venezuela,America,VEN,Subnat,VENr107,Bolivar,2023,72.41,76.38
+Venezuela,America,VEN,Subnat,VENr108,Carabobo,2023,73.02,77.07
+Venezuela,America,VEN,Subnat,VENr109,Cojedes,2023,71.71,75.61
+Venezuela,America,VEN,Subnat,VENr111,Falcon,2023,73.07,77.13
+Venezuela,America,VEN,Subnat,VENr101,"Federal District",2023,72.48,76.46
+Venezuela,America,VEN,Subnat,VENr112,Guarico,2023,72.9,76.93
+Venezuela,America,VEN,Subnat,VENr113,Lara,2023,72.03,75.96
+Venezuela,America,VEN,Subnat,VENr114,Merida,2023,72.11,76.05
+Venezuela,America,VEN,Subnat,VENr115,Miranda,2023,72.6,76.6
+Venezuela,America,VEN,Subnat,VENr116,Monagas,2023,72.45,76.43
+Venezuela,America,VEN,Subnat,VENr117,"Nueva Esparta",2023,73.03,77.08
+Venezuela,America,VEN,Subnat,VENr118,Portuguesa,2023,71.18,75.01
+Venezuela,America,VEN,Subnat,VENr119,Sucre,2023,72.28,76.24
+Venezuela,America,VEN,Subnat,VENr120,Tachira,2023,73.13,77.19
+Venezuela,America,VEN,Subnat,VENr121,Trujillo,2023,72.76,76.77
+Venezuela,America,VEN,Subnat,VENr124,Vargas,2023,74.22,78.42
+Venezuela,America,VEN,Subnat,VENr122,Yaracuy,2023,71.83,75.74
+Venezuela,America,VEN,Subnat,VENr123,Zulia,2023,71.7,75.59
+Vietnam,Asia/Pacific,VNM,National,VNMt,Total,2023,74.59,79.26
+Vietnam,Asia/Pacific,VNM,Subnat,VNMr104,"Central Highlands",2023,73.58,78.12
+Vietnam,Asia/Pacific,VNM,Subnat,VNMr106,"Mekong River Delta",2023,74.4,79.05
+Vietnam,Asia/Pacific,VNM,Subnat,VNMr103,"North Central Coast and South Central Coast",2023,75.81,80.65
+Vietnam,Asia/Pacific,VNM,Subnat,VNMr102,"North East, North West",2023,72.91,77.37
+Vietnam,Asia/Pacific,VNM,Subnat,VNMr101,"Red River Delta",2023,75.99,80.84
+Vietnam,Asia/Pacific,VNM,Subnat,VNMr105,"South East",2023,73.88,78.46
+Yemen,Asia/Pacific,YEM,National,YEMt,Total,2023,69.3,71.39
+Yemen,Asia/Pacific,YEM,Subnat,YEMr102,"Abyan, Aden (town and countryside), Lahej, Ad Dali (Al Dhalih)",2023,72.44,74.88
+Yemen,Asia/Pacific,YEM,Subnat,YEMr104,"Beida (Al Bayda), Dhamar, Raimah",2023,67.17,69.03
+Yemen,Asia/Pacific,YEM,Subnat,YEMr107,"Hajja, Sada, Amran (Omran)",2023,68.69,70.72
+Yemen,Asia/Pacific,YEM,Subnat,YEMr108,"Hodeida (Al Hudaydah), Mahweit (Al Mahwit)",2023,68.83,70.87
+Yemen,Asia/Pacific,YEM,Subnat,YEMr101,Ibb,2023,68.51,70.52
+Yemen,Asia/Pacific,YEM,Subnat,YEMr106,"Jawf, Hadramet, Shabda (Shabwah), Marib, Mohra (Al Mahrah)",2023,72.59,75.05
+Yemen,Asia/Pacific,YEM,Subnat,YEMr103,"Sana a (capital; Al Amana), Sana a (governorate)",2023,68.64,70.66
+Yemen,Asia/Pacific,YEM,Subnat,YEMr105,Taiz,2023,70.08,72.25
+Zambia,Africa,ZMB,National,ZMBt,Total,2023,66.35,68.67
+Zambia,Africa,ZMB,Subnat,ZMBr101,Central,2023,68.88,71.48
+Zambia,Africa,ZMB,Subnat,ZMBr102,Copperbelt,2023,68.51,71.07
+Zambia,Africa,ZMB,Subnat,ZMBr103,Eastern,2023,66.39,68.72
+Zambia,Africa,ZMB,Subnat,ZMBr104,Luapula,2023,60.48,62.16
+Zambia,Africa,ZMB,Subnat,ZMBr105,Lusaka,2023,66.4,68.73
+Zambia,Africa,ZMB,Subnat,ZMBr107,North-Western,2023,72.24,75.21
+Zambia,Africa,ZMB,Subnat,ZMBr106,Northern,2023,65.63,67.88
+Zambia,Africa,ZMB,Subnat,ZMBr108,Southern,2023,65.52,67.75
+Zambia,Africa,ZMB,Subnat,ZMBr109,Western,2023,67.34,69.78
+Zimbabwe,Africa,ZWE,National,ZWEt,Total,2023,62.78,65.01
+Zimbabwe,Africa,ZWE,Subnat,ZWEr110,Bulawayo,2023,65.83,68.4
+Zimbabwe,Africa,ZWE,Subnat,ZWEr109,Harare,2023,63.69,66.03
+Zimbabwe,Africa,ZWE,Subnat,ZWEr101,Manicaland,2023,62.19,64.36
+Zimbabwe,Africa,ZWE,Subnat,ZWEr102,"Mashonaland Central",2023,60.73,62.74
+Zimbabwe,Africa,ZWE,Subnat,ZWEr103,"Mashonaland East",2023,63.37,65.68
+Zimbabwe,Africa,ZWE,Subnat,ZWEr104,"Mashonaland West",2023,59.85,61.76
+Zimbabwe,Africa,ZWE,Subnat,ZWEr108,Masvingo,2023,65.51,68.05
+Zimbabwe,Africa,ZWE,Subnat,ZWEr105,"Matebeleland North",2023,64.99,67.47
+Zimbabwe,Africa,ZWE,Subnat,ZWEr106,"Matebeleland South",2023,66.38,69.02
+Zimbabwe,Africa,ZWE,Subnat,ZWEr107,Midlands,2023,62.13,64.3

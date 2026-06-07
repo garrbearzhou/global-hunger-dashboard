@@ -1,0 +1,1970 @@
+Country,Continent,ISO_Code,Level,GDLCODE,Region,Year,shdi,healthindex,edindex,incindex
+Afghanistan,Asia/Pacific,AFG,National,AFGt,Total,2023,0.496,0.708,0.384,0.45
+Afghanistan,Asia/Pacific,AFG,Subnat,AFGr101,"Central (Kabul Wardak Kapisa Logar Parwan Panjsher)",2023,0.568,0.735,0.516,0.482
+Afghanistan,Asia/Pacific,AFG,Subnat,AFGr102,"Central Highlands (Bamyan Daikundi)",2023,0.495,0.714,0.416,0.409
+Afghanistan,Asia/Pacific,AFG,Subnat,AFGr103,"East (Nangarhar Kunar Laghman Nooristan)",2023,0.477,0.701,0.381,0.407
+Afghanistan,Asia/Pacific,AFG,Subnat,AFGr104,"North (Samangan Sar-e-Pul Balkh Jawzjan Faryab)",2023,0.517,0.692,0.42,0.475
+Afghanistan,Asia/Pacific,AFG,Subnat,AFGr105,"North East (Baghlan Takhar Badakhshan Kunduz)",2023,0.464,0.687,0.338,0.428
+Afghanistan,Asia/Pacific,AFG,Subnat,AFGr106,"South (Uruzgan Helmand Zabul Nimroz Kandahar)",2023,0.423,0.706,0.241,0.446
+Afghanistan,Asia/Pacific,AFG,Subnat,AFGr107,"South East (Ghazni Paktya Paktika Khost)",2023,0.495,0.743,0.373,0.438
+Afghanistan,Asia/Pacific,AFG,Subnat,AFGr108,"West (Ghor Herat Badghis Farah)",2023,0.466,0.7,0.332,0.436
+Albania,Europe,ALB,National,ALBt,Total,2023,0.81,0.917,0.742,0.781
+Albania,Europe,ALB,Subnat,ALBr201," Berat",2023,0.797,0.917,0.712,0.776
+Albania,Europe,ALB,Subnat,ALBr202," Diber",2023,0.769,0.917,0.637,0.778
+Albania,Europe,ALB,Subnat,ALBr203," Durres",2023,0.817,0.917,0.743,0.8
+Albania,Europe,ALB,Subnat,ALBr204," Elbasan",2023,0.8,0.917,0.718,0.776
+Albania,Europe,ALB,Subnat,ALBr205," Fier",2023,0.783,0.917,0.694,0.754
+Albania,Europe,ALB,Subnat,ALBr206," Gjirokaster",2023,0.81,0.917,0.735,0.788
+Albania,Europe,ALB,Subnat,ALBr207," Korce",2023,0.806,0.917,0.725,0.786
+Albania,Europe,ALB,Subnat,ALBr208," Kukes",2023,0.765,0.917,0.62,0.786
+Albania,Europe,ALB,Subnat,ALBr209," Lezhe",2023,0.784,0.917,0.682,0.771
+Albania,Europe,ALB,Subnat,ALBr210," Shkoder",2023,0.799,0.917,0.699,0.796
+Albania,Europe,ALB,Subnat,ALBr211," Tirana",2023,0.836,0.917,0.814,0.783
+Albania,Europe,ALB,Subnat,ALBr212," Vlore",2023,0.818,0.917,0.761,0.784
+Algeria,Africa,DZA,National,DZAt,Total,2023,0.763,0.866,0.678,0.758
+Algeria,Africa,DZA,Subnat,DZAr104,"Hauts Plateaux Centre (Djelfa, Laghouat, MSila)",2023,0.74,0.859,0.621,0.759
+Algeria,Africa,DZA,Subnat,DZAr105,"Hauts Plateaux Est (Setif, Batna, Khenchela, Bordj Bou Arreridj, Oum El Bouaghi, Tebessa)",2023,0.753,0.86,0.662,0.75
+Algeria,Africa,DZA,Subnat,DZAr106,"Hauts Plateaux Ouest (Tiaret, Saida, Tissemsilt, Naama, El Bayadh)",2023,0.748,0.869,0.636,0.755
+Algeria,Africa,DZA,Subnat,DZAr101,"Nord Centre (Alger, Blida, Boumerdes, Tipaza, Bouira, Medea, Tizi-Ouzou, Bejaia, Chlef, Ain Defla)",2023,0.784,0.879,0.716,0.766
+Algeria,Africa,DZA,Subnat,DZAr102,"Nord Est (Annaba, Constantine, Skikda, Jijel, Mila, Souk Ahras, El Tarf, Guelma)",2023,0.76,0.83,0.703,0.753
+Algeria,Africa,DZA,Subnat,DZAr103,"Nord Ouest (Oran, Tlemcen, Mostaganem, Ain Temouchent, Relizane, Sidi Bel Abbes, Mascara)",2023,0.754,0.883,0.643,0.754
+Algeria,Africa,DZA,Subnat,DZAr107,"Sud (Bechar, Tindouf, Adrar, Ghardaia, Biskra, El Oued, Ouargla, Tamanrasset,Illizi)",2023,0.755,0.853,0.666,0.758
+Andorra,Europe,AND,National,ANDt,Total,2023,0.913,0.985,0.791,0.978
+Angola,Africa,AGO,National,AGOt,Total,2023,0.616,0.686,0.537,0.634
+Angola,Africa,AGO,Subnat,AGOr218," Bengo",2023,0.603,0.79,0.467,0.596
+Angola,Africa,AGO,Subnat,AGOr209," Benguela",2023,0.562,0.586,0.503,0.604
+Angola,Africa,AGO,Subnat,AGOr211," Bie",2023,0.526,0.686,0.404,0.527
+Angola,Africa,AGO,Subnat,AGOr201," Cabinda",2023,0.711,0.76,0.674,0.702
+Angola,Africa,AGO,Subnat,AGOr216," Cunene",2023,0.544,0.701,0.425,0.541
+Angola,Africa,AGO,Subnat,AGOr210," Huambo",2023,0.564,0.659,0.468,0.58
+Angola,Africa,AGO,Subnat,AGOr215," Huila",2023,0.546,0.624,0.46,0.566
+Angola,Africa,AGO,Subnat,AGOr213," Kuando Kubango",2023,0.532,0.7,0.387,0.556
+Angola,Africa,AGO,Subnat,AGOr205," Kuanza Norte",2023,0.57,0.671,0.478,0.578
+Angola,Africa,AGO,Subnat,AGOr206," Kuanza Sul",2023,0.478,0.6,0.34,0.537
+Angola,Africa,AGO,Subnat,AGOr204," Luanda",2023,0.733,0.75,0.681,0.773
+Angola,Africa,AGO,Subnat,AGOr208," Lunda Norte",2023,0.547,0.722,0.4,0.566
+Angola,Africa,AGO,Subnat,AGOr217," Lunda Sul",2023,0.607,0.755,0.502,0.59
+Angola,Africa,AGO,Subnat,AGOr207," Malange",2023,0.593,0.732,0.477,0.597
+Angola,Africa,AGO,Subnat,AGOr212," Moxico",2023,0.534,0.686,0.407,0.544
+Angola,Africa,AGO,Subnat,AGOr214," Namibe",2023,0.613,0.666,0.558,0.621
+Angola,Africa,AGO,Subnat,AGOr203," Uige",2023,0.569,0.699,0.487,0.54
+Angola,Africa,AGO,Subnat,AGOr202," Zaire",2023,0.645,0.737,0.578,0.63
+"Antigua and Barbuda",America,ATG,National,ATGt,Total,2023,0.851,0.886,0.819,0.848
+"Argentina urban",America,ARG,National,ARGt,Total,2023,0.865,0.883,0.873,0.839
+"Argentina urban",America,ARG,Subnat,ARGr104,Cuyo,2023,0.865,0.883,0.868,0.844
+"Argentina urban",America,ARG,Subnat,ARGr101,"Gran Buenos Aires",2023,0.866,0.883,0.88,0.837
+"Argentina urban",America,ARG,Subnat,ARGr103,NEA,2023,0.852,0.883,0.843,0.832
+"Argentina urban",America,ARG,Subnat,ARGr102,NOA,2023,0.867,0.883,0.876,0.841
+"Argentina urban",America,ARG,Subnat,ARGr105,Pampeana,2023,0.865,0.883,0.872,0.841
+"Argentina urban",America,ARG,Subnat,ARGr106,Patagonia,2023,0.864,0.883,0.86,0.85
+Armenia,Asia/Pacific,ARM,National,ARMt,Total,2023,0.811,0.857,0.778,0.802
+Armenia,Asia/Pacific,ARM,Subnat,ARMr101,Aragatsotn,2023,0.795,0.857,0.747,0.785
+Armenia,Asia/Pacific,ARM,Subnat,ARMr102,Ararat,2023,0.789,0.857,0.721,0.794
+Armenia,Asia/Pacific,ARM,Subnat,ARMr103,Armavir,2023,0.779,0.857,0.713,0.775
+Armenia,Asia/Pacific,ARM,Subnat,ARMr104,Gegharkunik,2023,0.773,0.857,0.702,0.769
+Armenia,Asia/Pacific,ARM,Subnat,ARMr106,Kotayk,2023,0.818,0.857,0.781,0.817
+Armenia,Asia/Pacific,ARM,Subnat,ARMr105,Lori,2023,0.79,0.857,0.74,0.779
+Armenia,Asia/Pacific,ARM,Subnat,ARMr107,Shirak,2023,0.808,0.857,0.77,0.799
+Armenia,Asia/Pacific,ARM,Subnat,ARMr108,Syunik,2023,0.805,0.857,0.76,0.8
+Armenia,Asia/Pacific,ARM,Subnat,ARMr110,Tavush,2023,0.798,0.857,0.746,0.796
+Armenia,Asia/Pacific,ARM,Subnat,ARMr109,"Vayots Dzor",2023,0.807,0.857,0.768,0.8
+Armenia,Asia/Pacific,ARM,Subnat,ARMr111,Yerevan,2023,0.847,0.857,0.86,0.825
+Australia,Asia/Pacific,AUS,National,AUSt,Total,2023,0.958,0.983,0.929,0.962
+Australia,Asia/Pacific,AUS,Subnat,AUSr108,"Australian Capital Territory",2023,0.988,1,0.965,0.999
+Australia,Asia/Pacific,AUS,Subnat,AUSr101,"New South Wales",2023,0.958,0.985,0.932,0.959
+Australia,Asia/Pacific,AUS,Subnat,AUSr107,"Northern Territory",2023,0.944,0.911,0.925,0.999
+Australia,Asia/Pacific,AUS,Subnat,AUSr103,Queensland,2023,0.947,0.977,0.922,0.942
+Australia,Asia/Pacific,AUS,Subnat,AUSr104,"South Australia",2023,0.944,0.98,0.921,0.932
+Australia,Asia/Pacific,AUS,Subnat,AUSr106,Tasmania,2023,0.935,0.968,0.91,0.928
+Australia,Asia/Pacific,AUS,Subnat,AUSr102,Victoria,2023,0.954,0.99,0.932,0.942
+Australia,Asia/Pacific,AUS,Subnat,AUSr105,"Western Australia",2023,0.973,0.991,0.928,1
+Austria,Europe,AUT,National,AUTt,Total,2023,0.93,0.953,0.864,0.975
+Austria,Europe,AUT,Subnat,AUTr101,Burgenland,2023,0.894,0.954,0.813,0.921
+Austria,Europe,AUT,Subnat,AUTr104,Karnten,2023,0.916,0.954,0.843,0.956
+Austria,Europe,AUT,Subnat,AUTr102,Niederosterreich,2023,0.896,0.949,0.799,0.95
+Austria,Europe,AUT,Subnat,AUTr106,Oberosterreich,2023,0.921,0.96,0.83,0.979
+Austria,Europe,AUT,Subnat,AUTr107,Salzburg,2023,0.948,0.968,0.88,1
+Austria,Europe,AUT,Subnat,AUTr105,Steiermark,2023,0.926,0.955,0.867,0.959
+Austria,Europe,AUT,Subnat,AUTr108,Tirol,2023,0.941,0.971,0.877,0.98
+Austria,Europe,AUT,Subnat,AUTr109,Vorarlberg,2023,0.92,0.966,0.806,1
+Austria,Europe,AUT,Subnat,AUTr103,Wien,2023,0.952,0.937,0.927,0.996
+Azerbaijan,Europe,AZE,National,AZEt,Total,2023,0.789,0.837,0.728,0.805
+Azerbaijan,Europe,AZE,Subnat,AZEr102,Absheron,2023,0.807,0.849,0.745,0.829
+Azerbaijan,Europe,AZE,Subnat,AZEr107,Aran,2023,0.765,0.836,0.687,0.78
+Azerbaijan,Europe,AZE,Subnat,AZEr101,Baku,2023,0.822,0.859,0.77,0.841
+Azerbaijan,Europe,AZE,Subnat,AZEr109,"Dakhlik Shirvan",2023,0.761,0.837,0.675,0.779
+Azerbaijan,Europe,AZE,Subnat,AZEr103,"Ganja Gazakh",2023,0.783,0.826,0.741,0.783
+Azerbaijan,Europe,AZE,Subnat,AZEr106,"Guba Khachmaz",2023,0.759,0.8,0.684,0.799
+Azerbaijan,Europe,AZE,Subnat,AZEr105,Lankaran,2023,0.756,0.825,0.676,0.774
+Azerbaijan,Europe,AZE,Subnat,AZEr110,Nakhchivan,2023,0.779,0.839,0.715,0.789
+Azerbaijan,Europe,AZE,Subnat,AZEr104,"Shaki Zaqatala",2023,0.783,0.835,0.726,0.792
+Azerbaijan,Europe,AZE,Subnat,AZEr108,"Yukhari Karabakh",2023,0.748,0.822,0.666,0.764
+"Bahamas, The",America,BHS,National,BHSt,Total,2023,0.82,0.839,0.757,0.866
+Bahrain,Asia/Pacific,BHR,National,BHRt,Total,2023,0.899,0.943,0.813,0.947
+Bangladesh,Asia/Pacific,BGD,National,BGDt,Total,2023,0.685,0.841,0.568,0.671
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr214," Bagerhat, Khulna, Satkhira",2023,0.718,0.87,0.635,0.67
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr204," Bandarban, Cox s Bazar",2023,0.614,0.853,0.44,0.615
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr202," Barguna, Bhola, Patuakhali",2023,0.676,0.82,0.588,0.642
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr201," Barisal, Jhalokati, Pirojpur",2023,0.702,0.845,0.623,0.658
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr219," Bogra, Gaibandha, Jaypurhat",2023,0.674,0.837,0.56,0.654
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr207," Brahmanbaria, Chandpur, Comilla",2023,0.672,0.854,0.52,0.683
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr203," Chittagong",2023,0.695,0.847,0.569,0.697
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr216," Chuadanga, Jhenaidah, Kushtia, Meherpur",2023,0.694,0.84,0.586,0.68
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr208," Dhaka",2023,0.741,0.86,0.628,0.754
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr220," Dinajpur, Nilphamari, Panchagarh, Thakurgaon",2023,0.671,0.834,0.567,0.637
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr212," Faridpur, Manikganj, Rajbari",2023,0.678,0.806,0.573,0.675
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr206," Feni, Lakshmipur, Noakhali",2023,0.661,0.841,0.526,0.654
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr209," Gazipur, Narayanganj, Narsingdi",2023,0.701,0.838,0.578,0.71
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr213," Gopalganj, Madaripur, Munshiganj, Shariatpur",2023,0.685,0.868,0.547,0.678
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr223," Habiganj, Sunamganj",2023,0.644,0.808,0.52,0.635
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr210," Jamalpur, Sherpur, Tangail",2023,0.677,0.85,0.556,0.655
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr215," Jessore, Magura, Narail",2023,0.703,0.863,0.599,0.672
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr205," Khagrachhari, Rangamati (Chattagram)",2023,0.63,0.836,0.486,0.616
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr211," Kishoreganj, Mymensingh, Netrakona",2023,0.661,0.824,0.546,0.641
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr221," Kurigram, Lalmonirhat, Rangpur",2023,0.673,0.835,0.577,0.632
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr222," Maulvibazar, Sylhet",2023,0.65,0.782,0.529,0.664
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr217," Naogaon, Nawabganj, Rajshahi",2023,0.7,0.872,0.591,0.666
+Bangladesh,Asia/Pacific,BGD,Subnat,BGDr218," Natore, Pabna, Sirajganj",2023,0.696,0.853,0.59,0.67
+Barbados,America,BRB,National,BRBt,Total,2023,0.811,0.864,0.793,0.779
+Barbados,America,BRB,Subnat,BRBr102,"Christ Church and St. Philip",2023,0.818,0.864,0.805,0.786
+Barbados,America,BRB,Subnat,BRBr101,"St Michael",2023,0.804,0.864,0.778,0.771
+Barbados,America,BRB,Subnat,BRBr103,"St. James, St. George, and St. Thomas",2023,0.824,0.864,0.823,0.786
+Barbados,America,BRB,Subnat,BRBr104,"St. Lucy, St. Peter, St. Andrew, St. Joseph, and St. John",2023,0.803,0.864,0.776,0.773
+Belarus,Europe,BLR,National,BLRt,Total,2023,0.824,0.837,0.792,0.844
+Belarus,Europe,BLR,Subnat,BLRr101,"Brest region",2023,0.816,0.837,0.78,0.831
+Belarus,Europe,BLR,Subnat,BLRr103,"Gomel region",2023,0.824,0.837,0.793,0.843
+Belarus,Europe,BLR,Subnat,BLRr104,"Grodno region",2023,0.821,0.837,0.775,0.854
+Belarus,Europe,BLR,Subnat,BLRr105,"Minsk region",2023,0.835,0.837,0.813,0.854
+Belarus,Europe,BLR,Subnat,BLRr106,"Mogilev region",2023,0.814,0.837,0.771,0.834
+Belarus,Europe,BLR,Subnat,BLRr102,"Vitebsk region",2023,0.816,0.837,0.777,0.836
+Belgium,Europe,BEL,National,BELt,Total,2023,0.951,0.956,0.923,0.975
+Belgium,Europe,BEL,Subnat,BELr101,"Bruxelles - Brussel",2023,0.961,0.952,0.931,1
+Belgium,Europe,BEL,Subnat,BELr102,"Prov. Antwerpen",2023,0.966,0.971,0.929,1
+Belgium,Europe,BEL,Subnat,BELr107,"Prov. Brabant Wallon",2023,0.957,0.971,0.903,1
+Belgium,Europe,BEL,Subnat,BELr108,"Prov. Hainaut",2023,0.903,0.915,0.895,0.9
+Belgium,Europe,BEL,Subnat,BELr109,"Prov. Liege",2023,0.916,0.928,0.897,0.923
+Belgium,Europe,BEL,Subnat,BELr103,"Prov. Limburg",2023,0.946,0.971,0.924,0.943
+Belgium,Europe,BEL,Subnat,BELr110,"Prov. Luxembourg",2023,0.911,0.931,0.906,0.896
+Belgium,Europe,BEL,Subnat,BELr111,"Prov. Namur",2023,0.92,0.932,0.919,0.911
+Belgium,Europe,BEL,Subnat,BELr104,"Prov. Oost-Vlaanderen",2023,0.955,0.968,0.933,0.965
+Belgium,Europe,BEL,Subnat,BELr105,"Prov. Vlaams-Brabant",2023,0.957,0.977,0.903,0.995
+Belgium,Europe,BEL,Subnat,BELr106,"Prov. West-Vlaanderen",2023,0.948,0.969,0.907,0.97
+Belize,America,BLZ,National,BLZt,Total,2023,0.721,0.824,0.625,0.727
+Belize,America,BLZ,Subnat,BLZr102,Belize,2023,0.753,0.789,0.717,0.755
+Belize,America,BLZ,Subnat,BLZr103,Cayo,2023,0.647,0.806,0.533,0.631
+Belize,America,BLZ,Subnat,BLZr101,"Corozal, Orange Walk",2023,0.692,0.835,0.553,0.718
+Belize,America,BLZ,Subnat,BLZr104,"Stann Creek, Toledo",2023,0.731,0.847,0.627,0.735
+Benin,Africa,BEN,National,BENt,Total,2023,0.515,0.627,0.397,0.55
+Benin,Africa,BEN,Subnat,BENr101,"Atacora (incl Donga)",2023,0.469,0.633,0.302,0.54
+Benin,Africa,BEN,Subnat,BENr102,"Atlantique (incl Littoral (Cotonou))",2023,0.573,0.618,0.507,0.6
+Benin,Africa,BEN,Subnat,BENr103,"Borgou (incl Alibori)",2023,0.455,0.645,0.275,0.532
+Benin,Africa,BEN,Subnat,BENr104,"Mono (incl Couffo)",2023,0.499,0.596,0.409,0.509
+Benin,Africa,BEN,Subnat,BENr105,"Queme (incl Plateau)",2023,0.533,0.641,0.432,0.546
+Benin,Africa,BEN,Subnat,BENr106,"Zou (incl Collines)",2023,0.518,0.623,0.411,0.542
+Bhutan,Asia/Pacific,BTN,National,BTNt,Total,2023,0.698,0.815,0.56,0.745
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr101,Bumthang,2023,0.704,0.802,0.569,0.764
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr102,Chukha,2023,0.737,0.77,0.671,0.776
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr103,Dagana,2023,0.642,0.844,0.477,0.658
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr104,Gasa,2023,0.576,0.715,0.408,0.655
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr105,Haa,2023,0.742,0.907,0.574,0.786
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr106,Lhuntse,2023,0.632,0.893,0.416,0.679
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr107,Mongar,2023,0.638,0.784,0.468,0.706
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr108,Paro,2023,0.767,0.907,0.61,0.815
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr109,Pemagatshel,2023,0.64,0.786,0.489,0.682
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr110,Punakha,2023,0.697,0.821,0.54,0.765
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr111,"Samdrup jongkhar",2023,0.651,0.756,0.508,0.719
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr112,Samtse,2023,0.659,0.786,0.504,0.722
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr113,Sarpang,2023,0.729,0.854,0.595,0.762
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr114,Thimphu,2023,0.871,0.911,0.84,0.864
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr115,Trashigang,2023,0.61,0.762,0.43,0.692
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr116,Trashiyangtse,2023,0.621,0.809,0.418,0.709
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr117,Trongsa,2023,0.655,0.797,0.508,0.694
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr118,Tsirang,2023,0.667,0.84,0.515,0.687
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr119,Wangdi,2023,0.639,0.827,0.436,0.723
+Bhutan,Asia/Pacific,BTN,Subnat,BTNr120,Zhemgang,2023,0.636,0.824,0.471,0.665
+Bolivia,America,BOL,National,BOLt,Total,2023,0.733,0.747,0.768,0.687
+Bolivia,America,BOL,Subnat,BOLr108,Beni,2023,0.739,0.786,0.788,0.652
+Bolivia,America,BOL,Subnat,BOLr101,Chuquisaca,2023,0.704,0.787,0.69,0.641
+Bolivia,America,BOL,Subnat,BOLr103,Cochabamba,2023,0.723,0.731,0.745,0.695
+Bolivia,America,BOL,Subnat,BOLr102,"La Paz",2023,0.735,0.738,0.796,0.676
+Bolivia,America,BOL,Subnat,BOLr104,Oruro,2023,0.742,0.761,0.79,0.679
+Bolivia,America,BOL,Subnat,BOLr109,Pando,2023,0.758,0.775,0.821,0.686
+Bolivia,America,BOL,Subnat,BOLr105,Potosi,2023,0.648,0.664,0.657,0.624
+Bolivia,America,BOL,Subnat,BOLr107,"Santa Cruz",2023,0.791,0.807,0.822,0.744
+Bolivia,America,BOL,Subnat,BOLr106,Tarija,2023,0.754,0.803,0.744,0.718
+"Bosnia and Herzegovina",Europe,BIH,National,BIHt,Total,2023,0.804,0.89,0.731,0.799
+"Bosnia and Herzegovina",Europe,BIH,Subnat,BIHr103,"Central Bosnia",2023,0.806,0.89,0.733,0.804
+"Bosnia and Herzegovina",Europe,BIH,Subnat,BIHr102,"Northern Bosnia",2023,0.797,0.89,0.725,0.784
+"Bosnia and Herzegovina",Europe,BIH,Subnat,BIHr105,"Republica Srpska",2023,0.801,0.89,0.728,0.792
+"Bosnia and Herzegovina",Europe,BIH,Subnat,BIHr101,"Western Bosnia",2023,0.798,0.89,0.696,0.82
+"Bosnia and Herzegovina",Europe,BIH,Subnat,BIHr104,"Western herzegovina",2023,0.827,0.89,0.783,0.813
+Botswana,Africa,BWA,National,BWAt,Total,2023,0.731,0.756,0.667,0.776
+Botswana,Africa,BWA,Subnat,BWAr101,Central,2023,0.708,0.753,0.624,0.755
+Botswana,Africa,BWA,Subnat,BWAr110,Chobe,2023,0.708,0.725,0.644,0.76
+Botswana,Africa,BWA,Subnat,BWAr102,Ghanzi,2023,0.681,0.75,0.567,0.742
+Botswana,Africa,BWA,Subnat,BWAr103,Kgalagadi,2023,0.699,0.747,0.609,0.75
+Botswana,Africa,BWA,Subnat,BWAr104,Kgatleng,2023,0.745,0.774,0.678,0.788
+Botswana,Africa,BWA,Subnat,BWAr105,Kweneng,2023,0.715,0.77,0.624,0.76
+Botswana,Africa,BWA,Subnat,BWAr106,North-East,2023,0.749,0.763,0.686,0.803
+Botswana,Africa,BWA,Subnat,BWAr107,"North-West, Ngamiland",2023,0.696,0.736,0.634,0.724
+Botswana,Africa,BWA,Subnat,BWAr108,South-East,2023,0.812,0.757,0.829,0.854
+Botswana,Africa,BWA,Subnat,BWAr109,Southern,2023,0.714,0.756,0.633,0.759
+Brazil,America,BRA,National,BRAt,Total,2023,0.786,0.859,0.72,0.785
+Brazil,America,BRA,Subnat,BRAr102,Acre,2023,0.74,0.845,0.675,0.71
+Brazil,America,BRA,Subnat,BRAr114,Alagoas,2023,0.743,0.832,0.654,0.753
+Brazil,America,BRA,Subnat,BRAr106,Amapa,2023,0.773,0.861,0.731,0.735
+Brazil,America,BRA,Subnat,BRAr103,Amazonas,2023,0.762,0.859,0.708,0.727
+Brazil,America,BRA,Subnat,BRAr116,Bahia,2023,0.76,0.845,0.685,0.757
+Brazil,America,BRA,Subnat,BRAr110,Ceara,2023,0.757,0.857,0.668,0.758
+Brazil,America,BRA,Subnat,BRAr127,"Distrito Federal",2023,0.848,0.894,0.837,0.816
+Brazil,America,BRA,Subnat,BRAr118,"Espirito Santo",2023,0.788,0.857,0.718,0.796
+Brazil,America,BRA,Subnat,BRAr126,Goias,2023,0.792,0.867,0.722,0.795
+Brazil,America,BRA,Subnat,BRAr108,Maranhao,2023,0.729,0.832,0.654,0.713
+Brazil,America,BRA,Subnat,BRAr125,"Mato Grosso",2023,0.782,0.867,0.707,0.78
+Brazil,America,BRA,Subnat,BRAr124,"Mato Grosso do Sul",2023,0.788,0.861,0.722,0.789
+Brazil,America,BRA,Subnat,BRAr117,"Minas Gerais",2023,0.785,0.866,0.704,0.794
+Brazil,America,BRA,Subnat,BRAr105,Para,2023,0.744,0.847,0.683,0.711
+Brazil,America,BRA,Subnat,BRAr112,Paraiba,2023,0.76,0.846,0.677,0.766
+Brazil,America,BRA,Subnat,BRAr121,Parana,2023,0.795,0.863,0.727,0.801
+Brazil,America,BRA,Subnat,BRAr113,Pernambuco,2023,0.761,0.844,0.683,0.765
+Brazil,America,BRA,Subnat,BRAr109,Piaui,2023,0.74,0.814,0.675,0.736
+Brazil,America,BRA,Subnat,BRAr119,"Rio de Janeiro",2023,0.815,0.882,0.769,0.797
+Brazil,America,BRA,Subnat,BRAr111,"Rio Grande do Norte",2023,0.775,0.847,0.704,0.781
+Brazil,America,BRA,Subnat,BRAr123,"Rio Grande do Sul",2023,0.801,0.872,0.736,0.8
+Brazil,America,BRA,Subnat,BRAr101,Rondonia,2023,0.758,0.865,0.68,0.741
+Brazil,America,BRA,Subnat,BRAr104,Roraima,2023,0.787,0.892,0.726,0.752
+Brazil,America,BRA,Subnat,BRAr122,"Santa Catarina",2023,0.8,0.872,0.73,0.804
+Brazil,America,BRA,Subnat,BRAr120,"Sao Paulo",2023,0.812,0.877,0.751,0.812
+Brazil,America,BRA,Subnat,BRAr115,Sergipe,2023,0.771,0.849,0.696,0.774
+Brazil,America,BRA,Subnat,BRAr107,Tocantins,2023,0.774,0.866,0.703,0.761
+"Brunei Darussalam",Asia/Pacific,BRN,National,BRNt,Total,2023,0.837,0.851,0.69,1
+Bulgaria,Europe,BGR,National,BGRt,Total,2023,0.845,0.856,0.807,0.872
+Bulgaria,Europe,BGR,Subnat,BGRr102,"Severen tsentralen",2023,0.813,0.84,0.792,0.807
+Bulgaria,Europe,BGR,Subnat,BGRr103,Severoiztochen,2023,0.822,0.854,0.782,0.831
+Bulgaria,Europe,BGR,Subnat,BGRr101,Severozapaden,2023,0.786,0.826,0.737,0.798
+Bulgaria,Europe,BGR,Subnat,BGRr104,Yugoiztochen,2023,0.81,0.848,0.732,0.854
+Bulgaria,Europe,BGR,Subnat,BGRr105,Yugozapaden,2023,0.905,0.872,0.898,0.946
+Bulgaria,Europe,BGR,Subnat,BGRr106,"Yuzhen tsentralen",2023,0.817,0.862,0.777,0.813
+"Burkina Faso",Africa,BFA,National,BFAt,Total,2023,0.459,0.632,0.318,0.479
+"Burkina Faso",Africa,BFA,Subnat,BFAr101,"Boucle de Mouhoun",2023,0.422,0.64,0.266,0.443
+"Burkina Faso",Africa,BFA,Subnat,BFAr102,Cascades,2023,0.464,0.593,0.329,0.511
+"Burkina Faso",Africa,BFA,Subnat,BFAr103,"Centre (incl Ouagadougou)",2023,0.57,0.663,0.505,0.554
+"Burkina Faso",Africa,BFA,Subnat,BFAr104,Centre-Est,2023,0.419,0.627,0.254,0.462
+"Burkina Faso",Africa,BFA,Subnat,BFAr105,Centre-Nord,2023,0.409,0.626,0.245,0.447
+"Burkina Faso",Africa,BFA,Subnat,BFAr106,Centre-Ouest,2023,0.456,0.656,0.317,0.455
+"Burkina Faso",Africa,BFA,Subnat,BFAr107,Centre-Sud,2023,0.441,0.638,0.292,0.462
+"Burkina Faso",Africa,BFA,Subnat,BFAr108,Est,2023,0.394,0.625,0.233,0.42
+"Burkina Faso",Africa,BFA,Subnat,BFAr109,"Hauts Bassins",2023,0.487,0.621,0.365,0.509
+"Burkina Faso",Africa,BFA,Subnat,BFAr110,Nord,2023,0.441,0.662,0.283,0.457
+"Burkina Faso",Africa,BFA,Subnat,BFAr111,"Plateau Central",2023,0.442,0.647,0.288,0.462
+"Burkina Faso",Africa,BFA,Subnat,BFAr112,Sahel,2023,0.308,0.566,0.123,0.419
+"Burkina Faso",Africa,BFA,Subnat,BFAr113,Sud-Ouest,2023,0.364,0.541,0.209,0.427
+Burundi,Africa,BDI,National,BDIt,Total,2023,0.439,0.672,0.389,0.325
+Burundi,Africa,BDI,Subnat,BDIr103,"East (Cankuzo, Rutana, Ruyigi )",2023,0.422,0.696,0.344,0.313
+Burundi,Africa,BDI,Subnat,BDIr105,"Middle (Gitega, Karuzi, Muramvya, Mwaro)",2023,0.441,0.686,0.392,0.32
+Burundi,Africa,BDI,Subnat,BDIr101,"North (Kayanza, Kirundo, Muyinga, Ngozi)",2023,0.392,0.623,0.318,0.303
+Burundi,Africa,BDI,Subnat,BDIr102,"South (Bururi, Makamba)",2023,0.47,0.717,0.431,0.337
+Burundi,Africa,BDI,Subnat,BDIr104,"West (Bubanza, Buja Rural, Cibitoke, Mairie de Bujumbura)",2023,0.489,0.69,0.472,0.359
+Cambodia,Asia/Pacific,KHM,National,KHMt,Total,2023,0.606,0.78,0.484,0.589
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr101,"Banteay Mean Chey",2023,0.642,0.783,0.559,0.604
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr113,"Bat Dambang-Krong Pailin",2023,0.601,0.761,0.486,0.588
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr102,"Kampong Cham (incl Tboung Khmum)",2023,0.551,0.769,0.379,0.575
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr103,"Kampong Chhnang",2023,0.623,0.742,0.585,0.557
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr104,"Kampong Spueu",2023,0.505,0.779,0.287,0.577
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr105,"Kampong Thum",2023,0.562,0.8,0.399,0.556
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr114,"Kampot-Krong Kaeb-Krong Preah Sihanouk",2023,0.58,0.759,0.442,0.581
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr106,Kandal,2023,0.605,0.795,0.44,0.634
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr107,"Kaoh Kong",2023,0.554,0.787,0.377,0.571
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr116,"Mondol Kiri-Rotanak Kiri",2023,0.539,0.73,0.42,0.511
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr108,"Phnom Penh",2023,0.702,0.811,0.657,0.648
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr110,Pousat,2023,0.534,0.781,0.349,0.558
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr115,"Preah Vihear-Stueng Traeng-Kracheh",2023,0.579,0.772,0.462,0.544
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr109,"Prey Veaeng",2023,0.609,0.765,0.501,0.589
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr117,"Siem Reab-Otdar Mean Chey",2023,0.612,0.794,0.503,0.574
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr111,"Svay Rieng",2023,0.608,0.747,0.526,0.572
+Cambodia,Asia/Pacific,KHM,Subnat,KHMr112,Takaev,2023,0.635,0.792,0.55,0.588
+Cameroon,Africa,CMR,National,CMRt,Total,2023,0.588,0.672,0.519,0.583
+Cameroon,Africa,CMR,Subnat,CMRr101,Adamaoua,2023,0.502,0.661,0.359,0.533
+Cameroon,Africa,CMR,Subnat,CMRr102,"Centre (incl Yaounde)",2023,0.667,0.707,0.656,0.639
+Cameroon,Africa,CMR,Subnat,CMRr103,Est,2023,0.547,0.621,0.492,0.536
+Cameroon,Africa,CMR,Subnat,CMRr104,"Extreme Nord",2023,0.47,0.652,0.327,0.485
+Cameroon,Africa,CMR,Subnat,CMRr105,"Littoral (incl Douala)",2023,0.702,0.754,0.682,0.673
+Cameroon,Africa,CMR,Subnat,CMRr106,Nord,2023,0.465,0.605,0.335,0.495
+Cameroon,Africa,CMR,Subnat,CMRr107,"Nord Ouest",2023,0.561,0.733,0.429,0.563
+Cameroon,Africa,CMR,Subnat,CMRr108,Ouest,2023,0.625,0.693,0.588,0.6
+Cameroon,Africa,CMR,Subnat,CMRr109,Sud,2023,0.631,0.674,0.621,0.6
+Cameroon,Africa,CMR,Subnat,CMRr110,"Sud Ouest",2023,0.676,0.717,0.622,0.694
+Canada,America,CAN,National,CANt,Total,2023,0.939,0.964,0.904,0.952
+Canada,America,CAN,Subnat,CANr109,Alberta,2023,0.952,0.956,0.914,0.986
+Canada,America,CAN,Subnat,CANr110,"British Columbia",2023,0.95,0.97,0.926,0.956
+Canada,America,CAN,Subnat,CANr107,Manitoba,2023,0.911,0.931,0.872,0.93
+Canada,America,CAN,Subnat,CANr104,"New Brunswick",2023,0.908,0.946,0.863,0.917
+Canada,America,CAN,Subnat,CANr101,"Newfoundland and Labrador",2023,0.905,0.931,0.834,0.955
+Canada,America,CAN,Subnat,CANr103,"Nova Scotia",2023,0.913,0.94,0.887,0.913
+Canada,America,CAN,Subnat,CANr106,Ontario,2023,0.946,0.969,0.917,0.953
+Canada,America,CAN,Subnat,CANr102,"Prince Edward Island, Yukon Territory, Northwest Territories, Nunavut",2023,0.933,0.961,0.876,0.965
+Canada,America,CAN,Subnat,CANr105,Quebec,2023,0.93,0.973,0.886,0.935
+Canada,America,CAN,Subnat,CANr108,Saskatchewan,2023,0.924,0.933,0.871,0.97
+"Cape Verde",Africa,CPV,National,CPVt,Total,2023,0.668,0.862,0.519,0.665
+"Cape Verde",Africa,CPV,Subnat,CPVr105,Fogo,2023,0.674,0.862,0.539,0.659
+"Cape Verde",Africa,CPV,Subnat,CPVr101,S.Antao,2023,0.649,0.862,0.485,0.653
+"Cape Verde",Africa,CPV,Subnat,CPVr102,S.Vicente,2023,0.692,0.862,0.554,0.693
+"Cape Verde",Africa,CPV,Subnat,CPVr104,"Santiago- Praia",2023,0.703,0.862,0.587,0.686
+"Cape Verde",Africa,CPV,Subnat,CPVr103,Santiago-Interior,2023,0.612,0.862,0.422,0.629
+"Central African Republic CAR",Africa,CAF,National,CAFt,Total,2023,0.414,0.576,0.34,0.362
+"Central African Republic CAR",Africa,CAF,Subnat,CAFr106,Bangui,2023,0.552,0.639,0.553,0.476
+"Central African Republic CAR",Africa,CAF,Subnat,CAFr101,"RS I (Ombella Mpoko, Lobaye, Kemo, Nana Grebizi, Ouaka)",2023,0.412,0.557,0.35,0.359
+"Central African Republic CAR",Africa,CAF,Subnat,CAFr102,"RS II (Mambera Kadei, Nana Mambere, Sangha Mbaere)",2023,0.392,0.601,0.286,0.351
+"Central African Republic CAR",Africa,CAF,Subnat,CAFr103,"RS III (Ouham Pende, Ouham)",2023,0.371,0.569,0.268,0.336
+"Central African Republic CAR",Africa,CAF,Subnat,CAFr104,"RS IV (Haute-Kotto, Baminigui Bangoran, Vakaga)",2023,0.395,0.63,0.28,0.35
+"Central African Republic CAR",Africa,CAF,Subnat,CAFr105,"RS V (Basse Kotto, Mbornou, Houte Mbormou)",2023,0.351,0.54,0.244,0.33
+Chad,Africa,TCD,National,TCDt,Total,2023,0.416,0.54,0.31,0.432
+Chad,Africa,TCD,Subnat,TCDr101,"Zone 1 (N'Djamena)",2023,0.553,0.586,0.515,0.561
+Chad,Africa,TCD,Subnat,TCDr102,"Zone 2 (Borkou, Ennedi, Tibesti, Kanem, Barh El Gazal, Lac)",2023,0.284,0.599,0.087,0.436
+Chad,Africa,TCD,Subnat,TCDr103,"Zone 3 (Guera, Batha, Salamat)",2023,0.353,0.584,0.181,0.418
+Chad,Africa,TCD,Subnat,TCDr104,"Zone 4 (Ouaddai, Assongha, Sila, Biltine - Wadi Fira)",2023,0.306,0.62,0.111,0.418
+Chad,Africa,TCD,Subnat,TCDr105,"Zone 5 (Chari-Baguimi, Dababa, Baguirmi, Hadjer Lamis)",2023,0.303,0.509,0.126,0.433
+Chad,Africa,TCD,Subnat,TCDr106,"Zone 6 (Mayo-Kebbi Est and Ouest)",2023,0.484,0.536,0.491,0.432
+Chad,Africa,TCD,Subnat,TCDr107,"Zone 7 (Logone Occidental & Oriental, Monts de Lam, Tandjile Est & Ouest)",2023,0.441,0.474,0.438,0.414
+Chad,Africa,TCD,Subnat,TCDr108,"Zone 8 (Mandoul, Moyen-Chari, Bahr Koh, Lac Iro)",2023,0.459,0.526,0.44,0.417
+Chili,America,CHL,National,CHLt,Total,2023,0.878,0.941,0.846,0.851
+Chili,America,CHL,Subnat,CHLr111,Aisen,2023,0.834,0.938,0.751,0.823
+Chili,America,CHL,Subnat,CHLr102,Antofagasta,2023,0.9,0.914,0.919,0.866
+Chili,America,CHL,Subnat,CHLr109,Arbucania,2023,0.813,0.926,0.719,0.807
+Chili,America,CHL,Subnat,CHLr103,Atacama,2023,0.881,0.965,0.839,0.845
+Chili,America,CHL,Subnat,CHLr108,"Bio Bio",2023,0.852,0.945,0.783,0.836
+Chili,America,CHL,Subnat,CHLr104,Coquimbo,2023,0.856,0.952,0.796,0.829
+Chili,America,CHL,Subnat,CHLr110,"Los Lagos (incl Los Rios)",2023,0.821,0.939,0.721,0.818
+Chili,America,CHL,Subnat,CHLr112,"Magallanes and La Antartica Chilena",2023,0.892,0.929,0.88,0.867
+Chili,America,CHL,Subnat,CHLr107,Maule,2023,0.817,0.924,0.713,0.827
+Chili,America,CHL,Subnat,CHLr106,OHiggins,2023,0.846,0.947,0.76,0.843
+Chili,America,CHL,Subnat,CHLr113,"Region Metropolitana",2023,0.908,0.944,0.908,0.873
+Chili,America,CHL,Subnat,CHLr101,"Tarapaca (incl Arica and Parinacota)",2023,0.904,0.951,0.913,0.852
+Chili,America,CHL,Subnat,CHLr105,"Valparaiso (former Aconcagua)",2023,0.894,0.945,0.881,0.859
+China,Asia/Pacific,CHN,National,CHNt,Total,2023,0.797,0.892,0.698,0.815
+China,Asia/Pacific,CHN,Subnat,CHNr112,Anhui,2023,0.776,0.888,0.664,0.792
+China,Asia/Pacific,CHN,Subnat,CHNr101,Beijing,2023,0.912,0.957,0.843,0.939
+China,Asia/Pacific,CHN,Subnat,CHNr122,Chongqing,2023,0.804,0.897,0.704,0.822
+China,Asia/Pacific,CHN,Subnat,CHNr113,Fujian,2023,0.812,0.896,0.686,0.873
+China,Asia/Pacific,CHN,Subnat,CHNr128,Gansu,2023,0.731,0.852,0.639,0.717
+China,Asia/Pacific,CHN,Subnat,CHNr119,Guangdong,2023,0.823,0.908,0.726,0.844
+China,Asia/Pacific,CHN,Subnat,CHNr120,Guangxi,2023,0.76,0.889,0.668,0.74
+China,Asia/Pacific,CHN,Subnat,CHNr124,Guizhou,2023,0.734,0.845,0.632,0.74
+China,Asia/Pacific,CHN,Subnat,CHNr121,Hainan,2023,0.79,0.904,0.699,0.78
+China,Asia/Pacific,CHN,Subnat,CHNr103,Hebei,2023,0.771,0.884,0.687,0.753
+China,Asia/Pacific,CHN,Subnat,CHNr108,Heilongjiang,2023,0.778,0.892,0.716,0.737
+China,Asia/Pacific,CHN,Subnat,CHNr116,Henan,2023,0.769,0.882,0.679,0.76
+China,Asia/Pacific,CHN,Subnat,CHNr117,Hubei,2023,0.803,0.888,0.708,0.825
+China,Asia/Pacific,CHN,Subnat,CHNr118,Hunan,2023,0.79,0.886,0.703,0.79
+China,Asia/Pacific,CHN,Subnat,CHNr105,"Inner Mongolia",2023,0.807,0.882,0.714,0.836
+China,Asia/Pacific,CHN,Subnat,CHNr110,Jiangsu,2023,0.836,0.909,0.718,0.896
+China,Asia/Pacific,CHN,Subnat,CHNr114,Jiangxi,2023,0.777,0.883,0.679,0.784
+China,Asia/Pacific,CHN,Subnat,CHNr107,Jilin,2023,0.787,0.895,0.729,0.747
+China,Asia/Pacific,CHN,Subnat,CHNr106,Liaoning,2023,0.803,0.899,0.737,0.782
+China,Asia/Pacific,CHN,Subnat,CHNr130,Ningxia,2023,0.773,0.867,0.678,0.786
+China,Asia/Pacific,CHN,Subnat,CHNr129,Qinghai,2023,0.727,0.826,0.608,0.765
+China,Asia/Pacific,CHN,Subnat,CHNr127,Shaanxi,2023,0.802,0.885,0.716,0.812
+China,Asia/Pacific,CHN,Subnat,CHNr115,Shandong,2023,0.798,0.906,0.685,0.818
+China,Asia/Pacific,CHN,Subnat,CHNr109,Shanghai,2023,0.901,0.958,0.821,0.931
+China,Asia/Pacific,CHN,Subnat,CHNr104,Shanxi,2023,0.8,0.887,0.728,0.793
+China,Asia/Pacific,CHN,Subnat,CHNr123,Sichuan,2023,0.771,0.885,0.663,0.78
+China,Asia/Pacific,CHN,Subnat,CHNr102,Tianjin,2023,0.867,0.939,0.802,0.866
+China,Asia/Pacific,CHN,Subnat,CHNr126,Tibet,2023,0.656,0.799,0.464,0.759
+China,Asia/Pacific,CHN,Subnat,CHNr131,Xinjiang,2023,0.771,0.852,0.685,0.785
+China,Asia/Pacific,CHN,Subnat,CHNr125,Yunnan,2023,0.737,0.827,0.634,0.764
+China,Asia/Pacific,CHN,Subnat,CHNr111,Zhejiang,2023,0.823,0.922,0.697,0.867
+Colombia,America,COL,National,COLt,Total,2023,0.788,0.888,0.698,0.79
+Colombia,America,COL,Subnat,COLr129,Amazonas,2023,0.74,0.843,0.679,0.708
+Colombia,America,COL,Subnat,COLr101,"Antioquia (incl Medellin)",2023,0.793,0.894,0.693,0.804
+Colombia,America,COL,Subnat,COLr125,Arauca,2023,0.761,0.877,0.646,0.777
+Colombia,America,COL,Subnat,COLr102,"Atlantico (incl Barranquilla)",2023,0.808,0.886,0.743,0.802
+Colombia,America,COL,Subnat,COLr103,"Bogota D.C.",2023,0.835,0.895,0.787,0.827
+Colombia,America,COL,Subnat,COLr104,"Bolivar (Sur and Norte)",2023,0.777,0.895,0.69,0.759
+Colombia,America,COL,Subnat,COLr105,Boyaca,2023,0.78,0.897,0.679,0.779
+Colombia,America,COL,Subnat,COLr106,Caldas,2023,0.798,0.91,0.692,0.808
+Colombia,America,COL,Subnat,COLr107,Caqueta,2023,0.737,0.889,0.607,0.743
+Colombia,America,COL,Subnat,COLr126,Casanare,2023,0.77,0.898,0.662,0.768
+Colombia,America,COL,Subnat,COLr108,Cauca,2023,0.74,0.878,0.624,0.739
+Colombia,America,COL,Subnat,COLr109,Cesar,2023,0.751,0.868,0.652,0.748
+Colombia,America,COL,Subnat,COLr112,Choco,2023,0.718,0.851,0.646,0.674
+Colombia,America,COL,Subnat,COLr110,Cordoba,2023,0.737,0.883,0.621,0.728
+Colombia,America,COL,Subnat,COLr111,Cundinamarca,2023,0.794,0.907,0.69,0.8
+Colombia,America,COL,Subnat,COLr130,Guainja,2023,0.69,0.894,0.578,0.636
+Colombia,America,COL,Subnat,COLr114,Guajira,2023,0.72,0.797,0.668,0.701
+Colombia,America,COL,Subnat,COLr131,Guaviare,2023,0.776,0.892,0.684,0.765
+Colombia,America,COL,Subnat,COLr113,Huila,2023,0.745,0.893,0.59,0.786
+Colombia,America,COL,Subnat,COLr115,Magdalena,2023,0.747,0.871,0.644,0.743
+Colombia,America,COL,Subnat,COLr116,Meta,2023,0.798,0.919,0.698,0.792
+Colombia,America,COL,Subnat,COLr117,Narino,2023,0.742,0.887,0.623,0.741
+Colombia,America,COL,Subnat,COLr118,"Norte de Santander",2023,0.77,0.878,0.657,0.791
+Colombia,America,COL,Subnat,COLr127,Putumayo,2023,0.739,0.848,0.638,0.746
+Colombia,America,COL,Subnat,COLr119,Quindio,2023,0.805,0.902,0.704,0.82
+Colombia,America,COL,Subnat,COLr120,Risaralda,2023,0.781,0.896,0.656,0.811
+Colombia,America,COL,Subnat,COLr128,"San Andres",2023,0.811,0.892,0.746,0.801
+Colombia,America,COL,Subnat,COLr121,Santander,2023,0.799,0.89,0.711,0.806
+Colombia,America,COL,Subnat,COLr122,Sucre,2023,0.764,0.905,0.654,0.753
+Colombia,America,COL,Subnat,COLr123,Tolima,2023,0.767,0.893,0.66,0.765
+Colombia,America,COL,Subnat,COLr124,"Valle (incl Cali)",2023,0.812,0.901,0.726,0.819
+Colombia,America,COL,Subnat,COLr132,Vaupis,2023,0.663,0.809,0.62,0.582
+Colombia,America,COL,Subnat,COLr133,Vichada,2023,0.775,0.895,0.668,0.778
+Comoros,Africa,COM,National,COMt,Total,2023,0.603,0.72,0.57,0.536
+Comoros,Africa,COM,Subnat,COMr103,"Anjouan (Ndzouani)",2023,0.578,0.701,0.524,0.524
+Comoros,Africa,COM,Subnat,COMr101,"Grande Comore (Ngazidja)",2023,0.624,0.737,0.602,0.549
+Comoros,Africa,COM,Subnat,COMr102,Moheli,2023,0.62,0.743,0.612,0.525
+"Congo Brazzaville",Africa,COG,National,COGt,Total,2023,0.649,0.704,0.63,0.616
+"Congo Brazzaville",Africa,COG,Subnat,COGr204," Bouenza",2023,0.565,0.667,0.506,0.535
+"Congo Brazzaville",Africa,COG,Subnat,COGr211," Brazzaville",2023,0.705,0.714,0.711,0.69
+"Congo Brazzaville",Africa,COG,Subnat,COGr207," Cuvette",2023,0.616,0.724,0.588,0.55
+"Congo Brazzaville",Africa,COG,Subnat,COGr208," Cuvette Ouest",2023,0.548,0.629,0.549,0.478
+"Congo Brazzaville",Africa,COG,Subnat,COGr201," Kouilou",2023,0.534,0.653,0.471,0.495
+"Congo Brazzaville",Africa,COG,Subnat,COGr203," Lekoumou",2023,0.535,0.647,0.481,0.491
+"Congo Brazzaville",Africa,COG,Subnat,COGr210," Likouala",2023,0.563,0.653,0.559,0.49
+"Congo Brazzaville",Africa,COG,Subnat,COGr202," Niari",2023,0.603,0.719,0.552,0.553
+"Congo Brazzaville",Africa,COG,Subnat,COGr206," Plateaux",2023,0.577,0.73,0.525,0.5
+"Congo Brazzaville",Africa,COG,Subnat,COGr212," Pointe Noire",2023,0.692,0.774,0.644,0.667
+"Congo Brazzaville",Africa,COG,Subnat,COGr205," Pool",2023,0.519,0.641,0.46,0.472
+"Congo Brazzaville",Africa,COG,Subnat,COGr209," Sangha",2023,0.556,0.588,0.551,0.531
+"Congo Democratic Republic",Africa,COD,National,CODt,Total,2023,0.522,0.645,0.549,0.402
+"Congo Democratic Republic",Africa,COD,Subnat,CODr103,Bandundu,2023,0.499,0.675,0.541,0.341
+"Congo Democratic Republic",Africa,COD,Subnat,CODr102,Bas-Congo,2023,0.521,0.643,0.531,0.415
+"Congo Democratic Republic",Africa,COD,Subnat,CODr104,Equateur,2023,0.498,0.657,0.532,0.353
+"Congo Democratic Republic",Africa,COD,Subnat,CODr111,"Kasai Occidental",2023,0.446,0.554,0.482,0.333
+"Congo Democratic Republic",Africa,COD,Subnat,CODr110,"Kasai Oriental",2023,0.492,0.611,0.543,0.359
+"Congo Democratic Republic",Africa,COD,Subnat,CODr109,Katanga,2023,0.507,0.631,0.512,0.404
+"Congo Democratic Republic",Africa,COD,Subnat,CODr101,Kinshasa,2023,0.623,0.638,0.677,0.559
+"Congo Democratic Republic",Africa,COD,Subnat,CODr108,Maniema,2023,0.472,0.626,0.499,0.336
+"Congo Democratic Republic",Africa,COD,Subnat,CODr106,Nord-Kivu,2023,0.543,0.716,0.541,0.414
+"Congo Democratic Republic",Africa,COD,Subnat,CODr105,Orientale,2023,0.508,0.68,0.499,0.385
+"Congo Democratic Republic",Africa,COD,Subnat,CODr107,Sud-Kivu,2023,0.532,0.683,0.542,0.408
+"Costa Rica",America,CRI,National,CRIt,Total,2023,0.833,0.935,0.749,0.824
+"Costa Rica",America,CRI,Subnat,CRIr102,Alajuela,2023,0.83,0.945,0.731,0.826
+"Costa Rica",America,CRI,Subnat,CRIr103,Cartago,2023,0.832,0.942,0.733,0.833
+"Costa Rica",America,CRI,Subnat,CRIr105,Guanacaste,2023,0.82,0.947,0.715,0.813
+"Costa Rica",America,CRI,Subnat,CRIr104,Heredia,2023,0.851,0.905,0.819,0.832
+"Costa Rica",America,CRI,Subnat,CRIr107,Limon,2023,0.793,0.944,0.658,0.803
+"Costa Rica",America,CRI,Subnat,CRIr106,Puntarenas,2023,0.812,0.945,0.699,0.812
+"Costa Rica",America,CRI,Subnat,CRIr101,"San Jose",2023,0.849,0.931,0.792,0.831
+"Cote d'Ivoire",Africa,CIV,National,CIVt,Total,2023,0.582,0.645,0.479,0.636
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr101,Abidjan,2023,0.611,0.645,0.564,0.629
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr103,"Bas Sassandra",2023,0.603,0.659,0.523,0.636
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr104,Comoe,2023,0.559,0.629,0.464,0.6
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr105,Denguele,2023,0.515,0.622,0.367,0.599
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr106,Goh-Djiboua,2023,0.534,0.679,0.381,0.589
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr107,Lacs,2023,0.47,0.562,0.31,0.595
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr108,Lagunes,2023,0.54,0.599,0.461,0.571
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr109,Montagnes,2023,0.617,0.676,0.506,0.686
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr110,Sassandra-Marahoue,2023,0.567,0.659,0.47,0.588
+"Cote d'Ivoire",Africa,CIV,Subnat,CIVr102,Yamoussoukro,2023,0.63,0.714,0.539,0.649
+Croatia,Europe,HRV,National,HRVt,Total,2023,0.889,0.901,0.857,0.91
+Croatia,Europe,HRV,Subnat,HRVr101,"City of Zagreb",2023,0.954,0.92,0.945,1
+Croatia,Europe,HRV,Subnat,HRVr107,"County of Bjelovar-Bilogora",2023,0.835,0.869,0.789,0.85
+Croatia,Europe,HRV,Subnat,HRVr110,"County of Brod-Posavina",2023,0.836,0.893,0.803,0.816
+Croatia,Europe,HRV,Subnat,HRVr121,"County of Dubrovnik-Neretva",2023,0.911,0.941,0.883,0.911
+Croatia,Europe,HRV,Subnat,HRVr120,"County of Istria",2023,0.917,0.933,0.874,0.947
+Croatia,Europe,HRV,Subnat,HRVr113,"County of Karlovac",2023,0.857,0.891,0.819,0.864
+Croatia,Europe,HRV,Subnat,HRVr105,"County of Koprivnica-Krizevc",2023,0.847,0.868,0.793,0.883
+Croatia,Europe,HRV,Subnat,HRVr103,"County of Krapina-Zagorje",2023,0.834,0.86,0.803,0.839
+Croatia,Europe,HRV,Subnat,HRVr116,"County of Lika-Senj",2023,0.856,0.911,0.793,0.868
+Croatia,Europe,HRV,Subnat,HRVr106,"County of Medimurje",2023,0.866,0.9,0.816,0.885
+Croatia,Europe,HRV,Subnat,HRVr111,"County of Osijek-Baranja",2023,0.862,0.883,0.83,0.872
+Croatia,Europe,HRV,Subnat,HRVr109,"County of Pozega-Slavonia",2023,0.83,0.885,0.789,0.82
+Croatia,Europe,HRV,Subnat,HRVr115,"County of Primorje-Gorski Kotar",2023,0.925,0.927,0.905,0.945
+Croatia,Europe,HRV,Subnat,HRVr118,"County of Sibenik-Knin",2023,0.871,0.922,0.82,0.873
+Croatia,Europe,HRV,Subnat,HRVr114,"County of Sisak-Moslavina",2023,0.846,0.875,0.806,0.859
+Croatia,Europe,HRV,Subnat,HRVr119,"County of Split-Dalmatia",2023,0.891,0.931,0.876,0.868
+Croatia,Europe,HRV,Subnat,HRVr104,"County of Varazdin",2023,0.867,0.883,0.838,0.88
+Croatia,Europe,HRV,Subnat,HRVr108,"County of Virovitica-Podravina",2023,0.816,0.86,0.774,0.815
+Croatia,Europe,HRV,Subnat,HRVr112,"County of Vukovar-Srijem",2023,0.835,0.891,0.796,0.822
+Croatia,Europe,HRV,Subnat,HRVr117,"County of Zadar",2023,0.881,0.932,0.837,0.876
+Croatia,Europe,HRV,Subnat,HRVr102,"County of Zagreb",2023,0.871,0.904,0.843,0.869
+Cuba,America,CUB,National,CUBt,Total,2023,0.762,0.894,0.74,0.67
+Cuba,America,CUB,Subnat,CUBr103,"C. Habana",2023,0.8,0.894,0.791,0.724
+Cuba,America,CUB,Subnat,CUBr109,Camaguey,2023,0.747,0.894,0.735,0.634
+Cuba,America,CUB,Subnat,CUBr108,"Ciego de Avila",2023,0.767,0.894,0.755,0.668
+Cuba,America,CUB,Subnat,CUBr106,Cienfuegos,2023,0.771,0.894,0.757,0.678
+Cuba,America,CUB,Subnat,CUBr112,Granma,2023,0.736,0.894,0.711,0.626
+Cuba,America,CUB,Subnat,CUBr114,Guantanamo,2023,0.769,0.894,0.779,0.654
+Cuba,America,CUB,Subnat,CUBr111,Holguin,2023,0.745,0.894,0.73,0.633
+Cuba,America,CUB,Subnat,CUBr115,Isla,2023,0.782,0.894,0.74,0.722
+Cuba,America,CUB,Subnat,CUBr110,"Las Tunas",2023,0.738,0.894,0.718,0.628
+Cuba,America,CUB,Subnat,CUBr104,Matanzas,2023,0.759,0.894,0.702,0.697
+Cuba,America,CUB,Subnat,CUBr101,"Pinar del Rio",2023,0.752,0.894,0.698,0.682
+Cuba,America,CUB,Subnat,CUBr102,"Prov. Habana",2023,0.77,0.894,0.723,0.707
+Cuba,America,CUB,Subnat,CUBr107,S.Spiritus,2023,0.745,0.894,0.704,0.658
+Cuba,America,CUB,Subnat,CUBr113,"Santiago de Cuba",2023,0.767,0.894,0.781,0.646
+Cuba,America,CUB,Subnat,CUBr105,"Villa Clara",2023,0.75,0.894,0.708,0.667
+Cyprus,Europe,CYP,National,CYPt,Total,2023,0.913,0.948,0.869,0.924
+Czechia,Europe,CZE,National,CZEt,Total,2023,0.915,0.921,0.899,0.926
+Czechia,Europe,CZE,Subnat,CZEr106,Jihovychod,2023,0.924,0.928,0.934,0.911
+Czechia,Europe,CZE,Subnat,CZEr103,Jihozapad,2023,0.898,0.923,0.878,0.893
+Czechia,Europe,CZE,Subnat,CZEr108,Moravskoslezsko,2023,0.882,0.897,0.863,0.888
+Czechia,Europe,CZE,Subnat,CZEr101,Praha,2023,0.975,0.946,0.98,1
+Czechia,Europe,CZE,Subnat,CZEr105,Severovychod,2023,0.891,0.925,0.86,0.89
+Czechia,Europe,CZE,Subnat,CZEr104,Severozapad,2023,0.854,0.892,0.81,0.861
+Czechia,Europe,CZE,Subnat,CZEr102,"Stredni Cechy",2023,0.869,0.925,0.785,0.905
+Czechia,Europe,CZE,Subnat,CZEr107,"Stredni Morava",2023,0.901,0.92,0.891,0.892
+Denmark,Europe,DNK,National,DNKt,Total,2023,0.962,0.953,0.934,1
+Denmark,Europe,DNK,Subnat,DNKr101,Hovedstaden,2023,0.971,0.957,0.958,1
+Denmark,Europe,DNK,Subnat,DNKr104,Midtjylland,2023,0.959,0.96,0.934,0.984
+Denmark,Europe,DNK,Subnat,DNKr105,Nordjylland,2023,0.941,0.943,0.921,0.961
+Denmark,Europe,DNK,Subnat,DNKr102,Sjaelland,2023,0.929,0.941,0.914,0.931
+Denmark,Europe,DNK,Subnat,DNKr103,Syddanmark,2023,0.948,0.952,0.917,0.977
+Djibouti,Africa,DJI,National,DJIt,Total,2023,0.513,0.707,0.304,0.627
+Djibouti,Africa,DJI,Subnat,DJIr101,Djibouti,2023,0.521,0.693,0.317,0.645
+Djibouti,Africa,DJI,Subnat,DJIr102,"Other Districts",2023,0.463,0.793,0.232,0.54
+Dominica,America,DMA,National,DMAt,Total,2023,0.761,0.787,0.731,0.767
+"Dominican Republic",America,DOM,National,DOMt,Total,2023,0.776,0.826,0.693,0.815
+"Dominican Republic",America,DOM,Subnat,DOMr101,"Region 0 (Distrito Nacional, Santo Domingo, Monte Plata)",2023,0.793,0.803,0.744,0.833
+"Dominican Republic",America,DOM,Subnat,DOMr102,"Region I (Peravia, San Cristobal, San Jose de Ocoa, Azua)",2023,0.771,0.861,0.666,0.799
+"Dominican Republic",America,DOM,Subnat,DOMr103,"Region II (Espaillat, Puerto Plata, Santiago)",2023,0.769,0.826,0.666,0.827
+"Dominican Republic",America,DOM,Subnat,DOMr104,"Region III (Duarte, Maria Trinidad Sanchez, Salcedo, Samana)",2023,0.771,0.837,0.677,0.809
+"Dominican Republic",America,DOM,Subnat,DOMr105,"Region IV (Independencia, Bahoruco, Barahona, Pedernales)",2023,0.763,0.857,0.665,0.779
+"Dominican Republic",America,DOM,Subnat,DOMr106,"Region V (El Seibo, La Altagracia, La Romana, San Pedro de Macoris, Hato Mayor)",2023,0.76,0.832,0.668,0.791
+"Dominican Republic",America,DOM,Subnat,DOMr107,"Region VI (San Juan, Elias Pina)",2023,0.743,0.833,0.632,0.778
+"Dominican Republic",America,DOM,Subnat,DOMr108,"Region VII (Dajabon, Monte Cristi, Santiago Rodriguez, Valverde)",2023,0.75,0.842,0.631,0.793
+"Dominican Republic",America,DOM,Subnat,DOMr109,"Region VIII (La Vega, Monsenor Nouel, Sanchez Ramirez)",2023,0.774,0.841,0.672,0.82
+Ecuador,America,ECU,National,ECUt,Total,2023,0.777,0.883,0.712,0.746
+Ecuador,America,ECU,Subnat,ECUr101,Coste,2023,0.775,0.883,0.713,0.739
+Ecuador,America,ECU,Subnat,ECUr103,Oriente,2023,0.741,0.883,0.663,0.694
+Ecuador,America,ECU,Subnat,ECUr102,Sierra,2023,0.79,0.883,0.725,0.77
+Egypt,Africa,EGY,National,EGYt,Total,2023,0.754,0.794,0.703,0.769
+Egypt,Africa,EGY,Subnat,EGYr102,Alexandria,2023,0.805,0.802,0.83,0.783
+Egypt,Africa,EGY,Subnat,EGYr118,Assuit,2023,0.699,0.753,0.606,0.75
+Egypt,Africa,EGY,Subnat,EGYr121,Aswan,2023,0.748,0.785,0.7,0.762
+Egypt,Africa,EGY,Subnat,EGYr112,Behera,2023,0.739,0.819,0.639,0.772
+Egypt,Africa,EGY,Subnat,EGYr115,"Beni Suef",2023,0.72,0.768,0.637,0.764
+Egypt,Africa,EGY,Subnat,EGYr101,Cairo,2023,0.803,0.825,0.805,0.781
+Egypt,Africa,EGY,Subnat,EGYr106,Dakahlia,2023,0.771,0.812,0.728,0.775
+Egypt,Africa,EGY,Subnat,EGYr105,Damietta,2023,0.779,0.827,0.73,0.782
+Egypt,Africa,EGY,Subnat,EGYr116,Fayoum,2023,0.723,0.806,0.618,0.758
+Egypt,Africa,EGY,Subnat,EGYr122,"Frontier governorates (Red Sea, New Valley, Matroh, North Sainai, South Sainai)",2023,0.761,0.805,0.713,0.769
+Egypt,Africa,EGY,Subnat,EGYr110,Gharbia,2023,0.767,0.797,0.733,0.772
+Egypt,Africa,EGY,Subnat,EGYr114,Giza,2023,0.756,0.806,0.695,0.772
+Egypt,Africa,EGY,Subnat,EGYr113,Ismailia,2023,0.77,0.778,0.751,0.78
+Egypt,Africa,EGY,Subnat,EGYr109,"Kafr El-Sheikh",2023,0.757,0.811,0.686,0.78
+Egypt,Africa,EGY,Subnat,EGYr108,Kalyubia,2023,0.759,0.777,0.739,0.762
+Egypt,Africa,EGY,Subnat,EGYr111,Menoufia,2023,0.774,0.824,0.729,0.771
+Egypt,Africa,EGY,Subnat,EGYr117,Menya,2023,0.713,0.769,0.626,0.751
+Egypt,Africa,EGY,Subnat,EGYr103,"Port Said",2023,0.822,0.813,0.862,0.793
+Egypt,Africa,EGY,Subnat,EGYr120,Qena,2023,0.732,0.774,0.667,0.759
+Egypt,Africa,EGY,Subnat,EGYr107,Sharkia,2023,0.753,0.784,0.714,0.765
+Egypt,Africa,EGY,Subnat,EGYr119,Souhag,2023,0.709,0.759,0.626,0.749
+Egypt,Africa,EGY,Subnat,EGYr104,Suez,2023,0.808,0.814,0.82,0.791
+"El Salvador",America,SLV,National,SLVt,Total,2023,0.678,0.802,0.552,0.704
+"El Salvador",America,SLV,Subnat,SLVr102,"Central I",2023,0.716,0.808,0.619,0.733
+"El Salvador",America,SLV,Subnat,SLVr103,"Central II",2023,0.645,0.808,0.489,0.677
+"El Salvador",America,SLV,Subnat,SLVr101,Occidental,2023,0.648,0.79,0.504,0.685
+"El Salvador",America,SLV,Subnat,SLVr104,Oriental,2023,0.635,0.797,0.477,0.674
+"Equatorial Guinea",Africa,GNQ,National,GNQt,Total,2023,0.674,0.672,0.623,0.732
+"Equatorial Guinea",Africa,GNQ,Subnat,GNQr101,"Annobon, Bioko",2023,0.761,0.671,0.767,0.854
+"Equatorial Guinea",Africa,GNQ,Subnat,GNQr102,"Centro Sur",2023,0.619,0.682,0.536,0.65
+"Equatorial Guinea",Africa,GNQ,Subnat,GNQr103,"Kie Ntem",2023,0.628,0.664,0.577,0.646
+"Equatorial Guinea",Africa,GNQ,Subnat,GNQr104,Litoral,2023,0.701,0.709,0.65,0.748
+"Equatorial Guinea",Africa,GNQ,Subnat,GNQr105,"Wele Nzas",2023,0.6,0.63,0.528,0.649
+Eritrea,Africa,ERI,National,ERIt,Total,2023,0.503,0.748,0.374,0.455
+Eritrea,Africa,ERI,Subnat,ERIr104,Anseba,2023,0.456,0.817,0.28,0.415
+Eritrea,Africa,ERI,Subnat,ERIr106,Debub,2023,0.479,0.741,0.354,0.419
+Eritrea,Africa,ERI,Subnat,ERIr101,"Debubawi Keih Bahri",2023,0.507,0.634,0.391,0.527
+Eritrea,Africa,ERI,Subnat,ERIr105,Gash-Barka,2023,0.378,0.72,0.194,0.388
+Eritrea,Africa,ERI,Subnat,ERIr102,Maekel,2023,0.684,0.845,0.64,0.591
+Eritrea,Africa,ERI,Subnat,ERIr103,"Semenawi Keih Bahri",2023,0.411,0.674,0.249,0.414
+Estonia,Europe,EST,National,ESTt,Total,2023,0.905,0.91,0.896,0.908
+Estonia,Europe,EST,Subnat,ESTr103,Kesk-Eesti,2023,0.843,0.897,0.81,0.825
+Estonia,Europe,EST,Subnat,ESTr104,Kirde-Eesti,2023,0.862,0.86,0.909,0.819
+Estonia,Europe,EST,Subnat,ESTr102,Laane-Eesti,2023,0.86,0.912,0.837,0.835
+Estonia,Europe,EST,Subnat,ESTr105,Louna-Eesti,2023,0.878,0.911,0.87,0.855
+Estonia,Europe,EST,Subnat,ESTr101,Pohja-Eesti,2023,0.947,0.925,0.948,0.967
+Eswatini,Africa,SWZ,National,SWZt,Total,2023,0.695,0.679,0.713,0.694
+Eswatini,Africa,SWZ,Subnat,SWZr101,Hhohho,2023,0.711,0.716,0.702,0.713
+Eswatini,Africa,SWZ,Subnat,SWZr104,Lubombo,2023,0.69,0.706,0.682,0.681
+Eswatini,Africa,SWZ,Subnat,SWZr102,Manzini,2023,0.685,0.635,0.725,0.698
+Eswatini,Africa,SWZ,Subnat,SWZr103,Shiselweni,2023,0.688,0.668,0.734,0.664
+Ethiopia,Africa,ETH,National,ETHt,Total,2023,0.497,0.728,0.336,0.503
+Ethiopia,Africa,ETH,Subnat,ETHr110,Addis,2023,0.696,0.82,0.549,0.75
+Ethiopia,Africa,ETH,Subnat,ETHr102,Affar,2023,0.471,0.748,0.281,0.498
+Ethiopia,Africa,ETH,Subnat,ETHr103,Amhara,2023,0.481,0.725,0.32,0.479
+Ethiopia,Africa,ETH,Subnat,ETHr106,Ben-Gumz,2023,0.496,0.686,0.368,0.483
+Ethiopia,Africa,ETH,Subnat,ETHr111,"Dire Dawa",2023,0.597,0.705,0.462,0.652
+Ethiopia,Africa,ETH,Subnat,ETHr108,Gambela,2023,0.548,0.692,0.463,0.513
+Ethiopia,Africa,ETH,Subnat,ETHr109,Harari,2023,0.583,0.734,0.433,0.624
+Ethiopia,Africa,ETH,Subnat,ETHr104,Oromiya,2023,0.491,0.719,0.331,0.498
+Ethiopia,Africa,ETH,Subnat,ETHr107,SNNP,2023,0.494,0.751,0.338,0.475
+Ethiopia,Africa,ETH,Subnat,ETHr105,Somali,2023,0.433,0.666,0.261,0.468
+Ethiopia,Africa,ETH,Subnat,ETHr101,Tigray,2023,0.53,0.779,0.348,0.55
+Fiji,Asia/Pacific,FJI,National,FJIt,Total,2023,0.731,0.728,0.73,0.733
+Fiji,Asia/Pacific,FJI,Subnat,FJIr108,Ba,2023,0.736,0.732,0.722,0.754
+Fiji,Asia/Pacific,FJI,Subnat,FJIr106,"Cakaudrove, Bua",2023,0.693,0.728,0.663,0.689
+Fiji,Asia/Pacific,FJI,Subnat,FJIr105,"Kadavu, Lau, Lomaiviti, Rotuma",2023,0.694,0.728,0.684,0.673
+Fiji,Asia/Pacific,FJI,Subnat,FJIr107,Macuata,2023,0.734,0.728,0.729,0.746
+Fiji,Asia/Pacific,FJI,Subnat,FJIr109,"Nadroga or Navosa",2023,0.708,0.728,0.696,0.701
+Fiji,Asia/Pacific,FJI,Subnat,FJIr101,Naitasiri,2023,0.746,0.721,0.767,0.75
+Fiji,Asia/Pacific,FJI,Subnat,FJIr110,Ra,2023,0.694,0.728,0.673,0.682
+Fiji,Asia/Pacific,FJI,Subnat,FJIr102,Rewa,2023,0.748,0.751,0.759,0.735
+Fiji,Asia/Pacific,FJI,Subnat,FJIr103,"Serua, Namosi",2023,0.719,0.728,0.714,0.714
+Fiji,Asia/Pacific,FJI,Subnat,FJIr104,Tailevu,2023,0.726,0.728,0.734,0.717
+Finland,Europe,FIN,National,FINt,Total,2023,0.948,0.952,0.933,0.959
+Finland,Europe,FIN,Subnat,FINr105,Aland,2023,0.945,0.982,0.893,0.963
+Finland,Europe,FIN,Subnat,FINr103,Etela-Suomi,2023,0.938,0.952,0.922,0.939
+Finland,Europe,FIN,Subnat,FINr102,Helsinki-Uusimaa,2023,0.967,0.96,0.946,0.996
+Finland,Europe,FIN,Subnat,FINr101,Lansi-Suomi,2023,0.941,0.952,0.93,0.941
+Finland,Europe,FIN,Subnat,FINr104,"Pohjois-ja Ita-Suomi",2023,0.935,0.943,0.926,0.936
+France,Europe,FRA,National,FRAt,Total,2023,0.92,0.974,0.839,0.953
+France,Europe,FRA,Subnat,FRAr110,Alsace,2023,0.914,0.972,0.837,0.938
+France,Europe,FRA,Subnat,FRAr115,Aquitaine,2023,0.917,0.977,0.847,0.933
+France,Europe,FRA,Subnat,FRAr119,Auvergne,2023,0.899,0.967,0.816,0.921
+France,Europe,FRA,Subnat,FRAr106,Basse-Normandie,2023,0.891,0.957,0.807,0.914
+France,Europe,FRA,Subnat,FRAr107,Bourgogne,2023,0.896,0.963,0.805,0.927
+France,Europe,FRA,Subnat,FRAr113,Bretagne,2023,0.913,0.966,0.846,0.931
+France,Europe,FRA,Subnat,FRAr105,Centre,2023,0.895,0.966,0.807,0.919
+France,Europe,FRA,Subnat,FRAr102,Champagne-Ardenne,2023,0.893,0.958,0.794,0.935
+France,Europe,FRA,Subnat,FRAr122,Corse,2023,0.874,0.981,0.747,0.91
+France,Europe,FRA,Subnat,FRAr111,Franche-Comte,2023,0.897,0.969,0.817,0.911
+France,Europe,FRA,Subnat,FRAr127,"French Guyana",2023,0.799,0.915,0.687,0.812
+France,Europe,FRA,Subnat,FRAr125,Guadeloupe,2023,0.87,0.939,0.789,0.888
+France,Europe,FRA,Subnat,FRAr104,Haute-Normandie,2023,0.901,0.952,0.826,0.932
+France,Europe,FRA,Subnat,FRAr101,"Ile de France",2023,0.959,1,0.881,1
+France,Europe,FRA,Subnat,FRAr120,Languedoc-Roussillon,2023,0.903,0.969,0.834,0.91
+France,Europe,FRA,Subnat,FRAr117,Limousin,2023,0.896,0.967,0.821,0.906
+France,Europe,FRA,Subnat,FRAr109,Lorraine,2023,0.888,0.955,0.81,0.904
+France,Europe,FRA,Subnat,FRAr126,Martinique,2023,0.863,0.936,0.766,0.898
+France,Europe,FRA,Subnat,FRAr129,Mayotte,2023,0.789,0.848,0.759,0.765
+France,Europe,FRA,Subnat,FRAr116,Midi-Pyrenees,2023,0.92,0.983,0.849,0.932
+France,Europe,FRA,Subnat,FRAr108,Nord,2023,0.897,0.944,0.83,0.922
+France,Europe,FRA,Subnat,FRAr112,"Pays de la Loire",2023,0.915,0.978,0.834,0.938
+France,Europe,FRA,Subnat,FRAr103,Picardie,2023,0.879,0.95,0.787,0.909
+France,Europe,FRA,Subnat,FRAr114,Poitou-Charentes,2023,0.901,0.966,0.822,0.922
+France,Europe,FRA,Subnat,FRAr121,"Provence-Alpes-Cote dAzur",2023,0.921,0.98,0.833,0.958
+France,Europe,FRA,Subnat,FRAr128,Reunion,2023,0.857,0.936,0.761,0.883
+France,Europe,FRA,Subnat,FRAr118,Rhone-Alpes,2023,0.933,0.994,0.858,0.952
+Gabon,Africa,GAB,National,GABt,Total,2023,0.733,0.744,0.67,0.791
+Gabon,Africa,GAB,Subnat,GABr101,Estuaire,2023,0.75,0.735,0.71,0.809
+Gabon,Africa,GAB,Subnat,GABr102,"Haut Ogooue",2023,0.708,0.738,0.639,0.753
+Gabon,Africa,GAB,Subnat,GABr110,"Libreville-Port Gentil",2023,0.757,0.761,0.692,0.824
+Gabon,Africa,GAB,Subnat,GABr103,"Moyen Ogooue",2023,0.691,0.757,0.597,0.732
+Gabon,Africa,GAB,Subnat,GABr104,Ngounie,2023,0.664,0.726,0.573,0.705
+Gabon,Africa,GAB,Subnat,GABr105,Nyanga,2023,0.672,0.729,0.595,0.7
+Gabon,Africa,GAB,Subnat,GABr106,"Ogooue Ivindo",2023,0.636,0.665,0.573,0.675
+Gabon,Africa,GAB,Subnat,GABr107,"Ogooue Lolo",2023,0.667,0.717,0.58,0.714
+Gabon,Africa,GAB,Subnat,GABr108,"Ogooue Maritime",2023,0.699,0.771,0.6,0.739
+Gabon,Africa,GAB,Subnat,GABr109,"Woleu Ntem",2023,0.693,0.692,0.643,0.747
+Gambia,Africa,GMB,National,GMBt,Total,2023,0.524,0.706,0.405,0.504
+Gambia,Africa,GMB,Subnat,GMBr101,Banjul,2023,0.571,0.707,0.476,0.553
+Gambia,Africa,GMB,Subnat,GMBr108,Basse,2023,0.446,0.715,0.277,0.449
+Gambia,Africa,GMB,Subnat,GMBr103,Brikama,2023,0.554,0.713,0.46,0.519
+Gambia,Africa,GMB,Subnat,GMBr107,Janjabureh,2023,0.412,0.694,0.254,0.397
+Gambia,Africa,GMB,Subnat,GMBr102,Kanifing,2023,0.578,0.71,0.49,0.557
+Gambia,Africa,GMB,Subnat,GMBr105,Kerewan,2023,0.472,0.703,0.328,0.457
+Gambia,Africa,GMB,Subnat,GMBr106,Kuntaur,2023,0.362,0.671,0.18,0.392
+Gambia,Africa,GMB,Subnat,GMBr104,Mansakonko,2023,0.467,0.671,0.347,0.438
+Georgia,Asia/Pacific,GEO,National,GEOt,Total,2023,0.844,0.838,0.889,0.806
+Georgia,Asia/Pacific,GEO,Subnat,GEOr102,Ajaria,2023,0.849,0.829,0.891,0.827
+Georgia,Asia/Pacific,GEO,Subnat,GEOr103,Guria,2023,0.8,0.826,0.792,0.783
+Georgia,Asia/Pacific,GEO,Subnat,GEOr104,"Imereti Racha-Lochkhumi Kvemo Svaneti",2023,0.841,0.849,0.877,0.799
+Georgia,Asia/Pacific,GEO,Subnat,GEOr105,Kakheti,2023,0.8,0.807,0.832,0.762
+Georgia,Asia/Pacific,GEO,Subnat,GEOr106,"Kvemo Kartli",2023,0.824,0.85,0.829,0.795
+Georgia,Asia/Pacific,GEO,Subnat,GEOr107,Mtskheta-Mtianeti,2023,0.828,0.838,0.863,0.786
+Georgia,Asia/Pacific,GEO,Subnat,GEOr108,"Samegrelo-Zemo Svateni",2023,0.807,0.825,0.83,0.767
+Georgia,Asia/Pacific,GEO,Subnat,GEOr109,Samtskhe-Javakheti,2023,0.816,0.847,0.817,0.784
+Georgia,Asia/Pacific,GEO,Subnat,GEOr110,"Shida Kartli",2023,0.82,0.854,0.835,0.774
+Georgia,Asia/Pacific,GEO,Subnat,GEOr111,Tbilisi,2023,0.876,0.84,0.951,0.84
+Germany,Europe,DEU,National,DEUt,Total,2023,0.959,0.944,0.957,0.976
+Germany,Europe,DEU,Subnat,DEUr101,Baden-Wurttemberg,2023,0.972,0.963,0.963,0.992
+Germany,Europe,DEU,Subnat,DEUr102,Bayern,2023,0.967,0.955,0.947,1
+Germany,Europe,DEU,Subnat,DEUr103,Berlin,2023,0.977,0.947,1,0.984
+Germany,Europe,DEU,Subnat,DEUr104,Brandenburg,2023,0.936,0.938,0.938,0.932
+Germany,Europe,DEU,Subnat,DEUr105,Bremen,2023,0.961,0.921,0.963,1
+Germany,Europe,DEU,Subnat,DEUr106,Hamburg,2023,0.977,0.946,0.988,1
+Germany,Europe,DEU,Subnat,DEUr107,Hessen,2023,0.963,0.948,0.949,0.992
+Germany,Europe,DEU,Subnat,DEUr108,Mecklenburg-Vorpommern,2023,0.932,0.927,0.945,0.923
+Germany,Europe,DEU,Subnat,DEUr109,Niedersachsen,2023,0.945,0.936,0.94,0.961
+Germany,Europe,DEU,Subnat,DEUr110,Nordrhein-Westfalen,2023,0.955,0.937,0.96,0.969
+Germany,Europe,DEU,Subnat,DEUr111,Rheinland-Pfalz,2023,0.948,0.942,0.942,0.959
+Germany,Europe,DEU,Subnat,DEUr112,Saarland,2023,0.944,0.921,0.96,0.95
+Germany,Europe,DEU,Subnat,DEUr113,Sachsen,2023,0.953,0.946,0.977,0.937
+Germany,Europe,DEU,Subnat,DEUr114,Sachsen-Anhalt,2023,0.93,0.915,0.945,0.931
+Germany,Europe,DEU,Subnat,DEUr115,Schleswig-Holstein,2023,0.939,0.939,0.929,0.947
+Germany,Europe,DEU,Subnat,DEUr116,Thuringen,2023,0.937,0.93,0.956,0.927
+Ghana,Africa,GHA,National,GHAt,Total,2023,0.628,0.7,0.554,0.638
+Ghana,Africa,GHA,Subnat,GHAr106,Ashanti,2023,0.651,0.696,0.607,0.653
+Ghana,Africa,GHA,Subnat,GHAr107,"Brong Ahafo",2023,0.607,0.707,0.512,0.618
+Ghana,Africa,GHA,Subnat,GHAr102,Central,2023,0.635,0.694,0.584,0.631
+Ghana,Africa,GHA,Subnat,GHAr105,Eastern,2023,0.646,0.703,0.608,0.632
+Ghana,Africa,GHA,Subnat,GHAr103,"Greater Accra",2023,0.697,0.75,0.657,0.688
+Ghana,Africa,GHA,Subnat,GHAr108,Northern,2023,0.526,0.684,0.356,0.599
+Ghana,Africa,GHA,Subnat,GHAr110,"Upper East",2023,0.582,0.688,0.475,0.603
+Ghana,Africa,GHA,Subnat,GHAr109,"Upper West",2023,0.569,0.702,0.449,0.585
+Ghana,Africa,GHA,Subnat,GHAr104,Volta,2023,0.612,0.67,0.558,0.614
+Ghana,Africa,GHA,Subnat,GHAr101,Western,2023,0.629,0.697,0.56,0.638
+Greece,Europe,GRC,National,GRCt,Total,2023,0.908,0.952,0.885,0.888
+Greece,Europe,GRC,Subnat,GRCr105,"Anatoliki Makedonia, Thraki",2023,0.876,0.937,0.862,0.832
+Greece,Europe,GRC,Subnat,GRCr101,Attiki,2023,0.933,0.952,0.911,0.935
+Greece,Europe,GRC,Subnat,GRCr111,"Dytiki Ellada",2023,0.878,0.943,0.859,0.837
+Greece,Europe,GRC,Subnat,GRCr107,"Dytiki Makedonia",2023,0.9,0.96,0.871,0.871
+Greece,Europe,GRC,Subnat,GRCr110,"Ionia Nisia",2023,0.886,0.946,0.853,0.863
+Greece,Europe,GRC,Subnat,GRCr108,Ipeiros,2023,0.892,0.98,0.873,0.829
+Greece,Europe,GRC,Subnat,GRCr106,"Kentriki Makedonia",2023,0.891,0.942,0.882,0.85
+Greece,Europe,GRC,Subnat,GRCr104,Kriti,2023,0.896,0.965,0.868,0.86
+Greece,Europe,GRC,Subnat,GRCr103,"Notio Aigaio",2023,0.89,0.965,0.824,0.888
+Greece,Europe,GRC,Subnat,GRCr113,Peloponnisos,2023,0.892,0.951,0.861,0.868
+Greece,Europe,GRC,Subnat,GRCr112,"Sterea Ellada",2023,0.897,0.949,0.846,0.899
+Greece,Europe,GRC,Subnat,GRCr109,Thessalia,2023,0.894,0.956,0.883,0.848
+Greece,Europe,GRC,Subnat,GRCr102,"Voreio Aigaio",2023,0.882,0.974,0.871,0.809
+Grenada,America,GRD,National,GRDt,Total,2023,0.791,0.849,0.775,0.75
+Guatemala,America,GTM,National,GTMt,Total,2023,0.662,0.809,0.492,0.729
+Guatemala,America,GTM,Subnat,GTMr105,Central,2023,0.674,0.802,0.509,0.749
+Guatemala,America,GTM,Subnat,GTMr101,Metropolitan,2023,0.759,0.831,0.651,0.807
+Guatemala,America,GTM,Subnat,GTMr102,North,2023,0.589,0.81,0.404,0.623
+Guatemala,America,GTM,Subnat,GTMr107,North-Occidental,2023,0.587,0.784,0.378,0.681
+Guatemala,America,GTM,Subnat,GTMr103,North-Oriental,2023,0.655,0.797,0.486,0.725
+Guatemala,America,GTM,Subnat,GTMr108,Peten,2023,0.642,0.838,0.469,0.674
+Guatemala,America,GTM,Subnat,GTMr106,South-Occidental,2023,0.641,0.815,0.448,0.723
+Guatemala,America,GTM,Subnat,GTMr104,South-Oriental,2023,0.648,0.812,0.466,0.718
+Guinea,Africa,GIN,National,GINt,Total,2023,0.5,0.627,0.372,0.537
+Guinea,Africa,GIN,Subnat,GINr101,Boke,2023,0.475,0.604,0.338,0.525
+Guinea,Africa,GIN,Subnat,GINr102,Conakry,2023,0.689,0.737,0.64,0.694
+Guinea,Africa,GIN,Subnat,GINr103,Faranah,2023,0.437,0.604,0.281,0.491
+Guinea,Africa,GIN,Subnat,GINr104,Kankan,2023,0.423,0.588,0.242,0.531
+Guinea,Africa,GIN,Subnat,GINr105,Kindia,2023,0.494,0.602,0.378,0.529
+Guinea,Africa,GIN,Subnat,GINr106,Labe,2023,0.431,0.625,0.267,0.479
+Guinea,Africa,GIN,Subnat,GINr107,Mamou,2023,0.463,0.657,0.297,0.509
+Guinea,Africa,GIN,Subnat,GINr108,"N Zerekore",2023,0.485,0.652,0.365,0.48
+"Guinea Bissau",Africa,GNB,National,GNBt,Total,2023,0.514,0.678,0.418,0.48
+"Guinea Bissau",Africa,GNB,Subnat,GNBr106,Bafata,2023,0.49,0.759,0.331,0.468
+"Guinea Bissau",Africa,GNB,Subnat,GNBr104,Biombo,2023,0.517,0.616,0.501,0.447
+"Guinea Bissau",Africa,GNB,Subnat,GNBr109,Bissau,2023,0.612,0.677,0.581,0.582
+"Guinea Bissau",Africa,GNB,Subnat,GNBr105,Bolama,2023,0.507,0.677,0.474,0.405
+"Guinea Bissau",Africa,GNB,Subnat,GNBr108,Cacheu,2023,0.535,0.735,0.471,0.442
+"Guinea Bissau",Africa,GNB,Subnat,GNBr107,Gabu,2023,0.418,0.588,0.271,0.458
+"Guinea Bissau",Africa,GNB,Subnat,GNBr103,Oio,2023,0.461,0.714,0.314,0.438
+"Guinea Bissau",Africa,GNB,Subnat,GNBr102,Quinara,2023,0.505,0.646,0.458,0.435
+"Guinea Bissau",Africa,GNB,Subnat,GNBr101,Tombali,2023,0.498,0.697,0.411,0.432
+Guyana,America,GUY,National,GUYt,Total,2023,0.776,0.772,0.652,0.929
+Guyana,America,GUY,Subnat,GUYr101,Barima-Waini,2023,0.695,0.75,0.573,0.781
+Guyana,America,GUY,Subnat,GUYr107,Cuyuni-Mazaruni,2023,0.722,0.738,0.614,0.832
+Guyana,America,GUY,Subnat,GUYr104,Demerara-Mahaica,2023,0.796,0.778,0.686,0.946
+Guyana,America,GUY,Subnat,GUYr106,"East Berbice-Corentyne",2023,0.767,0.802,0.603,0.933
+Guyana,America,GUY,Subnat,GUYr103,"Essequibo Islands-West Demerara",2023,0.769,0.745,0.64,0.952
+Guyana,America,GUY,Subnat,GUYr105,Mahaica-Berbice,2023,0.77,0.772,0.636,0.928
+Guyana,America,GUY,Subnat,GUYr102,Pomeroon-Supenaam,2023,0.73,0.754,0.584,0.884
+Guyana,America,GUY,Subnat,GUYr108,Potaro-Siparuni,2023,0.698,0.772,0.578,0.764
+Guyana,America,GUY,Subnat,GUYr110,"Upper Demerara-Berbice",2023,0.803,0.744,0.73,0.954
+Guyana,America,GUY,Subnat,GUYr109,"Upper Takutu-Upper Essequibo",2023,0.719,0.798,0.609,0.764
+Haiti,America,HTI,National,HTIt,Total,2023,0.554,0.691,0.482,0.51
+Haiti,America,HTI,Subnat,HTIr105,Artibonite,2023,0.521,0.689,0.434,0.472
+Haiti,America,HTI,Subnat,HTIr106,Centre,2023,0.506,0.679,0.417,0.456
+Haiti,America,HTI,Subnat,HTIr108,"Grande-Anse, Nippes",2023,0.525,0.718,0.448,0.45
+Haiti,America,HTI,Subnat,HTIr103,North,2023,0.569,0.745,0.481,0.514
+Haiti,America,HTI,Subnat,HTIr104,North-East,2023,0.544,0.702,0.462,0.497
+Haiti,America,HTI,Subnat,HTIr109,North-West,2023,0.546,0.736,0.472,0.47
+Haiti,America,HTI,Subnat,HTIr107,South,2023,0.54,0.729,0.454,0.475
+Haiti,America,HTI,Subnat,HTIr102,South-East,2023,0.533,0.704,0.448,0.48
+Haiti,America,HTI,Subnat,HTIr101,"West (incl Metropolitain area)",2023,0.584,0.662,0.534,0.565
+Honduras,America,HND,National,HNDt,Total,2023,0.645,0.814,0.533,0.62
+Honduras,America,HND,Subnat,HNDr101,Atlantida,2023,0.652,0.803,0.539,0.639
+Honduras,America,HND,Subnat,HNDr106,Choluteca,2023,0.607,0.794,0.491,0.575
+Honduras,America,HND,Subnat,HNDr102,Colon,2023,0.624,0.8,0.488,0.622
+Honduras,America,HND,Subnat,HNDr103,Comayagua,2023,0.63,0.821,0.491,0.619
+Honduras,America,HND,Subnat,HNDr104,Copan,2023,0.595,0.811,0.426,0.608
+Honduras,America,HND,Subnat,HNDr105,Cortes,2023,0.687,0.825,0.596,0.661
+Honduras,America,HND,Subnat,HNDr107,"El Paraiso",2023,0.609,0.809,0.476,0.587
+Honduras,America,HND,Subnat,HNDr108,"Francisco Morazan",2023,0.703,0.814,0.661,0.647
+Honduras,America,HND,Subnat,HNDr109,"Gracias a Dios",2023,0.577,0.765,0.534,0.47
+Honduras,America,HND,Subnat,HNDr110,Intibuca,2023,0.595,0.795,0.462,0.573
+Honduras,America,HND,Subnat,HNDr111,"Islas de la Bahia",2023,0.676,0.827,0.588,0.637
+Honduras,America,HND,Subnat,HNDr112,"La Paz",2023,0.618,0.815,0.501,0.579
+Honduras,America,HND,Subnat,HNDr113,Lempira,2023,0.567,0.808,0.394,0.571
+Honduras,America,HND,Subnat,HNDr114,Ocotepeque,2023,0.612,0.81,0.455,0.623
+Honduras,America,HND,Subnat,HNDr115,Olancho,2023,0.601,0.821,0.451,0.587
+Honduras,America,HND,Subnat,HNDr116,"Santa Barbara",2023,0.616,0.821,0.465,0.613
+Honduras,America,HND,Subnat,HNDr117,Valle,2023,0.613,0.795,0.491,0.591
+Honduras,America,HND,Subnat,HNDr118,Yoro,2023,0.633,0.821,0.503,0.615
+Hungary,Europe,HUN,National,HUNt,Total,2023,0.87,0.877,0.841,0.894
+Hungary,Europe,HUN,Subnat,HUNr107,Del-Alfold,2023,0.867,0.878,0.836,0.889
+Hungary,Europe,HUN,Subnat,HUNr104,Del-Dunantul,2023,0.86,0.883,0.819,0.879
+Hungary,Europe,HUN,Subnat,HUNr106,Eszak-Alfold,2023,0.85,0.87,0.81,0.871
+Hungary,Europe,HUN,Subnat,HUNr105,Eszak-Magyarorszag,2023,0.837,0.856,0.787,0.871
+Hungary,Europe,HUN,Subnat,HUNr102,Kozep-Dunantul,2023,0.867,0.883,0.794,0.93
+Hungary,Europe,HUN,Subnat,HUNr101,Kozep-Magyarorszag,2023,0.95,0.909,0.944,1
+Hungary,Europe,HUN,Subnat,HUNr103,Nyugat-Dunantul,2023,0.881,0.9,0.823,0.923
+Iceland,Europe,ISL,National,ISLt,Total,2023,0.972,0.964,0.964,0.988
+India,Asia/Pacific,IND,National,INDt,Total,2023,0.685,0.8,0.589,0.681
+India,Asia/Pacific,IND,Subnat,INDr136,"Andaman and Nicobar Islands",2023,0.746,0.85,0.647,0.754
+India,Asia/Pacific,IND,Subnat,INDr101,"Andhra Pradesh",2023,0.681,0.806,0.553,0.708
+India,Asia/Pacific,IND,Subnat,INDr125,"Arunachal Pradesh",2023,0.722,0.856,0.616,0.713
+India,Asia/Pacific,IND,Subnat,INDr102,Assam,2023,0.655,0.81,0.566,0.612
+India,Asia/Pacific,IND,Subnat,INDr103,Bihar,2023,0.617,0.77,0.515,0.592
+India,Asia/Pacific,IND,Subnat,INDr131,Chandigarth,2023,0.793,0.836,0.748,0.798
+India,Asia/Pacific,IND,Subnat,INDr129,Chhattisgarh,2023,0.665,0.791,0.565,0.657
+India,Asia/Pacific,IND,Subnat,INDr132,"Dadra and Nagar Haveli",2023,0.663,0.815,0.54,0.661
+India,Asia/Pacific,IND,Subnat,INDr134,"Daman and Diu",2023,0.713,0.85,0.59,0.722
+India,Asia/Pacific,IND,Subnat,INDr104,Goa,2023,0.801,0.868,0.741,0.8
+India,Asia/Pacific,IND,Subnat,INDr105,Gujarat,2023,0.685,0.81,0.554,0.717
+India,Asia/Pacific,IND,Subnat,INDr106,Haryana,2023,0.737,0.804,0.654,0.761
+India,Asia/Pacific,IND,Subnat,INDr107,"Himachal Pradesh",2023,0.757,0.829,0.692,0.757
+India,Asia/Pacific,IND,Subnat,INDr108,"Jammu and Kashmir",2023,0.76,0.857,0.688,0.744
+India,Asia/Pacific,IND,Subnat,INDr128,Jharkhand,2023,0.639,0.787,0.548,0.605
+India,Asia/Pacific,IND,Subnat,INDr109,Karnataka,2023,0.713,0.831,0.606,0.72
+India,Asia/Pacific,IND,Subnat,INDr110,Kerala,2023,0.799,0.881,0.759,0.763
+India,Asia/Pacific,IND,Subnat,INDr135,Lakshadweep,2023,0.751,0.8,0.691,0.765
+India,Asia/Pacific,IND,Subnat,INDr111,"Madhya Pradesh",2023,0.651,0.782,0.544,0.648
+India,Asia/Pacific,IND,Subnat,INDr112,Maharashtra,2023,0.736,0.834,0.661,0.723
+India,Asia/Pacific,IND,Subnat,INDr113,Manipur,2023,0.725,0.832,0.699,0.654
+India,Asia/Pacific,IND,Subnat,INDr114,Meghalaya,2023,0.69,0.809,0.612,0.664
+India,Asia/Pacific,IND,Subnat,INDr115,Mizoram,2023,0.751,0.83,0.678,0.752
+India,Asia/Pacific,IND,Subnat,INDr116,Nagaland,2023,0.72,0.829,0.655,0.687
+India,Asia/Pacific,IND,Subnat,INDr124,"New Delhi",2023,0.777,0.824,0.728,0.781
+India,Asia/Pacific,IND,Subnat,INDr117,Orissa,2023,0.649,0.797,0.539,0.635
+India,Asia/Pacific,IND,Subnat,INDr133,Puducherry,2023,0.782,0.875,0.707,0.772
+India,Asia/Pacific,IND,Subnat,INDr118,Punjab,2023,0.738,0.812,0.638,0.777
+India,Asia/Pacific,IND,Subnat,INDr119,Rajasthan,2023,0.692,0.805,0.581,0.708
+India,Asia/Pacific,IND,Subnat,INDr120,Sikkim,2023,0.753,0.848,0.688,0.731
+India,Asia/Pacific,IND,Subnat,INDr121,"Tamil Nadu",2023,0.732,0.84,0.649,0.719
+India,Asia/Pacific,IND,Subnat,INDr130,Telangana,2023,0.699,0.823,0.58,0.715
+India,Asia/Pacific,IND,Subnat,INDr126,Tripura,2023,0.664,0.789,0.586,0.634
+India,Asia/Pacific,IND,Subnat,INDr123,"Uttar Pradesh",2023,0.65,0.767,0.56,0.639
+India,Asia/Pacific,IND,Subnat,INDr127,Uttaranchal,2023,0.722,0.8,0.65,0.726
+India,Asia/Pacific,IND,Subnat,INDr122,"West Bengal",2023,0.674,0.828,0.571,0.646
+Indonesia,Asia/Pacific,IDN,National,IDNt,Total,2023,0.728,0.787,0.66,0.743
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr116,Bali,2023,0.754,0.793,0.687,0.785
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr109,"Bangka Belitung",2023,0.716,0.747,0.638,0.769
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr115,Banten,2023,0.729,0.772,0.656,0.767
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr107,Bengkulu,2023,0.739,0.806,0.679,0.738
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr112,"Central Java",2023,0.726,0.81,0.636,0.743
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr121,"Central Kalimantan",2023,0.706,0.78,0.64,0.705
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr125,"Central Sulawesi",2023,0.71,0.761,0.671,0.702
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr101,"DI Aceh",2023,0.734,0.784,0.702,0.718
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr113,"DI Yogyakarta",2023,0.779,0.82,0.761,0.757
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr110,"DKI Jakarta",2023,0.783,0.806,0.746,0.799
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr114,"East Java",2023,0.726,0.788,0.646,0.751
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr123,"East Kalimantan",2023,0.749,0.799,0.69,0.764
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr118,"East Nusa Tenggara",2023,0.673,0.763,0.628,0.635
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr128,Gorontalo,2023,0.689,0.728,0.636,0.706
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr130,"Irian Jaya (Papua and Papua Barat)",2023,0.675,0.697,0.665,0.665
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr105,Jambi,2023,0.722,0.778,0.651,0.744
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr108,Lampung,2023,0.718,0.787,0.638,0.736
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr129,Maluku,2023,0.717,0.736,0.721,0.694
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr124,"North Sulawesi",2023,0.742,0.762,0.723,0.741
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr102,"North Sumatra",2023,0.735,0.783,0.696,0.73
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr104,"Riau (incl. Riau islands)",2023,0.741,0.792,0.685,0.748
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr122,"South Kalimantan",2023,0.714,0.769,0.651,0.726
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr126,"South Sulawesi (incl Sulawesi Barat)",2023,0.722,0.785,0.66,0.728
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr106,"South Sumatra",2023,0.721,0.787,0.647,0.734
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr127,"Southeast Sulawesi",2023,0.721,0.758,0.691,0.718
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr111,"West Java",2023,0.73,0.793,0.65,0.755
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr120,"West Kalimantan",2023,0.701,0.807,0.603,0.707
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr117,"West Nusa Tenggara",2023,0.713,0.789,0.646,0.712
+Indonesia,Asia/Pacific,IDN,Subnat,IDNr103,"West Sumatra",2023,0.752,0.803,0.72,0.735
+Iran,Asia/Pacific,IRN,National,IRNt,Total,2023,0.799,0.887,0.75,0.768
+Iran,Asia/Pacific,IRN,Subnat,IRNr125,Ardebil,2023,0.763,0.841,0.705,0.751
+Iran,Asia/Pacific,IRN,Subnat,IRNr119,Bushehr,2023,0.812,0.886,0.768,0.787
+Iran,Asia/Pacific,IRN,Subnat,IRNr115,"Chaharmahal and Bakhtiyari",2023,0.795,0.899,0.723,0.772
+Iran,Asia/Pacific,IRN,Subnat,IRNr104,EastAzarbayejan,2023,0.786,0.885,0.713,0.769
+Iran,Asia/Pacific,IRN,Subnat,IRNr111,Esfahan,2023,0.831,0.892,0.797,0.807
+Iran,Asia/Pacific,IRN,Subnat,IRNr108,Fars,2023,0.809,0.886,0.77,0.775
+Iran,Asia/Pacific,IRN,Subnat,IRNr102,Gilan,2023,0.803,0.904,0.767,0.748
+Iran,Asia/Pacific,IRN,Subnat,IRNr128,Golestan,2023,0.776,0.898,0.695,0.75
+Iran,Asia/Pacific,IRN,Subnat,IRNr114,Hamedan,2023,0.774,0.888,0.679,0.768
+Iran,Asia/Pacific,IRN,Subnat,IRNr123,Hormozgan,2023,0.769,0.888,0.689,0.742
+Iran,Asia/Pacific,IRN,Subnat,IRNr117,Ilam,2023,0.814,0.904,0.776,0.77
+Iran,Asia/Pacific,IRN,Subnat,IRNr109,Kerman,2023,0.779,0.889,0.72,0.739
+Iran,Asia/Pacific,IRN,Subnat,IRNr106,Kermanshah,2023,0.796,0.895,0.716,0.787
+Iran,Asia/Pacific,IRN,Subnat,IRNr110,Khorasan-e-Razavi,2023,0.782,0.879,0.709,0.767
+Iran,Asia/Pacific,IRN,Subnat,IRNr107,Khuzestan,2023,0.802,0.891,0.726,0.798
+Iran,Asia/Pacific,IRN,Subnat,IRNr118,"Kohgiluyeh and Boyerahmad",2023,0.792,0.882,0.751,0.75
+Iran,Asia/Pacific,IRN,Subnat,IRNr113,Kordestan,2023,0.747,0.846,0.631,0.781
+Iran,Asia/Pacific,IRN,Subnat,IRNr116,Lorestan,2023,0.781,0.885,0.708,0.761
+Iran,Asia/Pacific,IRN,Subnat,IRNr101,Markazi,2023,0.792,0.885,0.734,0.765
+Iran,Asia/Pacific,IRN,Subnat,IRNr103,Mazandaran,2023,0.823,0.906,0.801,0.769
+Iran,Asia/Pacific,IRN,Subnat,IRNr129,"North Khorasan",2023,0.747,0.874,0.652,0.731
+Iran,Asia/Pacific,IRN,Subnat,IRNr127,Qazvin,2023,0.795,0.891,0.729,0.775
+Iran,Asia/Pacific,IRN,Subnat,IRNr126,Qom,2023,0.815,0.9,0.774,0.777
+Iran,Asia/Pacific,IRN,Subnat,IRNr121,Semnan,2023,0.824,0.889,0.813,0.773
+Iran,Asia/Pacific,IRN,Subnat,IRNr112,"Sistanand Baluchestan",2023,0.688,0.879,0.536,0.69
+Iran,Asia/Pacific,IRN,Subnat,IRNr130,"South Khorasan",2023,0.757,0.871,0.676,0.738
+Iran,Asia/Pacific,IRN,Subnat,IRNr124,"Tehran and Alborz",2023,0.836,0.891,0.859,0.765
+Iran,Asia/Pacific,IRN,Subnat,IRNr105,WestAzarbayejan,2023,0.76,0.875,0.652,0.769
+Iran,Asia/Pacific,IRN,Subnat,IRNr122,Yazd,2023,0.824,0.904,0.782,0.791
+Iran,Asia/Pacific,IRN,Subnat,IRNr120,Zanjan,2023,0.772,0.884,0.702,0.741
+Iraq,Asia/Pacific,IRQ,National,IRQt,Total,2023,0.695,0.805,0.569,0.731
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr107,Anbar,2023,0.689,0.811,0.564,0.715
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr109,Babylon,2023,0.689,0.824,0.564,0.704
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr108,Baghdad,2023,0.71,0.815,0.59,0.744
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr118,Basra,2023,0.673,0.777,0.552,0.71
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr106,Diala,2023,0.704,0.795,0.595,0.737
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr101,Dohouk,2023,0.711,0.821,0.577,0.757
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr105,Erbil,2023,0.712,0.814,0.586,0.756
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr110,Kerbela,2023,0.676,0.775,0.561,0.712
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr117,Maysan,2023,0.645,0.799,0.48,0.699
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr115,Muthanna,2023,0.653,0.814,0.469,0.73
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr113,Najaf,2023,0.663,0.806,0.53,0.683
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr102,Nenava,2023,0.703,0.806,0.584,0.736
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr114,Qadisiya,2023,0.688,0.8,0.558,0.728
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr112,Salaheldeen,2023,0.7,0.798,0.578,0.745
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr103,Suleimaniya,2023,0.715,0.814,0.603,0.745
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr104,Ta-amem-Karkuk,2023,0.714,0.786,0.619,0.748
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr116,Thi-Qar,2023,0.693,0.816,0.557,0.733
+Iraq,Asia/Pacific,IRQ,Subnat,IRQr111,Wasit,2023,0.665,0.782,0.545,0.691
+Ireland,Europe,IRL,National,IRLt,Total,2023,0.949,0.96,0.891,1
+Ireland,Europe,IRL,Subnat,IRLr101,Border,2023,0.916,0.963,0.875,0.913
+Ireland,Europe,IRL,Subnat,IRLr104,Dublin,2023,0.953,0.959,0.904,1
+Ireland,Europe,IRL,Subnat,IRLr105,Mid-East,2023,0.944,0.967,0.892,0.976
+Ireland,Europe,IRL,Subnat,IRLr106,Mid-West,2023,0.939,0.947,0.886,0.985
+Ireland,Europe,IRL,Subnat,IRLr102,Midland,2023,0.918,0.962,0.88,0.913
+Ireland,Europe,IRL,Subnat,IRLr107,South-East,2023,0.933,0.958,0.878,0.965
+Ireland,Europe,IRL,Subnat,IRLr108,South-West,2023,0.949,0.956,0.894,1
+Ireland,Europe,IRL,Subnat,IRLr103,West,2023,0.944,0.968,0.892,0.975
+Israel,Asia/Pacific,ISR,National,ISRt,Total,2023,0.919,0.96,0.866,0.933
+Italy,Europe,ITA,National,ITAt,Total,2023,0.915,0.98,0.825,0.946
+Italy,Europe,ITA,Subnat,ITAr105,Abruzzo,2023,0.909,0.977,0.84,0.915
+Italy,Europe,ITA,Subnat,ITAr109,Basilicata,2023,0.888,0.971,0.783,0.922
+Italy,Europe,ITA,Subnat,ITAr110,Calabria,2023,0.867,0.965,0.783,0.863
+Italy,Europe,ITA,Subnat,ITAr107,Campania,2023,0.876,0.954,0.803,0.877
+Italy,Europe,ITA,Subnat,ITAr117,Emilia-Romagna,2023,0.943,0.99,0.868,0.976
+Italy,Europe,ITA,Subnat,ITAr116,"Friuli-Venezia Giulia",2023,0.926,0.985,0.841,0.96
+Italy,Europe,ITA,Subnat,ITAr121,Lazio,2023,0.938,0.987,0.865,0.965
+Italy,Europe,ITA,Subnat,ITAr103,Liguria,2023,0.921,0.98,0.831,0.959
+Italy,Europe,ITA,Subnat,ITAr104,Lombardia,2023,0.936,0.99,0.834,0.992
+Italy,Europe,ITA,Subnat,ITAr120,Marche,2023,0.923,0.99,0.849,0.936
+Italy,Europe,ITA,Subnat,ITAr106,Molise,2023,0.894,0.971,0.816,0.901
+Italy,Europe,ITA,Subnat,ITAr101,Piemonte,2023,0.92,0.977,0.838,0.952
+Italy,Europe,ITA,Subnat,ITAr113,"Provincia Autonoma di Bolzano",2023,0.926,0.994,0.798,1
+Italy,Europe,ITA,Subnat,ITAr114,"Provincia Autonoma di Trento",2023,0.944,1,0.848,0.993
+Italy,Europe,ITA,Subnat,ITAr108,Puglia,2023,0.878,0.98,0.782,0.882
+Italy,Europe,ITA,Subnat,ITAr112,Sardegna,2023,0.887,0.97,0.804,0.896
+Italy,Europe,ITA,Subnat,ITAr111,Sicilia,2023,0.868,0.96,0.783,0.868
+Italy,Europe,ITA,Subnat,ITAr118,Toscana,2023,0.93,0.99,0.849,0.956
+Italy,Europe,ITA,Subnat,ITAr119,Umbria,2023,0.917,0.991,0.843,0.922
+Italy,Europe,ITA,Subnat,ITAr102,"Valle dAosta",2023,0.908,0.974,0.774,0.991
+Italy,Europe,ITA,Subnat,ITAr115,Veneto,2023,0.922,0.991,0.82,0.965
+Jamaica,America,JAM,National,JAMt,Total,2023,0.72,0.792,0.676,0.696
+Jamaica,America,JAM,Subnat,JAMr101,"Kingston, St Andrew",2023,0.728,0.777,0.698,0.712
+Jamaica,America,JAM,Subnat,JAMr106,"Manchester, Clarendon",2023,0.716,0.801,0.674,0.682
+Jamaica,America,JAM,Subnat,JAMr103,"St Ann, St Catherine",2023,0.733,0.824,0.685,0.699
+Jamaica,America,JAM,Subnat,JAMr105,"St James, Hanover, Westmoreland",2023,0.712,0.77,0.671,0.699
+Jamaica,America,JAM,Subnat,JAMr102,"St Thomas, Portland, St Mary",2023,0.709,0.792,0.657,0.683
+Jamaica,America,JAM,Subnat,JAMr104,"Trelawny, St Elizabeth",2023,0.701,0.793,0.635,0.683
+Japan,Asia/Pacific,JPN,National,JPNt,Total,2023,0.925,0.996,0.854,0.932
+Japan,Asia/Pacific,JPN,Subnat,JPNr108,"Chugoku (Tottori, Shimane, Okayama, Hiroshima, Yamaguchi)",2023,0.921,1,0.849,0.92
+Japan,Asia/Pacific,JPN,Subnat,JPNr101,Hokkaido,2023,0.898,0.986,0.812,0.903
+Japan,Asia/Pacific,JPN,Subnat,JPNr105,"Hokuriku (Niigata, Toyama, Ishikawa, Fukui)",2023,0.907,0.997,0.809,0.924
+Japan,Asia/Pacific,JPN,Subnat,JPNr107,"Kansai region (Shiga, Kyoto, Osaka, Hyogo, Nara, Wakayama)",2023,0.927,0.994,0.87,0.921
+Japan,Asia/Pacific,JPN,Subnat,JPNr110,"Kyushu (Fukuoka, Saga, Nagasaki, Kumamoto, Oita, Miyazaki, Kagoshima, Okinawa)",2023,0.904,0.994,0.826,0.9
+Japan,Asia/Pacific,JPN,Subnat,JPNr103,"Northern-Kanto, Koshin (Ibaraki, Tochigi, Gunma)",2023,0.913,0.986,0.824,0.936
+Japan,Asia/Pacific,JPN,Subnat,JPNr109,"Shikoku (Tokushima, Kagawa, Ehime, Kochi)",2023,0.903,0.991,0.819,0.908
+Japan,Asia/Pacific,JPN,Subnat,JPNr104,"Southern-Kanto (Saitama, Chiba, Tokyo, Kanagawa, Yamanashi, Nagano)",2023,0.951,0.997,0.906,0.952
+Japan,Asia/Pacific,JPN,Subnat,JPNr102,"Tohoku (Aomori, Iwate, Miyagi, Akita, Yamagata, Fukushima)",2023,0.893,0.986,0.792,0.911
+Japan,Asia/Pacific,JPN,Subnat,JPNr106,"Toukai (Gifu, Shizuoka, Aichi, Mie)",2023,0.925,0.995,0.838,0.948
+Jordan,Asia/Pacific,JOR,National,JORt,Total,2023,0.754,0.889,0.705,0.683
+Jordan,Asia/Pacific,JOR,Subnat,JORr108,Aljoun,2023,0.758,0.889,0.726,0.673
+Jordan,Asia/Pacific,JOR,Subnat,JORr101,Amman,2023,0.765,0.901,0.72,0.692
+Jordan,Asia/Pacific,JOR,Subnat,JORr112,Aqaba,2023,0.742,0.889,0.672,0.683
+Jordan,Asia/Pacific,JOR,Subnat,JORr102,Balqa,2023,0.76,0.914,0.7,0.687
+Jordan,Asia/Pacific,JOR,Subnat,JORr105,Irbid,2023,0.74,0.828,0.725,0.675
+Jordan,Asia/Pacific,JOR,Subnat,JORr107,Jarash,2023,0.748,0.889,0.691,0.68
+Jordan,Asia/Pacific,JOR,Subnat,JORr109,Karak,2023,0.743,0.889,0.681,0.678
+Jordan,Asia/Pacific,JOR,Subnat,JORr111,Maan,2023,0.743,0.889,0.675,0.683
+Jordan,Asia/Pacific,JOR,Subnat,JORr104,Madaba,2023,0.741,0.852,0.704,0.679
+Jordan,Asia/Pacific,JOR,Subnat,JORr106,Mafraq,2023,0.708,0.889,0.6,0.666
+Jordan,Asia/Pacific,JOR,Subnat,JORr110,Tafiela,2023,0.751,0.889,0.696,0.683
+Jordan,Asia/Pacific,JOR,Subnat,JORr103,Zarqa,2023,0.743,0.882,0.685,0.678
+Kazakhstan,Asia/Pacific,KAZ,National,KAZt,Total,2023,0.837,0.837,0.807,0.866
+Kazakhstan,Asia/Pacific,KAZ,Subnat,KAZr101,"Almaty city",2023,0.868,0.814,0.894,0.9
+Kazakhstan,Asia/Pacific,KAZ,Subnat,KAZr104,"Central region (Karagandinskaya)",2023,0.857,0.875,0.818,0.878
+Kazakhstan,Asia/Pacific,KAZ,Subnat,KAZr106,"East region (East-Kazakhstanskaya)",2023,0.823,0.798,0.813,0.86
+Kazakhstan,Asia/Pacific,KAZ,Subnat,KAZr105,"North region (Akmolinskaya (incl Astana city), Kostnaiskaya, Pavlodarskaya, North-Kazakhstanskaya)",2023,0.85,0.867,0.818,0.866
+Kazakhstan,Asia/Pacific,KAZ,Subnat,KAZr102,"South region (Almatinskaya, Zhambylskaya, Kyzylordinskaya, South-Kazakhstanskaya)",2023,0.821,0.821,0.784,0.859
+Kazakhstan,Asia/Pacific,KAZ,Subnat,KAZr103,"West region (Aktyubinskaya, Atyrauskaya, Mangistauskaya, West-Kazakhstanskaya)",2023,0.829,0.838,0.792,0.859
+Kenya,Africa,KEN,National,KENt,Total,2023,0.628,0.671,0.606,0.608
+Kenya,Africa,KEN,Subnat,KENr102,Central,2023,0.656,0.669,0.642,0.656
+Kenya,Africa,KEN,Subnat,KENr103,Coast,2023,0.607,0.677,0.554,0.597
+Kenya,Africa,KEN,Subnat,KENr104,Eastern,2023,0.62,0.691,0.588,0.588
+Kenya,Africa,KEN,Subnat,KENr101,Nairobi,2023,0.694,0.671,0.711,0.7
+Kenya,Africa,KEN,Subnat,KENr108,"North Eastern",2023,0.487,0.681,0.312,0.543
+Kenya,Africa,KEN,Subnat,KENr105,Nyanza,2023,0.604,0.648,0.603,0.563
+Kenya,Africa,KEN,Subnat,KENr106,"Rift Valley",2023,0.619,0.678,0.593,0.591
+Kenya,Africa,KEN,Subnat,KENr107,Western,2023,0.61,0.657,0.609,0.566
+Kiribati,Asia/Pacific,KIR,National,KIRt,Total,2023,0.644,0.715,0.634,0.589
+Kiribati,Asia/Pacific,KIR,Subnat,KIRr103,"Central Gibert",2023,0.596,0.671,0.609,0.517
+Kiribati,Asia/Pacific,KIR,Subnat,KIRr105,"Line and Phoenix Group",2023,0.623,0.728,0.59,0.562
+Kiribati,Asia/Pacific,KIR,Subnat,KIRr102,"Northern Gilbert",2023,0.614,0.745,0.59,0.527
+Kiribati,Asia/Pacific,KIR,Subnat,KIRr104,"Southern Gilbert",2023,0.613,0.723,0.613,0.519
+Kiribati,Asia/Pacific,KIR,Subnat,KIRr101,"Souyth Tarawa",2023,0.674,0.705,0.661,0.657
+"Korea, Rep.",Asia/Pacific,KOR,National,KORt,Total,2023,0.937,0.99,0.886,0.938
+"Korea, Rep.",Asia/Pacific,KOR,Subnat,KORr101,"Capital Region",2023,0.967,1,0.953,0.948
+"Korea, Rep.",Asia/Pacific,KOR,Subnat,KORr105,"Chungcheong Region",2023,0.92,0.994,0.821,0.955
+"Korea, Rep.",Asia/Pacific,KOR,Subnat,KORr106,"Gangwon Region",2023,0.914,0.974,0.861,0.909
+"Korea, Rep.",Asia/Pacific,KOR,Subnat,KORr103,"Gyeongbuk Region",2023,0.873,0.982,0.719,0.942
+"Korea, Rep.",Asia/Pacific,KOR,Subnat,KORr102,"Gyeongnam Region",2023,0.934,0.982,0.919,0.902
+"Korea, Rep.",Asia/Pacific,KOR,Subnat,KORr107,Jeju,2023,0.911,1,0.847,0.892
+"Korea, Rep.",Asia/Pacific,KOR,Subnat,KORr104,"Jeolla Region",2023,0.917,0.986,0.847,0.924
+Kosovo,Europe,XKO,National,KSVt,Total,2023,0.328,0.823,0.061,0.706
+Kosovo,Europe,XKO,Subnat,KSVr107,Ferizaj,2023,0.329,0.828,0.061,0.703
+Kosovo,Europe,XKO,Subnat,KSVr101,Gjakova,2023,0.323,0.823,0.058,0.711
+Kosovo,Europe,XKO,Subnat,KSVr102,Gjilan,2023,0.321,0.776,0.062,0.689
+Kosovo,Europe,XKO,Subnat,KSVr103,Mitrovica,2023,0.33,0.818,0.062,0.706
+Kosovo,Europe,XKO,Subnat,KSVr104,Peja,2023,0.325,0.811,0.059,0.711
+Kosovo,Europe,XKO,Subnat,KSVr106,Pristina,2023,0.332,0.823,0.063,0.708
+Kosovo,Europe,XKO,Subnat,KSVr105,Prizren,2023,0.323,0.837,0.057,0.709
+Kuwait,Asia/Pacific,KWT,National,KWTt,Total,2023,0.852,0.929,0.694,0.958
+Kuwait,Asia/Pacific,KWT,Subnat,KWTr102,Ahmadi,2023,0.861,0.929,0.718,0.955
+Kuwait,Asia/Pacific,KWT,Subnat,KWTr101,"Al Asimah, Hawalli, Al-Farwaniyah, Mubarak al-Sabah",2023,0.85,0.929,0.689,0.959
+Kuwait,Asia/Pacific,KWT,Subnat,KWTr103,Al-Jahra,2023,0.841,0.929,0.671,0.953
+Kyrgyzstan,Asia/Pacific,KGZ,National,KGZt,Total,2023,0.72,0.795,0.755,0.62
+Kyrgyzstan,Asia/Pacific,KGZ,Subnat,KGZr108,Batken,2023,0.699,0.807,0.689,0.615
+Kyrgyzstan,Asia/Pacific,KGZ,Subnat,KGZr101,Bishkek,2023,0.757,0.787,0.845,0.653
+Kyrgyzstan,Asia/Pacific,KGZ,Subnat,KGZr103,Chuy,2023,0.725,0.817,0.74,0.63
+Kyrgyzstan,Asia/Pacific,KGZ,Subnat,KGZr102,Issyk-Kul,2023,0.719,0.789,0.753,0.626
+Kyrgyzstan,Asia/Pacific,KGZ,Subnat,KGZr105,Jalal-Abad,2023,0.696,0.788,0.715,0.598
+Kyrgyzstan,Asia/Pacific,KGZ,Subnat,KGZr107,Naryn,2023,0.703,0.769,0.76,0.593
+Kyrgyzstan,Asia/Pacific,KGZ,Subnat,KGZr106,Osh,2023,0.698,0.795,0.719,0.595
+Kyrgyzstan,Asia/Pacific,KGZ,Subnat,KGZr104,Talas,2023,0.697,0.783,0.71,0.609
+Lao,Asia/Pacific,LAO,National,LAOt,Total,2023,0.617,0.753,0.469,0.664
+Lao,Asia/Pacific,LAO,Subnat,LAOr117,Attapeu,2023,0.595,0.723,0.457,0.636
+Lao,Asia/Pacific,LAO,Subnat,LAOr105,Bokeo,2023,0.59,0.724,0.426,0.666
+Lao,Asia/Pacific,LAO,Subnat,LAOr111,Borikhamxay,2023,0.652,0.775,0.498,0.718
+Lao,Asia/Pacific,LAO,Subnat,LAOr116,Champasack,2023,0.609,0.761,0.437,0.678
+Lao,Asia/Pacific,LAO,Subnat,LAOr107,Huaphanh,2023,0.588,0.769,0.437,0.604
+Lao,Asia/Pacific,LAO,Subnat,LAOr112,Khammuane,2023,0.6,0.711,0.46,0.659
+Lao,Asia/Pacific,LAO,Subnat,LAOr103,Luangnamtha,2023,0.583,0.763,0.401,0.646
+Lao,Asia/Pacific,LAO,Subnat,LAOr106,Luangprabang,2023,0.6,0.789,0.442,0.621
+Lao,Asia/Pacific,LAO,Subnat,LAOr104,Oudomxay,2023,0.579,0.701,0.451,0.616
+Lao,Asia/Pacific,LAO,Subnat,LAOr102,Phongsaly,2023,0.554,0.701,0.412,0.588
+Lao,Asia/Pacific,LAO,Subnat,LAOr114,Saravane,2023,0.534,0.703,0.37,0.585
+Lao,Asia/Pacific,LAO,Subnat,LAOr113,Savannakhet,2023,0.575,0.729,0.407,0.642
+Lao,Asia/Pacific,LAO,Subnat,LAOr108,Sayabury,2023,0.667,0.86,0.498,0.692
+Lao,Asia/Pacific,LAO,Subnat,LAOr115,Sekong,2023,0.586,0.786,0.42,0.61
+Lao,Asia/Pacific,LAO,Subnat,LAOr101,"Vientiane Municipality",2023,0.736,0.832,0.634,0.757
+Lao,Asia/Pacific,LAO,Subnat,LAOr110,"Vientiane Province",2023,0.63,0.742,0.489,0.689
+Lao,Asia/Pacific,LAO,Subnat,LAOr109,Xiengkhuang,2023,0.643,0.768,0.516,0.671
+Latvia,Europe,LVA,National,LVAt,Total,2023,0.889,0.864,0.905,0.897
+Latvia,Europe,LVA,Subnat,LVAr104,"Kurzeme region",2023,0.88,0.856,0.939,0.848
+Latvia,Europe,LVA,Subnat,LVAr106,"Latgale region",2023,0.856,0.831,0.938,0.804
+Latvia,Europe,LVA,Subnat,LVAr102,"Pieriga region",2023,0.909,0.881,0.989,0.862
+Latvia,Europe,LVA,Subnat,LVAr101,"Riga region",2023,0.947,0.869,1,0.978
+Latvia,Europe,LVA,Subnat,LVAr103,"Vidzeme region",2023,0.878,0.865,0.943,0.83
+Latvia,Europe,LVA,Subnat,LVAr105,"Zemgale region",2023,0.871,0.865,0.94,0.814
+Lebanon,Asia/Pacific,LBN,National,LBNt,Total,2023,0.752,0.889,0.67,0.714
+Lebanon,Asia/Pacific,LBN,Subnat,LBNr101,Beirut,2023,0.721,0.889,0.593,0.71
+Lebanon,Asia/Pacific,LBN,Subnat,LBNr104,Beqaa,2023,0.78,0.889,0.705,0.757
+Lebanon,Asia/Pacific,LBN,Subnat,LBNr102,"Mount Lebanon",2023,0.751,0.889,0.648,0.736
+Lebanon,Asia/Pacific,LBN,Subnat,LBNr103,Northern,2023,0.741,0.889,0.719,0.635
+Lebanon,Asia/Pacific,LBN,Subnat,LBNr105,"Southern, Nabtieh",2023,0.769,0.889,0.696,0.736
+Lesotho,Africa,LSO,National,LSOt,Total,2023,0.55,0.575,0.563,0.515
+Lesotho,Africa,LSO,Subnat,LSOr103,Berea,2023,0.577,0.582,0.617,0.537
+Lesotho,Africa,LSO,Subnat,LSOr101,Butha-Buthe,2023,0.545,0.585,0.553,0.5
+Lesotho,Africa,LSO,Subnat,LSOr102,Leribe,2023,0.545,0.557,0.559,0.52
+Lesotho,Africa,LSO,Subnat,LSOr105,Mafeteng,2023,0.54,0.592,0.537,0.495
+Lesotho,Africa,LSO,Subnat,LSOr104,Maseru,2023,0.587,0.582,0.62,0.56
+Lesotho,Africa,LSO,Subnat,LSOr106,"Mohale s Hoek",2023,0.526,0.585,0.525,0.475
+Lesotho,Africa,LSO,Subnat,LSOr109,Mokhotlong,2023,0.485,0.569,0.464,0.432
+Lesotho,Africa,LSO,Subnat,LSOr108,"Qasha s Nek",2023,0.521,0.602,0.499,0.471
+Lesotho,Africa,LSO,Subnat,LSOr107,Quthing,2023,0.512,0.567,0.507,0.467
+Lesotho,Africa,LSO,Subnat,LSOr110,Thaba-Tseka,2023,0.459,0.552,0.418,0.418
+Liberia,Africa,LBR,National,LBRt,Total,2023,0.51,0.649,0.496,0.413
+Liberia,Africa,LBR,Subnat,LBRr101,Bomi,2023,0.487,0.673,0.45,0.382
+Liberia,Africa,LBR,Subnat,LBRr102,Bong,2023,0.47,0.68,0.412,0.37
+Liberia,Africa,LBR,Subnat,LBRr103,Gbarpolu,2023,0.414,0.616,0.333,0.346
+Liberia,Africa,LBR,Subnat,LBRr104,"Grand Bassa",2023,0.441,0.609,0.378,0.373
+Liberia,Africa,LBR,Subnat,LBRr105,"Grand Cape Mount",2023,0.423,0.569,0.359,0.371
+Liberia,Africa,LBR,Subnat,LBRr106,"Grand Gedeh",2023,0.494,0.648,0.477,0.391
+Liberia,Africa,LBR,Subnat,LBRr107,"Grand Kru",2023,0.467,0.633,0.456,0.352
+Liberia,Africa,LBR,Subnat,LBRr108,Lofa,2023,0.447,0.661,0.363,0.372
+Liberia,Africa,LBR,Subnat,LBRr109,Margibi,2023,0.493,0.628,0.473,0.403
+Liberia,Africa,LBR,Subnat,LBRr110,Maryland,2023,0.499,0.642,0.491,0.396
+Liberia,Africa,LBR,Subnat,LBRr111,Montserrado,2023,0.58,0.654,0.626,0.476
+Liberia,Africa,LBR,Subnat,LBRr112,Nimba,2023,0.492,0.677,0.46,0.382
+Liberia,Africa,LBR,Subnat,LBRr113,"River Cess",2023,0.454,0.66,0.402,0.352
+Liberia,Africa,LBR,Subnat,LBRr114,"River Gee",2023,0.5,0.657,0.492,0.386
+Liberia,Africa,LBR,Subnat,LBRr115,Sinoe,2023,0.465,0.582,0.46,0.375
+Libya,Africa,LBY,National,LBYt,Total,2023,0.721,0.759,0.618,0.799
+Libya,Africa,LBY,Subnat,LBYr101,Cyrenaica,2023,0.712,0.759,0.607,0.782
+Libya,Africa,LBY,Subnat,LBYr103,Fezzan,2023,0.72,0.759,0.633,0.776
+Libya,Africa,LBY,Subnat,LBYr102,Tripolitania,2023,0.726,0.759,0.622,0.811
+Liechtenstein,Europe,LIE,National,LIEt,Total,2023,0.938,0.979,0.842,1
+Lithuania,Europe,LTU,National,LTUt,Total,2023,0.895,0.862,0.911,0.912
+Lithuania,Europe,LTU,Subnat,LTUr101,"Alytus County",2023,0.861,0.86,0.886,0.839
+Lithuania,Europe,LTU,Subnat,LTUr102,"Kaunas County",2023,0.901,0.871,0.922,0.912
+Lithuania,Europe,LTU,Subnat,LTUr103,"Klaipeda County",2023,0.895,0.872,0.905,0.91
+Lithuania,Europe,LTU,Subnat,LTUr104,"Marijampole County",2023,0.85,0.863,0.857,0.83
+Lithuania,Europe,LTU,Subnat,LTUr105,"Panevezys County",2023,0.866,0.857,0.876,0.863
+Lithuania,Europe,LTU,Subnat,LTUr106,"Siauliai County",2023,0.868,0.861,0.877,0.865
+Lithuania,Europe,LTU,Subnat,LTUr107,"Taurage County",2023,0.84,0.852,0.852,0.818
+Lithuania,Europe,LTU,Subnat,LTUr108,"Telsiai County",2023,0.865,0.869,0.871,0.855
+Lithuania,Europe,LTU,Subnat,LTUr109,"Utena County",2023,0.853,0.843,0.878,0.838
+Lithuania,Europe,LTU,Subnat,LTUr110,"Vilnius County",2023,0.934,0.874,0.958,0.974
+Luxembourg,Europe,LUX,National,LUXt,Total,2023,0.922,0.957,0.818,1
+Madagascar,Africa,MDG,National,MDGt,Total,2023,0.487,0.671,0.405,0.424
+Madagascar,Africa,MDG,Subnat,MDGr112,"Alaotra Mangoro",2023,0.506,0.689,0.441,0.427
+Madagascar,Africa,MDG,Subnat,MDGr101,Analamanga,2023,0.582,0.708,0.56,0.499
+Madagascar,Africa,MDG,Subnat,MDGr111,Analanjirofo,2023,0.505,0.655,0.45,0.438
+Madagascar,Africa,MDG,Subnat,MDGr106,"Anamoroni Mania",2023,0.477,0.65,0.419,0.398
+Madagascar,Africa,MDG,Subnat,MDGr118,Androy,2023,0.412,0.7,0.276,0.362
+Madagascar,Africa,MDG,Subnat,MDGr119,Anosy,2023,0.383,0.657,0.229,0.375
+Madagascar,Africa,MDG,Subnat,MDGr117,"Atsimo Andrefana",2023,0.446,0.636,0.34,0.41
+Madagascar,Africa,MDG,Subnat,MDGr109,"Atsimo Atsinanana",2023,0.411,0.663,0.285,0.366
+Madagascar,Africa,MDG,Subnat,MDGr110,Atsinanana,2023,0.497,0.666,0.436,0.423
+Madagascar,Africa,MDG,Subnat,MDGr115,Betsiboka,2023,0.426,0.647,0.304,0.394
+Madagascar,Africa,MDG,Subnat,MDGr113,Boeny,2023,0.499,0.688,0.417,0.434
+Madagascar,Africa,MDG,Subnat,MDGr104,Bongolava,2023,0.46,0.644,0.366,0.414
+Madagascar,Africa,MDG,Subnat,MDGr121,Diana,2023,0.549,0.741,0.492,0.454
+Madagascar,Africa,MDG,Subnat,MDGr105,"Haute Matsiatra",2023,0.497,0.673,0.44,0.414
+Madagascar,Africa,MDG,Subnat,MDGr108,Ihorombe,2023,0.449,0.716,0.317,0.398
+Madagascar,Africa,MDG,Subnat,MDGr103,Itasy,2023,0.486,0.708,0.388,0.419
+Madagascar,Africa,MDG,Subnat,MDGr116,Melaky,2023,0.432,0.645,0.307,0.407
+Madagascar,Africa,MDG,Subnat,MDGr120,Menabe,2023,0.383,0.658,0.223,0.384
+Madagascar,Africa,MDG,Subnat,MDGr122,Sava,2023,0.507,0.725,0.416,0.431
+Madagascar,Africa,MDG,Subnat,MDGr114,Sofia,2023,0.468,0.667,0.381,0.403
+Madagascar,Africa,MDG,Subnat,MDGr102,Vakinankaratra,2023,0.487,0.668,0.416,0.416
+Madagascar,Africa,MDG,Subnat,MDGr107,"Vatovavy Fitovinany",2023,0.443,0.589,0.381,0.386
+Malawi,Africa,MWI,National,MWIt,Total,2023,0.517,0.729,0.45,0.422
+Malawi,Africa,MWI,Subnat,MWIr101,Blantyre,2023,0.584,0.727,0.548,0.5
+Malawi,Africa,MWI,Subnat,MWIr102,Kasungu,2023,0.541,0.781,0.477,0.426
+Malawi,Africa,MWI,Subnat,MWIr109,Lilongwe,2023,0.526,0.741,0.455,0.432
+Malawi,Africa,MWI,Subnat,MWIr103,Machinga,2023,0.492,0.729,0.409,0.398
+Malawi,Africa,MWI,Subnat,MWIr104,Mangochi,2023,0.467,0.701,0.371,0.391
+Malawi,Africa,MWI,Subnat,MWIr110,Mulanje,2023,0.512,0.731,0.444,0.414
+Malawi,Africa,MWI,Subnat,MWIr105,Mzimba,2023,0.554,0.738,0.505,0.455
+Malawi,Africa,MWI,Subnat,MWIr112,"Other central (Nkhota Kota, Mchinji, Dowa, Ntchisi, Dedza, Ntcheu)",2023,0.494,0.726,0.413,0.401
+Malawi,Africa,MWI,Subnat,MWIr111,"Other northern (Chitipa, Karonga, Rumphi, Nkhata Bay)",2023,0.558,0.777,0.511,0.438
+Malawi,Africa,MWI,Subnat,MWIr113,"Other southern (Balaka, Mwanza, Phalombe, Chiradzulu, Chikwawa, Nsanje, neno)",2023,0.504,0.715,0.44,0.407
+Malawi,Africa,MWI,Subnat,MWIr106,Salima,2023,0.49,0.712,0.402,0.41
+Malawi,Africa,MWI,Subnat,MWIr107,Thyolo,2023,0.489,0.681,0.429,0.402
+Malawi,Africa,MWI,Subnat,MWIr108,Zomba,2023,0.525,0.728,0.47,0.424
+Malaysia,Asia/Pacific,MYS,National,MYSt,Total,2023,0.819,0.872,0.722,0.874
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr101,Johor,2023,0.833,0.872,0.731,0.907
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr102,Kedah,2023,0.816,0.872,0.709,0.878
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr103,Kelantan,2023,0.786,0.872,0.687,0.81
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr114,"Kuala Lumpur Federal Territory",2023,0.876,0.872,0.839,0.918
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr115,"Labuan Federal Territory",2023,0.795,0.872,0.674,0.854
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr104,Melaka,2023,0.842,0.872,0.75,0.914
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr105,"Negeri Sembilan",2023,0.837,0.872,0.735,0.915
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr106,Pahang,2023,0.812,0.872,0.701,0.877
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr108,Perak,2023,0.823,0.872,0.711,0.9
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr109,Perlis,2023,0.813,0.872,0.703,0.876
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr107,"Pulau Pinang",2023,0.853,0.872,0.775,0.919
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr112,Sabah,2023,0.718,0.872,0.57,0.745
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr113,Sarawak,2023,0.752,0.872,0.616,0.791
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr110,Selangor,2023,0.872,0.872,0.824,0.923
+Malaysia,Asia/Pacific,MYS,Subnat,MYSr111,Terengganu,2023,0.807,0.872,0.705,0.856
+Maldives,Asia/Pacific,MDV,National,MDVt,Total,2023,0.766,0.939,0.602,0.795
+Maldives,Asia/Pacific,MDV,Subnat,MDVr104,Central,2023,0.722,0.943,0.513,0.777
+Maldives,Asia/Pacific,MDV,Subnat,MDVr101,Male,2023,0.804,0.934,0.68,0.819
+Maldives,Asia/Pacific,MDV,Subnat,MDVr102,North,2023,0.732,0.936,0.539,0.778
+Maldives,Asia/Pacific,MDV,Subnat,MDVr103,"North Central",2023,0.729,0.956,0.52,0.778
+Maldives,Asia/Pacific,MDV,Subnat,MDVr106,South,2023,0.736,0.934,0.544,0.785
+Maldives,Asia/Pacific,MDV,Subnat,MDVr105,"South Central",2023,0.737,0.943,0.544,0.781
+Mali,Africa,MLI,National,MLIt,Total,2023,0.419,0.622,0.249,0.476
+Mali,Africa,MLI,Subnat,MLIr108,Bamako,2023,0.582,0.724,0.455,0.598
+Mali,Africa,MLI,Subnat,MLIr107,"Gao and Kidal",2023,0.382,0.682,0.199,0.41
+Mali,Africa,MLI,Subnat,MLIr101,Kayes,2023,0.388,0.596,0.215,0.457
+Mali,Africa,MLI,Subnat,MLIr102,Koulikoro,2023,0.422,0.63,0.254,0.471
+Mali,Africa,MLI,Subnat,MLIr105,Mopti,2023,0.35,0.598,0.166,0.432
+Mali,Africa,MLI,Subnat,MLIr104,Segou,2023,0.374,0.592,0.192,0.461
+Mali,Africa,MLI,Subnat,MLIr103,Sikasso,2023,0.401,0.625,0.218,0.474
+Mali,Africa,MLI,Subnat,MLIr106,Tombouctou,2023,0.328,0.596,0.143,0.416
+Mauritania,Africa,MRT,National,MRTt,Total,2023,0.563,0.746,0.383,0.625
+Mauritania,Africa,MRT,Subnat,MRTr107,Adrar,2023,0.587,0.666,0.48,0.632
+Mauritania,Africa,MRT,Subnat,MRTr103,Assaba,2023,0.496,0.725,0.297,0.566
+Mauritania,Africa,MRT,Subnat,MRTr105,Brakna,2023,0.536,0.744,0.34,0.608
+Mauritania,Africa,MRT,Subnat,MRTr104,Gorgol,2023,0.48,0.729,0.279,0.544
+Mauritania,Africa,MRT,Subnat,MRTr110,Guidimagha,2023,0.457,0.743,0.24,0.536
+Mauritania,Africa,MRT,Subnat,MRTr101,"Hodh Charghi",2023,0.423,0.736,0.205,0.501
+Mauritania,Africa,MRT,Subnat,MRTr102,"Hodh Gharbi",2023,0.471,0.734,0.253,0.564
+Mauritania,Africa,MRT,Subnat,MRTr112,Inchiri,2023,0.633,0.676,0.537,0.699
+Mauritania,Africa,MRT,Subnat,MRTr108,Nouadhibou,2023,0.7,0.755,0.594,0.765
+Mauritania,Africa,MRT,Subnat,MRTr109,Tagant,2023,0.53,0.682,0.384,0.57
+Mauritania,Africa,MRT,Subnat,MRTr111,Tiris-Zemmour,2023,0.72,0.789,0.64,0.74
+Mauritania,Africa,MRT,Subnat,MRTr106,"Trarza incl Nouakchott",2023,0.671,0.782,0.532,0.726
+Mauritius,Africa,MUS,National,MUSt,Total,2023,0.806,0.845,0.73,0.847
+Mauritius,Africa,MUS,Subnat,MUSr101,"North (Port Louis, Pamplemousses, Riviere du Rempart, Flacq, Moka)",2023,0.8,0.845,0.718,0.844
+Mauritius,Africa,MUS,Subnat,MUSr103,Rodrigues,2023,0.723,0.845,0.568,0.788
+Mauritius,Africa,MUS,Subnat,MUSr102,"South (Grand Port, Savanne, Plaines Wilhems, Black River)",2023,0.815,0.845,0.75,0.854
+Mexico,America,MEX,National,MEXt,Total,2023,0.789,0.847,0.714,0.813
+Mexico,America,MEX,Subnat,MEXr101,Aguascalientes,2023,0.797,0.844,0.73,0.822
+Mexico,America,MEX,Subnat,MEXr102,"Baja California",2023,0.813,0.853,0.772,0.815
+Mexico,America,MEX,Subnat,MEXr103,"Baja California Sur",2023,0.81,0.839,0.786,0.807
+Mexico,America,MEX,Subnat,MEXr104,Campeche,2023,0.778,0.863,0.715,0.763
+Mexico,America,MEX,Subnat,MEXr107,Chiapas,2023,0.699,0.805,0.606,0.699
+Mexico,America,MEX,Subnat,MEXr108,Chihuahua,2023,0.796,0.826,0.747,0.817
+Mexico,America,MEX,Subnat,MEXr105,Coahuila,2023,0.801,0.834,0.751,0.821
+Mexico,America,MEX,Subnat,MEXr106,Colima,2023,0.789,0.838,0.729,0.804
+Mexico,America,MEX,Subnat,MEXr109,"Distrito Federal",2023,0.845,0.844,0.863,0.829
+Mexico,America,MEX,Subnat,MEXr110,Durango,2023,0.769,0.805,0.712,0.795
+Mexico,America,MEX,Subnat,MEXr111,Guanajuato,2023,0.761,0.832,0.667,0.795
+Mexico,America,MEX,Subnat,MEXr112,Guerrero,2023,0.711,0.774,0.65,0.716
+Mexico,America,MEX,Subnat,MEXr113,Hidalgo,2023,0.766,0.835,0.709,0.76
+Mexico,America,MEX,Subnat,MEXr114,Jalisco,2023,0.794,0.837,0.724,0.826
+Mexico,America,MEX,Subnat,MEXr115,Mexico,2023,0.789,0.825,0.754,0.79
+Mexico,America,MEX,Subnat,MEXr116,"Michoacan de Ocampo",2023,0.749,0.832,0.649,0.779
+Mexico,America,MEX,Subnat,MEXr117,Morelos,2023,0.782,0.844,0.726,0.78
+Mexico,America,MEX,Subnat,MEXr118,Nayarit,2023,0.775,0.793,0.743,0.79
+Mexico,America,MEX,Subnat,MEXr119,"Nuevo Leon",2023,0.814,0.844,0.77,0.83
+Mexico,America,MEX,Subnat,MEXr120,Oaxaca,2023,0.711,0.814,0.632,0.699
+Mexico,America,MEX,Subnat,MEXr121,Puebla,2023,0.746,0.813,0.683,0.749
+Mexico,America,MEX,Subnat,MEXr122,Queretaro,2023,0.792,0.835,0.743,0.8
+Mexico,America,MEX,Subnat,MEXr123,"Quintana Roo",2023,0.789,0.84,0.745,0.786
+Mexico,America,MEX,Subnat,MEXr124,"San Luis Potosi",2023,0.761,0.824,0.698,0.767
+Mexico,America,MEX,Subnat,MEXr125,Sinaloa,2023,0.808,0.854,0.771,0.801
+Mexico,America,MEX,Subnat,MEXr126,Sonora,2023,0.811,0.841,0.784,0.809
+Mexico,America,MEX,Subnat,MEXr127,Tabasco,2023,0.778,0.855,0.728,0.757
+Mexico,America,MEX,Subnat,MEXr128,Tamaulipas,2023,0.795,0.842,0.746,0.8
+Mexico,America,MEX,Subnat,MEXr129,Tlaxcala,2023,0.769,0.818,0.722,0.768
+Mexico,America,MEX,Subnat,MEXr130,Veracruz,2023,0.743,0.814,0.678,0.745
+Mexico,America,MEX,Subnat,MEXr131,Yucatan,2023,0.773,0.825,0.717,0.782
+Mexico,America,MEX,Subnat,MEXr132,Zacatecas,2023,0.772,0.837,0.686,0.8
+"Micronesia, Fed. Sts.",Asia/Pacific,FSM,National,FSMt,Total,2023,0.615,0.726,0.565,0.566
+Moldova,Europe,MDA,National,MDAt,Total,2023,0.785,0.788,0.801,0.765
+Moldova,Europe,MDA,Subnat,MDAr102,Center,2023,0.76,0.781,0.757,0.742
+Moldova,Europe,MDA,Subnat,MDAr104,Chisinau,2023,0.852,0.791,0.925,0.845
+Moldova,Europe,MDA,Subnat,MDAr101,North,2023,0.764,0.785,0.767,0.741
+Moldova,Europe,MDA,Subnat,MDAr103,South,2023,0.78,0.8,0.778,0.762
+Mongolia,Asia/Pacific,MNG,National,MNGt,Total,2023,0.747,0.796,0.693,0.755
+Mongolia,Asia/Pacific,MNG,Subnat,MNGr103,"Central (Dornogovi, Dundgovi, Umnugovi, Selenge, Tuv, Darkhan-Uul, Govisumber)",2023,0.736,0.817,0.652,0.748
+Mongolia,Asia/Pacific,MNG,Subnat,MNGr104,"Eastern (Dornod, Sukhbaatar, Khentii)",2023,0.704,0.804,0.608,0.716
+Mongolia,Asia/Pacific,MNG,Subnat,MNGr102,"Khangai (Arkhangai, Bayankhongor, Bulgan, Uvurkhangai, Khuvsgul, Orkhon)",2023,0.692,0.761,0.618,0.705
+Mongolia,Asia/Pacific,MNG,Subnat,MNGr105,Ulaanbaatar,2023,0.786,0.809,0.75,0.802
+Mongolia,Asia/Pacific,MNG,Subnat,MNGr101,"Western (Bayan-Ulgii, Govi-Altai, Zavkhan, Uvs, Khovd)",2023,0.682,0.775,0.608,0.673
+Montenegro,Europe,MNE,National,MNEt,Total,2023,0.862,0.878,0.857,0.851
+Montenegro,Europe,MNE,Subnat,MNEr102,Centre,2023,0.871,0.878,0.881,0.855
+Montenegro,Europe,MNE,Subnat,MNEr101,North,2023,0.856,0.878,0.834,0.856
+Montenegro,Europe,MNE,Subnat,MNEr103,South,2023,0.844,0.878,0.816,0.838
+Morocco,Africa,MAR,National,MARt,Total,2023,0.71,0.851,0.625,0.674
+Morocco,Africa,MAR,Subnat,MARr103,Centre,2023,0.746,0.868,0.701,0.683
+Morocco,Africa,MAR,Subnat,MARr102,"Centre north",2023,0.717,0.84,0.658,0.666
+Morocco,Africa,MAR,Subnat,MARr105,"Centre south",2023,0.664,0.86,0.512,0.666
+Morocco,Africa,MAR,Subnat,MARr104,Eastern,2023,0.672,0.854,0.542,0.656
+Morocco,Africa,MAR,Subnat,MARr101,"North west",2023,0.73,0.853,0.671,0.68
+Morocco,Africa,MAR,Subnat,MARr107,South,2023,0.722,0.869,0.643,0.674
+Morocco,Africa,MAR,Subnat,MARr106,Tensift,2023,0.693,0.82,0.606,0.671
+Mozambique,Africa,MOZ,National,MOZt,Total,2023,0.493,0.671,0.454,0.394
+Mozambique,Africa,MOZ,Subnat,MOZr102,"Cabo delgado",2023,0.446,0.619,0.393,0.366
+Mozambique,Africa,MOZ,Subnat,MOZr109,Gaza,2023,0.53,0.644,0.509,0.455
+Mozambique,Africa,MOZ,Subnat,MOZr108,Inhambane,2023,0.522,0.693,0.499,0.41
+Mozambique,Africa,MOZ,Subnat,MOZr106,Manica,2023,0.511,0.653,0.514,0.398
+Mozambique,Africa,MOZ,Subnat,MOZr111,"Maputo Cidade",2023,0.661,0.673,0.726,0.591
+Mozambique,Africa,MOZ,Subnat,MOZr110,"Maputo Provincia",2023,0.633,0.7,0.673,0.54
+Mozambique,Africa,MOZ,Subnat,MOZr103,Nampula,2023,0.449,0.65,0.402,0.346
+Mozambique,Africa,MOZ,Subnat,MOZr101,Niassa,2023,0.443,0.657,0.366,0.361
+Mozambique,Africa,MOZ,Subnat,MOZr107,Sofala,2023,0.516,0.647,0.516,0.412
+Mozambique,Africa,MOZ,Subnat,MOZr105,Tete,2023,0.473,0.734,0.388,0.372
+Mozambique,Africa,MOZ,Subnat,MOZr104,Zambezia,2023,0.446,0.707,0.366,0.342
+Myanmar,Asia/Pacific,MMR,National,MMRt,Total,2023,0.609,0.721,0.532,0.588
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr114,Ayeyarwaddy,2023,0.585,0.702,0.537,0.53
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr107,Bago,2023,0.603,0.701,0.55,0.57
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr104,Chin,2023,0.618,0.665,0.603,0.589
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr101,Kachin,2023,0.651,0.743,0.582,0.637
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr102,Kayah,2023,0.635,0.764,0.549,0.61
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr103,Kayin,2023,0.581,0.7,0.473,0.593
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr108,Magway,2023,0.611,0.753,0.527,0.573
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr109,"Mandalay, NayPyitaw",2023,0.627,0.729,0.56,0.604
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr110,Mon,2023,0.633,0.778,0.529,0.617
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr111,Rakhine,2023,0.568,0.748,0.462,0.529
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr105,Sagaing,2023,0.599,0.728,0.521,0.567
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr113,Shan,2023,0.531,0.674,0.371,0.6
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr106,Taninthayi,2023,0.608,0.701,0.544,0.59
+Myanmar,Asia/Pacific,MMR,Subnat,MMRr112,Yangon,2023,0.695,0.773,0.653,0.665
+Namibia,Africa,NAM,National,NAMt,Total,2023,0.665,0.729,0.57,0.709
+Namibia,Africa,NAM,Subnat,NAMr101,Caprivi,2023,0.626,0.698,0.58,0.607
+Namibia,Africa,NAM,Subnat,NAMr102,Erongo,2023,0.717,0.743,0.612,0.811
+Namibia,Africa,NAM,Subnat,NAMr103,Hardap,2023,0.681,0.779,0.522,0.779
+Namibia,Africa,NAM,Subnat,NAMr104,Karas,2023,0.699,0.764,0.579,0.771
+Namibia,Africa,NAM,Subnat,NAMr108,Kavango,2023,0.574,0.649,0.484,0.601
+Namibia,Africa,NAM,Subnat,NAMr105,Khomas,2023,0.755,0.77,0.683,0.819
+Namibia,Africa,NAM,Subnat,NAMr106,Kunene,2023,0.588,0.762,0.402,0.662
+Namibia,Africa,NAM,Subnat,NAMr107,Ohangwena,2023,0.59,0.684,0.503,0.595
+Namibia,Africa,NAM,Subnat,NAMr109,Omaheke,2023,0.609,0.759,0.434,0.686
+Namibia,Africa,NAM,Subnat,NAMr110,Omusati,2023,0.632,0.762,0.536,0.619
+Namibia,Africa,NAM,Subnat,NAMr111,Oshana,2023,0.683,0.758,0.605,0.694
+Namibia,Africa,NAM,Subnat,NAMr112,Oshikoto,2023,0.634,0.709,0.546,0.658
+Namibia,Africa,NAM,Subnat,NAMr113,Otjozondjupa,2023,0.654,0.747,0.492,0.759
+Nepal,Asia/Pacific,NPL,National,NPLt,Total,2023,0.622,0.775,0.532,0.582
+Nepal,Asia/Pacific,NPL,Subnat,NPLr103,"Bagmati province",2023,0.678,0.803,0.616,0.629
+Nepal,Asia/Pacific,NPL,Subnat,NPLr104,"Gandaki province",2023,0.657,0.805,0.572,0.617
+Nepal,Asia/Pacific,NPL,Subnat,NPLr106,"Karnali province",2023,0.597,0.758,0.525,0.535
+Nepal,Asia/Pacific,NPL,Subnat,NPLr101,"Koshi province",2023,0.618,0.783,0.523,0.578
+Nepal,Asia/Pacific,NPL,Subnat,NPLr105,"Lumbini province",2023,0.614,0.767,0.526,0.575
+Nepal,Asia/Pacific,NPL,Subnat,NPLr102,"Madhesh province",2023,0.569,0.763,0.441,0.546
+Nepal,Asia/Pacific,NPL,Subnat,NPLr107,"Sudurpashchim province",2023,0.601,0.752,0.53,0.545
+Netherlands,Europe,NLD,National,NLDt,Total,2023,0.955,0.956,0.922,0.986
+Netherlands,Europe,NLD,Subnat,NLDr103,Drenthe,2023,0.926,0.943,0.908,0.928
+Netherlands,Europe,NLD,Subnat,NLDr106,Flevoland,2023,0.933,0.957,0.905,0.938
+Netherlands,Europe,NLD,Subnat,NLDr102,Friesland,2023,0.931,0.955,0.904,0.936
+Netherlands,Europe,NLD,Subnat,NLDr105,Gelderland,2023,0.944,0.955,0.918,0.959
+Netherlands,Europe,NLD,Subnat,NLDr101,Groningen,2023,0.951,0.944,0.919,0.989
+Netherlands,Europe,NLD,Subnat,NLDr112,Limburg,2023,0.944,0.957,0.908,0.969
+Netherlands,Europe,NLD,Subnat,NLDr111,Noord-Brabant,2023,0.955,0.958,0.919,0.989
+Netherlands,Europe,NLD,Subnat,NLDr108,Noord-Holland,2023,0.964,0.958,0.936,1
+Netherlands,Europe,NLD,Subnat,NLDr104,Overijssel,2023,0.942,0.952,0.915,0.959
+Netherlands,Europe,NLD,Subnat,NLDr107,Utrecht,2023,0.969,0.963,0.946,1
+Netherlands,Europe,NLD,Subnat,NLDr110,Zeeland,2023,0.93,0.961,0.871,0.962
+Netherlands,Europe,NLD,Subnat,NLDr109,Zuid-Holland,2023,0.954,0.957,0.923,0.983
+"New Zealand",Asia/Pacific,NZL,National,NZLt,Total,2023,0.938,0.955,0.929,0.93
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr102,Auckland,2023,0.967,0.969,0.945,0.986
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr104,"Bay of Plenty",2023,0.93,0.951,0.915,0.924
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr113,Canterbury,2023,0.941,0.957,0.926,0.942
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr105,Gisborne,2023,0.896,0.908,0.904,0.876
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr106,"Hawkes Bay",2023,0.92,0.942,0.91,0.908
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr108,Manawatu-Wanganui,2023,0.914,0.94,0.908,0.894
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr111,Marlborough,2023,0.937,0.959,0.911,0.941
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr101,Northland,2023,0.899,0.944,0.906,0.849
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr114,Otago,2023,0.935,0.952,0.931,0.923
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr115,Southland,2023,0.928,0.938,0.888,0.959
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr107,Taranaki,2023,0.94,0.947,0.902,0.971
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr110,"Tasman - Nelson",2023,0.931,0.963,0.925,0.907
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr103,Waikato,2023,0.931,0.949,0.916,0.928
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr109,Wellington,2023,0.968,0.958,0.952,0.994
+"New Zealand",Asia/Pacific,NZL,Subnat,NZLr112,"West Coast",2023,0.918,0.94,0.884,0.929
+Nicaragua,America,NIC,National,NICt,Total,2023,0.706,0.845,0.651,0.639
+Nicaragua,America,NIC,Subnat,NICr103,"Atlantico (Rio San Juan, Atlantico Norte (Raan), Atlantico Sur (Raas))",2023,0.593,0.814,0.479,0.534
+Nicaragua,America,NIC,Subnat,NICr102,"Central-Norte (Boaco, Chontales, Jinotega, Matagalpa, Esteli, Madriz, Nueva Segovia)",2023,0.66,0.833,0.572,0.604
+Nicaragua,America,NIC,Subnat,NICr101,"Pacifico (Chinandega, Leon, Managua, Masaya, Granada, Carazo, Rivas)",2023,0.756,0.867,0.735,0.679
+Niger,Africa,NER,National,NERt,Total,2023,0.419,0.634,0.278,0.418
+Niger,Africa,NER,Subnat,NERr101,Agadez,2023,0.508,0.687,0.402,0.474
+Niger,Africa,NER,Subnat,NERr102,Diffa,2023,0.386,0.687,0.19,0.441
+Niger,Africa,NER,Subnat,NERr103,Dosso,2023,0.401,0.593,0.272,0.401
+Niger,Africa,NER,Subnat,NERr104,Maradi,2023,0.403,0.618,0.256,0.412
+Niger,Africa,NER,Subnat,NERr106,Tahoua,2023,0.372,0.65,0.197,0.401
+Niger,Africa,NER,Subnat,NERr105,"Tillabery (incl Niamey)",2023,0.512,0.645,0.439,0.474
+Niger,Africa,NER,Subnat,NERr107,Zinder,2023,0.384,0.624,0.232,0.392
+Nigeria,Africa,NGA,National,NGAt,Total,2023,0.56,0.53,0.545,0.607
+Nigeria,Africa,NGA,Subnat,NGAr122,Abia,2023,0.631,0.579,0.678,0.641
+Nigeria,Africa,NGA,Subnat,NGAr137,"Abuja FCT",2023,0.683,0.656,0.7,0.695
+Nigeria,Africa,NGA,Subnat,NGAr108,Adamawa,2023,0.548,0.611,0.5,0.539
+Nigeria,Africa,NGA,Subnat,NGAr101,"Akwa Ibom",2023,0.611,0.597,0.638,0.6
+Nigeria,Africa,NGA,Subnat,NGAr102,Anambra,2023,0.679,0.64,0.69,0.71
+Nigeria,Africa,NGA,Subnat,NGAr103,Bauchi,2023,0.384,0.46,0.24,0.514
+Nigeria,Africa,NGA,Subnat,NGAr131,Bayelsa,2023,0.587,0.511,0.673,0.588
+Nigeria,Africa,NGA,Subnat,NGAr105,Benue,2023,0.591,0.623,0.606,0.547
+Nigeria,Africa,NGA,Subnat,NGAr106,Borno,2023,0.475,0.527,0.352,0.579
+Nigeria,Africa,NGA,Subnat,NGAr107,"Cross River",2023,0.587,0.556,0.66,0.551
+Nigeria,Africa,NGA,Subnat,NGAr123,Delta,2023,0.618,0.552,0.658,0.649
+Nigeria,Africa,NGA,Subnat,NGAr132,Ebonyi,2023,0.71,0.685,0.783,0.667
+Nigeria,Africa,NGA,Subnat,NGAr104,Edo,2023,0.644,0.551,0.706,0.686
+Nigeria,Africa,NGA,Subnat,NGAr133,Ekiti,2023,0.621,0.608,0.664,0.593
+Nigeria,Africa,NGA,Subnat,NGAr124,Enugu,2023,0.672,0.674,0.681,0.661
+Nigeria,Africa,NGA,Subnat,NGAr134,Gombe,2023,0.476,0.557,0.358,0.542
+Nigeria,Africa,NGA,Subnat,NGAr109,Imo,2023,0.69,0.629,0.772,0.677
+Nigeria,Africa,NGA,Subnat,NGAr125,Jigawa,2023,0.385,0.442,0.257,0.503
+Nigeria,Africa,NGA,Subnat,NGAr110,Kaduna,2023,0.56,0.481,0.58,0.628
+Nigeria,Africa,NGA,Subnat,NGAr111,Kano,2023,0.497,0.457,0.458,0.587
+Nigeria,Africa,NGA,Subnat,NGAr112,Katsina,2023,0.445,0.473,0.358,0.521
+Nigeria,Africa,NGA,Subnat,NGAr126,Kebbi,2023,0.379,0.442,0.236,0.523
+Nigeria,Africa,NGA,Subnat,NGAr127,Kogi,2023,0.633,0.629,0.667,0.604
+Nigeria,Africa,NGA,Subnat,NGAr113,Kwara,2023,0.604,0.619,0.566,0.629
+Nigeria,Africa,NGA,Subnat,NGAr114,Lagos,2023,0.723,0.706,0.758,0.707
+Nigeria,Africa,NGA,Subnat,NGAr135,Nassarawa,2023,0.559,0.585,0.513,0.581
+Nigeria,Africa,NGA,Subnat,NGAr115,Niger,2023,0.53,0.61,0.401,0.608
+Nigeria,Africa,NGA,Subnat,NGAr116,Ogun,2023,0.59,0.558,0.604,0.609
+Nigeria,Africa,NGA,Subnat,NGAr117,Ondo,2023,0.619,0.619,0.649,0.591
+Nigeria,Africa,NGA,Subnat,NGAr128,Osun,2023,0.615,0.62,0.602,0.623
+Nigeria,Africa,NGA,Subnat,NGAr118,Oyo,2023,0.611,0.608,0.62,0.606
+Nigeria,Africa,NGA,Subnat,NGAr119,Plateau,2023,0.574,0.561,0.606,0.557
+Nigeria,Africa,NGA,Subnat,NGAr120,Rivers,2023,0.616,0.492,0.726,0.653
+Nigeria,Africa,NGA,Subnat,NGAr121,Sokoto,2023,0.411,0.451,0.294,0.521
+Nigeria,Africa,NGA,Subnat,NGAr129,Taraba,2023,0.537,0.603,0.497,0.517
+Nigeria,Africa,NGA,Subnat,NGAr130,Yobe,2023,0.447,0.627,0.277,0.513
+Nigeria,Africa,NGA,Subnat,NGAr136,Zamfora,2023,0.403,0.498,0.247,0.532
+"North Macedonia",Europe,MKD,National,MKDt,Total,2023,0.815,0.883,0.752,0.816
+"North Macedonia",Europe,MKD,Subnat,MKDr108,East,2023,0.793,0.883,0.706,0.799
+"North Macedonia",Europe,MKD,Subnat,MKDr104,"North East",2023,0.792,0.883,0.707,0.797
+"North Macedonia",Europe,MKD,Subnat,MKDr102,Pelagoniski,2023,0.825,0.883,0.778,0.817
+"North Macedonia",Europe,MKD,Subnat,MKDr107,Poloski,2023,0.807,0.883,0.721,0.824
+"North Macedonia",Europe,MKD,Subnat,MKDr101,Skopski,2023,0.833,0.891,0.79,0.822
+"North Macedonia",Europe,MKD,Subnat,MKDr106,"South East",2023,0.781,0.883,0.672,0.802
+"North Macedonia",Europe,MKD,Subnat,MKDr105,"South West",2023,0.817,0.883,0.75,0.822
+"North Macedonia",Europe,MKD,Subnat,MKDr103,Vardarski,2023,0.81,0.883,0.738,0.817
+Norway,Europe,NOR,National,NORt,Total,2023,0.97,0.974,0.937,1
+Norway,Europe,NOR,Subnat,NORr104,"Agder og Rogaland",2023,0.97,0.977,0.934,1
+Norway,Europe,NOR,Subnat,NORr102,"Hedmark og Oppland",2023,0.958,0.961,0.916,1
+Norway,Europe,NOR,Subnat,NORr107,Nord-Norge,2023,0.962,0.958,0.93,1
+Norway,Europe,NOR,Subnat,NORr101,"Oslo og Akershus",2023,0.982,0.989,0.957,1
+Norway,Europe,NOR,Subnat,NORr103,Sor-Ostlandet,2023,0.959,0.972,0.907,1
+Norway,Europe,NOR,Subnat,NORr106,Trondelag,2023,0.972,0.978,0.94,1
+Norway,Europe,NOR,Subnat,NORr105,Vestlandet,2023,0.974,0.986,0.938,1
+Oman,Asia/Pacific,OMN,National,OMNt,Total,2023,0.858,0.924,0.77,0.89
+Pakistan,Asia/Pacific,PAK,National,PAKt,Total,2023,0.544,0.733,0.363,0.605
+Pakistan,Asia/Pacific,PAK,Subnat,PAKr107,AJK,2023,0.591,0.713,0.465,0.622
+Pakistan,Asia/Pacific,PAK,Subnat,PAKr104,Balochistan,2023,0.464,0.732,0.232,0.589
+Pakistan,Asia/Pacific,PAK,Subnat,PAKr108,FATA,2023,0.455,0.822,0.23,0.499
+Pakistan,Asia/Pacific,PAK,Subnat,PAKr106,"Gilgit Baltistan",2023,0.586,0.733,0.424,0.646
+Pakistan,Asia/Pacific,PAK,Subnat,PAKr105,"Islamabad (ICT)",2023,0.656,0.789,0.527,0.678
+Pakistan,Asia/Pacific,PAK,Subnat,PAKr103,"Khyber Pakhtunkhwa (NWFrontier)",2023,0.515,0.759,0.31,0.579
+Pakistan,Asia/Pacific,PAK,Subnat,PAKr101,Punjab,2023,0.55,0.72,0.377,0.614
+Pakistan,Asia/Pacific,PAK,Subnat,PAKr102,Sindh,2023,0.518,0.735,0.324,0.584
+Palestine,Asia/Pacific,PSE,National,PSEt,Total,2023,0.674,0.695,0.699,0.632
+Palestine,Asia/Pacific,PSE,Subnat,PSEr110,Bethlehem,2023,0.689,0.693,0.714,0.661
+Palestine,Asia/Pacific,PSE,Subnat,PSEr114,"Deir El-Balah",2023,0.673,0.697,0.742,0.59
+Palestine,Asia/Pacific,PSE,Subnat,PSEr113,"Gaza City",2023,0.661,0.681,0.71,0.597
+Palestine,Asia/Pacific,PSE,Subnat,PSEr111,Hebron,2023,0.667,0.689,0.664,0.647
+Palestine,Asia/Pacific,PSE,Subnat,PSEr101,Jenin,2023,0.683,0.705,0.697,0.648
+Palestine,Asia/Pacific,PSE,Subnat,PSEr108,"Jericho and Al Aghwar",2023,0.661,0.711,0.619,0.658
+Palestine,Asia/Pacific,PSE,Subnat,PSEr109,Jerusalem,2023,0.679,0.721,0.654,0.664
+Palestine,Asia/Pacific,PSE,Subnat,PSEr115,"Khan Yunis",2023,0.676,0.71,0.743,0.585
+Palestine,Asia/Pacific,PSE,Subnat,PSEr104,Nablus,2023,0.679,0.676,0.705,0.657
+Palestine,Asia/Pacific,PSE,Subnat,PSEr112,"North Gaza",2023,0.658,0.688,0.704,0.588
+Palestine,Asia/Pacific,PSE,Subnat,PSEr105,Qalqiliya,2023,0.68,0.684,0.699,0.657
+Palestine,Asia/Pacific,PSE,Subnat,PSEr116,Rafah,2023,0.66,0.703,0.701,0.582
+Palestine,Asia/Pacific,PSE,Subnat,PSEr107,"Ramallah & Al-Bireh",2023,0.686,0.701,0.695,0.661
+Palestine,Asia/Pacific,PSE,Subnat,PSEr106,Salfit,2023,0.69,0.695,0.713,0.662
+Palestine,Asia/Pacific,PSE,Subnat,PSEr102,Tubas,2023,0.673,0.679,0.687,0.652
+Palestine,Asia/Pacific,PSE,Subnat,PSEr103,Tulkarm,2023,0.691,0.692,0.728,0.655
+Panama,America,PAN,National,PANt,Total,2023,0.839,0.917,0.731,0.882
+Panama,America,PAN,Subnat,PANr101,"Bocas del Toro",2023,0.768,0.917,0.61,0.809
+Panama,America,PAN,Subnat,PANr104,Chiriqui,2023,0.839,0.917,0.723,0.89
+Panama,America,PAN,Subnat,PANr102,Cocle,2023,0.812,0.917,0.686,0.849
+Panama,America,PAN,Subnat,PANr103,Colon,2023,0.849,0.917,0.745,0.895
+Panama,America,PAN,Subnat,PANr105,Darien,2023,0.737,0.917,0.567,0.771
+Panama,America,PAN,Subnat,PANr111,"Embera Wounaan",2023,0.659,0.917,0.498,0.628
+Panama,America,PAN,Subnat,PANr106,Herrera,2023,0.838,0.917,0.723,0.889
+Panama,America,PAN,Subnat,PANr110,"Kuna Yala",2023,0.626,0.917,0.43,0.622
+Panama,America,PAN,Subnat,PANr107,"Los Santos",2023,0.833,0.917,0.707,0.891
+Panama,America,PAN,Subnat,PANr112,"Ngobe Bugle",2023,0.607,0.917,0.426,0.572
+Panama,America,PAN,Subnat,PANr108,Panama,2023,0.871,0.917,0.784,0.92
+Panama,America,PAN,Subnat,PANr109,Veraguas,2023,0.778,0.917,0.646,0.796
+"Papua New Guinea",Asia/Pacific,PNG,National,PNGt,Total,2023,0.576,0.71,0.485,0.556
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr120,"Autonomous Region of Bougainville",2023,0.614,0.766,0.544,0.556
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr103,Central,2023,0.589,0.742,0.476,0.577
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr110,"Chimbu, Simbu",2023,0.592,0.694,0.52,0.576
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr118,"East New Britain",2023,0.621,0.739,0.561,0.578
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr114,"East Sepik",2023,0.571,0.7,0.485,0.548
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr111,"Eastern Highlands",2023,0.544,0.678,0.451,0.528
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr108,Enga,2023,0.511,0.633,0.4,0.528
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr102,Gulf,2023,0.541,0.726,0.411,0.531
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr121,Hela,2023,0.48,0.722,0.313,0.489
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr122,Jiwaka,2023,0.573,0.706,0.503,0.531
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr113,Madang,2023,0.578,0.737,0.479,0.545
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr116,Manus,2023,0.632,0.727,0.595,0.583
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr105,"Milne Bay",2023,0.58,0.752,0.476,0.546
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr112,Morobe,2023,0.614,0.707,0.533,0.613
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr104,"National Capital District",2023,0.749,0.715,0.707,0.832
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr117,"New Ireland",2023,0.62,0.717,0.6,0.553
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr106,"Northern, Oro",2023,0.575,0.716,0.479,0.555
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr107,"Southern Highlands",2023,0.511,0.626,0.415,0.514
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr119,"West New Britain",2023,0.613,0.745,0.524,0.588
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr115,"West Sepik, Sandaun",2023,0.55,0.725,0.437,0.525
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr101,Western,2023,0.583,0.726,0.509,0.538
+"Papua New Guinea",Asia/Pacific,PNG,Subnat,PNGr109,"Western Highlands",2023,0.606,0.757,0.514,0.572
+Paraguay,America,PRY,National,PRYt,Total,2023,0.756,0.828,0.686,0.759
+Paraguay,America,PRY,Subnat,PRYr105,"Central (Asuncion, Central)",2023,0.793,0.843,0.737,0.802
+Paraguay,America,PRY,Subnat,PRYr102,"North-East (Caaguazu, Alto Parana, Canideyu)",2023,0.735,0.817,0.659,0.737
+Paraguay,America,PRY,Subnat,PRYr101,"North-West (Boqueron, Alto Paraguay, Presidente Hayes, Conception, Amambay, San pedro, Cordillera)",2023,0.73,0.815,0.664,0.718
+Paraguay,America,PRY,Subnat,PRYr104,"South-East (Guaira, Misiones, Paraguari, Neembucu)",2023,0.743,0.835,0.651,0.755
+Paraguay,America,PRY,Subnat,PRYr103,"South-West (Caazapa, Itapua)",2023,0.739,0.83,0.657,0.74
+Peru,America,PER,National,PERt,Total,2023,0.794,0.888,0.753,0.75
+Peru,America,PER,Subnat,PERr106,"Central (Huancavelica, Huanuco, Junin, Pasco)",2023,0.749,0.876,0.691,0.694
+Peru,America,PER,Subnat,PERr103,"East (Madre de Dios, Cusco, Puno, Apurimac)",2023,0.733,0.86,0.679,0.674
+Peru,America,PER,Subnat,PERr101,"North (Tumbes, Piura, Lambayeque, Cajamarca, La Libertad)",2023,0.762,0.894,0.684,0.723
+Peru,America,PER,Subnat,PERr102,"North East (Amazonas, Loreto, San Martin, Ucayali)",2023,0.734,0.862,0.662,0.693
+Peru,America,PER,Subnat,PERr104,"South (Tacna, Moquegua, Arequipa, Ica, Ayacucho)",2023,0.815,0.902,0.792,0.757
+Peru,America,PER,Subnat,PERr105,"West (Ancash, Lima, Callao)",2023,0.853,0.904,0.837,0.82
+Philippines,Asia/Pacific,PHL,National,PHLt,Total,2023,0.72,0.767,0.689,0.706
+Philippines,Asia/Pacific,PHL,Subnat,PHLr117,ARMM,2023,0.639,0.755,0.575,0.601
+Philippines,Asia/Pacific,PHL,Subnat,PHLr102,"Cordillera Admin Region",2023,0.748,0.788,0.738,0.719
+Philippines,Asia/Pacific,PHL,Subnat,PHLr103,I-Ilocos,2023,0.72,0.732,0.709,0.721
+Philippines,Asia/Pacific,PHL,Subnat,PHLr104,"II-Cagayan Valley",2023,0.727,0.793,0.685,0.707
+Philippines,Asia/Pacific,PHL,Subnat,PHLr105,"III-Central Luzon",2023,0.734,0.767,0.704,0.734
+Philippines,Asia/Pacific,PHL,Subnat,PHLr106,IVA-CALABARZON,2023,0.734,0.761,0.709,0.732
+Philippines,Asia/Pacific,PHL,Subnat,PHLr107,IVB-MIMAROPA,2023,0.704,0.758,0.676,0.681
+Philippines,Asia/Pacific,PHL,Subnat,PHLr112,"IX-Zamboanga Peninsula",2023,0.684,0.743,0.641,0.672
+Philippines,Asia/Pacific,PHL,Subnat,PHLr101,"National Capital Region",2023,0.753,0.795,0.735,0.731
+Philippines,Asia/Pacific,PHL,Subnat,PHLr108,V-Bicol,2023,0.69,0.761,0.63,0.685
+Philippines,Asia/Pacific,PHL,Subnat,PHLr109,"VI-Western Visayas",2023,0.723,0.77,0.706,0.695
+Philippines,Asia/Pacific,PHL,Subnat,PHLr110,"VII-Central Visayas",2023,0.704,0.759,0.67,0.687
+Philippines,Asia/Pacific,PHL,Subnat,PHLr111,"VIII-Eastern Visayas",2023,0.706,0.757,0.679,0.686
+Philippines,Asia/Pacific,PHL,Subnat,PHLr113,"X-Northern Mindanao",2023,0.721,0.775,0.68,0.71
+Philippines,Asia/Pacific,PHL,Subnat,PHLr114,XI-Davao,2023,0.717,0.788,0.669,0.7
+Philippines,Asia/Pacific,PHL,Subnat,PHLr115,XII-SOCCSKSARGEN,2023,0.694,0.753,0.653,0.68
+Philippines,Asia/Pacific,PHL,Subnat,PHLr116,XIII-Caraga,2023,0.719,0.785,0.68,0.698
+Poland,Europe,POL,National,POLt,Total,2023,0.906,0.902,0.904,0.913
+Poland,Europe,POL,Subnat,POLr112,Dolnoslaskie,2023,0.929,0.895,0.942,0.95
+Poland,Europe,POL,Subnat,POLr114,Kujawsko-Pomorskie,2023,0.887,0.896,0.868,0.897
+Poland,Europe,POL,Subnat,POLr101,Lodzkie,2023,0.901,0.885,0.898,0.92
+Poland,Europe,POL,Subnat,POLr105,Lubelskie,2023,0.886,0.904,0.887,0.866
+Poland,Europe,POL,Subnat,POLr111,Lubuskie,2023,0.874,0.892,0.836,0.897
+Poland,Europe,POL,Subnat,POLr103,Malopolskie,2023,0.924,0.923,0.938,0.911
+Poland,Europe,POL,Subnat,POLr102,Mazowieckie,2023,0.958,0.912,0.965,1
+Poland,Europe,POL,Subnat,POLr113,Opolskie,2023,0.888,0.907,0.866,0.892
+Poland,Europe,POL,Subnat,POLr106,Podkarpackie,2023,0.883,0.923,0.86,0.866
+Poland,Europe,POL,Subnat,POLr108,Podlaskie,2023,0.891,0.914,0.88,0.88
+Poland,Europe,POL,Subnat,POLr116,Pomorskie,2023,0.919,0.906,0.921,0.931
+Poland,Europe,POL,Subnat,POLr104,Slaskie,2023,0.91,0.893,0.898,0.939
+Poland,Europe,POL,Subnat,POLr107,Swietokrzyskie,2023,0.877,0.899,0.861,0.87
+Poland,Europe,POL,Subnat,POLr115,Warminsko-Mazurskie,2023,0.862,0.89,0.829,0.87
+Poland,Europe,POL,Subnat,POLr109,Wielkopolskie,2023,0.919,0.904,0.914,0.94
+Poland,Europe,POL,Subnat,POLr110,Zachodniopomorskie,2023,0.884,0.895,0.859,0.897
+Portugal,Europe,PRT,National,PRTt,Total,2023,0.89,0.959,0.809,0.909
+Portugal,Europe,PRT,Subnat,PRTr105,Alentejo,2023,0.865,0.937,0.772,0.897
+Portugal,Europe,PRT,Subnat,PRTr102,Algarve,2023,0.875,0.944,0.763,0.93
+Portugal,Europe,PRT,Subnat,PRTr104,"Area Metropolitana de Lisboa",2023,0.917,0.958,0.846,0.95
+Portugal,Europe,PRT,Subnat,PRTr103,Centro,2023,0.881,0.963,0.804,0.884
+Portugal,Europe,PRT,Subnat,PRTr101,Norte,2023,0.878,0.971,0.79,0.884
+Portugal,Europe,PRT,Subnat,PRTr107,"Regiao Autonoma da Madeira",2023,0.844,0.921,0.718,0.91
+Portugal,Europe,PRT,Subnat,PRTr106,"Regiao Autonoma dos Acores",2023,0.829,0.901,0.709,0.892
+Qatar,Asia/Pacific,QAT,National,QATt,Total,2023,0.886,0.96,0.724,1
+Romania,Europe,ROU,National,ROUt,Total,2023,0.845,0.861,0.775,0.903
+Romania,Europe,ROU,Subnat,ROUr108,Bucuresti,2023,0.938,0.883,0.936,1
+Romania,Europe,ROU,Subnat,ROUr107,Centru,2023,0.84,0.866,0.766,0.893
+Romania,Europe,ROU,Subnat,ROUr101,Nord-Est,2023,0.802,0.852,0.736,0.821
+Romania,Europe,ROU,Subnat,ROUr106,Nord-Vest,2023,0.848,0.863,0.795,0.89
+Romania,Europe,ROU,Subnat,ROUr103,Sud,2023,0.803,0.852,0.708,0.856
+Romania,Europe,ROU,Subnat,ROUr102,Sud-Est,2023,0.813,0.849,0.73,0.866
+Romania,Europe,ROU,Subnat,ROUr104,"Sud-Vest Oltenia",2023,0.823,0.866,0.751,0.857
+Romania,Europe,ROU,Subnat,ROUr105,Vest,2023,0.848,0.858,0.782,0.909
+"Russian Federation",Europe,RUS,National,RUSt,Total,2023,0.832,0.818,0.78,0.902
+"Russian Federation",Europe,RUS,Subnat,RUSr101,"The Central Federal District",2023,0.826,0.836,0.779,0.865
+"Russian Federation",Europe,RUS,Subnat,RUSr108,"The Far East  Federal District",2023,0.78,0.768,0.735,0.84
+"Russian Federation",Europe,RUS,Subnat,RUSr102,"The North West Federal District",2023,0.833,0.823,0.795,0.883
+"Russian Federation",Europe,RUS,Subnat,RUSr104,"The North-Caucasian Federal District",2023,0.765,0.865,0.801,0.646
+"Russian Federation",Europe,RUS,Subnat,RUSr105,"The Privolzhsky (Volga) Federal District",2023,0.789,0.812,0.786,0.769
+"Russian Federation",Europe,RUS,Subnat,RUSr107,"The Siberian  Federal District",2023,0.779,0.782,0.764,0.79
+"Russian Federation",Europe,RUS,Subnat,RUSr103,"The South Federal District",2023,0.776,0.817,0.774,0.739
+"Russian Federation",Europe,RUS,Subnat,RUSr106,"The Urals  Federal District",2023,0.833,0.813,0.788,0.903
+Rwanda,Africa,RWA,National,RWAt,Total,2023,0.578,0.735,0.512,0.512
+Rwanda,Africa,RWA,Subnat,RWAr101,"City of Kigali",2023,0.671,0.776,0.637,0.612
+Rwanda,Africa,RWA,Subnat,RWAr105,East,2023,0.57,0.723,0.509,0.504
+Rwanda,Africa,RWA,Subnat,RWAr104,North,2023,0.555,0.721,0.486,0.488
+Rwanda,Africa,RWA,Subnat,RWAr102,South,2023,0.556,0.723,0.491,0.485
+Rwanda,Africa,RWA,Subnat,RWAr103,West,2023,0.565,0.748,0.479,0.504
+"Saint Lucia",America,LCA,National,LCAt,Total,2023,0.748,0.811,0.641,0.807
+"Saint Lucia",America,LCA,Subnat,LCAr102,"St Lucia rural",2023,0.749,0.811,0.642,0.809
+"Saint Lucia",America,LCA,Subnat,LCAr101,"St Lucia urban",2023,0.744,0.811,0.634,0.801
+Samoa,Asia/Pacific,WSM,National,WSMt,Total,2023,0.708,0.795,0.723,0.617
+Samoa,Asia/Pacific,WSM,Subnat,WSMr101,"Apia Urban Area",2023,0.771,0.784,0.792,0.738
+Samoa,Asia/Pacific,WSM,Subnat,WSMr102,"North West Upolu",2023,0.733,0.784,0.716,0.702
+Samoa,Asia/Pacific,WSM,Subnat,WSMr103,"Rest of Upolu",2023,0.736,0.795,0.716,0.7
+Samoa,Asia/Pacific,WSM,Subnat,WSMr104,Savaii,2023,0.729,0.804,0.69,0.698
+"Sao Tome & Principe",Africa,STP,National,STPt,Total,2023,0.637,0.765,0.557,0.608
+"Sao Tome & Principe",Africa,STP,Subnat,STPr101,"Regiao Centro",2023,0.656,0.779,0.581,0.624
+"Sao Tome & Principe",Africa,STP,Subnat,STPr104,"Regiao do Principe",2023,0.64,0.763,0.554,0.618
+"Sao Tome & Principe",Africa,STP,Subnat,STPr103,"Regiao Norte",2023,0.607,0.74,0.518,0.582
+"Sao Tome & Principe",Africa,STP,Subnat,STPr102,"Regiao Sul",2023,0.606,0.755,0.515,0.573
+"Saudi Arabia",Asia/Pacific,SAU,National,SAUt,Total,2023,0.9,0.904,0.858,0.94
+"Saudi Arabia",Asia/Pacific,SAU,Subnat,SAUr101,"Center (Riadh, Qassim)",2023,0.924,0.904,0.913,0.956
+"Saudi Arabia",Asia/Pacific,SAU,Subnat,SAUr104,"Eastern province",2023,0.886,0.904,0.81,0.951
+"Saudi Arabia",Asia/Pacific,SAU,Subnat,SAUr105,"North (Northern Borders, Al Jawf, Hail)",2023,0.914,0.904,0.859,0.986
+"Saudi Arabia",Asia/Pacific,SAU,Subnat,SAUr103,"South (Bahah, Jizan, Asir, Najran)",2023,0.879,0.904,0.795,0.945
+"Saudi Arabia",Asia/Pacific,SAU,Subnat,SAUr102,"West (Makka, Madinah, Tabuk)",2023,0.895,0.904,0.867,0.916
+Senegal,Africa,SEN,National,SENt,Total,2023,0.53,0.749,0.352,0.565
+Senegal,Africa,SEN,Subnat,SENr101,Dakar,2023,0.625,0.786,0.493,0.629
+Senegal,Africa,SEN,Subnat,SENr103,Diourbel,2023,0.437,0.728,0.2,0.572
+Senegal,Africa,SEN,Subnat,SENr109,Fatick,2023,0.533,0.762,0.371,0.534
+Senegal,Africa,SEN,Subnat,SENr106,Kaolack,2023,0.468,0.748,0.26,0.529
+Senegal,Africa,SEN,Subnat,SENr110,Kolda,2023,0.467,0.685,0.321,0.461
+Senegal,Africa,SEN,Subnat,SENr108,Louga,2023,0.466,0.728,0.248,0.562
+Senegal,Africa,SEN,Subnat,SENr104,"Saint Louis",2023,0.482,0.759,0.285,0.519
+Senegal,Africa,SEN,Subnat,SENr105,Tambacounda,2023,0.45,0.724,0.261,0.481
+Senegal,Africa,SEN,Subnat,SENr107,Thies,2023,0.56,0.758,0.384,0.604
+Senegal,Africa,SEN,Subnat,SENr102,Ziguinchor,2023,0.606,0.799,0.55,0.506
+Serbia,Europe,SRB,National,SRBt,Total,2023,0.833,0.873,0.806,0.822
+Serbia,Europe,SRB,Subnat,SRBr101,Belgrade,2023,0.863,0.873,0.891,0.825
+Serbia,Europe,SRB,Subnat,SRBr104,"South and East Serbia",2023,0.824,0.873,0.784,0.818
+Serbia,Europe,SRB,Subnat,SRBr103,"Sumadija and West Serbia",2023,0.822,0.873,0.771,0.824
+Serbia,Europe,SRB,Subnat,SRBr102,Vojvodina,2023,0.826,0.873,0.785,0.822
+"Sierra Leone",Africa,SLE,National,SLEt,Total,2023,0.467,0.643,0.37,0.429
+"Sierra Leone",Africa,SLE,Subnat,SLEr109,Bo,2023,0.456,0.622,0.366,0.415
+"Sierra Leone",Africa,SLE,Subnat,SLEr101,Bombali,2023,0.467,0.685,0.36,0.414
+"Sierra Leone",Africa,SLE,Subnat,SLEr110,Bonthe,2023,0.441,0.728,0.304,0.389
+"Sierra Leone",Africa,SLE,Subnat,SLEr106,Kailahun,2023,0.446,0.69,0.34,0.379
+"Sierra Leone",Africa,SLE,Subnat,SLEr102,Kambia,2023,0.433,0.617,0.318,0.415
+"Sierra Leone",Africa,SLE,Subnat,SLEr107,Kenema,2023,0.444,0.598,0.353,0.414
+"Sierra Leone",Africa,SLE,Subnat,SLEr103,Koinadugu,2023,0.426,0.686,0.287,0.392
+"Sierra Leone",Africa,SLE,Subnat,SLEr108,Kono,2023,0.451,0.652,0.354,0.398
+"Sierra Leone",Africa,SLE,Subnat,SLEr111,Moyamba,2023,0.425,0.628,0.326,0.373
+"Sierra Leone",Africa,SLE,Subnat,SLEr104,"Port Loko",2023,0.424,0.57,0.332,0.405
+"Sierra Leone",Africa,SLE,Subnat,SLEr112,Pujehun,2023,0.414,0.667,0.284,0.376
+"Sierra Leone",Africa,SLE,Subnat,SLEr105,Tonkolili,2023,0.435,0.673,0.322,0.381
+"Sierra Leone",Africa,SLE,Subnat,SLEr113,"Western Rural",2023,0.506,0.619,0.439,0.478
+"Sierra Leone",Africa,SLE,Subnat,SLEr114,"Western Urban",2023,0.586,0.694,0.521,0.555
+Singapore,Asia/Pacific,SGP,National,SGPt,Total,2023,0.946,0.981,0.865,1
+"Slovak Republic",Europe,SVK,National,SVKt,Total,2023,0.88,0.898,0.852,0.892
+"Slovak Republic",Europe,SVK,Subnat,SVKr101,"Bratislavsky kraj",2023,0.967,0.929,0.973,1
+"Slovak Republic",Europe,SVK,Subnat,SVKr103,"Stredne Slovensko",2023,0.863,0.892,0.833,0.866
+"Slovak Republic",Europe,SVK,Subnat,SVKr104,"Vychodne Slovensko",2023,0.844,0.887,0.806,0.842
+"Slovak Republic",Europe,SVK,Subnat,SVKr102,"Zapadne Slovensko",2023,0.871,0.898,0.838,0.878
+Slovenia,Europe,SVN,National,SVNt,Total,2023,0.931,0.948,0.917,0.927
+Slovenia,Europe,SVN,Subnat,SVNr110,Gorenjska,2023,0.924,0.961,0.922,0.889
+Slovenia,Europe,SVN,Subnat,SVNr111,Goriska,2023,0.916,0.948,0.906,0.894
+Slovenia,Europe,SVN,Subnat,SVNr107,"Jugovzhodna Slovenija",2023,0.909,0.928,0.891,0.908
+Slovenia,Europe,SVN,Subnat,SVNr103,Koroska,2023,0.897,0.951,0.89,0.853
+Slovenia,Europe,SVN,Subnat,SVNr112,Obalno-kraska,2023,0.932,0.966,0.915,0.917
+Slovenia,Europe,SVN,Subnat,SVNr109,Osrednjeslovenska,2023,0.968,0.951,0.952,1
+Slovenia,Europe,SVN,Subnat,SVNr102,Podravska,2023,0.902,0.929,0.911,0.868
+Slovenia,Europe,SVN,Subnat,SVNr101,Pomurska,2023,0.872,0.927,0.874,0.818
+Slovenia,Europe,SVN,Subnat,SVNr106,Posavska,2023,0.893,0.938,0.887,0.856
+Slovenia,Europe,SVN,Subnat,SVNr108,Primorsko-notranjska,2023,0.892,0.96,0.9,0.822
+Slovenia,Europe,SVN,Subnat,SVNr104,Savinjska,2023,0.907,0.93,0.9,0.892
+Slovenia,Europe,SVN,Subnat,SVNr105,Zasavska,2023,0.853,0.934,0.887,0.748
+"Solomon Islands",Asia/Pacific,SLB,National,SLBt,Total,2023,0.584,0.777,0.51,0.502
+Somalia,Africa,SOM,National,SOMt,Total,2023,0.361,0.529,0.227,0.393
+Somalia,Africa,SOM,Subnat,SOMr102,Awdal,2023,0.393,0.727,0.209,0.402
+Somalia,Africa,SOM,Subnat,SOMr109,Bakool,2023,0.296,0.527,0.152,0.324
+Somalia,Africa,SOM,Subnat,SOMr116,Banadir,2023,0.46,0.497,0.387,0.506
+Somalia,Africa,SOM,Subnat,SOMr108,Bari,2023,0.426,0.594,0.288,0.45
+Somalia,Africa,SOM,Subnat,SOMr110,Bay,2023,0.296,0.492,0.159,0.333
+Somalia,Africa,SOM,Subnat,SOMr117,Galguduud,2023,0.279,0.532,0.119,0.343
+Somalia,Africa,SOM,Subnat,SOMr111,Gedo,2023,0.329,0.544,0.187,0.352
+Somalia,Africa,SOM,Subnat,SOMr113,Hiran,2023,0.285,0.74,0.09,0.349
+Somalia,Africa,SOM,Subnat,SOMr118,"Lower Juba",2023,0.302,0.472,0.175,0.334
+Somalia,Africa,SOM,Subnat,SOMr115,"Lower Shabelle",2023,0.326,0.47,0.201,0.365
+Somalia,Africa,SOM,Subnat,SOMr112,"Middle Juba",2023,0.23,0.604,0.061,0.331
+Somalia,Africa,SOM,Subnat,SOMr114,"Middle Shabelle",2023,0.314,0.571,0.148,0.367
+Somalia,Africa,SOM,Subnat,SOMr106,Mudug,2023,0.372,0.582,0.218,0.406
+Somalia,Africa,SOM,Subnat,SOMr107,Nugal,2023,0.376,0.572,0.241,0.385
+Somalia,Africa,SOM,Subnat,SOMr103,Sanaag,2023,0.442,0.66,0.319,0.411
+Somalia,Africa,SOM,Subnat,SOMr104,Sool,2023,0.336,0.615,0.167,0.368
+Somalia,Africa,SOM,Subnat,SOMr105,Togdhere,2023,0.324,0.516,0.191,0.346
+Somalia,Africa,SOM,Subnat,SOMr101,"W Galbeed",2023,0.455,0.551,0.35,0.488
+"South Africa",Africa,ZAF,National,ZAFt,Total,2023,0.741,0.71,0.77,0.743
+"South Africa",Africa,ZAF,Subnat,ZAFr102,"Eastern Cape",2023,0.703,0.681,0.727,0.702
+"South Africa",Africa,ZAF,Subnat,ZAFr104,"Free State",2023,0.741,0.682,0.765,0.78
+"South Africa",Africa,ZAF,Subnat,ZAFr107,Gauteng,2023,0.763,0.721,0.81,0.76
+"South Africa",Africa,ZAF,Subnat,ZAFr105,"KwaZulu Natal",2023,0.736,0.725,0.751,0.733
+"South Africa",Africa,ZAF,Subnat,ZAFr108,Mpumalanga,2023,0.708,0.667,0.747,0.711
+"South Africa",Africa,ZAF,Subnat,ZAFr106,"North West",2023,0.705,0.68,0.722,0.714
+"South Africa",Africa,ZAF,Subnat,ZAFr103,"Northern Cape",2023,0.728,0.709,0.716,0.76
+"South Africa",Africa,ZAF,Subnat,ZAFr109,"Northern Province",2023,0.739,0.749,0.765,0.704
+"South Africa",Africa,ZAF,Subnat,ZAFr101,"Western Cape",2023,0.778,0.727,0.792,0.818
+"South Sudan",Africa,SSD,National,SSDt,Total,2023,0.388,0.579,0.348,0.291
+"South Sudan",Africa,SSD,Subnat,SSDr109,"Central Equatoria",2023,0.468,0.546,0.591,0.318
+"South Sudan",Africa,SSD,Subnat,SSDr110,"Eastern Equatoria",2023,0.376,0.539,0.36,0.273
+"South Sudan",Africa,SSD,Subnat,SSDr102,Jonglei,2023,0.335,0.664,0.205,0.277
+"South Sudan",Africa,SSD,Subnat,SSDr107,Lakes,2023,0.349,0.63,0.22,0.306
+"South Sudan",Africa,SSD,Subnat,SSDr105,"Northern Bahr El Ghazal",2023,0.313,0.505,0.218,0.28
+"South Sudan",Africa,SSD,Subnat,SSDr103,Unity,2023,0.343,0.687,0.201,0.291
+"South Sudan",Africa,SSD,Subnat,SSDr101,"Upper Nile",2023,0.428,0.604,0.422,0.308
+"South Sudan",Africa,SSD,Subnat,SSDr104,Warrap,2023,0.315,0.551,0.207,0.273
+"South Sudan",Africa,SSD,Subnat,SSDr106,"Western Bahr El Ghazal",2023,0.42,0.573,0.425,0.305
+"South Sudan",Africa,SSD,Subnat,SSDr108,"Western Equatoria",2023,0.435,0.559,0.485,0.303
+Spain,Europe,ESP,National,ESPt,Total,2023,0.918,0.98,0.854,0.926
+Spain,Europe,ESP,Subnat,ESPr115,Andalucia,2023,0.889,0.96,0.831,0.881
+Spain,Europe,ESP,Subnat,ESPr107,Aragon,2023,0.923,0.976,0.856,0.942
+Spain,Europe,ESP,Subnat,ESPr119,Canarias,2023,0.884,0.965,0.804,0.889
+Spain,Europe,ESP,Subnat,ESPr103,Cantabria,2023,0.918,0.977,0.865,0.915
+Spain,Europe,ESP,Subnat,ESPr109,"Castilla y Leon",2023,0.92,0.988,0.857,0.92
+Spain,Europe,ESP,Subnat,ESPr110,"Castilla-la Mancha",2023,0.884,0.982,0.788,0.891
+Spain,Europe,ESP,Subnat,ESPr112,Cataluna,2023,0.929,0.987,0.857,0.949
+Spain,Europe,ESP,Subnat,ESPr117,"Ciudad Autonoma de Ceuta",2023,0.868,0.936,0.781,0.895
+Spain,Europe,ESP,Subnat,ESPr118,"Ciudad Autonoma de Melilla",2023,0.874,0.956,0.797,0.877
+Spain,Europe,ESP,Subnat,ESPr108,"Comunidad de Madrid",2023,0.951,1,0.883,0.976
+Spain,Europe,ESP,Subnat,ESPr105,"Comunidad Foral de Navarra",2023,0.936,0.99,0.868,0.955
+Spain,Europe,ESP,Subnat,ESPr113,"Comunidad Valenciana",2023,0.905,0.97,0.844,0.904
+Spain,Europe,ESP,Subnat,ESPr111,Extremadura,2023,0.884,0.968,0.809,0.882
+Spain,Europe,ESP,Subnat,ESPr101,Galicia,2023,0.917,0.982,0.861,0.913
+Spain,Europe,ESP,Subnat,ESPr114,"Illes Balears",2023,0.887,0.979,0.763,0.934
+Spain,Europe,ESP,Subnat,ESPr106,"La Rioja",2023,0.924,0.979,0.863,0.934
+Spain,Europe,ESP,Subnat,ESPr104,"Pais Vasco",2023,0.947,0.985,0.894,0.964
+Spain,Europe,ESP,Subnat,ESPr102,"Principado de Asturias",2023,0.914,0.968,0.865,0.912
+Spain,Europe,ESP,Subnat,ESPr116,"Region de Murcia",2023,0.893,0.962,0.826,0.896
+"Sri Lanka",Asia/Pacific,LKA,National,LKAt,Total,2023,0.776,0.884,0.724,0.731
+"St. Kitts and Nevis",America,KNA,National,KNAt,Total,2023,0.84,0.802,0.862,0.857
+"St. Vincent and the Grenadines",America,VCT,National,VCTt,Total,2023,0.798,0.788,0.828,0.778
+Sudan,Africa,SDN,National,SDNt,Total,2023,0.511,0.713,0.372,0.504
+Sudan,Africa,SDN,Subnat,SDNr105,"Al Gedarif",2023,0.458,0.708,0.301,0.45
+Sudan,Africa,SDN,Subnat,SDNr107,"Al Gezira",2023,0.553,0.741,0.398,0.574
+Sudan,Africa,SDN,Subnat,SDNr110,"Blue Nile",2023,0.428,0.649,0.244,0.495
+Sudan,Africa,SDN,Subnat,SDNr104,Kassala,2023,0.46,0.742,0.276,0.475
+Sudan,Africa,SDN,Subnat,SDNr106,Khartoum,2023,0.63,0.743,0.531,0.635
+Sudan,Africa,SDN,Subnat,SDNr102,"Nahr El Nil",2023,0.604,0.788,0.471,0.592
+Sudan,Africa,SDN,Subnat,SDNr113,"North Darfur",2023,0.471,0.68,0.374,0.411
+Sudan,Africa,SDN,Subnat,SDNr111,"North Kordofan",2023,0.468,0.74,0.315,0.441
+Sudan,Africa,SDN,Subnat,SDNr101,Northern,2023,0.628,0.786,0.488,0.646
+Sudan,Africa,SDN,Subnat,SDNr103,"Red Sea",2023,0.526,0.741,0.403,0.486
+Sudan,Africa,SDN,Subnat,SDNr109,Sinnar,2023,0.499,0.739,0.334,0.504
+Sudan,Africa,SDN,Subnat,SDNr115,"South Darfur",2023,0.445,0.684,0.306,0.422
+Sudan,Africa,SDN,Subnat,SDNr112,"South Kordofan",2023,0.44,0.703,0.283,0.428
+Sudan,Africa,SDN,Subnat,SDNr114,"West Darfur",2023,0.449,0.693,0.312,0.419
+Sudan,Africa,SDN,Subnat,SDNr108,"White Nile",2023,0.498,0.705,0.357,0.492
+Suriname,America,SUR,National,SURt,Total,2023,0.722,0.825,0.585,0.779
+Suriname,America,SUR,Subnat,SURr105,"Brokopondo and Sipaliwini",2023,0.591,0.849,0.381,0.639
+Suriname,America,SUR,Subnat,SURr104,"Commewijne and Marowijne",2023,0.704,0.838,0.549,0.759
+Suriname,America,SUR,Subnat,SURr103,"Nickerie, Coronie and Saramacca",2023,0.717,0.845,0.554,0.788
+Suriname,America,SUR,Subnat,SURr101,Paramaribo,2023,0.742,0.805,0.633,0.801
+Suriname,America,SUR,Subnat,SURr102,"Wanica and Para",2023,0.728,0.825,0.593,0.79
+Sweden,Europe,SWE,National,SWEt,Total,2023,0.959,0.973,0.925,0.981
+Sweden,Europe,SWE,Subnat,SWEr107,"Mellersta Norrland",2023,0.946,0.958,0.915,0.966
+Sweden,Europe,SWE,Subnat,SWEr106,"Norra Mellansverige",2023,0.941,0.966,0.906,0.952
+Sweden,Europe,SWE,Subnat,SWEr102,"Ostra Mellansverige",2023,0.948,0.969,0.918,0.958
+Sweden,Europe,SWE,Subnat,SWEr108,"Ovre Norrland",2023,0.957,0.96,0.921,0.992
+Sweden,Europe,SWE,Subnat,SWEr103,"Smaland med oarna",2023,0.948,0.978,0.91,0.958
+Sweden,Europe,SWE,Subnat,SWEr101,Stockholm,2023,0.976,0.986,0.942,1
+Sweden,Europe,SWE,Subnat,SWEr104,Sydsverige,2023,0.948,0.966,0.924,0.955
+Sweden,Europe,SWE,Subnat,SWEr105,Vastsverige,2023,0.958,0.974,0.926,0.976
+Switzerland,Europe,CHE,National,CHEt,Total,2023,0.97,0.984,0.928,1
+Switzerland,Europe,CHE,Subnat,CHEr106,"Central Switzerland",2023,0.962,0.994,0.895,1
+Switzerland,Europe,CHE,Subnat,CHEr105,"Eastern Switzerland",2023,0.955,0.985,0.884,1
+Switzerland,Europe,CHE,Subnat,CHEr102,"Espace Mittelland",2023,0.963,0.985,0.906,1
+Switzerland,Europe,CHE,Subnat,CHEr101,"Lake Geneva region",2023,0.976,0.997,0.932,1
+Switzerland,Europe,CHE,Subnat,CHEr103,"Northwestern Switzerland",2023,0.964,0.996,0.9,1
+Switzerland,Europe,CHE,Subnat,CHEr107,Ticino,2023,0.965,1,0.899,1
+Switzerland,Europe,CHE,Subnat,CHEr104,Zurich,2023,0.993,0.996,0.984,1
+Tajikistan,Asia/Pacific,TJK,National,TJKt,Total,2023,0.691,0.797,0.677,0.612
+Tajikistan,Asia/Pacific,TJK,Subnat,TJKr104,DRS,2023,0.684,0.805,0.647,0.613
+Tajikistan,Asia/Pacific,TJK,Subnat,TJKr101,Duchanbe,2023,0.758,0.849,0.746,0.688
+Tajikistan,Asia/Pacific,TJK,Subnat,TJKr105,GBAO,2023,0.7,0.805,0.712,0.598
+Tajikistan,Asia/Pacific,TJK,Subnat,TJKr102,Khatlon,2023,0.673,0.782,0.657,0.592
+Tajikistan,Asia/Pacific,TJK,Subnat,TJKr103,"Sughd (formerly Leninabad)",2023,0.695,0.798,0.697,0.605
+Tanzania,Africa,TZA,National,TZAt,Total,2023,0.555,0.723,0.441,0.538
+Tanzania,Africa,TZA,Subnat,TZAr202," Arusha, Manyara",2023,0.564,0.745,0.454,0.532
+Tanzania,Africa,TZA,Subnat,TZAr207," Dar Es Salam",2023,0.643,0.695,0.591,0.648
+Tanzania,Africa,TZA,Subnat,TZAr201," Dodoma",2023,0.565,0.768,0.438,0.537
+Tanzania,Africa,TZA,Subnat,TZAr211," Iringa, Njombe",2023,0.572,0.685,0.483,0.567
+Tanzania,Africa,TZA,Subnat,TZAr218," Kagera",2023,0.538,0.706,0.431,0.512
+Tanzania,Africa,TZA,Subnat,TZAr216," Kigoma",2023,0.491,0.697,0.348,0.49
+Tanzania,Africa,TZA,Subnat,TZAr203," Kilimanjaro",2023,0.613,0.708,0.536,0.608
+Tanzania,Africa,TZA,Subnat,TZAr208," Lindi",2023,0.545,0.796,0.426,0.476
+Tanzania,Africa,TZA,Subnat,TZAr220," Mara",2023,0.568,0.745,0.475,0.517
+Tanzania,Africa,TZA,Subnat,TZAr212," Mbeya",2023,0.55,0.711,0.444,0.528
+Tanzania,Africa,TZA,Subnat,TZAr205," Morogoro",2023,0.529,0.693,0.414,0.516
+Tanzania,Africa,TZA,Subnat,TZAr209," Mtwara",2023,0.542,0.738,0.435,0.497
+Tanzania,Africa,TZA,Subnat,TZAr219," Mwanza, Geita",2023,0.553,0.73,0.428,0.541
+Tanzania,Africa,TZA,Subnat,TZAr224," Pemba North",2023,0.594,0.736,0.486,0.586
+Tanzania,Africa,TZA,Subnat,TZAr225," Pemba South",2023,0.599,0.709,0.506,0.599
+Tanzania,Africa,TZA,Subnat,TZAr206," Pwani",2023,0.564,0.678,0.472,0.561
+Tanzania,Africa,TZA,Subnat,TZAr215," Rukwa, Katavi",2023,0.501,0.711,0.364,0.487
+Tanzania,Africa,TZA,Subnat,TZAr210," Ruvuma",2023,0.544,0.677,0.454,0.525
+Tanzania,Africa,TZA,Subnat,TZAr217," Shinyanga, Simiyu",2023,0.518,0.745,0.371,0.503
+Tanzania,Africa,TZA,Subnat,TZAr213," Singida",2023,0.566,0.778,0.459,0.508
+Tanzania,Africa,TZA,Subnat,TZAr214," Tabora",2023,0.478,0.713,0.311,0.493
+Tanzania,Africa,TZA,Subnat,TZAr204," Tanga",2023,0.552,0.746,0.427,0.527
+Tanzania,Africa,TZA,Subnat,TZAr221," Zanzibar North",2023,0.591,0.746,0.482,0.575
+Tanzania,Africa,TZA,Subnat,TZAr222," Zanzibar South",2023,0.615,0.681,0.55,0.622
+Tanzania,Africa,TZA,Subnat,TZAr223," Zanzibar West",2023,0.672,0.724,0.609,0.688
+Thailand,Asia/Pacific,THA,National,THAt,Total,2023,0.798,0.868,0.728,0.805
+Thailand,Asia/Pacific,THA,Subnat,THAr101,Bangkok,2023,0.833,0.868,0.837,0.794
+Thailand,Asia/Pacific,THA,Subnat,THAr102,Central,2023,0.808,0.868,0.754,0.807
+Thailand,Asia/Pacific,THA,Subnat,THAr103,North,2023,0.782,0.868,0.684,0.806
+Thailand,Asia/Pacific,THA,Subnat,THAr104,Northeast,2023,0.779,0.868,0.67,0.812
+Thailand,Asia/Pacific,THA,Subnat,THAr105,South,2023,0.786,0.861,0.709,0.797
+"Timor Leste",Asia/Pacific,TLS,National,TLSt,Total,2023,0.634,0.734,0.576,0.604
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr101,Aileu,2023,0.619,0.748,0.54,0.587
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr102,Ainaro,2023,0.57,0.702,0.486,0.542
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr103,Baucau,2023,0.61,0.729,0.525,0.594
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr104,Bobonaro,2023,0.608,0.743,0.496,0.609
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr105,"Cova Lima",2023,0.621,0.757,0.545,0.582
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr106,Dili,2023,0.746,0.741,0.779,0.72
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr107,Ermera,2023,0.566,0.748,0.441,0.548
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr109,Lautem,2023,0.611,0.749,0.499,0.611
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr108,Liquica,2023,0.638,0.779,0.565,0.591
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr111,Manatuto,2023,0.624,0.735,0.566,0.586
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr110,Manufahi,2023,0.625,0.729,0.553,0.605
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr112,Oecussi,2023,0.568,0.665,0.52,0.53
+"Timor Leste",Asia/Pacific,TLS,Subnat,TLSr113,Viqueque,2023,0.611,0.717,0.554,0.573
+Togo,Africa,TGO,National,TGOt,Total,2023,0.571,0.658,0.559,0.506
+Togo,Africa,TGO,Subnat,TGOr104,Centrale,2023,0.558,0.659,0.537,0.491
+Togo,Africa,TGO,Subnat,TGOr105,Kara,2023,0.54,0.621,0.52,0.487
+Togo,Africa,TGO,Subnat,TGOr101,Lome,2023,0.642,0.668,0.681,0.582
+Togo,Africa,TGO,Subnat,TGOr102,Maritime,2023,0.552,0.644,0.542,0.482
+Togo,Africa,TGO,Subnat,TGOr103,Plateaux,2023,0.558,0.678,0.547,0.469
+Togo,Africa,TGO,Subnat,TGOr106,Savanes,2023,0.492,0.652,0.397,0.461
+Tonga,Asia/Pacific,TON,National,TONt,Total,2023,0.769,0.814,0.858,0.651
+Tonga,Asia/Pacific,TON,Subnat,TONr104,Eua,2023,0.743,0.814,0.789,0.64
+Tonga,Asia/Pacific,TON,Subnat,TONr103,Ha-apai,2023,0.725,0.814,0.803,0.583
+Tonga,Asia/Pacific,TON,Subnat,TONr105,"Ongo Niua",2023,0.728,0.814,0.828,0.573
+Tonga,Asia/Pacific,TON,Subnat,TONr101,Tongatapu,2023,0.778,0.814,0.871,0.665
+Tonga,Asia/Pacific,TON,Subnat,TONr102,Vava-u,2023,0.757,0.814,0.839,0.636
+"Trinidad & Tobago",America,TTO,National,TTOt,Total,2023,0.807,0.823,0.755,0.846
+"Trinidad & Tobago",America,TTO,Subnat,TTOr103,Central,2023,0.819,0.823,0.777,0.859
+"Trinidad & Tobago",America,TTO,Subnat,TTOr102,East,2023,0.787,0.823,0.723,0.819
+"Trinidad & Tobago",America,TTO,Subnat,TTOr101,"North West",2023,0.809,0.823,0.759,0.848
+"Trinidad & Tobago",America,TTO,Subnat,TTOr104,"South West",2023,0.803,0.823,0.745,0.843
+"Trinidad & Tobago",America,TTO,Subnat,TTOr105,Tobago,2023,0.805,0.823,0.757,0.837
+Tunisia,Africa,TUN,National,TUNt,Total,2023,0.746,0.869,0.661,0.723
+Tunisia,Africa,TUN,Subnat,TUNr105,"Centre Est (Sousse, Monastir, Mahdia, Sfax)",2023,0.744,0.869,0.652,0.727
+Tunisia,Africa,TUN,Subnat,TUNr104,"Centre Ouest (Kairouan, Kasserine, Sidi Bouzid)",2023,0.683,0.823,0.558,0.695
+Tunisia,Africa,TUN,Subnat,TUNr101,"Grand Tunis (Tunis, Ariana, Ben Arous, Manouba)",2023,0.79,0.887,0.748,0.744
+Tunisia,Africa,TUN,Subnat,TUNr102,"Nord Est (Nabeul, Zaghouan, Bizerte)",2023,0.733,0.849,0.647,0.718
+Tunisia,Africa,TUN,Subnat,TUNr103,"Nord Ouest (Beja, Jendouba, Kef, Siliana)",2023,0.722,0.854,0.619,0.713
+Tunisia,Africa,TUN,Subnat,TUNr107,"Sud Est (Gabes, Medinine, Tataouine)",2023,0.744,0.879,0.653,0.719
+Tunisia,Africa,TUN,Subnat,TUNr106,"Sud Ouest (Gafsa, Tozeur, Kebili)",2023,0.741,0.848,0.674,0.712
+Turkey,Asia/Pacific,TUR,National,TURt,Total,2023,0.853,0.879,0.8,0.883
+Turkey,Asia/Pacific,TUR,Subnat,TURr103,"Aegean (Afyon, Aydin, Denizli, Izmir, Kutahya, Man",2023,0.853,0.875,0.8,0.885
+Turkey,Asia/Pacific,TUR,Subnat,TURr107,"Central Anatolia (Kayseri, Kirsehir, Nevsehir, Nig",2023,0.832,0.876,0.791,0.831
+Turkey,Asia/Pacific,TUR,Subnat,TURr111,"Central East Anatolia (Bingol, Bitlis, Elazig, Hak",2023,0.802,0.88,0.789,0.743
+Turkey,Asia/Pacific,TUR,Subnat,TURr109,"East Black Sea (Artvin, Giresun, Gumushane, Ordu,",2023,0.826,0.902,0.799,0.782
+Turkey,Asia/Pacific,TUR,Subnat,TURr104,"East Marmara (Bilecik, Bolu, Bursa, Duzce, Eskiseh",2023,0.862,0.874,0.802,0.914
+Turkey,Asia/Pacific,TUR,Subnat,TURr101,Istanbul,2023,0.886,0.886,0.812,0.966
+Turkey,Asia/Pacific,TUR,Subnat,TURr106,"Mediterranean (Adana, Antalya, Burdur, Hatay, Ispa",2023,0.842,0.878,0.798,0.852
+Turkey,Asia/Pacific,TUR,Subnat,TURr110,"North East Anatolia (Agri, Erzincan, Erzurum, Kars",2023,0.807,0.874,0.787,0.763
+Turkey,Asia/Pacific,TUR,Subnat,TURr112,"South East Anatolia (Adiyaman, Diyarbakir, Gaziant",2023,0.804,0.873,0.771,0.773
+Turkey,Asia/Pacific,TUR,Subnat,TURr105,"West Anatolia (Ankara, Konya, Karaman)",2023,0.869,0.887,0.816,0.907
+Turkey,Asia/Pacific,TUR,Subnat,TURr108,"West Black Sea (Amasya, Cankiri, Corum, Kastamonu,",2023,0.825,0.878,0.79,0.809
+Turkey,Asia/Pacific,TUR,Subnat,TURr102,"West Marmara (Balikesir, Canakkale, Edirne, Kirkla",2023,0.856,0.868,0.805,0.896
+Turkmenistan,Asia/Pacific,TKM,National,TKMt,Total,2023,0.764,0.77,0.741,0.782
+Turkmenistan,Asia/Pacific,TKM,Subnat,TKMr102,Akhal,2023,0.758,0.774,0.726,0.777
+Turkmenistan,Asia/Pacific,TKM,Subnat,TKMr101,"Ashgabat City",2023,0.82,0.797,0.827,0.836
+Turkmenistan,Asia/Pacific,TKM,Subnat,TKMr103,Balkan,2023,0.775,0.782,0.746,0.798
+Turkmenistan,Asia/Pacific,TKM,Subnat,TKMr104,Dashoguz,2023,0.742,0.765,0.709,0.754
+Turkmenistan,Asia/Pacific,TKM,Subnat,TKMr105,Lebap,2023,0.77,0.787,0.741,0.782
+Turkmenistan,Asia/Pacific,TKM,Subnat,TKMr106,Mary,2023,0.745,0.737,0.732,0.766
+Tuvalu,Asia/Pacific,TUV,National,TUVt,Total,2023,0.689,0.725,0.703,0.642
+Tuvalu,Asia/Pacific,TUV,Subnat,TUVr103,Funafuti,2023,0.711,0.719,0.758,0.66
+Tuvalu,Asia/Pacific,TUV,Subnat,TUVr101,"Nanumea, Nanumaga, Niutao",2023,0.626,0.725,0.556,0.61
+Tuvalu,Asia/Pacific,TUV,Subnat,TUVr102,"Vaitupu, Nui, Nukufetau",2023,0.65,0.725,0.603,0.629
+Uganda,Africa,UGA,National,UGAt,Total,2023,0.582,0.742,0.532,0.5
+Uganda,Africa,UGA,Subnat,UGAr101,"Central 1 (Central South)",2023,0.641,0.771,0.603,0.567
+Uganda,Africa,UGA,Subnat,UGAr102,"Central 2 (Central North)",2023,0.595,0.741,0.548,0.519
+Uganda,Africa,UGA,Subnat,UGAr104,"East Central (Busoga)",2023,0.585,0.721,0.558,0.497
+Uganda,Africa,UGA,Subnat,UGAr105,"Eastern (Bukedi, Bugishu, Teso)",2023,0.581,0.76,0.548,0.472
+Uganda,Africa,UGA,Subnat,UGAr103,Kampala,2023,0.697,0.76,0.696,0.641
+Uganda,Africa,UGA,Subnat,UGAr106,"North (Karamoja, Lango, Acholi)",2023,0.527,0.739,0.44,0.449
+Uganda,Africa,UGA,Subnat,UGAr109,"Southwest (Ankole, Kigezi)",2023,0.572,0.748,0.515,0.485
+Uganda,Africa,UGA,Subnat,UGAr107,"West Nile",2023,0.539,0.718,0.482,0.451
+Uganda,Africa,UGA,Subnat,UGAr108,"Western (Bunyoro, Tooro)",2023,0.551,0.721,0.482,0.483
+Ukraine,Europe,UKR,National,UKRt,Total,2023,0.779,0.822,0.741,0.775
+Ukraine,Europe,UKR,Subnat,UKRr102,Central,2023,0.771,0.822,0.74,0.755
+Ukraine,Europe,UKR,Subnat,UKRr103,East,2023,0.785,0.822,0.747,0.789
+Ukraine,Europe,UKR,Subnat,UKRr101,North,2023,0.781,0.822,0.754,0.77
+Ukraine,Europe,UKR,Subnat,UKRr104,South,2023,0.784,0.822,0.743,0.789
+Ukraine,Europe,UKR,Subnat,UKRr105,West,2023,0.766,0.822,0.721,0.758
+"United Arab Emirates",Asia/Pacific,ARE,National,AREt,Total,2023,0.94,0.968,0.866,0.992
+"United Kingdom",Europe,GBR,National,GBRt,Total,2023,0.946,0.943,0.944,0.951
+"United Kingdom",Europe,GBR,Subnat,GBRr104,"East Midlands",2023,0.931,0.94,0.937,0.917
+"United Kingdom",Europe,GBR,Subnat,GBRr106,"East of England",2023,0.934,0.956,0.911,0.937
+"United Kingdom",Europe,GBR,Subnat,GBRr107,London,2023,0.982,0.967,0.98,1
+"United Kingdom",Europe,GBR,Subnat,GBRr101,"North East",2023,0.916,0.92,0.926,0.901
+"United Kingdom",Europe,GBR,Subnat,GBRr102,"North West",2023,0.932,0.926,0.941,0.93
+"United Kingdom",Europe,GBR,Subnat,GBRr112,"Northern Ireland",2023,0.913,0.936,0.896,0.908
+"United Kingdom",Europe,GBR,Subnat,GBRr111,Scotland,2023,0.937,0.911,0.959,0.942
+"United Kingdom",Europe,GBR,Subnat,GBRr108,"South East",2023,0.96,0.963,0.951,0.965
+"United Kingdom",Europe,GBR,Subnat,GBRr109,"South West",2023,0.942,0.956,0.941,0.93
+"United Kingdom",Europe,GBR,Subnat,GBRr110,Wales,2023,0.915,0.928,0.918,0.901
+"United Kingdom",Europe,GBR,Subnat,GBRr105,"West Midlands",2023,0.93,0.935,0.934,0.921
+"United Kingdom",Europe,GBR,Subnat,GBRr103,"Yorkshire and The Humber",2023,0.926,0.931,0.933,0.913
+"United States of America",America,USA,National,USAt,Total,2023,0.938,0.912,0.906,0.997
+"United States of America",America,USA,Subnat,USAr101,Alabama,2023,0.887,0.848,0.885,0.931
+"United States of America",America,USA,Subnat,USAr102,Alaska,2023,0.94,0.902,0.921,1
+"United States of America",America,USA,Subnat,USAr103,Arizona,2023,0.917,0.897,0.896,0.959
+"United States of America",America,USA,Subnat,USAr104,Arkansas,2023,0.89,0.857,0.879,0.935
+"United States of America",America,USA,Subnat,USAr105,California,2023,0.94,0.94,0.885,1
+"United States of America",America,USA,Subnat,USAr106,Colorado,2023,0.958,0.928,0.946,1
+"United States of America",America,USA,Subnat,USAr107,Connecticut,2023,0.955,0.93,0.936,1
+"United States of America",America,USA,Subnat,USAr108,Delaware,2023,0.933,0.903,0.918,0.979
+"United States of America",America,USA,Subnat,USAr109,"District of Columbia",2023,0.952,0.881,0.979,1
+"United States of America",America,USA,Subnat,USAr110,Florida,2023,0.935,0.916,0.903,0.989
+"United States of America",America,USA,Subnat,USAr111,Georgia,2023,0.915,0.886,0.9,0.961
+"United States of America",America,USA,Subnat,USAr112,Hawaii,2023,0.957,0.966,0.923,0.984
+"United States of America",America,USA,Subnat,USAr113,Idaho,2023,0.927,0.93,0.906,0.944
+"United States of America",America,USA,Subnat,USAr114,Illinois,2023,0.94,0.905,0.918,1
+"United States of America",America,USA,Subnat,USAr115,Indiana,2023,0.913,0.876,0.901,0.964
+"United States of America",America,USA,Subnat,USAr116,Iowa,2023,0.934,0.916,0.92,0.967
+"United States of America",America,USA,Subnat,USAr117,Kansas,2023,0.931,0.898,0.922,0.975
+"United States of America",America,USA,Subnat,USAr118,Kentucky,2023,0.89,0.853,0.88,0.939
+"United States of America",America,USA,Subnat,USAr119,Louisiana,2023,0.892,0.846,0.879,0.953
+"United States of America",America,USA,Subnat,USAr120,Maine,2023,0.94,0.921,0.927,0.973
+"United States of America",America,USA,Subnat,USAr121,Maryland,2023,0.947,0.905,0.938,1
+"United States of America",America,USA,Subnat,USAr122,Massachusetts,2023,0.961,0.94,0.944,1
+"United States of America",America,USA,Subnat,USAr123,Michigan,2023,0.923,0.892,0.915,0.964
+"United States of America",America,USA,Subnat,USAr124,Minnesota,2023,0.96,0.941,0.941,1
+"United States of America",America,USA,Subnat,USAr125,Mississippi,2023,0.868,0.827,0.869,0.91
+"United States of America",America,USA,Subnat,USAr126,Missouri,2023,0.915,0.878,0.909,0.959
+"United States of America",America,USA,Subnat,USAr127,Montana,2023,0.934,0.905,0.933,0.966
+"United States of America",America,USA,Subnat,USAr128,Nebraska,2023,0.941,0.919,0.921,0.985
+"United States of America",America,USA,Subnat,USAr129,Nevada,2023,0.921,0.897,0.887,0.981
+"United States of America",America,USA,Subnat,USAr130,"New Hampshire",2023,0.961,0.94,0.946,1
+"United States of America",America,USA,Subnat,USAr131,"New Jersey",2023,0.948,0.916,0.931,1
+"United States of America",America,USA,Subnat,USAr132,"New Mexico",2023,0.895,0.868,0.883,0.934
+"United States of America",America,USA,Subnat,USAr133,"New York",2023,0.942,0.919,0.911,1
+"United States of America",America,USA,Subnat,USAr134,"North Carolina",2023,0.918,0.894,0.9,0.963
+"United States of America",America,USA,Subnat,USAr135,"North Dakota",2023,0.945,0.906,0.932,0.999
+"United States of America",America,USA,Subnat,USAr136,Ohio,2023,0.919,0.881,0.911,0.966
+"United States of America",America,USA,Subnat,USAr137,Oklahoma,2023,0.902,0.862,0.895,0.952
+"United States of America",America,USA,Subnat,USAr138,Oregon,2023,0.949,0.936,0.924,0.987
+"United States of America",America,USA,Subnat,USAr139,Pennsylvania,2023,0.938,0.905,0.915,0.998
+"United States of America",America,USA,Subnat,USAr140,"Rhode Island",2023,0.945,0.927,0.911,0.998
+"United States of America",America,USA,Subnat,USAr141,"South Carolina",2023,0.904,0.873,0.897,0.945
+"United States of America",America,USA,Subnat,USAr142,"South Dakota",2023,0.94,0.903,0.92,0.999
+"United States of America",America,USA,Subnat,USAr143,Tennessee,2023,0.904,0.857,0.893,0.964
+"United States of America",America,USA,Subnat,USAr144,Texas,2023,0.917,0.9,0.875,0.979
+"United States of America",America,USA,Subnat,USAr145,Utah,2023,0.942,0.933,0.93,0.962
+"United States of America",America,USA,Subnat,USAr146,Vermont,2023,0.955,0.936,0.943,0.988
+"United States of America",America,USA,Subnat,USAr147,Virginia,2023,0.948,0.917,0.929,1
+"United States of America",America,USA,Subnat,USAr148,Washington,2023,0.957,0.943,0.931,1
+"United States of America",America,USA,Subnat,USAr149,"West Virginia",2023,0.88,0.842,0.877,0.924
+"United States of America",America,USA,Subnat,USAr150,Wisconsin,2023,0.939,0.919,0.922,0.978
+"United States of America",America,USA,Subnat,USAr151,Wyoming,2023,0.941,0.897,0.928,1
+Uruguay,America,URY,National,URYt,Total,2023,0.862,0.894,0.837,0.855
+Uruguay,America,URY,Subnat,URYr105,"Centro (Durazno and Tacuarembo)",2023,0.834,0.894,0.76,0.854
+Uruguay,America,URY,Subnat,URYr106,"Centro Sur (Flores, Florida and Lavalleja)",2023,0.851,0.894,0.809,0.851
+Uruguay,America,URY,Subnat,URYr103,"Costa Este (Canelones, Maldonado and Rocha)",2023,0.863,0.894,0.837,0.859
+Uruguay,America,URY,Subnat,URYr107,"Litoral Norte (Paysandu, Salto and Rio Negro)",2023,0.82,0.894,0.724,0.851
+Uruguay,America,URY,Subnat,URYr104,"Litoral Sur (Soriano, Colonia and San Jose)",2023,0.827,0.894,0.745,0.85
+Uruguay,America,URY,Subnat,URYr101,"Montevideo and Metropolitan area",2023,0.878,0.894,0.885,0.856
+Uruguay,America,URY,Subnat,URYr102,"Norte (Artigas, Rivera, Cerro Largo and Trienta y Tres)",2023,0.828,0.894,0.748,0.848
+Uzbekistan,Asia/Pacific,UZB,National,UZBt,Total,2023,0.74,0.806,0.743,0.677
+Uzbekistan,Asia/Pacific,UZB,Subnat,UZBr102,"Central (Navoi, Bukhara, Samarkand)",2023,0.733,0.796,0.737,0.672
+Uzbekistan,Asia/Pacific,UZB,Subnat,UZBr104,"Central-East (Dzhizak, Syrdarya)",2023,0.759,0.864,0.744,0.68
+Uzbekistan,Asia/Pacific,UZB,Subnat,UZBr105,"East (Namangan, Fergana, Andizhan)",2023,0.732,0.816,0.736,0.655
+Uzbekistan,Asia/Pacific,UZB,Subnat,UZBr103,"South (Kashkadarya, Surkhandarya)",2023,0.71,0.767,0.733,0.636
+Uzbekistan,Asia/Pacific,UZB,Subnat,UZBr106,Tashkent,2023,0.823,0.846,0.821,0.804
+Uzbekistan,Asia/Pacific,UZB,Subnat,UZBr101,"West (Karakalpakstan, Khorezm)",2023,0.739,0.79,0.744,0.687
+Vanuatu,Asia/Pacific,VUT,National,VUTt,Total,2023,0.621,0.792,0.568,0.533
+Vanuatu,Asia/Pacific,VUT,Subnat,VUTr108,Luganville,2023,0.668,0.792,0.618,0.61
+Vanuatu,Asia/Pacific,VUT,Subnat,VUTr103,Malampa,2023,0.608,0.792,0.555,0.511
+Vanuatu,Asia/Pacific,VUT,Subnat,VUTr104,Penama,2023,0.564,0.792,0.499,0.455
+Vanuatu,Asia/Pacific,VUT,Subnat,VUTr107,"Port Vila",2023,0.696,0.792,0.674,0.632
+Vanuatu,Asia/Pacific,VUT,Subnat,VUTr105,Sanma,2023,0.581,0.792,0.495,0.501
+Vanuatu,Asia/Pacific,VUT,Subnat,VUTr102,Shefa,2023,0.647,0.792,0.592,0.578
+Vanuatu,Asia/Pacific,VUT,Subnat,VUTr101,Tafea,2023,0.581,0.792,0.523,0.474
+Vanuatu,Asia/Pacific,VUT,Subnat,VUTr106,Torba,2023,0.549,0.792,0.467,0.448
+Venezuela,America,VEN,National,VENt,Total,2023,0.709,0.808,0.683,0.645
+Venezuela,America,VEN,Subnat,VENr110,"Amacuros Delta Federal Territory",2023,0.693,0.814,0.669,0.612
+Venezuela,America,VEN,Subnat,VENr102,"Amazonas Federal Territory",2023,0.692,0.753,0.705,0.623
+Venezuela,America,VEN,Subnat,VENr103,Anzoategui,2023,0.719,0.826,0.696,0.647
+Venezuela,America,VEN,Subnat,VENr104,Apure,2023,0.638,0.815,0.569,0.56
+Venezuela,America,VEN,Subnat,VENr105,Aragua,2023,0.734,0.824,0.719,0.667
+Venezuela,America,VEN,Subnat,VENr106,Barinas,2023,0.656,0.804,0.588,0.597
+Venezuela,America,VEN,Subnat,VENr107,Bolivar,2023,0.712,0.806,0.698,0.641
+Venezuela,America,VEN,Subnat,VENr108,Carabobo,2023,0.729,0.816,0.715,0.664
+Venezuela,America,VEN,Subnat,VENr109,Cojedes,2023,0.686,0.796,0.654,0.621
+Venezuela,America,VEN,Subnat,VENr111,Falcon,2023,0.698,0.817,0.661,0.631
+Venezuela,America,VEN,Subnat,VENr101,"Federal District",2023,0.753,0.807,0.763,0.693
+Venezuela,America,VEN,Subnat,VENr112,Guarico,2023,0.671,0.814,0.618,0.601
+Venezuela,America,VEN,Subnat,VENr113,Lara,2023,0.689,0.801,0.656,0.623
+Venezuela,America,VEN,Subnat,VENr114,Merida,2023,0.698,0.802,0.662,0.64
+Venezuela,America,VEN,Subnat,VENr115,Miranda,2023,0.74,0.809,0.738,0.678
+Venezuela,America,VEN,Subnat,VENr116,Monagas,2023,0.7,0.807,0.674,0.63
+Venezuela,America,VEN,Subnat,VENr117,"Nueva Esparta",2023,0.728,0.816,0.707,0.669
+Venezuela,America,VEN,Subnat,VENr118,Portuguesa,2023,0.657,0.787,0.599,0.6
+Venezuela,America,VEN,Subnat,VENr119,Sucre,2023,0.679,0.804,0.63,0.618
+Venezuela,America,VEN,Subnat,VENr120,Tachira,2023,0.706,0.817,0.662,0.651
+Venezuela,America,VEN,Subnat,VENr121,Trujillo,2023,0.678,0.812,0.624,0.616
+Venezuela,America,VEN,Subnat,VENr124,Vargas,2023,0.728,0.834,0.696,0.664
+Venezuela,America,VEN,Subnat,VENr122,Yaracuy,2023,0.676,0.797,0.63,0.615
+Venezuela,America,VEN,Subnat,VENr123,Zulia,2023,0.695,0.795,0.663,0.636
+Vietnam,Asia/Pacific,VNM,National,VNMt,Total,2023,0.766,0.84,0.729,0.736
+Vietnam,Asia/Pacific,VNM,Subnat,VNMr104,"Central Highlands",2023,0.723,0.824,0.657,0.698
+Vietnam,Asia/Pacific,VNM,Subnat,VNMr106,"Mekong River Delta",2023,0.724,0.837,0.622,0.728
+Vietnam,Asia/Pacific,VNM,Subnat,VNMr103,"North Central Coast and South Central Coast",2023,0.774,0.859,0.738,0.731
+Vietnam,Asia/Pacific,VNM,Subnat,VNMr102,"North East, North West",2023,0.724,0.814,0.669,0.698
+Vietnam,Asia/Pacific,VNM,Subnat,VNMr101,"Red River Delta",2023,0.809,0.861,0.812,0.758
+Vietnam,Asia/Pacific,VNM,Subnat,VNMr105,"South East",2023,0.778,0.829,0.755,0.753
+Yemen,Asia/Pacific,YEM,National,YEMt,Total,2023,0.47,0.758,0.391,0.351
+Yemen,Asia/Pacific,YEM,Subnat,YEMr102,"Abyan, Aden (town and countryside), Lahej, Ad Dali (Al Dhalih)",2023,0.519,0.807,0.456,0.381
+Yemen,Asia/Pacific,YEM,Subnat,YEMr104,"Beida (Al Bayda), Dhamar, Raimah",2023,0.42,0.726,0.311,0.328
+Yemen,Asia/Pacific,YEM,Subnat,YEMr107,"Hajja, Sada, Amran (Omran)",2023,0.413,0.749,0.317,0.297
+Yemen,Asia/Pacific,YEM,Subnat,YEMr108,"Hodeida (Al Hudaydah), Mahweit (Al Mahwit)",2023,0.422,0.751,0.316,0.317
+Yemen,Asia/Pacific,YEM,Subnat,YEMr101,Ibb,2023,0.47,0.746,0.383,0.364
+Yemen,Asia/Pacific,YEM,Subnat,YEMr106,"Jawf, Hadramet, Shabda (Shabwah), Marib, Mohra (Al Mahrah)",2023,0.51,0.809,0.409,0.401
+Yemen,Asia/Pacific,YEM,Subnat,YEMr103,"Sana a (capital; Al Amana), Sana a (governorate)",2023,0.518,0.748,0.477,0.391
+Yemen,Asia/Pacific,YEM,Subnat,YEMr105,Taiz,2023,0.499,0.77,0.464,0.348
+Zambia,Africa,ZMB,National,ZMBt,Total,2023,0.595,0.713,0.553,0.535
+Zambia,Africa,ZMB,Subnat,ZMBr101,Central,2023,0.589,0.752,0.524,0.519
+Zambia,Africa,ZMB,Subnat,ZMBr102,Copperbelt,2023,0.661,0.746,0.63,0.615
+Zambia,Africa,ZMB,Subnat,ZMBr103,Eastern,2023,0.536,0.714,0.441,0.489
+Zambia,Africa,ZMB,Subnat,ZMBr104,Luapula,2023,0.524,0.623,0.485,0.476
+Zambia,Africa,ZMB,Subnat,ZMBr105,Lusaka,2023,0.668,0.714,0.657,0.637
+Zambia,Africa,ZMB,Subnat,ZMBr107,North-Western,2023,0.612,0.804,0.568,0.502
+Zambia,Africa,ZMB,Subnat,ZMBr106,Northern,2023,0.549,0.702,0.5,0.471
+Zambia,Africa,ZMB,Subnat,ZMBr108,Southern,2023,0.593,0.7,0.573,0.519
+Zambia,Africa,ZMB,Subnat,ZMBr109,Western,2023,0.545,0.728,0.498,0.445
+Zimbabwe,Africa,ZWE,National,ZWEt,Total,2023,0.598,0.658,0.605,0.538
+Zimbabwe,Africa,ZWE,Subnat,ZWEr110,Bulawayo,2023,0.697,0.705,0.714,0.672
+Zimbabwe,Africa,ZWE,Subnat,ZWEr109,Harare,2023,0.671,0.672,0.709,0.633
+Zimbabwe,Africa,ZWE,Subnat,ZWEr101,Manicaland,2023,0.588,0.649,0.616,0.508
+Zimbabwe,Africa,ZWE,Subnat,ZWEr102,"Mashonaland Central",2023,0.542,0.627,0.522,0.486
+Zimbabwe,Africa,ZWE,Subnat,ZWEr103,"Mashonaland East",2023,0.585,0.667,0.587,0.513
+Zimbabwe,Africa,ZWE,Subnat,ZWEr104,"Mashonaland West",2023,0.567,0.613,0.573,0.521
+Zimbabwe,Africa,ZWE,Subnat,ZWEr108,Masvingo,2023,0.591,0.7,0.58,0.509
+Zimbabwe,Africa,ZWE,Subnat,ZWEr105,"Matebeleland North",2023,0.544,0.692,0.499,0.465
+Zimbabwe,Africa,ZWE,Subnat,ZWEr106,"Matebeleland South",2023,0.587,0.714,0.546,0.518
+Zimbabwe,Africa,ZWE,Subnat,ZWEr107,Midlands,2023,0.595,0.648,0.611,0.532

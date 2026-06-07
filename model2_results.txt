@@ -1,0 +1,106 @@
+MODEL 2: CONSTRAINED NONLINEAR POLICY OPTIMIZATION
+======================================================================
+Caloric deficit target: 4.612 trillion kcal
+Undernourished: 18,050,486
+BNP funding floor: 35%
+Min investment if selected: $200M
+BDP2100 discount: 40%
+Diminishing returns: concave power functions (b = 0.50–0.85)
+Synergy pairs: 7
+
+======================================================================
+  Current FDI  |  Budget: $8,000M
+======================================================================
+
+Policy                               $M   People Equiv     Type Tags
+--------------------------------------------------------------------------------
+Fortified feeding                 1,800     41,095,800   direct 
+Saline-tolerant rice              1,500      8,902,800     prod  [BDP]
+Post-harvest storage              1,200     11,637,600     prod 
+Renewable irrigation              1,090      3,287,025    infra  [BNP]
+AWD irrigation                    1,000      9,047,400     prod  [BNP] [BDP]
+Flood-tolerant rice                 500      3,268,567     prod  [BDP]
+Farmer insurance                    310      1,391,941  protect  [BNP]
+Tree planting                       200        174,797    infra  [BNP]
+River/canal excavation              200        126,752    infra  [BNP]
+Crop diversification                200        965,353     prod 
+--------------------------------------------------------------------------------
+Base subtotal                     8,000     79,898,035
+Synergy bonus                                6,509,559
+GRAND TOTAL                       8,000     86,407,594
+
+Synergy pair detail:
+  Cyclone early warning x Flood forecasting: NOT TRIGGERED (neither funded)
+  Flood-tolerant rice x AWD irrigation: alpha=0.2, bonus=1,298,217
+  Post-harvest storage x Crop diversification: alpha=0.25, bonus=1,409,053
+  Saline-tolerant rice x AWD irrigation: alpha=0.2, bonus=3,590,040
+  Farmer insurance x Flood-tolerant rice: alpha=0.15, bonus=205,142
+  Tree planting x River/canal excavation: alpha=0.1, bonus=7,108
+  Aquaculture x Crop diversification: NOT TRIGGERED (one unfunded)
+
+Summary:
+  Budget spent:           $8,000M of $8,000M
+  Budget remaining:       $0M
+  BNP share of spending:  35.0%  (target: 35%)
+  Policies funded:        10
+  People-equiv total:     86,407,594
+  Undernourished pop:     18,050,486
+  Deficit closed:         100.0%
+  Surplus beyond deficit: 68,357,108
+  Dollar value (at $200): $17,282M
+
+======================================================================
+  BNP 2.5% FDI  |  Budget: $8,600M
+======================================================================
+
+Policy                               $M   People Equiv     Type Tags
+--------------------------------------------------------------------------------
+Fortified feeding                 1,800     41,095,800   direct 
+Saline-tolerant rice              1,500      8,902,800     prod  [BDP]
+Renewable irrigation              1,200      3,532,800    infra  [BNP]
+Post-harvest storage              1,200     11,637,600     prod 
+AWD irrigation                    1,000      9,047,400     prod  [BNP] [BDP]
+Flood-tolerant rice                 890      4,893,858     prod  [BDP]
+Farmer insurance                    410      1,600,781  protect  [BNP]
+Tree planting                       200        174,797    infra  [BNP]
+River/canal excavation              200        126,752    infra  [BNP]
+Crop diversification                200        965,353     prod 
+--------------------------------------------------------------------------------
+Base subtotal                     8,600     81,977,941
+Synergy bonus                                7,405,437
+GRAND TOTAL                       8,600     89,383,378
+
+Synergy pair detail:
+  Cyclone early warning x Flood forecasting: NOT TRIGGERED (neither funded)
+  Flood-tolerant rice x AWD irrigation: alpha=0.2, bonus=1,960,608
+  Post-harvest storage x Crop diversification: alpha=0.25, bonus=1,409,053
+  Saline-tolerant rice x AWD irrigation: alpha=0.2, bonus=3,590,040
+  Farmer insurance x Flood-tolerant rice: alpha=0.15, bonus=438,629
+  Tree planting x River/canal excavation: alpha=0.1, bonus=7,108
+  Aquaculture x Crop diversification: NOT TRIGGERED (one unfunded)
+
+Summary:
+  Budget spent:           $8,600M of $8,600M
+  Budget remaining:       $0M
+  BNP share of spending:  35.0%  (target: 35%)
+  Policies funded:        10
+  People-equiv total:     89,383,378
+  Undernourished pop:     18,050,486
+  Deficit closed:         100.0%
+  Surplus beyond deficit: 71,332,892
+  Dollar value (at $200): $17,877M
+
+======================================================================
+SCENARIO COMPARISON
+======================================================================
+Metric                                  Current FDI    BNP 2.5% FDI
+-----------------------------------------------------------------
+budget                                        8,000           8,600
+spent                                         8,000           8,600
+remaining                                         0               0
+bnp_pct                                       35.0%           35.0%
+policies_funded                                  10              10
+people_total                             86,407,594      89,383,378
+synergy_total                             6,509,559       7,405,437
+deficit_closed_pct                           100.0%          100.0%
+surplus                                  68,357,108      71,332,892

@@ -1,0 +1,69 @@
+🌍 Launching FAO-Integrated Global Hunger Research Website...
+============================================================
+Loading required package: shiny
+Loading required package: plotly
+Loading required package: ggplot2
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+Loading required package: DT
+
+Attaching package: ‘DT’
+
+The following objects are masked from ‘package:shiny’:
+
+    dataTableOutput, renderDataTable
+
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.1     ✔ stringr   1.5.2
+✔ lubridate 1.9.4     ✔ tibble    3.3.0
+✔ purrr     1.1.0     ✔ tidyr     1.3.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks plotly::filter(), stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+✅ All required packages loaded
+✅ FAO data files found
+🚀 Starting the website...
+
+🌐 Website will be available at: http://localhost:3838
+📱 Alternative URL: http://127.0.0.1:3838
+🔗 Copy and paste this URL into your browser if it doesn't open automatically
+
+🌍 Loading FAO Food Security Data...
+✅ FAO data loaded successfully!
+📊 Total FAO records: 19371 
+🌍 Countries in FAO data: 249 
+🔄 Processing FAO data for analysis...
+✅ FAO data processed successfully!
+📊 Countries with complete data: 39 
+📅 Latest year range: 2022 to 2022 
+🌍 Starting FAO-Integrated Global Hunger Research Website...
+============================================================
+✅ FAO data loaded successfully!
+📊 Countries available: 39 
+
+🌐 WEBSITE URL: http://localhost:3838
+📱 Alternative: http://127.0.0.1:3838
+🔗 Copy and paste this URL into your browser!
+🛑 To stop the server, press Ctrl+C in the terminal.
+
+Warning message:
+There was 1 warning in `mutate()`.
+ℹ In argument: `Value = as.numeric(Value)`.
+Caused by warning:
+! NAs introduced by coercion 

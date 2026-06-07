@@ -1,0 +1,32 @@
+{
+  "chart": {
+    "title": "Industrial water withdrawal",
+    "subtitle": "This measures the annual quantity of self-supplied water withdrawn for industrial uses, in cubic metres (m³) per year. It includes water for the cooling of thermoelectric and nuclear power plants, but it does not include hydropower. Water withdrawn by industries that are connected to the public supply network is generally included in municipal water withdrawal.",
+    "citation": "Food and Agriculture Organization of the United Nations - AQUASTAT",
+    "originalChartUrl": "https://ourworldindata.org/grapher/industrial-water-withdrawal?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "United States",
+      "Canada",
+      "Spain",
+      "France",
+      "Sweden",
+      "Japan"
+    ]
+  },
+  "columns": {
+    "Industrial water withdrawal": {
+      "titleShort": "Industrial water withdrawal",
+      "titleLong": "Industrial water withdrawal",
+      "unit": "billion m³ per year",
+      "timespan": "",
+      "type": "Numeric",
+      "conversionFactor": 1000000000,
+      "owidVariableId": 43008,
+      "citationShort": " – processed by Our World in Data",
+      "citationLong": " – processed by Our World in Data. “Industrial water withdrawal” [dataset]. Water withdrawals and consumption - Aquastat [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/43008.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-11-28",
+  "activeFilters": {}
+}

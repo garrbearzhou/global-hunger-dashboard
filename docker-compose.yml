@@ -1,0 +1,27 @@
+services:
+  app:
+    build: .
+    environment:
+      OMP_NUM_THREADS: "1"
+      PORT: "3838"
+      HOST: "0.0.0.0"
+    expose:
+      - "3838"
+    restart: unless-stopped
+
+  caddy:
+    image: caddy:2-alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - app
+    restart: unless-stopped
+
+volumes:
+  caddy_data:
+  caddy_config:

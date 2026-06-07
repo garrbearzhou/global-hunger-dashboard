@@ -1,0 +1,75 @@
+🌍 Launching FAO-World Bank Combined Global Hunger Research Website...
+====================================================================
+Loading required package: shiny
+Loading required package: plotly
+Loading required package: ggplot2
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+Loading required package: DT
+
+Attaching package: ‘DT’
+
+The following objects are masked from ‘package:shiny’:
+
+    dataTableOutput, renderDataTable
+
+Loading required package: tidyverse
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.1     ✔ stringr   1.5.2
+✔ lubridate 1.9.4     ✔ tibble    3.3.0
+✔ purrr     1.1.0     ✔ tidyr     1.3.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks plotly::filter(), stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+✅ All required packages loaded
+✅ FAO data files found
+✅ World Bank data file found
+🚀 Starting the combined website...
+
+🌍 Loading FAO Food Security Data and World Bank Indicators...
+✅ FAO data loaded successfully!
+📊 Total FAO records: 19371 
+🌍 Countries in FAO data: 249 
+✅ World Bank data loaded successfully!
+📊 Total World Bank records: 1064 
+🌍 Countries in World Bank data: 266 
+🔄 Processing FAO data for analysis...
+✅ FAO data processed successfully!
+📊 Records after processing: 21194 
+🔄 Processing World Bank data...
+✅ World Bank data processed successfully!
+📊 Countries with World Bank data: 266 
+🔄 Combining FAO and World Bank data...
+✅ Combined dataset created successfully!
+📊 Countries with both FAO and World Bank data: 21 
+🌍 Starting FAO-World Bank Combined Global Hunger Research Website...
+====================================================================
+✅ FAO data loaded successfully!
+✅ World Bank data loaded successfully!
+📊 Countries with combined data: 21 
+
+🌐 WEBSITE URL: http://localhost:3840
+📱 Alternative: http://127.0.0.1:3840
+🔗 Copy and paste this URL into your browser!
+🛑 To stop the server, press Ctrl+C in the terminal.
+
+Warning message:
+There was 1 warning in `mutate()`.
+ℹ In argument: `Value = as.numeric(Value)`.
+Caused by warning:
+! NAs introduced by coercion 

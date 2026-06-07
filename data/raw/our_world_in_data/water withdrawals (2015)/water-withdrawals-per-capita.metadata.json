@@ -1,0 +1,32 @@
+{
+  "chart": {
+    "title": "Water withdrawals per capita",
+    "subtitle": "Total water withdrawals from agricultural, industrial and municipal purposes per capita, measured in cubic meters (m³) per year.",
+    "citation": "Food and Agriculture Organization of the United Nations - AQUASTAT",
+    "originalChartUrl": "https://ourworldindata.org/grapher/water-withdrawals-per-capita?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "United States",
+      "China",
+      "India",
+      "Russia",
+      "Brazil",
+      "Indonesia",
+      "South Africa"
+    ]
+  },
+  "columns": {
+    "Total water withdrawal per capita": {
+      "titleShort": "Total water withdrawal per capita",
+      "titleLong": "Total water withdrawal per capita",
+      "unit": "m³ per person per year",
+      "timespan": "",
+      "type": "Numeric",
+      "owidVariableId": 43001,
+      "citationShort": " – processed by Our World in Data",
+      "citationLong": " – processed by Our World in Data. “Total water withdrawal per capita” [dataset]. Water withdrawals and consumption - Aquastat [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/43001.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-11-28",
+  "activeFilters": {}
+}

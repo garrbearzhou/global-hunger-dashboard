@@ -1,0 +1,33 @@
+{
+  "chart": {
+    "title": "Municipal water withdrawal",
+    "subtitle": "Total water withdrawal for municipal (domestic) purposes, measured in cubic metres (m³) per year. Municipal water is the annual quantity of water withdrawn primarily for the direct use by the population.",
+    "citation": "Food and Agriculture Organization of the United Nations - AQUASTAT",
+    "originalChartUrl": "https://ourworldindata.org/grapher/municipal-water-withdrawal?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "India",
+      "China",
+      "United States",
+      "Indonesia",
+      "Brazil",
+      "South Africa",
+      "Russia"
+    ]
+  },
+  "columns": {
+    "Municipal water withdrawal": {
+      "titleShort": "Municipal water withdrawal",
+      "titleLong": "Municipal water withdrawal",
+      "unit": "billion m³ per year",
+      "timespan": "",
+      "type": "Numeric",
+      "conversionFactor": 1000000000,
+      "owidVariableId": 43004,
+      "citationShort": " – processed by Our World in Data",
+      "citationLong": " – processed by Our World in Data. “Municipal water withdrawal” [dataset]. Water withdrawals and consumption - Aquastat [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/43004.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-11-28",
+  "activeFilters": {}
+}

@@ -1,0 +1,40 @@
+{
+  "chart": {
+    "title": "Freshwater withdrawals per 100 grams of protein",
+    "subtitle": "Freshwater withdrawals are measured in liters per 100 grams of protein.",
+    "citation": "Joseph Poore and Thomas Nemecek (2018). Additional calculations by Our World in Data.",
+    "originalChartUrl": "https://ourworldindata.org/grapher/water-per-protein-poore?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Beef (beef herd)",
+      "Cheese",
+      "Fish (farmed)",
+      "Lamb & Mutton",
+      "Milk",
+      "Other Pulses",
+      "Pig Meat",
+      "Poultry Meat",
+      "Tofu (soybeans)",
+      "Peas",
+      "Nuts",
+      "Groundnuts",
+      "Eggs",
+      "Beef (dairy herd)",
+      "Prawns (farmed)"
+    ]
+  },
+  "columns": {
+    "Freshwater withdrawals per 100g protein (Poore & Nemecek, 2018)": {
+      "titleShort": "Freshwater withdrawals per 100g protein",
+      "titleLong": "Freshwater withdrawals per 100g protein",
+      "unit": "",
+      "timespan": "",
+      "type": "Numeric",
+      "owidVariableId": 104787,
+      "citationShort": " – processed by Our World in Data",
+      "citationLong": " – processed by Our World in Data. “Freshwater withdrawals per 100g protein” [dataset]. Poore, J., & Nemecek, T. (2018). Reducing food’s environmental impacts through producers and consumers. Science. [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/104787.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-11-28",
+  "activeFilters": {}
+}

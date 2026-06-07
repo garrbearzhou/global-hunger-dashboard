@@ -1,0 +1,32 @@
+country,outbreak_start_year,outbreak_end_year,severity,primary_cause,affected_population,deaths,source
+Somalia,2011,2012,Famine,Drought,4000000,260000,EM-DAT
+Somalia,2017,2017,Severe Crisis,Drought,6300000,0,FAO
+Somalia,2022,2022,Severe Crisis,Drought,7000000,0,FAO
+Yemen,2016,2023,Ongoing,Conflict,20000000,377000,UN OCHA
+South Sudan,2017,2023,Ongoing,Conflict,7000000,0,IPC
+Nigeria,2016,2018,Severe Crisis,Conflict,5000000,0,FAO
+Ethiopia,2015,2016,Severe Crisis,Drought,10000000,0,FAO
+Ethiopia,2020,2022,Severe Crisis,Conflict,9000000,0,FAO
+Afghanistan,2001,2002,Severe Crisis,Conflict,7000000,0,FAO
+Afghanistan,2018,2021,Severe Crisis,Conflict,18000000,0,FAO
+Haiti,2008,2008,Severe Crisis,Natural Disaster,3000000,0,FAO
+Haiti,2010,2010,Severe Crisis,Natural Disaster,3000000,0,FAO
+Haiti,2016,2016,Severe Crisis,Natural Disaster,3500000,0,FAO
+Madagascar,2021,2022,Severe Crisis,Drought,1600000,0,FAO
+Democratic Republic of the Congo,2017,2019,Severe Crisis,Conflict,13000000,0,FAO
+Central African Republic,2013,2014,Severe Crisis,Conflict,2500000,0,FAO
+Central African Republic,2018,2020,Severe Crisis,Conflict,2400000,0,FAO
+Chad,2010,2010,Severe Crisis,Drought,2000000,0,FAO
+Chad,2017,2018,Severe Crisis,Conflict,4000000,0,FAO
+Mali,2012,2012,Severe Crisis,Conflict,1800000,0,FAO
+Mali,2018,2020,Severe Crisis,Conflict,1200000,0,FAO
+Burkina Faso,2012,2012,Severe Crisis,Conflict,1000000,0,FAO
+Burkina Faso,2018,2020,Severe Crisis,Conflict,3400000,0,FAO
+Niger,2005,2005,Severe Crisis,Drought,2500000,0,FAO
+Niger,2010,2010,Severe Crisis,Drought,7000000,0,FAO
+Niger,2018,2020,Severe Crisis,Conflict,2200000,0,FAO
+Zambia,2019,2020,Severe Crisis,Drought,2300000,0,FAO
+Zimbabwe,2019,2021,Severe Crisis,Drought,7700000,0,FAO
+Venezuela (Bolivarian Republic of),2016,2020,Severe Crisis,Economic,7000000,0,FAO
+United Republic of Tanzania,2017,2019,Severe Crisis,Drought,2000000,0,FAO
+

@@ -1,0 +1,49 @@
+{
+  "chart": {
+    "title": "Freshwater withdrawals per kilogram of food product",
+    "subtitle": "Freshwater withdrawals are measured in liters per kilogram of food product.",
+    "citation": "Joseph Poore and Thomas Nemecek (2018).",
+    "originalChartUrl": "https://ourworldindata.org/grapher/water-withdrawals-per-kg-poore?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Apples",
+      "Beef (dairy herd)",
+      "Cheese",
+      "Fish (farmed)",
+      "Milk",
+      "Lamb & Mutton",
+      "Pig Meat",
+      "Poultry Meat",
+      "Rice",
+      "Tomatoes",
+      "Wine",
+      "Wheat & Rye",
+      "Tofu (soybeans)",
+      "Root Vegetables",
+      "Potatoes",
+      "Peas",
+      "Nuts",
+      "Maize",
+      "Groundnuts",
+      "Eggs",
+      "Citrus Fruit",
+      "Beef (beef herd)",
+      "Bananas",
+      "Prawns (farmed)"
+    ]
+  },
+  "columns": {
+    "Freshwater withdrawals per kilogram (Poore & Nemecek, 2018)": {
+      "titleShort": "Freshwater withdrawals per kilogram",
+      "titleLong": "Freshwater withdrawals per kilogram",
+      "unit": "",
+      "timespan": "",
+      "type": "Numeric",
+      "owidVariableId": 104782,
+      "citationShort": " – processed by Our World in Data",
+      "citationLong": " – processed by Our World in Data. “Freshwater withdrawals per kilogram” [dataset]. Poore, J., & Nemecek, T. (2018). Reducing food’s environmental impacts through producers and consumers. Science. [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/104782.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-11-28",
+  "activeFilters": {}
+}

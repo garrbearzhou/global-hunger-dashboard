@@ -1,0 +1,22 @@
+country,assessment_year,ipc_phase,population_phase3_plus,population_phase4_plus,population_phase5,primary_driver,secondary_driver
+Afghanistan,2024,3,15800000,2800000,0,Conflict,Economic
+Yemen,2024,4,18000000,6500000,0,Conflict,Economic
+Somalia,2024,4,6700000,4200000,0,Climate,Conflict
+South Sudan,2024,4,7000000,3500000,0,Conflict,Climate
+Ethiopia,2024,3,20000000,8000000,0,Conflict,Climate
+Nigeria,2024,3,25000000,5000000,0,Conflict,Economic
+Haiti,2024,4,4800000,1800000,0,Economic,Conflict
+Madagascar,2024,3,2500000,800000,0,Climate,Economic
+Democratic Republic of the Congo,2024,3,26000000,6000000,0,Conflict,Economic
+Central African Republic,2024,3,2400000,600000,0,Conflict,Economic
+Chad,2024,3,4000000,1000000,0,Conflict,Climate
+Mali,2024,3,1200000,300000,0,Conflict,Climate
+Burkina Faso,2024,3,3400000,850000,0,Conflict,Climate
+Niger,2024,3,2200000,550000,0,Conflict,Climate
+Sudan,2024,5,20000000,8000000,500000,Conflict,Economic
+Syria,2024,3,12000000,3000000,0,Conflict,Economic
+Myanmar,2024,3,15000000,3000000,0,Conflict,Economic
+Venezuela,2024,3,7000000,2000000,0,Economic,Conflict
+Zimbabwe,2024,3,4000000,1000000,0,Climate,Economic
+Zambia,2024,3,1800000,450000,0,Climate,Economic
+

@@ -1,0 +1,26 @@
+{
+  "chart": {
+    "title": "Global freshwater use over the long-run",
+    "subtitle": "Global freshwater withdrawals for agriculture, industry and domestic uses since 1900, measured in cubic metres (m³) per year.",
+    "citation": "Global International Geosphere-Biosphere Programme (IGB)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/global-freshwater-use-over-the-long-run?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "World"
+    ]
+  },
+  "columns": {
+    "Freshwater use": {
+      "titleShort": "Freshwater use",
+      "titleLong": "Freshwater use",
+      "unit": "m³",
+      "timespan": "",
+      "type": "Integer",
+      "owidVariableId": 43020,
+      "citationShort": " – processed by Our World in Data",
+      "citationLong": " – processed by Our World in Data. “Freshwater use” [dataset]. Global freshwater use since 1900 - IGB [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/43020.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-11-28",
+  "activeFilters": {}
+}

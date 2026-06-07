@@ -1,0 +1,31 @@
+{
+  "chart": {
+    "title": "Agricultural water withdrawals",
+    "subtitle": "Total agricultural withdrawals, measured in m³ per year. Agricultural water is defined as the annual quantity of self-supplied water withdrawn for irrigation, livestock and aquaculture purposes.",
+    "citation": "Food and Agriculture Organization of the United Nations - AQUASTAT",
+    "originalChartUrl": "https://ourworldindata.org/grapher/agricultural-water-withdrawals?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "China",
+      "United States",
+      "India",
+      "Brazil",
+      "France"
+    ]
+  },
+  "columns": {
+    "Agricultural water withdrawal": {
+      "titleShort": "Agricultural water withdrawal",
+      "titleLong": "Agricultural water withdrawal",
+      "unit": "billion m³ per year",
+      "timespan": "",
+      "type": "Numeric",
+      "conversionFactor": 1000000000,
+      "owidVariableId": 43009,
+      "citationShort": " – processed by Our World in Data",
+      "citationLong": " – processed by Our World in Data. “Agricultural water withdrawal” [dataset]. Water withdrawals and consumption - Aquastat [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/43009.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-11-28",
+  "activeFilters": {}
+}

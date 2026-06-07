@@ -1,0 +1,23 @@
+.DS_Store
+.cursor/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user/
+
+# Local env / secrets
+.env
+.env.*
+
+# IDE / tooling
+agent-transcripts/
+terminals/
+
+# Not needed for the deployed app (saves repo size)
+*.pdf
+*.pptx
+*.ppt
+
+# Python cache (if any helper scripts)
+__pycache__/
+*.pyc

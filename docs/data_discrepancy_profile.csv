@@ -1,0 +1,20 @@
+source_name,file,exists,n_rows,n_cols,geo_column,geo_kind,year_min,year_max,has_censor_like_strings,notes
+World Bank (WDI CSV),/Users/27zhou/Documents/Research Project/data/raw/world_bank_data.csv,TRUE,6971,28,country,country_name,2000,2023,FALSE,NA
+FAO fao_data.csv,/Users/27zhou/Documents/Research Project/data/raw/fao/fao_data.csv,TRUE,5320,6,country,country_name,2020,2023,FALSE,NA
+FAO Food Security bulk,/Users/27zhou/Documents/Research Project/data/raw/fao/FAO_Data/Food_Security_Data_E_All_Data.csv,TRUE,8000,152,Area,country_name,1960,2100,FALSE,sampled first 8000 rows
+FAO FPMA,/Users/27zhou/Documents/Research Project/data/raw/fao/FAO_Data/fao fpma data.csv,TRUE,83,7,NA,NA,NA,NA,FALSE,NA
+IPC general,/Users/27zhou/Documents/Research Project/data/raw/ipc/ipc data general data.csv,TRUE,34,11,Country,country_name,NA,NA,FALSE,NA
+IPC historical 2017-2025,/Users/27zhou/Documents/Research Project/data/raw/ipc/ipc all data 2017-2025.csv,TRUE,8000,50,Country,country_name,NA,NA,FALSE,sampled first 8000 rows
+Historical outbreaks,/Users/27zhou/Documents/Research Project/data/raw/historical_hunger_outbreaks.csv,TRUE,30,8,country,country_name,NA,NA,FALSE,NA
+WHO stunting,/Users/27zhou/Documents/Research Project/data/raw/who/child_stunting_data.csv,TRUE,8000,15,GEO_NAME_SHORT,country_name,NA,NA,FALSE,sampled first 8000 rows
+OWID poverty,/Users/27zhou/Documents/Research Project/data/raw/our_world_in_data/poverty data.csv,TRUE,2874,3,Country,country_name,1963,2025,FALSE,NA
+ND-GAIN climate vulnerability,/Users/27zhou/Documents/Research Project/data/raw/climate vulnerability/cv/vulnerability/vulnerability.csv,TRUE,192,31,Name,country_name,NA,NA,FALSE,NA
+GDL health vulnerability,/Users/27zhou/Documents/Research Project/data/raw/global_data_lab/health/health vunerability data.csv,TRUE,572,23,Country,country_name,2023,2023,FALSE,NA
+UNHCR PoC,/Users/27zhou/Documents/Research Project/data/raw/un/unhcr/displaced people data/persons_of_concern.csv,TRUE,8000,12,Country of Asylum,country_name,2019,2020,FALSE,sampled first 8000 rows
+EM-DAT,/Users/27zhou/Documents/Research Project/data/raw/em_dat/em_dat_data.csv,TRUE,7448,6,country,country_name,2020,2023,FALSE,NA
+Food trade dependency,/Users/27zhou/Documents/Research Project/data/raw/food trade dependency/data overview.csv,TRUE,8000,14,importer_country_name,country_name,NA,NA,FALSE,sampled first 8000 rows
+OWID food supply,/Users/27zhou/Documents/Research Project/data/raw/our_world_in_data/food supply data.csv,TRUE,8000,3,Entity,country_name,1961,2022,FALSE,sampled first 8000 rows
+OWID water per cap,/Users/27zhou/Documents/Research Project/data/raw/our_world_in_data/freshwater resources per capita/renewable-water-resources-per-capita.csv,TRUE,8000,4,Entity,country_name,1961,2021,FALSE,sampled first 8000 rows
+USDA ag,/Users/27zhou/Documents/Research Project/data/raw/usda/agricultural_production_1.csv,TRUE,8000,10,ISO3,ISO3_code,1961,2022,FALSE,sampled first 8000 rows
+WPR malnutrition,/Users/27zhou/Documents/Research Project/data/raw/wpr/malnutrition-rate-by-country-2025.csv,TRUE,169,3,country,country_name,NA,NA,FALSE,NA
+IDU global (HDX),/Users/27zhou/Documents/Research Project/data/raw/hdx/idu/idu global.csv,TRUE,1,22,country,country_name,2022,2022,FALSE,NA

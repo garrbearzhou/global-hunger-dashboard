@@ -1,0 +1,42 @@
+{
+  "chart": {
+    "title": "Freshwater withdrawals as a share of internal resources",
+    "subtitle": "Freshwater withdrawals refer to total water withdrawals from agriculture, industry and municipal/domestic uses. Withdrawals can exceed 100% of total renewable resources where extraction from non-renewable aquifers or desalination plants is considerable.",
+    "note": "Five classes have been identified to signal different levels of stress on water sources: <25%: _no stress_, 25-50%: _low stress_, 50-75%: _medium stress_, 75-100%: _high stress_ and >100%: _critical stress_.",
+    "citation": "Food and Agriculture Organization of the United Nations",
+    "originalChartUrl": "https://ourworldindata.org/grapher/freshwater-withdrawals-as-a-share-of-internal-resources?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Eastern and South-Eastern Asia (UN)",
+      "Middle income",
+      "Europe (UN)",
+      "Oceania (UN)",
+      "Northern Africa (UN)",
+      "Northern America (UN)",
+      "Sub-Saharan Africa (UN)",
+      "Central and Southern Asia (UN)",
+      "Europe and Northern America (UN)",
+      "Latin America and the Caribbean (UN)",
+      "World"
+    ]
+  },
+  "columns": {
+    "6.4.2 - Level of water stress: freshwater withdrawal as a proportion of available freshwater resources (%) - ER_H2O_STRESS - No breakdown": {
+      "titleShort": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources (%) - No breakdown",
+      "titleLong": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources (%) - No breakdown",
+      "descriptionShort": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources (%)",
+      "shortUnit": "%",
+      "unit": "%",
+      "timespan": "2000-2022",
+      "type": "Numeric",
+      "owidVariableId": 1127994,
+      "shortName": "_6_4_2__er_h2o_stress__no_breakdown",
+      "lastUpdated": "2025-10-29",
+      "nextUpdate": "2027-10-29",
+      "citationShort": "Food and Agriculture Organization of the United Nations – processed by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations – processed by Our World in Data. “Level of water stress: freshwater withdrawal as a proportion of available freshwater resources (%) - No breakdown” [dataset]. Food and Agriculture Organization of the United Nations, “Food and Agriculture Organisation of United Nations (FAO)” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1127994.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-11-28",
+  "activeFilters": {}
+}

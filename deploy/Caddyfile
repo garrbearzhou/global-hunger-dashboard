@@ -1,0 +1,4 @@
+# Replace example.com with your real domain before deploying.
+example.com {
+  reverse_proxy app:3838
+}

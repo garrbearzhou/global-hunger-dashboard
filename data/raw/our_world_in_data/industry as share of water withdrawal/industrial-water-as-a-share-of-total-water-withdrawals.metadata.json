@@ -1,0 +1,39 @@
+{
+  "chart": {
+    "title": "Industrial water as a share of total water withdrawals",
+    "subtitle": "Industrial water withdrawals as a percentage of total water withdrawals (which is the sum of water used for agriculture, industry, and municipal purposes).",
+    "note": "The industrial water sector refers to self-supplied industries not connected to the public distribution network. The ratio between net consumption and withdrawal is estimated at less than 5%. It includes water for the cooling of thermoelectric and nuclear power plants, but it does not include hydropower.",
+    "citation": "Food and Agriculture Organization of the United Nations, OECD, and World Bank (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/industrial-water-as-a-share-of-total-water-withdrawals?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "World",
+      "High-income countries",
+      "North America (WB)",
+      "Low-income countries",
+      "United States",
+      "Germany",
+      "China",
+      "Latin America and Caribbean (WB)",
+      "Middle East and North Africa (WB)"
+    ]
+  },
+  "columns": {
+    "Annual freshwater withdrawals, industry (% of total freshwater withdrawal)": {
+      "titleShort": "Annual freshwater withdrawals, industry (% of total freshwater withdrawal)",
+      "titleLong": "Annual freshwater withdrawals, industry (% of total freshwater withdrawal)",
+      "shortUnit": "%",
+      "unit": "% of total freshwater withdrawal",
+      "timespan": "1965-2021",
+      "type": "Numeric",
+      "owidVariableId": 1106635,
+      "shortName": "er_h2o_fwin_zs",
+      "lastUpdated": "2025-09-08",
+      "nextUpdate": "2026-09-08",
+      "citationShort": "Food and Agriculture Organization of the United Nations, OECD, and World Bank (2025) – processed by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations, OECD, and World Bank (2025) – processed by Our World in Data. “Annual freshwater withdrawals, industry (% of total freshwater withdrawal)” [dataset]. Food and Agriculture Organization of the United Nations, OECD, and World Bank, “World Development Indicators 122” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1106635.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-11-28",
+  "activeFilters": {}
+}
