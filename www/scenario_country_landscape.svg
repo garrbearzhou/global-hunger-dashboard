@@ -6,42 +6,46 @@
       <stop offset="100%" stop-color="#075985"/>
     </linearGradient>
     <radialGradient id="sc-ocean-shimmer" cx="70%" cy="15%" r="50%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.28"/>
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </radialGradient>
 
-    <linearGradient id="sc-hillshade" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#fef3c7" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#1c1917" stop-opacity="0.12"/>
+    <linearGradient id="sc-hillshade" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#1c1917" stop-opacity="0.14"/>
     </linearGradient>
 
-    <pattern id="sc-desert-dune" width="56" height="32" patternUnits="userSpaceOnUse" patternTransform="rotate(-8)">
-      <rect width="56" height="32" fill="#d4a574" fill-opacity="0.12"/>
-      <path d="M0 22 Q14 14 28 22 T56 22" fill="none" stroke="#b8956a" stroke-width="1.2" opacity="0.35"/>
-      <path d="M0 28 Q18 20 36 28 T56 28" fill="none" stroke="#c9a06e" stroke-width="0.8" opacity="0.28"/>
+    <linearGradient id="sc-desert-base" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5deb3" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#d2a56a" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#a67c3d" stop-opacity="0.28"/>
+    </linearGradient>
+
+    <pattern id="sc-dune-lines" width="48" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(-12)">
+      <path d="M0 14 Q12 8 24 14 T48 14" fill="none" stroke="#b8956a" stroke-width="0.9" opacity="0.35"/>
+      <path d="M0 18 Q16 12 32 18 T48 18" fill="none" stroke="#c9a06e" stroke-width="0.6" opacity="0.25"/>
     </pattern>
 
-    <pattern id="sc-forest-pattern" width="44" height="44" patternUnits="userSpaceOnUse">
-      <rect width="44" height="44" fill="#14532d" fill-opacity="0.06"/>
-      <circle cx="11" cy="13" r="8" fill="#166534" fill-opacity="0.28"/>
-      <circle cx="30" cy="20" r="9" fill="#15803d" fill-opacity="0.24"/>
-      <circle cx="18" cy="34" r="7" fill="#14532d" fill-opacity="0.26"/>
+    <pattern id="sc-forest-pattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#14532d" fill-opacity="0.05"/>
+      <circle cx="10" cy="12" r="7" fill="#166534" fill-opacity="0.22"/>
+      <circle cx="28" cy="18" r="8" fill="#15803d" fill-opacity="0.2"/>
+      <circle cx="16" cy="30" r="6" fill="#14532d" fill-opacity="0.22"/>
     </pattern>
 
-    <radialGradient id="sc-desert-fill" cx="40%" cy="45%" r="65%">
-      <stop offset="0%" stop-color="#fde68a" stop-opacity="0.35"/>
-      <stop offset="55%" stop-color="#d97706" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#92400e" stop-opacity="0.08"/>
-    </radialGradient>
-
-    <radialGradient id="sc-lake-deep" cx="38%" cy="32%" r="70%">
+    <linearGradient id="sc-lake-deep" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0c4a6e"/>
-      <stop offset="50%" stop-color="#0284c7"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.8"/>
-    </radialGradient>
+      <stop offset="55%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
 
-    <filter id="sc-water-soft" x="-8%" y="-8%" width="116%" height="116%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="0.35"/>
+    <linearGradient id="sc-mtn-shadow" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#374151" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#6b7280" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <filter id="sc-water-soft" x="-6%" y="-6%" width="112%" height="112%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.3"/>
     </filter>
 
     <symbol id="sc-pine" viewBox="0 0 20 28">
@@ -54,216 +58,194 @@
       <rect x="9.5" y="18" width="3" height="7" rx="1" fill="#57534e"/>
     </symbol>
 
-    <!-- Irregular mainland + eastern peninsula (bays, capes, inlets) -->
+    <!-- Single cohesive country: mainland + eastern peninsula joined by isthmus -->
     <clipPath id="sc-land-clip">
-      <path d="M 48 352
-        C 32 328 28 298 34 268
-        C 38 238 48 212 62 188
-        C 52 168 44 148 48 128
-        C 58 102 88 78 122 62
-        C 158 48 198 42 238 52
-        C 268 58 292 72 312 92
-        C 338 82 368 88 392 108
-        C 418 128 432 158 428 188
-        C 424 218 408 242 382 258
-        C 398 278 398 302 378 318
-        C 352 338 312 348 268 352
-        C 218 356 168 354 118 348
-        C 82 344 58 350 48 352 Z
-        M 388 268
-        C 402 252 428 244 452 254
-        C 476 266 488 292 478 314
-        C 466 336 438 344 414 332
-        C 396 322 384 298 388 268 Z
-        M 72 168
-        C 82 158 98 158 108 168
-        C 114 178 104 188 92 186
-        C 78 182 68 178 72 168 Z"/>
+      <path d="M 54 358
+        C 38 328 32 292 40 255
+        C 46 218 58 185 52 155
+        C 48 125 68 95 102 72
+        C 142 52 188 44 232 52
+        C 268 58 298 72 322 88
+        C 348 78 372 82 392 98
+        C 412 114 422 138 418 162
+        C 412 186 398 204 382 216
+        C 388 228 392 242 402 252
+        C 418 262 438 258 452 248
+        C 468 258 482 272 488 292
+        C 492 312 482 332 462 348
+        C 442 362 412 366 388 354
+        C 372 342 368 322 372 302
+        C 376 282 362 268 345 262
+        C 328 268 312 282 298 298
+        C 268 318 232 332 192 342
+        C 148 352 102 358 68 360
+        C 58 360 54 358 54 358 Z"/>
     </clipPath>
   </defs>
 
   <!-- Ocean -->
   <rect width="640" height="420" fill="url(#sc-ocean-deep)"/>
   <rect width="640" height="420" fill="url(#sc-ocean-shimmer)"/>
-  <ellipse cx="540" cy="370" rx="160" ry="36" fill="#0c4a6e" opacity="0.2"/>
 
-  <!-- Land base (vulnerability color) -->
-  <g>
-    <path class="scenario-country-shape" fill="__FILL__" stroke="#1c1917" stroke-width="2" stroke-linejoin="round"
-      d="M 48 352
-        C 32 328 28 298 34 268
-        C 38 238 48 212 62 188
-        C 52 168 44 148 48 128
-        C 58 102 88 78 122 62
-        C 158 48 198 42 238 52
-        C 268 58 292 72 312 92
-        C 338 82 368 88 392 108
-        C 418 128 432 158 428 188
-        C 424 218 408 242 382 258
-        C 398 278 398 302 378 318
-        C 352 338 312 348 268 352
-        C 218 356 168 354 118 348
-        C 82 344 58 350 48 352 Z"/>
-    <path class="scenario-country-shape" fill="__FILL__" stroke="#1c1917" stroke-width="1.2" stroke-linejoin="round"
-      d="M 72 168 C 82 158 98 158 108 168 C 114 178 104 188 92 186 C 78 182 68 178 72 168 Z"/>
-    <path class="scenario-country-shape" fill="__FILL__" stroke="#1c1917" stroke-width="1.5" stroke-linejoin="round"
-      d="M 388 268
-        C 402 252 428 244 452 254
-        C 476 266 488 292 478 314
-        C 466 336 438 344 414 332
-        C 396 322 384 298 388 268 Z"/>
-  </g>
+  <!-- Land base (vulnerability color injected at runtime) -->
+  <path class="scenario-country-shape" fill="__FILL__" stroke="#1c1917" stroke-width="2" stroke-linejoin="round"
+    d="M 54 358
+      C 38 328 32 292 40 255
+      C 46 218 58 185 52 155
+      C 48 125 68 95 102 72
+      C 142 52 188 44 232 52
+      C 268 58 298 72 322 88
+      C 348 78 372 82 392 98
+      C 412 114 422 138 418 162
+      C 412 186 398 204 382 216
+      C 388 228 392 242 402 252
+      C 418 262 438 258 452 248
+      C 468 258 482 272 488 292
+      C 492 312 482 332 462 348
+      C 442 362 412 366 388 354
+      C 372 342 368 322 372 302
+      C 376 282 362 268 345 262
+      C 328 268 312 282 298 298
+      C 268 318 232 332 192 342
+      C 148 352 102 358 68 360
+      C 58 360 54 358 54 358 Z"/>
 
   <g clip-path="url(#sc-land-clip)">
-    <!-- Hillshade -->
-    <path fill="url(#sc-hillshade)" opacity="0.9"
-      d="M 48 352 C 95 290 155 235 230 205 C 305 175 370 165 418 195 C 410 255 365 315 275 342 C 185 360 95 358 48 352 Z"/>
+    <path fill="url(#sc-hillshade)" opacity="0.85"
+      d="M 54 358 C 110 300 185 255 268 232 C 340 212 400 218 418 248 C 395 300 320 345 210 358 C 130 365 70 362 54 358 Z"/>
 
-    <!-- Desert — southwest interior -->
-    <path fill="url(#sc-desert-fill)" d="M 68 248
-      C 95 228 140 222 175 238
-      C 205 252 215 282 195 308
-      C 168 328 120 332 88 318
-      C 62 302 52 272 68 248 Z"/>
-    <path fill="url(#sc-desert-dune)" d="M 68 248
-      C 95 228 140 222 175 238
-      C 205 252 215 282 195 308
-      C 168 328 120 332 88 318
-      C 62 302 52 272 68 248 Z"/>
-
-    <!-- Mountain ranges — northwest highlands -->
-    <g opacity="0.92">
-      <path fill="#57534e" fill-opacity="0.35" d="M 118 62 L 148 38 L 178 58 L 208 34 L 242 52 L 268 42 L 252 78 L 218 88 L 182 82 L 148 92 L 118 62 Z"/>
-      <path fill="#78716c" fill-opacity="0.28" d="M 158 48 L 188 32 L 218 48 L 198 68 L 168 72 L 158 48 Z"/>
-      <path fill="#fafafa" fill-opacity="0.55" d="M 188 32 L 198 38 L 208 34 L 198 48 L 188 32 Z"/>
-      <path fill="#fafafa" fill-opacity="0.45" d="M 228 42 L 238 48 L 248 44 L 238 56 L 228 42 Z"/>
+    <!-- Northwest mountain range — layered ridges with snow caps -->
+    <g id="sc-mountains-nw" opacity="0.95">
+      <path fill="url(#sc-mtn-shadow)" d="M 98 118 L 128 68 L 158 118 Z"/>
+      <path fill="url(#sc-mtn-shadow)" d="M 138 112 L 168 58 L 198 112 Z"/>
+      <path fill="url(#sc-mtn-shadow)" d="M 178 108 L 212 52 L 248 108 Z"/>
+      <path fill="url(#sc-mtn-shadow)" d="M 218 115 L 248 72 L 278 115 Z"/>
+      <path fill="none" stroke="#374151" stroke-width="1.2" opacity="0.5"
+        d="M 98 118 L 128 68 L 158 118 M 138 112 L 168 58 L 198 112 M 178 108 L 212 52 L 248 108 M 218 115 L 248 72 L 278 115"/>
+      <path fill="#f8fafc" opacity="0.85" d="M 128 68 L 136 76 L 128 84 Z"/>
+      <path fill="#f8fafc" opacity="0.8" d="M 168 58 L 176 66 L 168 74 Z"/>
+      <path fill="#f8fafc" opacity="0.9" d="M 212 52 L 222 62 L 212 72 Z"/>
+      <path fill="#f8fafc" opacity="0.75" d="M 248 72 L 254 78 L 248 84 Z"/>
     </g>
-    <!-- Southern hills -->
-    <path fill="#44403c" fill-opacity="0.22" d="M 248 198 L 278 178 L 308 192 L 328 218 L 298 232 L 262 228 L 248 198 Z"/>
+
+    <!-- Peninsula highlands (east) -->
+    <g id="sc-mountains-east" opacity="0.88">
+      <path fill="url(#sc-mtn-shadow)" d="M 418 248 L 442 228 L 468 252 Z"/>
+      <path fill="url(#sc-mtn-shadow)" d="M 438 258 L 462 238 L 482 262 Z"/>
+      <path fill="#f8fafc" opacity="0.7" d="M 442 228 L 448 234 L 442 240 Z"/>
+    </g>
+
+    <!-- Southwest desert — irregular basin, not a circle -->
+    <path fill="url(#sc-desert-base)"
+      d="M 62 268
+        C 82 248 118 242 152 255
+        C 182 266 195 292 182 318
+        C 165 342 125 348 92 335
+        C 68 322 55 295 62 268 Z"/>
+    <path fill="url(#sc-dune-lines)"
+      d="M 62 268
+        C 82 248 118 242 152 255
+        C 182 266 195 292 182 318
+        C 165 342 125 348 92 335
+        C 68 322 55 295 62 268 Z"/>
 
     <!-- Forest belts -->
-    <path fill="url(#sc-forest-pattern)" d="M 218 118 C 248 102 288 108 312 132 C 332 152 318 182 282 192 C 248 200 218 178 218 118 Z"/>
-    <path fill="url(#sc-forest-pattern)" d="M 298 228 C 322 212 352 218 368 242 C 378 262 358 282 328 288 C 302 292 282 268 298 228 Z"/>
-    <path fill="url(#sc-forest-pattern)" d="M 118 198 C 142 178 172 182 188 202 C 198 218 178 238 152 242 C 128 244 112 222 118 198 Z"/>
-    <use href="#sc-pine" x="232" y="128" width="14" height="19" opacity="0.88"/>
-    <use href="#sc-pine" x="258" y="142" width="13" height="18" opacity="0.85"/>
-    <use href="#sc-deciduous" x="288" y="158" width="16" height="20" opacity="0.88"/>
-    <use href="#sc-pine" x="318" y="248" width="14" height="19" opacity="0.86"/>
-    <use href="#sc-deciduous" x="342" y="262" width="15" height="19" opacity="0.84"/>
-    <use href="#sc-pine" x="138" y="208" width="13" height="18" opacity="0.82"/>
-    <use href="#sc-pine" x="428" y="278" width="14" height="19" opacity="0.85"/>
+    <path fill="url(#sc-forest-pattern)"
+      d="M 228 128 C 258 112 298 118 318 142 C 335 162 322 188 288 198 C 255 206 225 182 228 128 Z"/>
+    <path fill="url(#sc-forest-pattern)"
+      d="M 288 218 C 312 202 342 208 358 232 C 368 252 348 272 318 278 C 292 282 275 258 288 218 Z"/>
+    <use href="#sc-pine" x="248" y="138" width="13" height="18" opacity="0.88"/>
+    <use href="#sc-pine" x="272" y="152" width="12" height="17" opacity="0.85"/>
+    <use href="#sc-deciduous" x="302" y="168" width="15" height="19" opacity="0.86"/>
+    <use href="#sc-pine" x="328" y="238" width="13" height="18" opacity="0.84"/>
 
-    <!-- Lakes (placed first so rivers can terminate visibly) -->
+    <!-- Lakes -->
     <g filter="url(#sc-water-soft)">
-      <!-- Alpine lake — headwaters -->
-      <path fill="url(#sc-lake-deep)" d="M 162 118
-        C 178 108 198 112 208 126
-        C 216 140 206 154 188 158
-        C 170 162 154 150 152 134
-        C 151 124 156 118 162 118 Z"/>
-      <ellipse cx="182" cy="134" rx="12" ry="5" fill="#e0f2fe" opacity="0.35"/>
-      <!-- Central lake — main river basin -->
-      <path fill="url(#sc-lake-deep)" d="M 248 262
-        C 272 248 302 252 318 268
-        C 332 284 322 304 296 312
-        C 268 320 242 306 236 286
-        C 232 272 238 262 248 262 Z"/>
-      <ellipse cx="278" cy="282" rx="20" ry="8" fill="#bae6fd" opacity="0.38"/>
-      <!-- Oasis / desert lake -->
-      <path fill="url(#sc-lake-deep)" d="M 128 278
-        C 142 268 162 272 172 286
-        C 180 298 168 310 150 312
-        C 132 314 118 302 120 288
-        C 122 278 128 278 128 278 Z"/>
-      <ellipse cx="148" cy="292" rx="9" ry="4" fill="#e0f2fe" opacity="0.32"/>
+      <!-- Alpine lake — fed by mountain streams -->
+      <ellipse cx="192" cy="128" rx="22" ry="14" fill="url(#sc-lake-deep)"/>
+      <ellipse cx="188" cy="124" rx="10" ry="4" fill="#e0f2fe" opacity="0.4"/>
+      <!-- Central lake — main basin -->
+      <ellipse cx="278" cy="282" rx="32" ry="20" fill="url(#sc-lake-deep)"/>
+      <ellipse cx="272" cy="276" rx="14" ry="6" fill="#bae6fd" opacity="0.42"/>
+      <!-- Desert oasis — endorheic, fed by wadi only -->
+      <ellipse cx="142" cy="298" rx="16" ry="10" fill="url(#sc-lake-deep)"/>
+      <ellipse cx="138" cy="295" rx="7" ry="3" fill="#e0f2fe" opacity="0.35"/>
     </g>
 
-    <!-- Curved rivers — each network connects mountains → lake → lake → coast -->
+    <!-- Rivers: every segment connects mountain, lake, or coast -->
     <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <!-- Headwater stream: peaks → alpine lake -->
-      <path d="M 208 48
-        C 198 62 192 78 188 92
-        C 184 104 178 114 182 124"
-        stroke="#0369a1" stroke-width="6" opacity="0.32"/>
-      <path d="M 208 48
-        C 198 62 192 78 188 92
-        C 184 104 178 114 182 124"
-        stroke="#38bdf8" stroke-width="2.8" opacity="0.82"/>
+      <!-- NW peaks → alpine lake -->
+      <path d="M 212 72 C 204 88 198 102 194 114" stroke="#0369a1" stroke-width="5.5" opacity="0.32"/>
+      <path d="M 212 72 C 204 88 198 102 194 114" stroke="#38bdf8" stroke-width="2.4" opacity="0.82"/>
 
-      <!-- Alpine lake → S-curve meander to central lake -->
-      <path d="M 188 148
-        C 182 162 188 178 200 192
-        C 212 206 228 218 242 232
-        C 252 244 252 256 248 268"
-        stroke="#0369a1" stroke-width="9" opacity="0.34"/>
-      <path d="M 188 148
-        C 182 162 188 178 200 192
-        C 212 206 228 218 242 232
-        C 252 244 252 256 248 268"
-        stroke="#0ea5e9" stroke-width="5" opacity="0.78"/>
-      <path d="M 188 148
-        C 182 162 188 178 200 192
-        C 212 206 228 218 242 232
-        C 252 244 252 256 248 268"
-        stroke="#e0f2fe" stroke-width="1.4" opacity="0.85"/>
-
-      <!-- Forest tributary → winding join above central lake -->
-      <path d="M 148 198
-        C 158 208 172 218 185 228
-        C 198 238 215 248 232 258
-        C 242 264 246 268 248 272"
-        stroke="#0369a1" stroke-width="7" opacity="0.3"/>
-      <path d="M 148 198
-        C 158 208 172 218 185 228
-        C 198 238 215 248 232 258
-        C 242 264 246 268 248 272"
-        stroke="#38bdf8" stroke-width="3.2" opacity="0.75"/>
-
-      <!-- Central lake outflow → oxbow delta to south coast -->
-      <path d="M 296 305
-        C 288 318 275 332 258 342
-        C 238 352 215 356 192 352
-        C 172 348 155 342 142 335"
+      <!-- Alpine lake → meander → central lake (outlet at south shore) -->
+      <path d="M 192 142
+        C 188 158 195 175 208 192
+        C 222 210 242 228 258 248
+        C 268 262 272 274 278 282"
         stroke="#0369a1" stroke-width="8" opacity="0.32"/>
-      <path d="M 296 305
-        C 288 318 275 332 258 342
-        C 238 352 215 356 192 352
-        C 172 348 155 342 142 335"
-        stroke="#0ea5e9" stroke-width="4.5" opacity="0.76"/>
+      <path d="M 192 142
+        C 188 158 195 175 208 192
+        C 222 210 242 228 258 248
+        C 268 262 272 274 278 282"
+        stroke="#0ea5e9" stroke-width="4.2" opacity="0.78"/>
+      <path d="M 192 142
+        C 188 158 195 175 208 192
+        C 222 210 242 228 258 248
+        C 268 262 272 274 278 282"
+        stroke="#e0f2fe" stroke-width="1.2" opacity="0.8"/>
 
-      <!-- Desert wadi → oasis lake -->
-      <path d="M 198 218
-        C 188 232 175 248 162 262
-        C 152 272 142 280 134 288"
-        stroke="#0284c7" stroke-width="5" opacity="0.55"/>
-      <path d="M 198 218
-        C 188 232 175 248 162 262
-        C 152 272 142 280 134 288"
-        stroke="#7dd3fc" stroke-width="2.2" opacity="0.7"/>
+      <!-- Forest tributary (foothill spring) → joins main stem above central lake -->
+      <path d="M 248 198
+        C 255 212 262 228 268 245
+        C 272 258 275 268 278 276"
+        stroke="#0369a1" stroke-width="6" opacity="0.3"/>
+      <path d="M 248 198
+        C 255 212 262 228 268 245
+        C 272 258 275 268 278 276"
+        stroke="#38bdf8" stroke-width="2.8" opacity="0.74"/>
 
-      <!-- Peninsula river: interior → estuary -->
-      <path d="M 328 248
-        C 342 258 358 268 378 278
-        C 398 288 418 295 442 302"
-        stroke="#0369a1" stroke-width="7" opacity="0.3"/>
-      <path d="M 328 248
-        C 342 258 358 268 378 278
-        C 398 288 418 295 442 302"
-        stroke="#0ea5e9" stroke-width="3.8" opacity="0.74"/>
+      <!-- Central lake → south coast delta (outlet meets ocean) -->
+      <path d="M 285 298
+        C 272 312 252 328 222 342
+        C 195 352 168 358 142 360"
+        stroke="#0369a1" stroke-width="7.5" opacity="0.32"/>
+      <path d="M 285 298
+        C 272 312 252 328 222 342
+        C 195 352 168 358 142 360"
+        stroke="#0ea5e9" stroke-width="4" opacity="0.76"/>
+
+      <!-- Mountain foothill wadi → desert oasis (dry wash, ends at lake) -->
+      <path d="M 118 185
+        C 125 205 132 225 136 245
+        C 138 262 140 278 142 288"
+        stroke="#0284c7" stroke-width="4.5" opacity="0.5"/>
+      <path d="M 118 185
+        C 125 205 132 225 136 245
+        C 138 262 140 278 142 288"
+        stroke="#7dd3fc" stroke-width="2" opacity="0.68"/>
+
+      <!-- Peninsula highlands → east coast estuary -->
+      <path d="M 448 248
+        C 458 262 468 278 475 292
+        C 480 302 482 312 478 322"
+        stroke="#0369a1" stroke-width="6" opacity="0.3"/>
+      <path d="M 448 248
+        C 458 262 468 278 475 292
+        C 480 302 482 312 478 322"
+        stroke="#0ea5e9" stroke-width="3.2" opacity="0.74"/>
     </g>
+
+    <!-- Estuary / river mouth at south coast -->
+    <path fill="#0ea5e9" opacity="0.45"
+      d="M 128 358 C 138 354 148 356 158 358 C 148 362 136 362 128 358 Z"/>
+    <path fill="#0ea5e9" opacity="0.4"
+      d="M 472 322 C 478 318 484 322 478 328 C 474 326 472 324 472 322 Z"/>
   </g>
 
-  <!-- Coastline highlights -->
-  <path fill="none" stroke="#fef9c3" stroke-width="2.5" opacity="0.4" stroke-linejoin="round"
-    d="M 48 352 C 32 328 28 298 34 268 C 38 238 48 212 62 188 C 52 168 44 148 48 128 C 58 102 88 78 122 62 C 158 48 198 42 238 52 C 268 58 292 72 312 92 C 338 82 368 88 392 108 C 418 128 432 158 428 188 C 424 218 408 242 382 258 C 398 278 398 302 378 318 C 352 338 312 348 268 352 C 218 356 168 354 118 348 C 82 344 58 350 48 352"/>
-  <path fill="none" stroke="#fef9c3" stroke-width="2" opacity="0.32"
-    d="M 388 268 C 402 252 428 244 452 254 C 476 266 488 292 478 314 C 466 336 438 344 414 332 C 396 322 384 298 388 268"/>
-
-  <!-- Coast outline -->
-  <path fill="none" stroke="#1c1917" stroke-width="2" stroke-linejoin="round" opacity="0.88"
-    d="M 48 352 C 32 328 28 298 34 268 C 38 238 48 212 62 188 C 52 168 44 148 48 128 C 58 102 88 78 122 62 C 158 48 198 42 238 52 C 268 58 292 72 312 92 C 338 82 368 88 392 108 C 418 128 432 158 428 188 C 424 218 408 242 382 258 C 398 278 398 302 378 318 C 352 338 312 348 268 352 C 218 356 168 354 118 348 C 82 344 58 350 48 352"/>
-  <path fill="none" stroke="#1c1917" stroke-width="1" stroke-linejoin="round" opacity="0.75"
-    d="M 72 168 C 82 158 98 158 108 168 C 114 178 104 188 92 186 C 78 182 68 178 72 168"/>
-  <path fill="none" stroke="#1c1917" stroke-width="1.5" stroke-linejoin="round" opacity="0.88"
-    d="M 388 268 C 402 252 428 244 452 254 C 476 266 488 292 478 314 C 466 336 438 344 414 332 C 396 322 384 298 388 268"/>
+  <!-- Coastline -->
+  <path fill="none" stroke="#fef9c3" stroke-width="2.2" opacity="0.38" stroke-linejoin="round"
+    d="M 54 358 C 38 328 32 292 40 255 C 46 218 58 185 52 155 C 48 125 68 95 102 72 C 142 52 188 44 232 52 C 268 58 298 72 322 88 C 348 78 372 82 392 98 C 412 114 422 138 418 162 C 412 186 398 204 382 216 C 388 228 392 242 402 252 C 418 262 438 258 452 248 C 468 258 482 272 488 292 C 492 312 482 332 462 348 C 442 362 412 366 388 354 C 372 342 368 322 372 302 C 376 282 362 268 345 262 C 328 268 312 282 298 298 C 268 318 232 332 192 342 C 148 352 102 358 68 360 C 58 360 54 358 54 358 Z"/>
+  <path fill="none" stroke="#1c1917" stroke-width="2" stroke-linejoin="round" opacity="0.9"
+    d="M 54 358 C 38 328 32 292 40 255 C 46 218 58 185 52 155 C 48 125 68 95 102 72 C 142 52 188 44 232 52 C 268 58 298 72 322 88 C 348 78 372 82 392 98 C 412 114 422 138 418 162 C 412 186 398 204 382 216 C 388 228 392 242 402 252 C 418 262 438 258 452 248 C 468 258 482 272 488 292 C 492 312 482 332 462 348 C 442 362 412 366 388 354 C 372 342 368 322 372 302 C 376 282 362 268 345 262 C 328 268 312 282 298 298 C 268 318 232 332 192 342 C 148 352 102 358 68 360 C 58 360 54 358 54 358 Z"/>
 </svg>
