@@ -1,22 +1,8 @@
 FROM rocker/shiny-verse:4.4.2
 
-# leaflet -> sf needs GDAL/GEOS/PROJ; readxl/plotly need common dev libs
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    libcurl4-openssl-dev \
-    libssl-dev \
-    libxml2-dev \
-    libfontconfig1-dev \
-    libharfbuzz-dev \
-    libfribidi-dev \
-    libfreetype6-dev \
-    libpng-dev \
-    libtiff5-dev \
-    libjpeg-dev \
-    libgdal-dev \
-    libgeos-dev \
-    libproj-dev \
-    libudunits2-dev \
-    && rm -rf /var/lib/apt/lists/*
+# Prebuilt CRAN binaries for Ubuntu 24.04 (noble) — no source compile for sf/leaflet stack
+ENV RSPM=https://packagemanager.posit.co/cran/__linux__/noble/latest
+ENV CRAN=${RSPM}
 
 COPY deploy/install_packages.R /tmp/install_packages.R
 RUN Rscript /tmp/install_packages.R

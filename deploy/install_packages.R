@@ -1,4 +1,11 @@
-pkgs <- c(
+# Use prebuilt Linux binaries (avoids compiling sf/units/s2/leaflet from source).
+repos <- Sys.getenv(
+  "RSPM",
+  "https://packagemanager.posit.co/cran/__linux__/noble/latest"
+)
+options(repos = c(CRAN = repos))
+
+required <- c(
   "shiny",
   "shinydashboard",
   "plotly",
@@ -12,16 +19,13 @@ pkgs <- c(
   "readxl"
 )
 
-repos <- "https://cloud.r-project.org"
-
-for (pkg in pkgs) {
-  if (!requireNamespace(pkg, quietly = TRUE)) {
-    message("Installing ", pkg, "...")
-    install.packages(pkg, repos = repos, dependencies = TRUE, Ncpus = 2L)
-  }
+missing <- required[!vapply(required, requireNamespace, quietly = TRUE, FUN.VALUE = logical(1))]
+if (length(missing) > 0) {
+  message("Installing from binary repo: ", paste(missing, collapse = ", "))
+  install.packages(missing, dependencies = TRUE, Ncpus = 2L)
 }
 
-still_missing <- pkgs[!vapply(pkgs, requireNamespace, quietly = TRUE, FUN.VALUE = logical(1))]
+still_missing <- required[!vapply(required, requireNamespace, quietly = TRUE, FUN.VALUE = logical(1))]
 if (length(still_missing) > 0) {
   stop(
     "Failed to install required packages: ",
@@ -30,6 +34,5 @@ if (length(still_missing) > 0) {
   )
 }
 
-# Verify leaflet loads (pulls in sf/sp stack used by the map)
 suppressPackageStartupMessages(library(leaflet))
 message("All required packages installed successfully.")
