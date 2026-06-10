@@ -2395,7 +2395,7 @@ body <- dashboardBody(
         display: grid;
         grid-template-columns: repeat(5, minmax(0, 1fr));
         gap: 14px;
-        margin: 0 15px 20px 15px;
+        margin: 0 0 20px 0;
         padding: 0;
       }
       @media (max-width: 1200px) {
@@ -2476,7 +2476,7 @@ body <- dashboardBody(
       .country-metric-card--violet { --metric-accent: #7c3aed; --metric-icon-bg: rgba(124, 58, 237, 0.18); --metric-bg: linear-gradient(145deg, #ffffff 0%, #f5f3ff 100%); }
       .country-metric-card--amber { --metric-accent: #d97706; --metric-icon-bg: rgba(217, 119, 6, 0.18); --metric-bg: linear-gradient(145deg, #ffffff 0%, #fffbeb 100%); }
       .country-details-footnote {
-        margin: 0 15px 16px 15px;
+        margin: 0 0 16px 0;
         padding: 10px 14px;
         font-size: 13px;
         color: #64748b;
@@ -2486,7 +2486,7 @@ body <- dashboardBody(
         border-left: 3px solid #0891b2;
       }
       .country-details-notices {
-        margin: 0 15px 16px 15px;
+        margin: 0 0 16px 0;
         padding: 14px 18px;
         font-size: 13px;
         line-height: 1.6;
@@ -2534,8 +2534,20 @@ body <- dashboardBody(
         min-height: 48px;
       }
       #shiny-tab-country_details {
-        padding: 8px 4px 28px 4px;
+        padding: 8px 15px 28px 15px;
         background: linear-gradient(165deg, #e0f2fe 0%, #f0f9ff 18%, #f8fafc 45%, #ffffff 100%);
+      }
+      #shiny-tab-country_details > .row,
+      #shiny-tab-country_details .country-details-content-row,
+      #shiny-tab-country_details #country_details_panels > .row {
+        margin-left: -15px;
+        margin-right: -15px;
+      }
+      #shiny-tab-country_details > .row > [class*='col-'],
+      #shiny-tab-country_details .country-details-content-row > [class*='col-'],
+      #shiny-tab-country_details #country_details_panels > .row > [class*='col-'] {
+        padding-left: 15px;
+        padding-right: 15px;
       }
       #shiny-tab-country_details .country-details-select-wrapper .box.box-solid {
         border: 1px solid #93c5fd;
@@ -2662,7 +2674,7 @@ body <- dashboardBody(
         width: 100% !important;
       }
       #shiny-tab-country_details .country-details-section-hint {
-        margin: 0 15px 12px 15px;
+        margin: 0 0 12px 0;
         padding: 12px 16px;
         font-size: 13px;
         color: #475569;
@@ -2673,7 +2685,7 @@ body <- dashboardBody(
         box-shadow: 0 1px 3px rgba(34, 197, 94, 0.08);
       }
       #shiny-tab-country_details .country-profile-banner {
-        margin: 0 15px 16px 15px;
+        margin: 0 0 16px 0;
         padding: 20px 24px;
         background: linear-gradient(135deg, #ffffff 0%, #f8fafc 55%, #eef6fc 100%);
         border: 1px solid #dbe3ee;
@@ -2777,7 +2789,7 @@ body <- dashboardBody(
         min-height: 0;
         max-height: none;
         overflow: visible;
-        padding: 0 8px 8px 8px;
+        padding: 0 0 8px 0;
         flex-shrink: 0;
       }
       .selectize-dropdown {
@@ -7773,6 +7785,7 @@ server <- function(input, output, session) {
 
     # Create country profile header + stat cards
     fluidRow(
+      class = "country-details-content-row",
       # Warning when this country has likely inaccurate data (e.g. North Korea, Eritrea, Turkmenistan)
       if (country_inaccurate) {
         box(
@@ -7785,8 +7798,7 @@ server <- function(input, output, session) {
         )
       },
       # Country profile header with flag and optional photo
-      fluidRow(
-        tags$div(
+      tags$div(
           class = paste("country-profile-banner", paste0("country-profile-banner--", vuln_tier)),
           style = "display: flex; align-items: center; gap: 16px; flex-wrap: wrap;",
           tags$div(
@@ -7831,7 +7843,6 @@ server <- function(input, output, session) {
             style = "max-height: 100px; max-width: 180px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);",
             onerror = "this.style.display='none'"
           )
-        )
       ),
       # Data availability + asterisk legend (grouped, below banner)
       if (show_missing_data_note) {
