@@ -33,6 +33,9 @@ if (file.exists("R/data_coverage.R")) {
 if (file.exists("R/grfc_trends.R")) {
   source("R/grfc_trends.R", local = FALSE)
 }
+if (file.exists("R/scenario_country_map.R")) {
+  source("R/scenario_country_map.R", local = FALSE)
+}
 
 # Serve static assets from /www when running via shinyApp() (run_app.R)
 # Note: shinyApp(ui, server) does NOT automatically expose the /www folder like runApp(appDir) does.
@@ -3626,7 +3629,7 @@ body <- dashboardBody(
           solidHeader = TRUE,
           width = 12,
           collapsible = TRUE,
-          collapsed = FALSE,
+          collapsed = TRUE,
           tags$p(
             style = "font-size: 13px; color: #334155; margin-bottom: 14px; line-height: 1.55;",
             "Read this while you explore the map. The score has ",
@@ -3750,7 +3753,7 @@ body <- dashboardBody(
             column(3, sliderInput("map_w_stunting", "Child stunting (max 5)", 0, 2, 1, 0.05)),
             column(3, sliderInput("map_w_climate", "Climate vulnerability (max 10)", 0, 2, 1, 0.05)),
             column(3, sliderInput("map_w_conflict", "Conflict intensity (max 10)", 0, 2, 1, 0.05)),
-            column(3, sliderInput("map_w_outbreak", "Hunger crises / food phase (max 15)", 0, 2, 1, 0.05))
+            column(3, sliderInput("map_w_outbreak", "Major hunger crises (max 15)", 0, 2, 1, 0.05))
           ),
           fluidRow(
             column(3, sliderInput("map_w_trade", "Food import dependency (max 5)", 0, 2, 1, 0.05)),
@@ -3917,6 +3920,17 @@ body <- dashboardBody(
           status = "primary",
           solidHeader = TRUE,
           width = 12,
+          fluidRow(
+            column(
+              4,
+              selectInput(
+                "sc_vis_shape",
+                "Country shape (cosmetic only)",
+                choices = scenario_country_shape_choices(),
+                selected = "continental"
+              )
+            )
+          ),
           uiOutput("scenario_country_silhouette")
         )
       ),
@@ -3945,7 +3959,6 @@ body <- dashboardBody(
           checkboxInput("sc_has_conflict", "Active conflict", value = FALSE),
           tags$p(style = "font-size: 11px; color: #64748b; margin: -6px 0 10px 0;", "Conflict points apply only when this is checked."),
           checkboxInput("sc_outbreak", "Major hunger outbreak (21st c.)", value = FALSE),
-          sliderInput("sc_ipc", "GRFC IPC phase (0 = ignore / no data)", 0, 5, 0, 1),
           sliderInput("sc_import_share", "Avg food import share (0–1)", 0, 1, 0.1, 0.01),
           sliderInput("sc_food_kcal", "Food supply (kcal/cap/day)", 1500, 4000, 2800, 10),
           sliderInput("sc_water", "Renewable water (m³/cap/year)", 0, 15000, 5000, 50),
@@ -3971,7 +3984,7 @@ body <- dashboardBody(
           sliderInput("sc_w_stunting", "Stunting pillar", 0, 2, 1, 0.05),
           sliderInput("sc_w_climate", "Climate pillar", 0, 2, 1, 0.05),
           sliderInput("sc_w_conflict", "Conflict pillar", 0, 2, 1, 0.05),
-          sliderInput("sc_w_outbreak", "Outbreak / IPC pillar", 0, 2, 1, 0.05),
+          sliderInput("sc_w_outbreak", "Outbreak pillar", 0, 2, 1, 0.05),
           sliderInput("sc_w_trade", "Trade pillar", 0, 2, 1, 0.05),
           sliderInput("sc_w_food_supply", "Food supply pillar", 0, 2, 1, 0.05),
           sliderInput("sc_w_water", "Water stress pillar", 0, 2, 1, 0.05),
@@ -5536,27 +5549,6 @@ render_regression_dt <- function(d, page_length = 15) {
   )
 }
 
-scenario_country_landscape_svg <- function(fill_hex) {
-  path <- file.path(here::here(), "www", "scenario_country_landscape.svg")
-  if (!file.exists(path)) {
-    return(tags$p(style = "color: #64748b;", "Country map unavailable."))
-  }
-  svg <- readChar(path, file.info(path)$size, useBytes = TRUE)
-  fill_hex <- gsub("[^#0-9A-Fa-f]", "", fill_hex)
-  if (!nzchar(fill_hex)) fill_hex <- "#2d8a54"
-  svg <- gsub("__FILL__", fill_hex, svg, fixed = TRUE)
-  # Data-URI img: Shiny often drops raw <svg> from renderUI/HTML(); img always paints.
-  src <- paste0(
-    "data:image/svg+xml;charset=utf-8,",
-    utils::URLencode(svg, reserved = TRUE)
-  )
-  tags$img(
-    src = src,
-    alt = "Scenario country landscape map",
-    class = "scenario-country-map-img"
-  )
-}
-
 # OLS best-fit line in the same coordinates as the scatter axes (linear or log-transformed x).
 overview_add_ols_line <- function(p, x, y, line_color = "#1e293b") {
   ok <- is.finite(x) & is.finite(y)
@@ -6622,11 +6614,6 @@ server <- function(input, output, session) {
   `%||%` <- function(x, y) if (is.null(x)) y else x
 
   scenario_lab_input_row <- reactive({
-    grfc_phase <- if (is.null(input$sc_ipc) || is.na(input$sc_ipc) || input$sc_ipc < 1) {
-      NA_real_
-    } else {
-      as.numeric(input$sc_ipc)
-    }
     tibble::tibble(
       undernourishment_rate = input$sc_undernourishment %||% 0,
       poverty = input$sc_poverty %||% 0,
@@ -6638,7 +6625,7 @@ server <- function(input, output, session) {
       has_active_conflict = isTRUE(input$sc_has_conflict),
       conflict_intensity = input$sc_conflict %||% "None",
       major_hunger_outbreak_21st = isTRUE(input$sc_outbreak),
-      grfc_ipc_phase = grfc_phase,
+      grfc_ipc_phase = NA_real_,
       avg_import_share = input$sc_import_share %||% 0,
       food_supply_kcal = input$sc_food_kcal %||% 2500,
       water_per_capita = input$sc_water %||% 0,
@@ -6668,9 +6655,13 @@ server <- function(input, output, session) {
       grDevices::colorRamp(c("#2d8a54", "#e6c619", "#b91c1c"))(u),
       maxColorValue = 255
     )
+    shape <- input$sc_vis_shape %||% "continental"
     tags$div(
       class = "scenario-country-wrap",
-      tags$div(class = "scenario-country-svg-host", scenario_country_landscape_svg(fill_hex)),
+      tags$div(
+        class = "scenario-country-svg-host",
+        scenario_country_landscape_svg(fill_hex, list(shape = shape))
+      ),
       tags$p(
         style = paste0(
           "margin: 16px 0 4px; font-size: 28px; font-weight: 800; color: ",
@@ -6682,7 +6673,7 @@ server <- function(input, output, session) {
       tags$p(
         style = "margin: 0; font-size: 13px; color: #64748b; max-width: 560px; margin-left: auto; margin-right: auto; line-height: 1.5;",
         "Land tint reflects your vulnerability score (green → yellow → red). ",
-        "Forests, mountains, rivers, and lakes are cartographic overlays for context."
+        "Country shape is cosmetic only and does not change the score."
       )
     )
   })
