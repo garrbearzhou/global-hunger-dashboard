@@ -3774,7 +3774,8 @@ body <- dashboardBody(
             column(3, sliderInput("map_w_displacement", "Forced displacement (max 5)", 0, 2, 1, 0.05))
           ),
           fluidRow(
-            column(12, actionButton("map_formula_reset", "Reset all multipliers to 1", class = "btn-info", style = "margin-top: 8px;"))
+            column(6, actionButton("map_formula_reset", "Reset all multipliers to 1", class = "btn-info", style = "margin-top: 8px; width: 100%;")),
+            column(6, actionButton("map_formula_max", "Set all multipliers to 2", class = "btn-warning", style = "margin-top: 8px; width: 100%;"))
           )
         )
       ),
@@ -6613,6 +6614,10 @@ server <- function(input, output, session) {
     for (id in MAP_FORMULA_WEIGHT_IDS) shiny::updateSliderInput(session, id, value = 1)
   })
 
+  observeEvent(input$map_formula_max, {
+    for (id in MAP_FORMULA_WEIGHT_IDS) shiny::updateSliderInput(session, id, value = 2)
+  })
+
   sc_w_slider_ids <- c(
     "sc_w_undernourishment", "sc_w_poverty", "sc_w_gdp", "sc_w_life_expectancy",
     "sc_w_stunting", "sc_w_climate", "sc_w_conflict", "sc_w_outbreak",
@@ -6733,12 +6738,6 @@ server <- function(input, output, session) {
   
   # Interactive map
   output$hunger_map <- renderPlotly({
-    w_map_hover <- vapply(MAP_FORMULA_WEIGHT_IDS, function(nm) {
-      x <- input[[nm]]
-      if (is.null(x) || length(x) != 1L) return(1)
-      pmax(0, pmin(2, as.numeric(x)))
-    }, numeric(1))
-
     map_data <- map_data_reactive() %>%
       dplyr::left_join(hunger_score_components, by = c("country", "iso3c")) %>%
       mutate(
@@ -6749,10 +6748,17 @@ server <- function(input, output, session) {
           "No data",
           sprintf("%.1f/100", hunger_vulnerability_rating)
         ),
-        .hover_formula = apply(
-          dplyr::pick(dplyr::everything()),
-          1,
-          function(row) build_map_formula_hover_body(as.list(row), w_map_hover)
+        .hover_population = dplyr::case_when(
+          is.na(population) ~ "No data",
+          population >= 1e9 ~ paste0(round(population / 1e9, 2), "B"),
+          population >= 1e6 ~ paste0(round(population / 1e6, 2), "M"),
+          TRUE ~ format(round(population, 0), big.mark = ",", scientific = FALSE)
+        ),
+        .hover_area = dplyr::case_when(
+          "AG.LND.TOTL.K2" %in% names(.) & !is.na(.data[["AG.LND.TOTL.K2"]]) ~
+            paste0(format(round(.data[["AG.LND.TOTL.K2"]], 0), big.mark = ",", scientific = FALSE), " km²"),
+          !is.na(agriculture_land) ~ paste0(round(agriculture_land, 1), "% agricultural land"),
+          TRUE ~ "No data"
         ),
         hover_text = ifelse(
           !map_active,
@@ -6762,16 +6768,15 @@ server <- function(input, output, session) {
             paste0(
               "<b>", display_country, "</b><br>",
               "<span style='color:#c62828;'><b>⚠️ Likely inaccurate data</b></span><br>",
-              "Official statistics from this country are often unreliable or unavailable. Use scores and indicators with caution.<br>",
               "<b>Vulnerability score:</b> ", .hover_score, " (may not reflect reality)<br>",
-              "<span style='font-size:12px;'>", .hover_formula, "</span><br>",
-              "<i>Click for detailed country analysis</i>"
+              "<b>Population:</b> ", .hover_population, "<br>",
+              "<b>Area:</b> ", .hover_area
             ),
             paste0(
               "<b>", display_country, "</b><br>",
               "<b>Vulnerability score:</b> ", .hover_score, "<br>",
-              "<span style='font-size:12px;'>", .hover_formula, "</span><br>",
-              "<i>Click for detailed country analysis</i>"
+              "<b>Population:</b> ", .hover_population, "<br>",
+              "<b>Area:</b> ", .hover_area
             )
           )
         ),

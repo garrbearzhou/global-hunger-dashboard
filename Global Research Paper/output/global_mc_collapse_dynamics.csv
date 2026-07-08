@@ -1,0 +1,3 @@
+scenario,B0,p_shock,mean_shock_pp,recovery_rho,P_collapse_within_10y,P_collapse_within_20y,expected_years_negative_of_20,buffer_p05_year20,buffer_median_year20
+baseline,9.0531,0.2,4.0,0.25,0.2162,0.4129,1.005,-0.5473,6.6032
+resilience_investment,9.0531,0.2,2.4,0.4,0.0203,0.044,0.0519,4.4466,8.1709

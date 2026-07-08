@@ -1,0 +1,126 @@
+country,iso3,vulnerability,undernourishment,buffer
+Senegal,SEN,0.537,5.1,13.41
+Sudan,SDN,0.613,11.0,13.246
+Niger,NER,0.636,12.9,13.107
+Mauritania,MRT,0.578,8.7,12.952
+Myanmar,MMR,0.515,5.4,11.496
+Bangladesh,BGD,0.569,10.4,10.504
+Cameroon,CMR,0.486,4.8,9.875
+Nepal,NPL,0.491,5.3,9.745
+Mali,MLI,0.576,12.3,9.15
+Cambodia,KHM,0.481,5.2,9.055
+Philippines,PHL,0.445,3.0,8.595
+Viet Nam,VNM,0.468,5.3,7.987
+Serbia,SRB,0.423,2.5,7.407
+Dominican Republic,DOM,0.435,3.6,7.19
+Togo,TGO,0.502,9.1,6.784
+Benin,BEN,0.57,14.3,6.743
+Romania,ROU,0.413,2.5,6.635
+Guinea,GIN,0.529,11.4,6.546
+Saudi Arabia,SAU,0.41,2.5,6.392
+Sri Lanka,LKA,0.474,7.4,6.371
+Thailand,THA,0.434,4.6,6.177
+Azerbaijan,AZE,0.406,2.5,6.113
+Ghana,GHA,0.45,6.3,5.622
+Georgia,GEO,0.395,2.5,5.276
+Colombia,COL,0.405,3.9,4.626
+Mexico,MEX,0.387,2.7,4.511
+United Arab Emirates,ARE,0.383,2.5,4.41
+Burkina Faso,BFA,0.522,13.1,4.301
+China,CHN,0.381,2.5,4.263
+Croatia,HRV,0.38,2.5,4.167
+Indonesia,IDN,0.429,6.3,4.063
+Oman,OMN,0.421,5.9,3.884
+Costa Rica,CRI,0.375,2.5,3.823
+Uruguay,URY,0.374,2.5,3.686
+Macedonia,MKD,0.371,2.5,3.521
+Tunisia,TUN,0.378,3.0,3.476
+Argentina,ARG,0.381,3.4,3.377
+El Salvador,SLV,0.424,6.7,3.29
+Brazil,BRA,0.368,2.5,3.271
+Algeria,DZA,0.367,2.5,3.21
+Malaysia,MYS,0.367,2.5,3.188
+Mongolia,MNG,0.365,2.5,3.024
+Panama,PAN,0.407,5.7,3.006
+Djibouti,DJI,0.501,12.9,2.871
+Kuwait,KWT,0.362,2.5,2.808
+Latvia,LVA,0.361,2.5,2.697
+Lithuania,LTU,0.36,2.5,2.648
+Uzbekistan,UZB,0.36,2.5,2.641
+Armenia,ARM,0.36,2.5,2.621
+India,IND,0.485,12.0,2.58
+Cyprus,CYP,0.359,2.5,2.569
+Guinea-Bissau,GNB,0.613,22.1,2.171
+Hungary,HUN,0.353,2.5,2.16
+Bulgaria,BGR,0.353,2.5,2.151
+Jamaica,JAM,0.421,7.7,2.091
+Peru,PER,0.409,6.9,1.946
+Denmark,DNK,0.348,2.5,1.752
+Turkmenistan,TKM,0.372,4.3,1.738
+Bosnia and Herzegovina,BIH,0.346,2.5,1.573
+Albania,ALB,0.381,5.4,1.31
+Italy,ITA,0.342,2.5,1.309
+Greece,GRC,0.337,2.5,0.921
+Paraguay,PRY,0.372,5.2,0.881
+Estonia,EST,0.334,2.5,0.726
+Ecuador,ECU,0.461,12.1,0.684
+Belgium,BEL,0.333,2.5,0.637
+Chile,CHL,0.333,2.5,0.578
+Mauritius,MUS,0.411,8.7,0.321
+Pakistan,PAK,0.514,16.5,0.293
+Timor-Leste,TLS,0.539,18.7,-0.042
+Russian Federation,RUS,0.323,2.5,-0.103
+Belarus,BLR,0.323,2.5,-0.141
+Kazakhstan,KAZ,0.32,2.5,-0.375
+Portugal,PRT,0.319,2.5,-0.467
+Sweden,SWE,0.317,2.5,-0.606
+Lebanon,LBN,0.398,8.7,-0.659
+Australia,AUS,0.316,2.5,-0.678
+Ireland,IRL,0.315,2.5,-0.715
+Slovenia,SVN,0.315,2.5,-0.73
+Sierra Leone,SLE,0.598,24.1,-1.004
+Guatemala,GTM,0.434,11.8,-1.032
+Morocco,MAR,0.368,7.0,-1.236
+Ukraine,UKR,0.365,6.9,-1.375
+Spain,ESP,0.306,2.5,-1.425
+France,FRA,0.306,2.5,-1.45
+Poland,POL,0.304,2.5,-1.54
+New Zealand,NZL,0.303,2.5,-1.622
+Germany,DEU,0.301,2.5,-1.774
+Malawi,MWI,0.55,21.4,-1.906
+Ethiopia,ETH,0.527,19.7,-1.932
+Austria,AUT,0.299,2.5,-1.944
+South Africa,ZAF,0.395,10.0,-2.198
+Israel,ISR,0.293,2.5,-2.403
+Swaziland,SWZ,0.449,14.7,-2.802
+Honduras,HND,0.446,14.8,-3.184
+Finland,FIN,0.282,2.5,-3.202
+Canada,CAN,0.281,2.5,-3.279
+Uganda,UGA,0.539,22.0,-3.332
+Rwanda,RWA,0.568,24.4,-3.573
+Tajikistan,TJK,0.354,8.4,-3.706
+Zimbabwe,ZWE,0.502,19.7,-3.807
+Iraq,IRQ,0.436,14.9,-3.98
+Czech Republic,CZE,0.264,2.5,-4.612
+Trinidad and Tobago,TTO,0.374,11.2,-5.0
+Norway,NOR,0.255,2.5,-5.26
+Nicaragua,NIC,0.446,17.0,-5.354
+Nigeria,NGA,0.482,19.9,-5.537
+Switzerland,CHE,0.251,2.5,-5.575
+Chad,TCD,0.64,32.0,-5.689
+Afghanistan,AFG,0.588,28.1,-5.744
+Namibia,NAM,0.454,18.1,-5.812
+Angola,AGO,0.509,22.5,-6.113
+Mozambique,MOZ,0.492,21.8,-6.713
+Libyan Arab Jamahiriya,LBY,0.417,16.5,-7.022
+Central African Republic,CAF,0.578,29.8,-8.188
+Jordan,JOR,0.367,14.3,-8.646
+Papua New Guinea,PNG,0.55,28.7,-9.172
+Botswana,BWA,0.431,24.0,-13.472
+Gabon,GAB,0.436,25.3,-14.378
+Liberia,LBR,0.539,35.5,-16.825
+Madagascar,MDG,0.56,39.5,-19.278
+Kenya,KEN,0.5,36.8,-21.086
+Zambia,ZMB,0.486,37.2,-22.5
+Syrian Arab Republic,SYR,0.487,39.0,-24.236
+Haiti,HTI,0.51,54.2,-37.719

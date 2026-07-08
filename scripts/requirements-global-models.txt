@@ -1,4 +1,0 @@
-# Global models 1–4 (Python pipeline)
-pandas>=2.0
-statsmodels>=0.14
-linearmodels>=6.0

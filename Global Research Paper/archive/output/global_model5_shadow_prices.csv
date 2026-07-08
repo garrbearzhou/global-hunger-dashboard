@@ -1,0 +1,5 @@
+budget_bn,lambda_people_per_M,marginal_cost_per_person,total_lifted_M,pct_of_global_deficit,countries_funded,countries_excluded,kkt_stationarity_relerr,kkt_exclusion_violations
+10,7305.788,136.8778,88.4115,15.1934,114,29,0.0,0
+25,5583.7778,179.0902,183.4219,31.5209,138,5,0.0,0
+50,3914.8125,255.4401,300.7395,51.6818,142,1,0.0,0
+100,1950.7212,512.6309,441.6616,75.8991,143,0,0.0,0

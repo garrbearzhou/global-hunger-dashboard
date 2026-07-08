@@ -1,0 +1,5 @@
+model,alpha,l1_ratio,train_rmse,test_rmse,test_mae,nonzero_coefs
+OLS,,,6.0632,9.8181,6.435,16
+Ridge,657.9332,,6.4245,10.0477,6.5086,16
+Lasso,1000.0,,6.6099,10.0552,6.4348,0
+ElasticNet,4.3288,0.1,6.4593,10.0497,6.4855,11

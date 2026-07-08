@@ -1,0 +1,5 @@
+model,cv_rmse_mean,cv_rmse_sd
+OLS,7.9894,1.3871
+Ridge,7.3396,1.6441
+ElasticNet,7.3823,1.6324
+MeanBaseline,7.2841,1.7541

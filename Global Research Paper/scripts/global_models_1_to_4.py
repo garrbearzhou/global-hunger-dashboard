@@ -1,14 +1,21 @@
 #!/usr/bin/env python3
 """
-Global adaptation-buffer statistical models (1–4).
+Global adaptation-buffer OLS models (1-3).
+
+  Model 1: cross-sectional OLS, undernourishment ~ vulnerability.
+  Model 2: multivariate OLS with controls.
+  Model 3: OLS for the determinants of the adaptation buffer.
+
+The Monte Carlo models (4-5) live in scripts/global_monte_carlo.py.
 
 Outputs:
   - Printed narrative: methodology reminders + result interpretation
   - output/global_models_1_4_tables.csv  (coefficient summaries)
-  - output/global_models_panel_sample.csv (optional diagnostic row count)
 
-Run from repository root:
+Run from the Global Research Paper folder:
   python3 scripts/global_models_1_to_4.py
+
+(Data are read from the parent Research Project/data/ tree.)
 """
 
 from __future__ import annotations
@@ -20,15 +27,15 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import statsmodels.api as sm
-from linearmodels.panel import PanelOLS
 from statsmodels.regression.linear_model import OLS
 
 # -----------------------------------------------------------------------------
 # Paths (run from project root)
 # -----------------------------------------------------------------------------
-ROOT = Path(__file__).resolve().parents[1]
-RAW = ROOT / "data" / "raw"
-OUT = ROOT / "output"
+PAPER = Path(__file__).resolve().parents[1]  # Global Research Paper/
+PROJECT = PAPER.parent  # Research Project/
+RAW = PROJECT / "data" / "raw"
+OUT = PAPER / "output"
 OUT.mkdir(parents=True, exist_ok=True)
 
 CV_VULN = RAW / "climate vulnerability" / "cv" / "vulnerability" / "vulnerability.csv"
@@ -36,7 +43,7 @@ CV_READ = RAW / "climate vulnerability" / "cv" / "readiness" / "readiness.csv"
 FAO_WIDE = RAW / "fao" / "FAO_Data" / "Food_Security_Data_E_All_Data_NOFLAG.csv"
 WB = RAW / "world_bank_data.csv"
 EMDAT = RAW / "em_dat" / "em_dat_data.csv"
-ACLED = ROOT / "data" / "processed" / "acled_conflict_data.csv"
+ACLED = PROJECT / "data" / "processed" / "acled_conflict_data.csv"
 
 
 # -----------------------------------------------------------------------------
@@ -93,32 +100,7 @@ linearly controlling for the block above. If β1 shrinks vs Model 1, part of the
 raw correlation is explained by economics / shocks.
 
 ================================================================================
-MODEL 3 — Two-way fixed effects panel (within-country over time)
-================================================================================
-Goal: Remove time-invariant country confounders and common global shocks using
-within-country variation in vulnerability and undernourishment over time.
-
-Specification:
-  y_it = α_i + γ_t + β * V_it + δ * ln(GDPpc)_it + u_it
-
-Choices:
-  • Panel: country × year. V from ND-GAIN annual columns 2002–2023. Undernutrition
-    from FAO Item 210041 using columns Y{t-2}{t} (3-year window ending year t),
-    e.g. Y20002002 → end year 2002 (standalone Y2002 cells are empty in this file).
-  • Years 2002–2023: overlap with reliable ND-GAIN annual series and FAO columns.
-  • Entity + time effects: α_i absorbs stable geography/institutions; γ_t absorbs
-    global food-price or measurement trends.
-  • ln(GDPpc)_it: time-varying control from World Bank panel.
-  • Estimator: PanelOLS with clustered standard errors by country (serial
-    correlation within i).
-
-Interpretation: β is the within-country association of a change in V with a
-change in y, purging permanent country differences and year-specific shocks common
-to all countries. Not necessarily causal if within-country V trends correlate
-with unobserved policies.
-
-================================================================================
-MODEL 4 — Determinants of the adaptation buffer (regression on residuals)
+MODEL 3 — Determinants of the adaptation buffer (regression on residuals)
 ================================================================================
 Concept: Define predicted hunger from Model 1 (vulnerability-only): ŷ_i = β̂0+β̂1*V_i.
 Adaptation buffer (positive = better than climate-only benchmark):
@@ -180,6 +162,27 @@ def load_world_bank_backbone() -> tuple[pd.DataFrame, list[str]]:
     countries = wb.loc[~wb["country"].isin(drop) & wb["iso3c"].notna(), "country"].unique()
     countries = sorted(c for c in countries if isinstance(c, str) and c.strip())
     return wb, list(countries)
+
+
+def wb_latest(wb: pd.DataFrame, cols: dict[str, str], year_max: int = 2022) -> pd.DataFrame:
+    """
+    Latest non-missing World Bank value per country for each requested column,
+    using years <= year_max. The raw extract has ragged rows (some 2022 lines
+    are dropped by on_bad_lines='skip'), so a strict year==2022 filter silently
+    loses countries (e.g. Bangladesh). Used by Models 5-7 / robustness scripts;
+    Models 1-4 keep their original strict-2022 construction.
+    """
+    sub = wb[wb["year"].le(year_max)][["iso3c", "year"] + list(cols)].copy()
+    sub = sub.rename(columns={"iso3c": "iso3", **cols})
+    out = sub[["iso3"]].drop_duplicates().set_index("iso3")
+    for c in cols.values():
+        s = sub[["iso3", "year", c]].copy()
+        num = pd.to_numeric(s[c], errors="coerce")
+        if num.notna().any():
+            s[c] = num
+        s = s.dropna(subset=[c]).sort_values("year").groupby("iso3").tail(1)
+        out = out.join(s.set_index("iso3")[c])
+    return out.reset_index()
 
 
 def country_to_iso3(wb: pd.DataFrame, backbone: list[str]) -> dict[str, str]:
@@ -388,39 +391,21 @@ def main() -> int:
         "Signs: negative ln(GDPpc) → richer countries tend to have lower undernourishment; "
         "positive disasters/fatalities → more shock-prone places tend to show higher undernourishment.")
 
-    # --- Model 3 ---
-    panel = build_panel(wb, backbone, 2002, 2023)
-    panel = panel.dropna(subset=["ln_gdp_pcap"])
-    panel_idx = panel.set_index(["iso3", "year"])
-    y_p = panel_idx["undernourishment"]
-    X_p = panel_idx[["vulnerability", "ln_gdp_pcap"]]
-    mod3 = PanelOLS(y_p, X_p, entity_effects=True, time_effects=True)
-    f3 = mod3.fit(cov_type="clustered", cluster_entity=True)
-    log("\n--- MODEL 3 RESULTS (two-way FE, clustered SE by country) ---")
-    log(str(f3.summary))
-    log("\nInterpretation: Coefficients are within-country (and within-year) associations. "
-        "A positive β on vulnerability means years with higher national vulnerability scores line up "
-        "with years of higher reported undernourishment for the same country, after stripping "
-        "permanent country differences and global year shocks.")
-
-    panel.to_csv(OUT / "global_models_panel_sample.csv", index=False)
-    log(f"\nPanel rows written: {len(panel)} (diagnostic: {OUT / 'global_models_panel_sample.csv'})")
-
-    # --- Model 4 ---
+    # --- Model 3 (buffer determinants) ---
     pred = f1.predict(sm.add_constant(d1["vulnerability"]))
     buffer = pred.values - d1["undernourishment"].values
-    d4 = d1.copy()
-    d4["buffer"] = buffer
-    d4 = d4.dropna(
+    d3 = d1.copy()
+    d3["buffer"] = buffer
+    d3 = d3.dropna(
         subset=["buffer", "ln_gdp_pcap", "readiness", "rural_pct", "disaster_count", "ln1_fatalities"]
     )
-    X4 = sm.add_constant(
-        d4[["ln_gdp_pcap", "readiness", "rural_pct", "disaster_count", "ln1_fatalities"]]
+    X3 = sm.add_constant(
+        d3[["ln_gdp_pcap", "readiness", "rural_pct", "disaster_count", "ln1_fatalities"]]
     )
-    m4 = OLS(d4["buffer"], X4)
-    f4 = m4.fit(cov_type="HC1")
-    log("\n--- MODEL 4 RESULTS (adaptation buffer = climate-only predicted − actual) ---")
-    log(f4.summary().as_text())
+    m3 = OLS(d3["buffer"], X3)
+    f3 = m3.fit(cov_type="HC1")
+    log("\n--- MODEL 3 RESULTS (adaptation buffer = climate-only predicted − actual) ---")
+    log(f3.summary().as_text())
     log("\nInterpretation: Positive predicted buffer means actual undernourishment is *lower* than "
         "the climate-only benchmark (good). The regression explains which observables correlate with "
         "larger buffers. Example: positive readiness → countries with more adaptive capacity tend to "
@@ -430,29 +415,10 @@ def main() -> int:
         [
             summarize_ols("M1_baseline_vulnerability", m1, f1),
             summarize_ols("M2_multivariate", m2, f2),
-            summarize_ols("M4_buffer_determinants", m4, f4),
+            summarize_ols("M3_buffer_determinants", m3, f3),
         ],
         ignore_index=True,
     )
-    # Panel: manual row for FE model
-    fe_rows = []
-    for par in f3.params.index:
-        fe_rows.append(
-            {
-                "model": "M3_panel_twoway_FE",
-                "term": par,
-                "coef": f3.params[par],
-                "std_err": f3.std_errors[par],
-                "t": f3.tstats[par],
-                "pvalue": f3.pvalues[par],
-                "ci_low": np.nan,
-                "ci_high": np.nan,
-                "n": int(f3.nobs),
-                "r2": f3.rsquared,
-                "r2_adj": np.nan,
-            }
-        )
-    tables = pd.concat([tables, pd.DataFrame(fe_rows)], ignore_index=True)
     tables.to_csv(OUT / "global_models_1_4_tables.csv", index=False)
     log(f"\nCoefficient tables: {OUT / 'global_models_1_4_tables.csv'}")
     return 0

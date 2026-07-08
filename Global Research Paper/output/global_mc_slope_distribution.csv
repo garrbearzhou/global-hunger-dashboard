@@ -1,0 +1,4 @@
+quantity,mean,ci_low,ci_high
+slope_b1,69.5831,58.3132,81.4746
+intercept_b0,-20.1087,-24.4389,-16.0103
+r_squared,0.4304,0.3414,0.5251

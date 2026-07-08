@@ -1,0 +1,9 @@
+# Global adaptation-buffer pipeline (OLS Models 1-3 + Monte Carlo Models 4-5)
+numpy>=1.24
+pandas>=2.0
+statsmodels>=0.14
+# openpyxl is only needed for the robustness checks that read the WorldRiskIndex .xlsx
+openpyxl>=3.1
+
+# Note: the archived exploratory scripts (archive/scripts/) additionally require
+# scipy, scikit-learn, and linearmodels; the paper's pipeline does not.
