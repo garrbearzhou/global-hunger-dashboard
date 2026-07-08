@@ -9162,6 +9162,10 @@ skip_app <- tryCatch({
   exists("SKIP_SHINY_APP", envir = parent.frame())
 }, error = function(e) FALSE)
 
+# Explicit static files path for shinyApp(ui, server) deployments.
+# This exposes files in ./www at /static/<filename> (e.g., /static/sitemap.xml).
+shiny::addResourcePath("static", "www")
+
 if (!skip_app) {
   shinyApp(ui = ui, server = server)
 }
