@@ -1942,6 +1942,79 @@ sidebar <- dashboardSidebar(
 body <- dashboardBody(
   # Custom CSS
   tags$head(
+    tags$meta(name = "description", content = "Interactive global hunger vulnerability map with country profiles, population and climate risk indicators, and food security analysis."),
+    tags$meta(name = "robots", content = "index, follow"),
+    tags$link(rel = "canonical", href = "https://globalhungerdashboard.com/"),
+    tags$script(HTML("
+      (function() {
+        const SEO_BY_TAB = {
+          introduction: {
+            title: 'Global Hunger Vulnerability Dashboard',
+            description: 'Explore the global hunger vulnerability map, country-level indicators, and food security trends.'
+          },
+          map: {
+            title: 'Global Hunger Vulnerability Map',
+            description: 'Interactive global hunger vulnerability map with country score, population, and area.'
+          },
+          country_details: {
+            title: 'Country Hunger Profile | Global Hunger Dashboard',
+            description: 'Country hunger profile with vulnerability score trends, drivers, and detailed food security indicators.'
+          },
+          overview: {
+            title: 'Global Hunger Overview',
+            description: 'Cross-country overview of vulnerability, undernourishment, population, and key risk relationships.'
+          },
+          timeseries: {
+            title: 'Hunger Time Series Analysis',
+            description: 'Analyze multi-year hunger and vulnerability trends with global time-series visualizations.'
+          },
+          analysis: {
+            title: 'Hunger Statistical Analysis',
+            description: 'Statistical analysis of vulnerability and undernourishment, including regressions and diagnostics.'
+          }
+        };
+
+        function applySeoForTab(tab) {
+          const key = (tab && SEO_BY_TAB[tab]) ? tab : 'introduction';
+          const seo = SEO_BY_TAB[key];
+          document.title = seo.title;
+          let desc = document.querySelector('meta[name=\"description\"]');
+          if (!desc) {
+            desc = document.createElement('meta');
+            desc.setAttribute('name', 'description');
+            document.head.appendChild(desc);
+          }
+          desc.setAttribute('content', seo.description);
+        }
+
+        function syncTabParam(tab) {
+          if (!tab) return;
+          const url = new URL(window.location.href);
+          url.searchParams.set('tab', tab);
+          history.replaceState({}, '', url.pathname + url.search);
+        }
+
+        document.addEventListener('shiny:connected', function() {
+          const params = new URLSearchParams(window.location.search);
+          const tab = params.get('tab') || 'introduction';
+          applySeoForTab(tab);
+          syncTabParam(tab);
+          if (window.Shiny && typeof window.Shiny.setInputValue === 'function') {
+            window.Shiny.setInputValue('initial_tab_from_url', tab, {priority: 'event'});
+          }
+        });
+
+        document.addEventListener('shown.bs.tab', function(ev) {
+          const target = ev && ev.target;
+          if (!target) return;
+          const href = target.getAttribute('href') || '';
+          if (!href.startsWith('#shiny-tab-')) return;
+          const tab = href.replace('#shiny-tab-', '');
+          applySeoForTab(tab);
+          syncTabParam(tab);
+        });
+      })();
+    ")),
     tags$style(HTML("
       /* Design tokens + base typography */
       :root {
@@ -3634,6 +3707,7 @@ body <- dashboardBody(
     # Interactive Map Tab
     tabItem(
       tabName = "map",
+      tags$h2(class = "sr-only", "Global hunger vulnerability map"),
       fluidRow(
         box(
           title = tagList(icon("book"), " How the vulnerability score is calculated (same rules as country profiles)"),
@@ -4012,6 +4086,7 @@ body <- dashboardBody(
     # Country Details Tab
     tabItem(
       tabName = "country_details",
+      tags$h2(class = "sr-only", "Country hunger profile"),
       fluidRow(
         tags$div(class = "country-details-select-wrapper",
           box(
@@ -5754,6 +5829,26 @@ server <- function(input, output, session) {
   observeEvent(input$go_bangladesh_research, {
     updateTabItems(session, "tabs", "bangladesh_research")
   })
+
+  valid_dashboard_tabs <- c(
+    "introduction", "map", "scenario_lab", "overview", "country_details",
+    "timeseries", "analysis", "citations", "data_coverage", "grfc_trends",
+    "bangladesh_research", "ghi_comparison", "explorer", "about", "model"
+  )
+
+  observeEvent(input$initial_tab_from_url, {
+    tab <- as.character(input$initial_tab_from_url)
+    if (!is.null(tab) && length(tab) == 1 && nzchar(tab) && tab %in% valid_dashboard_tabs) {
+      updateTabItems(session, "tabs", selected = tab)
+    }
+  }, ignoreInit = TRUE)
+
+  observeEvent(input$tabs, {
+    tab <- as.character(input$tabs)
+    if (!is.null(tab) && length(tab) == 1 && nzchar(tab) && tab %in% valid_dashboard_tabs) {
+      shiny::updateQueryString(paste0("?tab=", utils::URLencode(tab, reserved = TRUE)), mode = "replace")
+    }
+  }, ignoreInit = TRUE)
 
   # Sidebar Filters help (map-only)
   observeEvent(input$filters_help, {
@@ -9055,7 +9150,7 @@ server <- function(input, output, session) {
 # Create ui object for runApp() compatibility
 ui <- dashboardPage(
   header, sidebar, body,
-  title = "Global Hunger Research Dashboard",
+  title = "Global Hunger Vulnerability Map & Country Profiles",
   skin = "blue"
 )
 
