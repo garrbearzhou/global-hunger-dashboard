@@ -1,8 +1,11 @@
 # Global Hunger Research Project
 
 **Author:** Garrett Zhou  
-**Date:** October 2024  
-**Research Question:** What factors drive hunger and hunger outbreaks, and how will these factors change in the future?
+**Live dashboard:** [https://globalhungerdashboard.com](https://globalhungerdashboard.com)  
+**Overview page (SEO):** [https://globalhungerdashboard.com/assets/landing.html](https://globalhungerdashboard.com/assets/landing.html)  
+**Repository:** [github.com/garrbearzhou/global-hunger-dashboard](https://github.com/garrbearzhou/global-hunger-dashboard)
+
+Interactive Shiny app mapping **global hunger vulnerability** by country (0–100 score), with country hunger profiles, time-series analysis, and data from FAO, World Bank, climate indices, and crisis datasets.
 
 ## Project Overview
 

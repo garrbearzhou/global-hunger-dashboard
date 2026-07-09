@@ -19,7 +19,7 @@ Full URLs: `https://globalhungerdashboard.com/?tab=<name>`
 
 ## Sitemap & robots (done)
 
-- Sitemap submitted: `assets/sitemap.xml` — **Success**, 8 pages discovered (resubmit after adding `landing.html`)
+- Sitemap submitted: `assets/sitemap.xml` — **Success**, **9** pages discovered (Jul 9, 2026)
 - Static SEO landing page: `https://globalhungerdashboard.com/assets/landing.html`
 - Live sitemap: `https://globalhungerdashboard.com/assets/sitemap.xml`
 - Root redirects (Cloudflare): `/sitemap.xml` → `/assets/sitemap.xml`, `/robots.txt` → `/assets/robots.txt`
@@ -31,8 +31,20 @@ Full URLs: `https://globalhungerdashboard.com/?tab=<name>`
 - [ ] Review **Performance** (clicks, impressions) after ~1–2 weeks
 - [ ] Review **Pages** report for indexed vs not indexed
 
+## Backlinks
+
+| Source | Status |
+|--------|--------|
+| GitHub README | Updated locally — **push to publish** |
+| GitHub repo Website field | Manual — see `docs/backlinks_playbook.md` |
+| Blog (A Grain of Change) | Copy ready in playbook |
+| School/lab / mentor page | Email template in playbook |
+| Poster / paper | Add footer line in playbook |
+
+Full instructions: **`docs/backlinks_playbook.md`**
+
 ## Optional next SEO work
 
-- [ ] Static landing page with crawlable intro copy
-- [ ] Open Graph / Twitter meta tags
-- [ ] Backlinks (GitHub README, school/lab page, blog)
+- [x] Static landing page with crawlable intro copy
+- [x] Open Graph / Twitter meta tags
+- [ ] Backlinks — in progress (see playbook)

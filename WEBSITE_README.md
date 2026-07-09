@@ -1,5 +1,10 @@
 # Global Hunger Research Website
 
+## Live site
+
+- **Dashboard:** https://globalhungerdashboard.com  
+- **Static overview:** https://globalhungerdashboard.com/assets/landing.html
+
 ## 🌍 Interactive Dashboard for Hunger Research
 
 This is a comprehensive Shiny web application that provides an interactive platform for exploring global hunger data, conducting statistical analysis, and visualizing hunger risk patterns worldwide.
