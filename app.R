@@ -1945,6 +1945,16 @@ body <- dashboardBody(
     tags$meta(name = "description", content = "Interactive global hunger vulnerability map with country profiles, population and climate risk indicators, and food security analysis."),
     tags$meta(name = "robots", content = "index, follow"),
     tags$link(rel = "canonical", href = "https://globalhungerdashboard.com/"),
+    tags$meta(property = "og:type", content = "website"),
+    tags$meta(property = "og:url", content = "https://globalhungerdashboard.com/"),
+    tags$meta(property = "og:title", content = "Global Hunger Vulnerability Dashboard"),
+    tags$meta(property = "og:description", content = "Interactive global hunger vulnerability map with country hunger profiles, undernourishment data, and food security indicators."),
+    tags$meta(property = "og:image", content = "https://globalhungerdashboard.com/assets/scenario_country_landscape.svg"),
+    tags$meta(property = "og:site_name", content = "Global Hunger Dashboard"),
+    tags$meta(name = "twitter:card", content = "summary_large_image"),
+    tags$meta(name = "twitter:title", content = "Global Hunger Vulnerability Dashboard"),
+    tags$meta(name = "twitter:description", content = "Explore the global hunger vulnerability map and country-level food security profiles."),
+    tags$meta(name = "twitter:image", content = "https://globalhungerdashboard.com/assets/scenario_country_landscape.svg"),
     tags$script(HTML("
       (function() {
         const SEO_BY_TAB = {
@@ -1974,17 +1984,27 @@ body <- dashboardBody(
           }
         };
 
+        function setMeta(attr, key, value) {
+          let el = document.querySelector('meta[' + attr + '=\"' + key + '\"]');
+          if (!el) {
+            el = document.createElement('meta');
+            el.setAttribute(attr, key);
+            document.head.appendChild(el);
+          }
+          el.setAttribute('content', value);
+        }
+
         function applySeoForTab(tab) {
           const key = (tab && SEO_BY_TAB[tab]) ? tab : 'introduction';
           const seo = SEO_BY_TAB[key];
+          const pageUrl = 'https://globalhungerdashboard.com/' + (tab && tab !== 'introduction' ? '?tab=' + tab : '');
           document.title = seo.title;
-          let desc = document.querySelector('meta[name=\"description\"]');
-          if (!desc) {
-            desc = document.createElement('meta');
-            desc.setAttribute('name', 'description');
-            document.head.appendChild(desc);
-          }
-          desc.setAttribute('content', seo.description);
+          setMeta('name', 'description', seo.description);
+          setMeta('property', 'og:title', seo.title);
+          setMeta('property', 'og:description', seo.description);
+          setMeta('property', 'og:url', pageUrl);
+          setMeta('name', 'twitter:title', seo.title);
+          setMeta('name', 'twitter:description', seo.description);
         }
 
         function syncTabParam(tab) {
@@ -2034,6 +2054,45 @@ body <- dashboardBody(
         color: var(--gh-text);
         font-size: 14px;
         line-height: 1.5;
+      }
+      .seo-intro-block {
+        background: var(--gh-surface-elevated);
+        border: 1px solid var(--gh-border);
+        border-radius: 10px;
+        padding: 20px 22px;
+        margin-bottom: 18px;
+        box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+      }
+      .seo-intro-block h1 {
+        font-size: 1.65rem;
+        font-weight: 700;
+        color: var(--gh-text);
+        margin: 0 0 8px;
+        letter-spacing: -0.02em;
+      }
+      .seo-intro-block h2 {
+        font-size: 1.05rem;
+        font-weight: 600;
+        color: var(--gh-primary);
+        margin: 0 0 12px;
+      }
+      .seo-intro-block p {
+        font-size: 14px;
+        line-height: 1.65;
+        color: var(--gh-text-secondary);
+        margin: 0 0 10px;
+      }
+      .seo-intro-block p:last-child { margin-bottom: 0; }
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
       }
       .content-wrapper, .right-side {
         background-color: var(--gh-surface) !important;
@@ -3384,6 +3443,10 @@ body <- dashboardBody(
               "Hunger is rarely caused by one thing. This dashboard brings together economic, health, climate, and crisis indicators so you can explore how they relate to food insecurity across the world.",
               " It’s built for quick exploration and for deeper, country-by-country investigation."
             ),
+            tags$p(
+              tags$a(href = "/assets/landing.html", target = "_blank", "Read the static overview page"),
+              " for a crawlable summary of the dashboard, vulnerability score methodology, and links to key sections."
+            ),
             tags$div(
               style = "background-color: #f8f9fa; padding: 16px; border-radius: 8px; border: 1px solid #e9ecef; margin: 18px 0;",
               tags$p(strong("Core research question:"), style = "margin-bottom: 8px;"),
@@ -3707,7 +3770,33 @@ body <- dashboardBody(
     # Interactive Map Tab
     tabItem(
       tabName = "map",
-      tags$h2(class = "sr-only", "Global hunger vulnerability map"),
+      fluidRow(
+        column(
+          12,
+          tags$section(
+            class = "seo-intro-block",
+            tags$h1("Global Hunger Vulnerability Map"),
+            tags$h2("Explore food security risk by country"),
+            tags$p(
+              "This interactive global hunger vulnerability map shows how countries compare on a composite ",
+              "food-security risk score from 0 to 100. Each country is colored by its hunger vulnerability ",
+              "rating, which combines undernourishment, poverty, income, health, climate exposure, conflict, ",
+              "and other structural indicators drawn from FAO, World Bank, and humanitarian data sources."
+            ),
+            tags$p(
+              "Hover over a country to see its name, vulnerability score, population, and land area. ",
+              "Click a country to open its detailed hunger profile. Use the score multipliers below the map ",
+              "to test how sensitive rankings are to each pillar, or apply map filters to focus on specific ",
+              "years, score ranges, and economic or health statistics."
+            ),
+            tags$p(
+              "The map is designed for quick global comparison and for identifying countries that may warrant ",
+              "deeper review in the Country Details section, where you can inspect score drivers, trends over ",
+              "time, and the full indicator set behind each vulnerability rating."
+            )
+          )
+        )
+      ),
       fluidRow(
         box(
           title = tagList(icon("book"), " How the vulnerability score is calculated (same rules as country profiles)"),
@@ -4086,7 +4175,34 @@ body <- dashboardBody(
     # Country Details Tab
     tabItem(
       tabName = "country_details",
-      tags$h2(class = "sr-only", "Country hunger profile"),
+      fluidRow(
+        column(
+          12,
+          tags$section(
+            class = "seo-intro-block",
+            tags$h1("Country Hunger Profile"),
+            tags$h2("Deep-dive food security indicators by country"),
+            tags$p(
+              "The country hunger profile page lets you search any country and review its full vulnerability ",
+              "picture in one place. After selecting a country, you can explore how its hunger vulnerability ",
+              "score is built from twelve pillars, including undernourishment, poverty, GDP per capita, life ",
+              "expectancy, stunting, climate vulnerability, conflict, hunger crises, trade dependency, food ",
+              "supply, water stress, and displacement."
+            ),
+            tags$p(
+              "Each profile includes a score breakdown chart, key insights, vulnerability trends over time, ",
+              "the main factors driving the total score, a current-year summary, and a historical data table. ",
+              "This makes it easier to move from a global map view to country-specific analysis and to compare ",
+              "structural drivers of food insecurity across regions."
+            ),
+            tags$p(
+              "Use the search box below to choose a country. Profiles use the published default vulnerability ",
+              "formula so scores remain consistent with the map and overview pages unless you adjust multipliers ",
+              "on the Interactive Map tab for scenario exploration."
+            )
+          )
+        )
+      ),
       fluidRow(
         tags$div(class = "country-details-select-wrapper",
           box(

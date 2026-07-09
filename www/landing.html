@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Global Hunger Vulnerability Dashboard | Country Food Security Map</title>
+  <meta name="description" content="Explore the global hunger vulnerability map, country hunger profiles, and food security indicators from FAO, World Bank, climate, and crisis data.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://globalhungerdashboard.com/assets/landing.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://globalhungerdashboard.com/assets/landing.html">
+  <meta property="og:title" content="Global Hunger Vulnerability Dashboard">
+  <meta property="og:description" content="Interactive global hunger vulnerability map with country profiles, undernourishment data, and climate risk indicators.">
+  <meta property="og:image" content="https://globalhungerdashboard.com/assets/scenario_country_landscape.svg">
+  <meta property="og:site_name" content="Global Hunger Dashboard">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Global Hunger Vulnerability Dashboard">
+  <meta name="twitter:description" content="Interactive global hunger vulnerability map with country profiles and food security indicators.">
+  <meta name="twitter:image" content="https://globalhungerdashboard.com/assets/scenario_country_landscape.svg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Global Hunger Vulnerability Dashboard",
+    "url": "https://globalhungerdashboard.com/",
+    "description": "Cross-country hunger vulnerability scores, interactive maps, and country-level food security profiles.",
+    "publisher": {
+      "@type": "Person",
+      "name": "Garrett Zhou"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --text: #0f172a;
+      --muted: #475569;
+      --border: #e2e8f0;
+      --accent: #0e7490;
+      --bg: #f8fafc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: var(--text);
+      line-height: 1.65;
+      background: var(--bg);
+    }
+    main {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+    h1 { font-size: 1.85rem; margin: 0 0 0.5rem; line-height: 1.2; }
+    h2 { font-size: 1.2rem; color: var(--accent); margin: 2rem 0 0.75rem; }
+    p { color: var(--muted); margin: 0 0 1rem; }
+    ul { color: var(--muted); padding-left: 1.25rem; }
+    li { margin-bottom: 0.5rem; }
+    .cta {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 12px 20px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+    .cta:hover { background: #155e75; }
+    .links a { color: var(--accent); }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--muted);
+      padding-bottom: 24px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Global Hunger Vulnerability Dashboard</h1>
+    <p>
+      This research dashboard maps hunger-related risk across countries using integrated data from
+      the FAO, World Bank, climate vulnerability indices, conflict and disaster records, and related
+      food security sources. It is designed for students, researchers, and anyone exploring how
+      economic, environmental, and crisis factors relate to undernourishment worldwide.
+    </p>
+
+    <h2>What you can explore</h2>
+    <ul>
+      <li><strong>Global hunger vulnerability map</strong> — color-coded country scores from 0 to 100</li>
+      <li><strong>Country hunger profiles</strong> — detailed indicators, trends, and score breakdowns</li>
+      <li><strong>Overview and statistical analysis</strong> — cross-country comparisons and regressions</li>
+      <li><strong>Data sources and coverage</strong> — methodology transparency and source citations</li>
+    </ul>
+    <p>
+      <a class="cta" href="https://globalhungerdashboard.com/">Open the interactive dashboard</a>
+    </p>
+
+    <h2>How the vulnerability score works</h2>
+    <p>
+      Each country receives a <strong>hunger vulnerability score from 0 to 100</strong>, built from twelve
+      pillars that reflect different drivers of food insecurity. The pillars include undernourishment,
+      poverty, income level, life expectancy, child stunting, climate vulnerability, conflict intensity,
+      major hunger crises, food import dependency, daily food supply, water stress, and forced displacement.
+      Each pillar contributes a capped number of points; the total is summed and capped at 100.
+    </p>
+    <p>
+      Higher scores indicate greater composite vulnerability. The map lets you adjust pillar multipliers
+      to explore how much each factor shapes the ranking, while country profile pages always use the
+      published default weights for consistent comparison.
+    </p>
+
+    <h2>Key sections</h2>
+    <ul class="links">
+      <li><a href="https://globalhungerdashboard.com/?tab=map">Global hunger vulnerability map</a></li>
+      <li><a href="https://globalhungerdashboard.com/?tab=country_details">Country hunger profiles</a></li>
+      <li><a href="https://globalhungerdashboard.com/?tab=overview">Global overview and charts</a></li>
+      <li><a href="https://globalhungerdashboard.com/?tab=analysis">Statistical analysis and methodology</a></li>
+      <li><a href="https://globalhungerdashboard.com/?tab=citations">Data sources and citations</a></li>
+    </ul>
+
+    <h2>About this project</h2>
+    <p>
+      The Global Hunger Research Project combines data science, geospatial visualization, and policy-relevant
+      indicators to help users understand where hunger risk is concentrated and which structural factors
+      may be driving it. Data are drawn from publicly available international datasets and updated through
+      a documented pipeline inside the dashboard.
+    </p>
+  </main>
+  <footer>
+    <a href="https://globalhungerdashboard.com/">globalhungerdashboard.com</a>
+  </footer>
+</body>
+</html>

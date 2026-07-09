@@ -19,7 +19,8 @@ Full URLs: `https://globalhungerdashboard.com/?tab=<name>`
 
 ## Sitemap & robots (done)
 
-- Sitemap submitted: `assets/sitemap.xml` — **Success**, 8 pages discovered
+- Sitemap submitted: `assets/sitemap.xml` — **Success**, 8 pages discovered (resubmit after adding `landing.html`)
+- Static SEO landing page: `https://globalhungerdashboard.com/assets/landing.html`
 - Live sitemap: `https://globalhungerdashboard.com/assets/sitemap.xml`
 - Root redirects (Cloudflare): `/sitemap.xml` → `/assets/sitemap.xml`, `/robots.txt` → `/assets/robots.txt`
 - `robots.txt` points to assets sitemap URL
