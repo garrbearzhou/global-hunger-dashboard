@@ -5335,7 +5335,7 @@ body <- dashboardBody(
               
               tags$h4(icon("envelope"), " Contact", style = "color: #28a745;"),
               tags$p(
-                tags$a(href = "mailto:hannah.jacobs@duke.edu", "hannah.jacobs@duke.edu",
+                tags$a(href = "mailto:hj24@duke.edu", "hj24@duke.edu",
                        style = "color: #28a745; text-decoration: none;"),
                 style = "font-size: 14px; color: #555; margin: 0;"
               )
