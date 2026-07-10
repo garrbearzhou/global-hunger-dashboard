@@ -4328,9 +4328,9 @@ body <- dashboardBody(
           width = 12,
           tags$p(
             style = "font-size: 15px; line-height: 1.7; color: #333;",
-            "This page summarizes the author’s ",
+            "I prepared this page to share my ",
             strong("North Carolina Youth Institute / World Food Prize"),
-            " research paper on how climate stressors interact with food security in Bangladesh — a densely populated delta highly exposed to floods, cyclones, and sea-level rise."
+            " research on how climate stressors interact with food security in Bangladesh — a densely populated delta where I focused on floods, cyclones, and sea-level rise."
           )
         )
       ),
