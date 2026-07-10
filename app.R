@@ -1964,7 +1964,7 @@ body <- dashboardBody(
           },
           map: {
             title: 'Global Hunger Vulnerability Map',
-            description: 'Interactive global hunger vulnerability map with country score, population, and area.'
+            description: 'Interactive global hunger vulnerability map with country score, population, and agricultural land.'
           },
           country_details: {
             title: 'Country Hunger Profile | Global Hunger Dashboard',
@@ -1980,7 +1980,7 @@ body <- dashboardBody(
           },
           analysis: {
             title: 'Hunger Statistical Analysis',
-            description: 'Statistical analysis of vulnerability and undernourishment, including regressions and diagnostics.'
+            description: 'Adaptation buffer research: OLS models, global buffer rankings, and Monte Carlo uncertainty across 143 countries.'
           }
         };
 
@@ -3462,7 +3462,7 @@ body <- dashboardBody(
               tags$li(strong("Country Details:"), " Review the score breakdown and the latest indicators for a selected country."),
               tags$li(strong("Time Series:"), " Explore how key indicators change over time."),
               tags$li(strong("Data Explorer:"), " Browse the integrated dataset and download views."),
-              tags$li(strong("Statistical Analysis:"), " Run correlation and clustering-style summaries.")
+              tags$li(strong("Statistical Analysis:"), " Adaptation buffer research — correlation matrix, OLS models, rankings, and Monte Carlo results.")
             ),
             tags$h3("Hunger Vulnerability Score (0–100)", style = "color: #3c8dbc; margin-top: 24px; margin-bottom: 12px;"),
             tags$p(
@@ -3784,7 +3784,7 @@ body <- dashboardBody(
               "and other structural indicators drawn from FAO, World Bank, and humanitarian data sources."
             ),
             tags$p(
-              "Hover over a country to see its name, vulnerability score, population, and land area. ",
+              "Hover over a country to see its name, vulnerability score, population, and agricultural land share. ",
               "Click a country to open its detailed hunger profile. Use the score multipliers below the map ",
               "to test how sensitive rankings are to each pillar, or apply map filters to focus on specific ",
               "years, score ranges, and economic or health statistics."
@@ -4682,7 +4682,7 @@ body <- dashboardBody(
       # Page Header with Background and Purpose
       fluidRow(
         box(
-          title = page_tab_header("Statistical Analysis", "Advanced statistical methods for hunger research", "calculator"),
+          title = page_tab_header("Statistical Analysis", "Adaptation buffer research — OLS and Monte Carlo results", "calculator"),
           status = "primary",
           solidHeader = TRUE,
           width = 12,
@@ -4691,15 +4691,18 @@ body <- dashboardBody(
             style = "background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 5px; margin-bottom: 20px; color: white;",
             tags$h3(icon("info-circle"), " Background & Purpose", style = "margin: 0 0 15px 0; color: white;"),
             tags$p(
-              "Statistical analysis helps us understand the relationships between different factors that contribute to global hunger. ",
-              "By applying rigorous statistical methods, we can identify which variables are most strongly associated with hunger vulnerability, ",
-              "test hypotheses about differences between groups, and quantify the strength of relationships between indicators.",
+              "This tab presents results from our research paper ",
+              tags$em("Climate Vulnerability Does Not Equal Hunger: Measuring the Global Adaptation Buffer"),
+              ". We introduce the ",
+              tags$strong("adaptation buffer"),
+              " — the gap between climate-predicted and actual undernourishment — and analyze it across 143 countries using ND-GAIN vulnerability, FAO undernourishment, and World Bank development indicators.",
               style = "font-size: 14px; line-height: 1.6; margin-bottom: 15px; color: rgba(255,255,255,0.95);"
             ),
             tags$p(
-              strong("What we analyze:"), " We examine correlations between economic, social, and health indicators; ",
-              "compare high-risk (vulnerability score 50–75) and low-risk (< 25) countries using statistical tests; ",
-              "and report OLS regressions of FAO undernourishment (%) on the same raw inputs used in the vulnerability formula (see Regression tab below).",
+              strong("Key finding:"),
+              " Climate vulnerability alone explains 42% of cross-country hunger variation, but the residual is large and structured. ",
+              "Countries like Bangladesh beat their climate odds by ~9 percentage points; conflict-affected states like Haiti fall far below prediction. ",
+              "The correlation matrix below explores relationships among dashboard indicators; the sections that follow report the paper's OLS models, global buffer rankings, and Monte Carlo uncertainty analysis.",
               style = "font-size: 14px; line-height: 1.6; color: rgba(255,255,255,0.95);"
             )
           )
@@ -4736,10 +4739,10 @@ body <- dashboardBody(
         )
       ),
       
-      # Regression Analysis — FAO undernourishment vs dashboard inputs (from docs + CSVs)
+      # Adaptation buffer — OLS models from research paper
       fluidRow(
         box(
-          title = tags$span(icon("chart-line"), " Regression: FAO undernourishment vs. vulnerability inputs"),
+          title = tags$span(icon("shield-alt"), " The Adaptation Buffer"),
           status = "info",
           solidHeader = TRUE,
           width = 12,
@@ -4748,98 +4751,115 @@ body <- dashboardBody(
             style = "background: #f0f9ff; padding: 16px; border-radius: 8px; border: 1px solid #bae6fd; margin-bottom: 16px;",
             tags$p(
               style = "font-size: 14px; line-height: 1.65; color: #0c4a6e; margin: 0 0 10px 0;",
-              tags$strong("Outcome:"),
-              " FAO prevalence of undernourishment (%) — not the composite 0–100 dashboard vulnerability score. ",
-              tags$strong("Method:"),
-              " ordinary least squares (OLS) on a cross-section of countries; predictors are the same raw inputs used in the vulnerability formula."
+              tags$strong("Definition:"),
+              " Buffer = Predicted undernourishment − Actual undernourishment, where predicted values come from a cross-country OLS regression of FAO prevalence of undernourishment on ND-GAIN climate vulnerability."
             ),
-            tags$ul(
-              style = "font-size: 13px; line-height: 1.7; color: #0c4a6e; margin: 0 0 12px 0;",
-              tags$li(tags$strong("Univariate:"), " each predictor is regressed on undernourishment one at a time (simple linear model)."),
-              tags$li(tags$strong("Multivariate:"), " all predictors enter a single model jointly; coefficients are conditional on the others in that specification."),
-              tags$li(tags$strong("Interpretation:"), " results describe statistical associations, not proven causes; use them to explore relationships, not to justify dropping formula variables.")
-            ),
-            tags$div(
-              style = "background: #fff; padding: 14px 16px; border-radius: 8px; border: 1px solid #e2e8f0;",
-              tags$h5(style = "margin: 0 0 10px 0; color: #0f172a; font-size: 14px; font-weight: 700;", "Reading the tables"),
-              tags$dl(
-                style = "margin: 0; font-size: 13px; line-height: 1.65; color: #334155;",
-                tags$dt(style = "font-weight: 600; margin-top: 8px;", "Estimate"),
-                tags$dd(style = "margin-left: 0; margin-bottom: 4px;", "Expected change in undernourishment (%) per one-unit increase in the predictor."),
-                tags$dt(style = "font-weight: 600; margin-top: 8px;", "Standard error"),
-                tags$dd(style = "margin-left: 0; margin-bottom: 4px;", "Uncertainty around the estimate; smaller values mean more precision."),
-                tags$dt(style = "font-weight: 600; margin-top: 8px;", "p value"),
-                tags$dd(style = "margin-left: 0; margin-bottom: 4px;", "How surprising the estimate would be if there were no linear association; values below 0.05 are often treated as statistically significant."),
-                tags$dt(style = "font-weight: 600; margin-top: 8px;", "R squared / Adjusted R squared"),
-                tags$dd(style = "margin-left: 0; margin-bottom: 4px;", "Share of variation in undernourishment explained by the model (0–1). Adjusted R squared accounts for the number of predictors."),
-                tags$dt(style = "font-weight: 600; margin-top: 8px;", "Standardized coefficient"),
-                tags$dd(style = "margin-left: 0; margin-bottom: 4px;", "Coefficient on a common scale (standard deviations), for comparing strength across predictors (univariate table)."),
-                tags$dt(style = "font-weight: 600; margin-top: 8px;", "t statistic"),
-                tags$dd(style = "margin-left: 0; margin-bottom: 4px;", "Estimate divided by standard error (multivariate tables)."),
-                tags$dt(style = "font-weight: 600; margin-top: 8px;", "~0"),
-                tags$dd(style = "margin-left: 0; margin-bottom: 0;", "Very small coefficients are shown as ", tags$strong("~0"), "; click to reveal the exact value.")
-              )
+            tags$p(
+              style = "font-size: 14px; line-height: 1.65; color: #0c4a6e; margin: 0;",
+              tags$strong("Interpretation:"),
+              " A positive buffer means a country beats its climate odds (effective adaptation); a negative buffer means hunger exceeds what vulnerability alone predicts. ",
+              "Sample: N = 143 countries. Buffer SD ≈ 7.5 pp (range −38.8 to +14.6)."
             )
           ),
           tabsetPanel(
-            id = "regression_result_tabs",
+            id = "adaptation_buffer_model_tabs",
             type = "tabs",
             tabPanel(
-              title = "Univariate",
+              title = "Model 1 — Baseline",
               br(),
-              DT::dataTableOutput("regression_univariate_tbl", width = "100%")
+              tags$p(
+                style = "font-size: 13px; color: #475569; margin: 0 0 8px 0;",
+                "How much hunger variation aligns with vulnerability alone? This sparse benchmark defines the adaptation buffer."
+              ),
+              uiOutput("paper_model1_meta"),
+              DT::dataTableOutput("paper_model1_tbl", width = "100%")
             ),
             tabPanel(
-              title = "Multivariate (12 predictors)",
+              title = "Model 2 — Multivariate",
               br(),
-              DT::dataTableOutput("regression_multivariate_12_tbl", width = "100%")
+              tags$p(
+                style = "font-size: 13px; color: #475569; margin: 0 0 8px 0;",
+                "Does the climate–hunger link survive controls for income, rurality, disasters, and conflict?"
+              ),
+              uiOutput("paper_model2_meta"),
+              DT::dataTableOutput("paper_model2_tbl", width = "100%")
             ),
             tabPanel(
-              title = "Multivariate (11, no IPC)",
+              title = "Model 3 — Buffer determinants",
               br(),
-              DT::dataTableOutput("regression_multivariate_11_tbl", width = "100%")
+              tags$p(
+                style = "font-size: 13px; color: #475569; margin: 0 0 8px 0;",
+                "What correlates with beating the climate-only benchmark? Vulnerability is excluded (it already enters the predicted value)."
+              ),
+              uiOutput("paper_model3_meta"),
+              DT::dataTableOutput("paper_model3_tbl", width = "100%")
             )
           )
         )
       ),
-      
-      # Statistical Tests Section
+
+      # Global buffer rankings
       fluidRow(
         box(
-          title = tags$span(icon("flask"), " Statistical Tests"),
+          title = tags$span(icon("trophy"), " Global Buffer Rankings"),
+          status = "warning",
+          solidHeader = TRUE,
+          width = 12,
+          collapsible = TRUE,
+          tags$p(
+            style = "font-size: 14px; line-height: 1.6; color: #555; margin-bottom: 12px;",
+            "Countries ranked by adaptation buffer (percentage points). ",
+            tags$strong("Overperformers"),
+            " report less hunger than climate vulnerability predicts; ",
+            tags$strong("underperformers"),
+            " report more."
+          ),
+          tabsetPanel(
+            type = "tabs",
+            tabPanel(
+              title = "Top 15 overperformers",
+              br(),
+              DT::dataTableOutput("buffer_top_tbl", width = "100%")
+            ),
+            tabPanel(
+              title = "Bottom 10 underperformers",
+              br(),
+              DT::dataTableOutput("buffer_bottom_tbl", width = "100%")
+            )
+          )
+        )
+      ),
+
+      # Monte Carlo analysis
+      fluidRow(
+        box(
+          title = tags$span(icon("dice"), " Monte Carlo Analysis"),
           status = "success",
           solidHeader = TRUE,
           width = 12,
           collapsible = TRUE,
           tags$div(
             style = "background: #f8f9fa; padding: 15px; border-radius: 5px; margin-bottom: 15px;",
-            tags$h4("About Statistical Tests", style = "color: #2c3e50; margin-top: 0;"),
+            tags$h4("Buffer uncertainty & collapse dynamics", style = "color: #2c3e50; margin-top: 0;"),
             tags$p(
-              "We perform statistical tests to rigorously examine differences and relationships in our data:",
-              style = "font-size: 14px; line-height: 1.6; color: #555; margin-bottom: 10px;"
-            ),
-            tags$ul(
-              style = "font-size: 14px; line-height: 1.8; color: #555;",
-              tags$li(
-                strong("T-tests", tags$a(href = "https://en.wikipedia.org/wiki/Student%27s_t-test", target = "_blank", 
-                    icon("external-link-alt", style = "font-size: 10px; margin-left: 5px;"))), 
-                ": Compare means between two groups (e.g., high-risk 50–75 vs. low-risk < 25) to determine if differences are statistically significant."
-              ),
-              tags$li(
-                strong("Correlation Tests", tags$a(href = "https://en.wikipedia.org/wiki/Pearson_correlation_coefficient", target = "_blank",
-                    icon("external-link-alt", style = "font-size: 10px; margin-left: 5px;"))), 
-                ": Measure the strength and direction of relationships between two variables (e.g., GDP and poverty)."
-              )
+              style = "font-size: 14px; line-height: 1.6; color: #555; margin-bottom: 10px;",
+              tags$strong("Model 4 (uncertainty):"),
+              " 20,000 bootstrap resamples with measurement noise on FAO undernourishment. ",
+              "66 countries are robust over-performers (P(buffer > 0) ≥ 90%); 42 are robust under-performers."
             ),
             tags$p(
-              strong("Interpreting Results:"), " A p-value less than 0.05 typically indicates statistical significance, ",
-              "meaning the observed relationship or difference is unlikely due to chance alone.",
-              style = "font-size: 14px; line-height: 1.6; color: #555; margin-top: 10px;"
+              style = "font-size: 14px; line-height: 1.6; color: #555; margin: 0;",
+              tags$strong("Model 5 (collapse):"),
+              " Simulated 20-year buffer paths under random climate/conflict shocks. ",
+              "A Bangladesh-like +9 pp buffer has a 41% chance of collapsing below zero within 20 years under baseline shocks, but only 4% once resilience investments soften shocks and speed recovery."
             )
           ),
-          htmlOutput("statistical_tests")
+          tags$h5(style = "color: #2c3e50; margin-bottom: 8px;", "Selected countries — Monte Carlo buffer confidence"),
+          DT::dataTableOutput("buffer_mc_key_tbl", width = "100%"),
+          tags$h5(style = "color: #2c3e50; margin: 24px 0 8px 0;", "Buffer collapse simulation (Bangladesh-like starting buffer)"),
+          DT::dataTableOutput("buffer_collapse_tbl", width = "100%")
         )
-      )
+      ),
     ),
     
     # Predictive Model Tab
@@ -5610,6 +5630,164 @@ read_regression_csv_safe <- function(rel_path) {
     ))
   }
   as.data.frame(readr::read_csv(p, show_col_types = FALSE), stringsAsFactors = FALSE)
+}
+
+read_global_paper_csv <- function(rel_path) {
+  p <- here::here("Global Research Paper", rel_path)
+  if (!file.exists(p)) {
+    return(data.frame(
+      Message = paste(
+        "File not found:", rel_path,
+        "— run scripts in Global Research Paper/scripts/ from the project root."
+      ),
+      stringsAsFactors = FALSE
+    ))
+  }
+  as.data.frame(readr::read_csv(p, show_col_types = FALSE), stringsAsFactors = FALSE)
+}
+
+PAPER_MODEL_TERM_LABELS <- c(
+  const = "Intercept",
+  vulnerability = "ND-GAIN vulnerability",
+  ln_gdp_pcap = "ln(GDP per capita)",
+  rural_pct = "Rural population share (%)",
+  disaster_count = "Disaster count (2013–2022)",
+  ln1_fatalities = "ln(1 + conflict fatalities)",
+  readiness = "ND-GAIN readiness"
+)
+
+paper_term_to_label <- function(term) {
+  term <- as.character(term)
+  if (identical(term, "(Intercept)") || identical(term, "const")) return("Intercept")
+  if (term %in% names(PAPER_MODEL_TERM_LABELS)) return(unname(PAPER_MODEL_TERM_LABELS[[term]]))
+  gsub("_", " ", term, fixed = TRUE)
+}
+
+prepare_global_paper_model_tbl <- function(d, model_id) {
+  if ("Message" %in% names(d)) {
+    return(list(table = d, meta = NULL))
+  }
+  if (!all(c("model", "term", "coef", "std_err", "pvalue") %in% names(d))) {
+    return(list(table = d, meta = NULL))
+  }
+  sub <- d[d$model == model_id, , drop = FALSE]
+  if (nrow(sub) == 0) {
+    return(list(
+      table = data.frame(Message = paste("Model not found:", model_id), stringsAsFactors = FALSE),
+      meta = NULL
+    ))
+  }
+  meta <- list(
+    n = sub$n[1],
+    r2 = sub$r2[1],
+    r2_adj = sub$r2_adj[1]
+  )
+  out <- data.frame(
+    term = sub$term,
+    estimate = sub$coef,
+    std_error = sub$std_err,
+    t_value = if ("t" %in% names(sub)) sub$t else NA_real_,
+    p_value = sub$pvalue,
+    stringsAsFactors = FALSE
+  )
+  out$term <- vapply(out$term, paper_term_to_label, character(1))
+  html_num_cols <- intersect(c("estimate", "std_error", "t_value"), names(out))
+  for (col in html_num_cols) {
+    out[[col]] <- regression_col_to_display(out[[col]], digits = 4L)
+  }
+  p_num <- suppressWarnings(as.numeric(out$p_value))
+  out$`p value (formatted)` <- format_regression_p_display(p_num)
+  out$p_value <- NULL
+  names(out) <- gsub("_", " ", names(out))
+  names(out)[names(out) == "term"] <- "Predictor"
+  names(out)[names(out) == "estimate"] <- "Coefficient"
+  names(out)[names(out) == "std error"] <- "Std. error"
+  names(out)[names(out) == "t value"] <- "t statistic"
+  names(out)[names(out) == "p value (formatted)"] <- "p value"
+  list(table = out, meta = meta)
+}
+
+paper_model_meta_html <- function(meta) {
+  if (is.null(meta) || is.null(meta$n)) return(NULL)
+  tags$p(
+    style = "font-size: 13px; color: #475569; margin: 0 0 12px 0;",
+    tags$strong("N = "),
+    formatC(round(meta$n, 0), format = "f", digits = 0),
+    " · ",
+    tags$strong("R² = "),
+    sprintf("%.3f", meta$r2),
+    if (!is.null(meta$r2_adj)) {
+      tagList(" · ", tags$strong("Adj. R² = "), sprintf("%.3f", meta$r2_adj))
+    }
+  )
+}
+
+prepare_buffer_rankings_tbl <- function(d, ranks) {
+  if ("Message" %in% names(d)) return(d)
+  needed <- c("rank", "country", "vulnerability", "predicted", "undernourishment", "buffer")
+  if (!all(needed %in% names(d))) return(d)
+  sub <- d[d$rank %in% ranks, needed, drop = FALSE]
+  sub <- sub[order(sub$rank), , drop = FALSE]
+  sub$vulnerability <- sprintf("%.3f", sub$vulnerability)
+  sub$predicted <- sprintf("%.1f", sub$predicted)
+  sub$undernourishment <- sprintf("%.1f", sub$undernourishment)
+  sub$buffer <- sprintf("%+.1f", sub$buffer)
+  names(sub) <- c(
+    "Rank", "Country", "Vulnerability", "Predicted PoU (%)",
+    "Actual PoU (%)", "Buffer (pp)"
+  )
+  sub
+}
+
+prepare_buffer_mc_key_tbl <- function(d) {
+  if ("Message" %in% names(d)) return(d)
+  keys <- c("Senegal", "Bangladesh", "Viet Nam", "Kenya", "Haiti")
+  needed <- c(
+    "country", "buffer_mc_mean", "buffer_ci_low", "buffer_ci_high", "prob_overperformer"
+  )
+  if (!all(needed %in% names(d))) return(d)
+  sub <- d[d$country %in% keys, needed, drop = FALSE]
+  sub <- sub[match(keys, sub$country), , drop = FALSE]
+  sub <- sub[!is.na(sub$country), , drop = FALSE]
+  sub$buffer_mc_mean <- sprintf("%+.1f", sub$buffer_mc_mean)
+  sub$buffer_ci_low <- sprintf("%+.1f", sub$buffer_ci_low)
+  sub$buffer_ci_high <- sprintf("%+.1f", sub$buffer_ci_high)
+  sub$prob_overperformer <- sprintf("%.0f%%", 100 * sub$prob_overperformer)
+  names(sub) <- c(
+    "Country", "Buffer (MC mean)", "90% CI low", "90% CI high", "P(over-performer)"
+  )
+  sub
+}
+
+prepare_buffer_collapse_tbl <- function(d) {
+  if ("Message" %in% names(d)) return(d)
+  needed <- c(
+    "scenario", "P_collapse_within_10y", "P_collapse_within_20y",
+    "expected_years_negative_of_20", "buffer_p05_year20", "buffer_median_year20"
+  )
+  if (!all(needed %in% names(d))) return(d)
+  labels <- c(
+    baseline = "Baseline (large shocks, slow recovery)",
+    resilience_investment = "Resilience investment (smaller shocks, faster recovery)"
+  )
+  out <- d[, needed, drop = FALSE]
+  out$scenario <- ifelse(
+    out$scenario %in% names(labels),
+    unname(labels[out$scenario]),
+    out$scenario
+  )
+  pct_cols <- c("P_collapse_within_10y", "P_collapse_within_20y")
+  for (col in pct_cols) {
+    out[[col]] <- sprintf("%.1f%%", 100 * out[[col]])
+  }
+  out$expected_years_negative_of_20 <- sprintf("%.2f", out$expected_years_negative_of_20)
+  out$buffer_p05_year20 <- sprintf("%+.1f", out$buffer_p05_year20)
+  out$buffer_median_year20 <- sprintf("%+.1f", out$buffer_median_year20)
+  names(out) <- c(
+    "Scenario", "P(collapse ≤ 10y)", "P(collapse ≤ 20y)",
+    "Expected years underwater (of 20)", "Buffer at year 20 (5th pct)", "Buffer at year 20 (median)"
+  )
+  out
 }
 
 REGRESSION_NEAR_ZERO_THRESHOLD <- 1e-4
@@ -6949,6 +7127,7 @@ server <- function(input, output, session) {
   
   # Interactive map
   output$hunger_map <- renderPlotly({
+    tryCatch({
     map_data <- map_data_reactive() %>%
       dplyr::left_join(hunger_score_components, by = c("country", "iso3c")) %>%
       mutate(
@@ -6966,8 +7145,6 @@ server <- function(input, output, session) {
           TRUE ~ format(round(population, 0), big.mark = ",", scientific = FALSE)
         ),
         .hover_area = dplyr::case_when(
-          "AG.LND.TOTL.K2" %in% names(.) & !is.na(.data[["AG.LND.TOTL.K2"]]) ~
-            paste0(format(round(.data[["AG.LND.TOTL.K2"]], 0), big.mark = ",", scientific = FALSE), " km²"),
           !is.na(agriculture_land) ~ paste0(round(agriculture_land, 1), "% agricultural land"),
           TRUE ~ "No data"
         ),
@@ -7108,6 +7285,22 @@ server <- function(input, output, session) {
       event_register("plotly_click")
     
     p
+    }, error = function(e) {
+      msg <- conditionMessage(e)
+      message("[MAP ERROR] ", msg)
+      plot_ly() %>%
+        add_annotations(
+          text = paste0("Map unavailable: ", msg),
+          x = 0.5, y = 0.5, xref = "paper", yref = "paper",
+          showarrow = FALSE, font = list(size = 13, color = "#b91c1c")
+        ) %>%
+        layout(
+          xaxis = list(visible = FALSE),
+          yaxis = list(visible = FALSE),
+          margin = list(t = 40, b = 40, l = 40, r = 40)
+        ) %>%
+        config(displayModeBar = FALSE)
+    })
   })
   
   # Handle map clicks to navigate to country details
@@ -8835,25 +9028,99 @@ server <- function(input, output, session) {
     p
   })
 
-  output$regression_univariate_tbl <- DT::renderDataTable({
-    d <- prepare_regression_univariate_tbl(
-      read_regression_csv_safe("docs/regression_univariate_undernourishment.csv")
-    )
-    render_regression_dt(d, page_length = 15)
+  paper_models_tbl <- reactive({
+    read_global_paper_csv("output/global_models_1_4_tables.csv")
+  })
+
+  buffer_rankings_tbl_data <- reactive({
+    read_global_paper_csv("output/global_buffer_rankings.csv")
+  })
+
+  buffer_mc_tbl_data <- reactive({
+    read_global_paper_csv("output/global_mc_buffer_uncertainty.csv")
+  })
+
+  buffer_collapse_tbl_data <- reactive({
+    read_global_paper_csv("output/global_mc_collapse_dynamics.csv")
+  })
+
+  output$paper_model1_meta <- renderUI({
+    res <- prepare_global_paper_model_tbl(paper_models_tbl(), "M1_baseline_vulnerability")
+    paper_model_meta_html(res$meta)
+  })
+
+  output$paper_model2_meta <- renderUI({
+    res <- prepare_global_paper_model_tbl(paper_models_tbl(), "M2_multivariate")
+    paper_model_meta_html(res$meta)
+  })
+
+  output$paper_model3_meta <- renderUI({
+    res <- prepare_global_paper_model_tbl(paper_models_tbl(), "M3_buffer_determinants")
+    paper_model_meta_html(res$meta)
+  })
+
+  output$paper_model1_tbl <- DT::renderDataTable({
+    res <- prepare_global_paper_model_tbl(paper_models_tbl(), "M1_baseline_vulnerability")
+    render_regression_dt(res$table, page_length = 10)
   }, server = FALSE)
 
-  output$regression_multivariate_12_tbl <- DT::renderDataTable({
-    d <- prepare_regression_multivariate_tbl(
-      read_regression_csv_safe("docs/regression_multivariate_undernourishment_all12.csv")
-    )
-    render_regression_dt(d, page_length = 20)
+  output$paper_model2_tbl <- DT::renderDataTable({
+    res <- prepare_global_paper_model_tbl(paper_models_tbl(), "M2_multivariate")
+    render_regression_dt(res$table, page_length = 10)
   }, server = FALSE)
 
-  output$regression_multivariate_11_tbl <- DT::renderDataTable({
-    d <- prepare_regression_multivariate_tbl(
-      read_regression_csv_safe("docs/regression_multivariate_undernourishment_no_ipc.csv")
+  output$paper_model3_tbl <- DT::renderDataTable({
+    res <- prepare_global_paper_model_tbl(paper_models_tbl(), "M3_buffer_determinants")
+    render_regression_dt(res$table, page_length = 10)
+  }, server = FALSE)
+
+  output$buffer_top_tbl <- DT::renderDataTable({
+    d <- buffer_rankings_tbl_data()
+    ranks <- if ("rank" %in% names(d)) seq_len(min(15, nrow(d))) else integer(0)
+    d <- prepare_buffer_rankings_tbl(d, ranks)
+    DT::datatable(
+      d,
+      options = list(dom = "t", pageLength = 15),
+      rownames = FALSE,
+      class = "cell-border stripe hover"
     )
-    render_regression_dt(d, page_length = 20)
+  }, server = FALSE)
+
+  output$buffer_bottom_tbl <- DT::renderDataTable({
+    d <- buffer_rankings_tbl_data()
+    if ("rank" %in% names(d) && nrow(d) > 0) {
+      max_rank <- max(d$rank, na.rm = TRUE)
+      ranks <- (max_rank - 9):max_rank
+    } else {
+      ranks <- integer(0)
+    }
+    d <- prepare_buffer_rankings_tbl(d, ranks)
+    DT::datatable(
+      d,
+      options = list(dom = "t", pageLength = 10),
+      rownames = FALSE,
+      class = "cell-border stripe hover"
+    )
+  }, server = FALSE)
+
+  output$buffer_mc_key_tbl <- DT::renderDataTable({
+    d <- prepare_buffer_mc_key_tbl(buffer_mc_tbl_data())
+    DT::datatable(
+      d,
+      options = list(dom = "t", pageLength = 10),
+      rownames = FALSE,
+      class = "cell-border stripe hover"
+    )
+  }, server = FALSE)
+
+  output$buffer_collapse_tbl <- DT::renderDataTable({
+    d <- prepare_buffer_collapse_tbl(buffer_collapse_tbl_data())
+    DT::datatable(
+      d,
+      options = list(dom = "t", pageLength = 10),
+      rownames = FALSE,
+      class = "cell-border stripe hover"
+    )
   }, server = FALSE)
   
   # Correlation plot (includes undernourishment % and vulnerability score)
@@ -8983,184 +9250,6 @@ server <- function(input, output, session) {
     # This output is no longer used as we show "coming soon" in the UI
     # Keeping for backward compatibility
     ""
-  })
-  
-  # Statistical tests - formatted HTML output
-  output$statistical_tests <- renderUI({
-    html_output <- list()
-    
-    # T-test for GDP per capita between high and low risk countries
-    high_risk_gdp <- filtered_summary() %>%
-      filter(!is.na(hunger_vulnerability_rating) &
-               hunger_vulnerability_rating >= 50 & hunger_vulnerability_rating < 75) %>%
-      pull(gdp_per_capita)
-    
-    low_risk_gdp <- filtered_summary() %>%
-      filter(hunger_vulnerability_rating < 25) %>%
-      pull(gdp_per_capita)
-    
-    if(length(high_risk_gdp) > 1 && length(low_risk_gdp) > 1) {
-      t_test <- t.test(high_risk_gdp, low_risk_gdp)
-      
-      # Format p-value
-      p_value <- t_test$p.value
-      p_display <- ifelse(p_value < 0.001, "< 0.001", sprintf("%.4f", p_value))
-      significance <- ifelse(p_value < 0.001, "***", 
-                             ifelse(p_value < 0.01, "**",
-                                   ifelse(p_value < 0.05, "*", "")))
-      
-      html_output[[length(html_output) + 1]] <- tags$div(
-        style = "background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #28a745; box-shadow: 0 2px 4px rgba(0,0,0,0.1);",
-        tags$h4(
-          tags$a(
-            href = "https://en.wikipedia.org/wiki/Student%27s_t-test",
-            target = "_blank",
-            "Welch Two Sample t-test",
-            style = "color: #28a745; text-decoration: none;"
-          ),
-          tags$span(icon("external-link-alt", style = "font-size: 10px; margin-left: 5px; color: #28a745;")),
-          style = "margin-top: 0; color: #2c3e50;"
-        ),
-        tags$p(
-          strong("Purpose: "),
-          "Compare GDP per capita between high-risk (vulnerability 50–75, same “High” band as the overview) and low-risk (vulnerability < 25) countries. Critical (≥ 75) countries are excluded from the high-risk group here.",
-          style = "font-size: 14px; color: #555; margin-bottom: 15px;"
-        ),
-        tags$div(
-          style = "background: #f8f9fa; padding: 15px; border-radius: 5px;",
-          tags$table(
-            style = "width: 100%; border-collapse: collapse;",
-            tags$tr(
-              tags$td(strong("Test Statistic (t):"), style = "padding: 8px; border-bottom: 1px solid #dee2e6; width: 40%;"),
-              tags$td(sprintf("%.4f", t_test$statistic), style = "padding: 8px; border-bottom: 1px solid #dee2e6;")
-            ),
-            tags$tr(
-              tags$td(strong("Degrees of Freedom:"), style = "padding: 8px; border-bottom: 1px solid #dee2e6;"),
-              tags$td(sprintf("%.2f", t_test$parameter), style = "padding: 8px; border-bottom: 1px solid #dee2e6;")
-            ),
-            tags$tr(
-              tags$td(strong("P-value:"), style = "padding: 8px; border-bottom: 1px solid #dee2e6;"),
-              tags$td(
-                tags$span(p_display, significance, style = "color: #dc3545; font-weight: bold;"),
-                style = "padding: 8px; border-bottom: 1px solid #dee2e6;"
-              )
-            ),
-            tags$tr(
-              tags$td(strong("95% Confidence Interval:"), style = "padding: 8px; border-bottom: 1px solid #dee2e6;"),
-              tags$td(sprintf("[%.2f, %.2f]", t_test$conf.int[1], t_test$conf.int[2]), style = "padding: 8px; border-bottom: 1px solid #dee2e6;")
-            ),
-            tags$tr(
-              tags$td(strong("Mean GDP (high band 50–75):"), style = "padding: 8px;"),
-              tags$td(sprintf("$%.2f", mean(high_risk_gdp, na.rm = TRUE)), style = "padding: 8px;")
-            ),
-            tags$tr(
-              tags$td(strong("Low-Risk Mean GDP:"), style = "padding: 8px;"),
-              tags$td(sprintf("$%.2f", mean(low_risk_gdp, na.rm = TRUE)), style = "padding: 8px;")
-            )
-          )
-        ),
-        tags$div(
-          style = "margin-top: 15px; padding: 10px; background: #d4edda; border-radius: 5px;",
-          tags$p(
-            strong("Interpretation: "),
-            ifelse(p_value < 0.05,
-              "There is a statistically significant difference in GDP per capita between the high band (50–75) and low-risk countries. ",
-              "There is no statistically significant difference in GDP per capita between those two groups. "),
-            sprintf("Countries in the high band (50–75) average $%.2f GDP per capita, while low-risk countries (< 25) average $%.2f.",
-                   mean(high_risk_gdp, na.rm = TRUE), mean(low_risk_gdp, na.rm = TRUE)),
-            style = "font-size: 14px; color: #155724; margin: 0;"
-          )
-        )
-      )
-    }
-    
-    # Correlation test
-    cor_data <- filtered_summary() %>%
-      select(gdp_per_capita, poverty) %>%
-      filter(!is.na(gdp_per_capita) & !is.na(poverty))
-    
-    if(nrow(cor_data) > 10) {
-      cor_test <- cor.test(cor_data$gdp_per_capita, cor_data$poverty)
-      
-      # Format p-value
-      p_value <- cor_test$p.value
-      p_display <- ifelse(p_value < 0.001, "< 0.001", sprintf("%.4f", p_value))
-      significance <- ifelse(p_value < 0.001, "***", 
-                             ifelse(p_value < 0.01, "**",
-                                   ifelse(p_value < 0.05, "*", "")))
-      
-      html_output[[length(html_output) + 1]] <- tags$div(
-        style = "background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #17a2b8; box-shadow: 0 2px 4px rgba(0,0,0,0.1);",
-        tags$h4(
-          tags$a(
-            href = "https://en.wikipedia.org/wiki/Pearson_correlation_coefficient",
-            target = "_blank",
-            "Pearson's Product-Moment Correlation",
-            style = "color: #17a2b8; text-decoration: none;"
-          ),
-          tags$span(icon("external-link-alt", style = "font-size: 10px; margin-left: 5px; color: #17a2b8;")),
-          style = "margin-top: 0; color: #2c3e50;"
-        ),
-        tags$p(
-          strong("Purpose: "),
-          "Examine the relationship between GDP per capita and poverty rate across all countries.",
-          style = "font-size: 14px; color: #555; margin-bottom: 15px;"
-        ),
-        tags$div(
-          style = "background: #f8f9fa; padding: 15px; border-radius: 5px;",
-          tags$table(
-            style = "width: 100%; border-collapse: collapse;",
-            tags$tr(
-              tags$td(strong("Correlation Coefficient (r):"), style = "padding: 8px; border-bottom: 1px solid #dee2e6; width: 40%;"),
-              tags$td(sprintf("%.4f", cor_test$estimate), style = "padding: 8px; border-bottom: 1px solid #dee2e6;")
-            ),
-            tags$tr(
-              tags$td(strong("Test Statistic (t):"), style = "padding: 8px; border-bottom: 1px solid #dee2e6;"),
-              tags$td(sprintf("%.4f", cor_test$statistic), style = "padding: 8px; border-bottom: 1px solid #dee2e6;")
-            ),
-            tags$tr(
-              tags$td(strong("Degrees of Freedom:"), style = "padding: 8px; border-bottom: 1px solid #dee2e6;"),
-              tags$td(sprintf("%.0f", cor_test$parameter), style = "padding: 8px; border-bottom: 1px solid #dee2e6;")
-            ),
-            tags$tr(
-              tags$td(strong("P-value:"), style = "padding: 8px; border-bottom: 1px solid #dee2e6;"),
-              tags$td(
-                tags$span(p_display, significance, style = "color: #dc3545; font-weight: bold;"),
-                style = "padding: 8px; border-bottom: 1px solid #dee2e6;"
-              )
-            ),
-            tags$tr(
-              tags$td(strong("95% Confidence Interval:"), style = "padding: 8px;"),
-              tags$td(sprintf("[%.4f, %.4f]", cor_test$conf.int[1], cor_test$conf.int[2]), style = "padding: 8px;")
-            )
-          )
-        ),
-        tags$div(
-          style = "margin-top: 15px; padding: 10px; background: #d1ecf1; border-radius: 5px;",
-          tags$p(
-            strong("Interpretation: "),
-            sprintf("The correlation coefficient of %.4f indicates a ", cor_test$estimate),
-            ifelse(abs(cor_test$estimate) > 0.7, "strong ",
-                   ifelse(abs(cor_test$estimate) > 0.4, "moderate ", "weak ")),
-            ifelse(cor_test$estimate < 0, "negative", "positive"),
-            " relationship between GDP per capita and poverty rate. ",
-            ifelse(p_value < 0.05,
-              "This relationship is statistically significant, meaning it is unlikely due to chance.",
-              "This relationship is not statistically significant."),
-            style = "font-size: 14px; color: #0c5460; margin: 0;"
-          )
-        )
-      )
-    }
-    
-    if(length(html_output) == 0) {
-      return(tags$div(
-        style = "padding: 20px; text-align: center; color: #666;",
-        tags$p("Insufficient data to perform statistical tests.", style = "font-size: 14px;")
-      ))
-    }
-    
-    return(html_output)
   })
   
   # Model plot
