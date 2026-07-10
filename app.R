@@ -1885,6 +1885,42 @@ page_tab_header <- function(title_text, subtitle_text = NULL, icon_name = NULL) 
   )
 }
 
+ncyi_gallery_image_files <- function() {
+  dir <- here::here("www", "ncyi_gallery")
+  if (!dir.exists(dir)) return(character(0))
+  sort(list.files(dir, pattern = "\\.(jpe?g|png|webp)$", ignore.case = TRUE))
+}
+
+ncyi_gallery_ui <- function() {
+  files <- ncyi_gallery_image_files()
+  if (length(files) == 0) {
+    return(tags$p(
+      style = "color: #64748b; font-size: 14px; margin: 0;",
+      "Conference photos will appear here once they are added to ",
+      tags$code("www/ncyi_gallery/"), "."
+    ))
+  }
+  tags$div(
+    class = "ncyi-gallery",
+    lapply(files, function(f) {
+      src <- paste0("assets/ncyi_gallery/", f)
+      tags$a(
+        href = src,
+        target = "_blank",
+        rel = "noopener noreferrer",
+        class = "ncyi-gallery__link",
+        title = "Open photo full size",
+        tags$img(
+          src = src,
+          alt = "NC Youth Institute conference photo",
+          class = "ncyi-gallery__img",
+          loading = "lazy"
+        )
+      )
+    })
+  )
+}
+
 # Header
 header <- dashboardHeader(
   title = "Global Hunger Research Dashboard",
@@ -3284,6 +3320,32 @@ body <- dashboardBody(
       .box:hover .plotly.html-widget {
         opacity: 1;
       }
+      /* NC Youth Institute photo gallery (Bangladesh research tab) */
+      .ncyi-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 14px;
+        margin-top: 4px;
+      }
+      .ncyi-gallery__link {
+        display: block;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 10px rgba(15, 23, 42, 0.12);
+        transition: transform 0.18s ease, box-shadow 0.18s ease;
+        background: #f8fafc;
+      }
+      .ncyi-gallery__link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 22px rgba(15, 23, 42, 0.18);
+      }
+      .ncyi-gallery__img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        display: block;
+      }
+
       /* Statistical Analysis: near-zero regression cells */
       .regression-near-zero {
         cursor: pointer;
@@ -4332,6 +4394,19 @@ body <- dashboardBody(
             strong("North Carolina Youth Institute / World Food Prize"),
             " research on how climate stressors interact with food security in Bangladesh — a densely populated delta where I focused on floods, cyclones, and sea-level rise."
           )
+        )
+      ),
+      fluidRow(
+        box(
+          title = tags$span(icon("camera"), " NC Youth Institute — Conference photos"),
+          status = "primary",
+          solidHeader = TRUE,
+          width = 12,
+          tags$p(
+            style = "font-size: 14px; line-height: 1.65; color: #475569; margin: 0 0 12px 0;",
+            "Photos from my North Carolina Youth Institute / World Food Prize conference presentation. Click any image to open it full size."
+          ),
+          ncyi_gallery_ui()
         )
       ),
       fluidRow(
