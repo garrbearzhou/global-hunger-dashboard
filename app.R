@@ -5211,13 +5211,13 @@ body <- dashboardBody(
               
               tags$h4(icon("graduation-cap"), " Background", style = "color: #3c8dbc;"),
               tags$p(
-                "Garrett is a high school student passionate about addressing global hunger and food insecurity. ",
-                "Through this research project, he aims to understand the complex factors driving hunger worldwide ",
+                "I'm a high school student passionate about addressing global hunger and food insecurity. ",
+                "Through this research project, I aim to understand the complex factors driving hunger worldwide ",
                 "and develop data-driven solutions to help combat this critical issue.",
                 style = "font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 10px;"
               ),
               tags$p(
-                "Outside the classroom, he plays for the ",
+                "Outside the classroom, I play for the ",
                 tags$a(href = "https://www.ncfcyouth.com/boys-academy", target = "_blank", rel = "noopener noreferrer", "NCFC Academy"),
                 " ECNL boys soccer team, affiliated with ",
                 tags$a(href = "https://www.northcarolinafc.com/", target = "_blank", rel = "noopener noreferrer", "NCFC"),
@@ -5294,15 +5294,14 @@ body <- dashboardBody(
             ),
             tags$p(
               style = "font-size: 16px; color: #666; margin-bottom: 20px; font-style: italic;",
-              "Professor of ",
-              tags$a(href = "https://library.duke.edu/", target = "_blank", rel = "noopener noreferrer", style = "color: #666;", "Duke Libraries")
+              "Professor of Duke Libraries"
             ),
             tags$div(
               style = "background: #f8f9fa; padding: 20px; border-radius: 8px; text-align: left; margin-top: 20px;",
               tags$h4(icon("university"), " Affiliation", style = "color: #28a745; margin-top: 0;"),
               tags$p(
-                "Duke University", tags$br(),
-                tags$a(href = "https://library.duke.edu/", target = "_blank", rel = "noopener noreferrer", "Duke Libraries"),
+                tags$a(href = "https://library.duke.edu/", target = "_blank", rel = "noopener noreferrer", "Duke Libraries"), tags$br(),
+                "Duke University",
                 style = "font-size: 14px; color: #555; margin-bottom: 15px;"
               ),
               
@@ -5339,10 +5338,6 @@ body <- dashboardBody(
               tags$p(
                 tags$a(href = "mailto:hannah.jacobs@duke.edu", "hannah.jacobs@duke.edu",
                        style = "color: #28a745; text-decoration: none;"),
-                tags$br(),
-                tags$a(href = "https://library.duke.edu/", target = "_blank", rel = "noopener noreferrer",
-                       icon("external-link-alt", style = "margin-right: 5px;"), "Duke Libraries",
-                       style = "color: #28a745; text-decoration: none; display: inline-block; margin-top: 5px;"),
                 style = "font-size: 14px; color: #555; margin: 0;"
               )
             )
@@ -5362,16 +5357,15 @@ body <- dashboardBody(
             style = "padding: 20px;",
             tags$h3("About This Collaboration", style = "color: #2c3e50; margin-top: 0;"),
             tags$p(
-              "This research project represents a unique collaboration between a high school student passionate about ",
-              "addressing global hunger and a Duke University professor specializing in Digital Humanities. ",
-              "Through this mentorship, Garrett is learning to apply data science and digital research methodologies ",
+              "This research project is a collaboration between me and a Duke University professor specializing in Digital Humanities. ",
+              "Through this mentorship, I'm learning to apply data science and digital research methodologies ",
               "to understand complex global challenges.",
               style = "font-size: 15px; line-height: 1.8; color: #555; margin-bottom: 20px;"
             ),
             tags$p(
-              "The project combines rigorous statistical analysis with interactive data visualization to make ",
+              "I've combined rigorous statistical analysis with interactive data visualization to make ",
               "hunger research accessible to policymakers, researchers, and the public. By integrating multiple ",
-              "data sources and applying advanced analytical techniques, this work aims to provide actionable ",
+              "data sources and applying advanced analytical techniques, I aim to provide actionable ",
               "insights into the factors driving global hunger and food insecurity.",
               style = "font-size: 15px; line-height: 1.8; color: #555; margin-bottom: 20px;"
             ),
