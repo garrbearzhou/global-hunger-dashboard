@@ -3406,12 +3406,12 @@ body <- dashboardBody(
           toggleRegressionNearZero(this);
         });
         if (window.Shiny && window.Shiny.addCustomMessageHandler) {
-          window.Shiny.addCustomMessageHandler('country_detail_reset_panels', function() {
+          window.Shiny.addCustomMessageHandler('country_detail_reset_panels', function(message) {
             window.jQuery('#country_details_panels .box').each(function() {
               setCountryBoxCollapsed(window.jQuery(this), true);
             });
           });
-          window.Shiny.addCustomMessageHandler('country_detail_resize_plots', function() {
+          window.Shiny.addCustomMessageHandler('country_detail_resize_plots', function(message) {
             [200, 600, 1200].forEach(function(ms) {
               setTimeout(function() {
                 resizeAllCountryDetailPlots();
