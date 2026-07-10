@@ -5220,12 +5220,11 @@ body <- dashboardBody(
                 "Outside the classroom, I play for the ",
                 tags$a(href = "https://www.ncfcyouth.com/boys-academy", target = "_blank", rel = "noopener noreferrer", "NCFC Academy"),
                 " ECNL boys soccer team, affiliated with ",
-                tags$a(href = "https://www.northcarolinafc.com/", target = "_blank", rel = "noopener noreferrer", "NCFC"),
-                ". NCFC youth teams participate in ",
-                tags$a(href = "https://theecnl.com/sports/ecnl-boys", target = "_blank", rel = "noopener noreferrer", "ECNL"),
-                ", and the NCFC pro team plays in ",
-                tags$a(href = "https://www.uslleagueone.com/", target = "_blank", rel = "noopener noreferrer", "USL League One"),
-                ".",
+                tags$a(href = "https://www.northcarolinafc.com/", target = "_blank", rel = "noopener noreferrer", "NCFC"), ".",
+                " NCFC youth teams participate in ",
+                tags$a(href = "https://theecnl.com/sports/ecnl-boys", target = "_blank", rel = "noopener noreferrer", "ECNL"), ",",
+                " and the NCFC pro team plays in ",
+                tags$a(href = "https://www.uslleagueone.com/", target = "_blank", rel = "noopener noreferrer", "USL League One"), ".",
                 style = "font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 15px;"
               ),
               
@@ -5301,7 +5300,7 @@ body <- dashboardBody(
               tags$h4(icon("university"), " Affiliation", style = "color: #28a745; margin-top: 0;"),
               tags$p(
                 tags$a(href = "https://library.duke.edu/", target = "_blank", rel = "noopener noreferrer", "Duke Libraries"), tags$br(),
-                "Duke University",
+                tags$a(href = "https://www.duke.edu/", target = "_blank", rel = "noopener noreferrer", "Duke University"),
                 style = "font-size: 14px; color: #555; margin-bottom: 15px;"
               ),
               
