@@ -1886,9 +1886,13 @@ page_tab_header <- function(title_text, subtitle_text = NULL, icon_name = NULL) 
 }
 
 ncyi_gallery_image_files <- function() {
-  dir <- here::here("www", "ncyi_gallery")
-  if (!dir.exists(dir)) return(character(0))
-  sort(list.files(dir, pattern = "\\.(jpe?g|png|webp)$", ignore.case = TRUE))
+  thumb_dir <- here::here("www", "ncyi_gallery", "thumbs")
+  if (!dir.exists(thumb_dir)) {
+    legacy_dir <- here::here("www", "ncyi_gallery")
+    if (!dir.exists(legacy_dir)) return(character(0))
+    return(sort(list.files(legacy_dir, pattern = "\\.(jpe?g|png|webp)$", ignore.case = TRUE)))
+  }
+  sort(list.files(thumb_dir, pattern = "\\.(jpe?g|png|webp)$", ignore.case = TRUE))
 }
 
 ncyi_gallery_ui <- function() {
@@ -1897,24 +1901,29 @@ ncyi_gallery_ui <- function() {
     return(tags$p(
       style = "color: #64748b; font-size: 14px; margin: 0;",
       "Conference photos will appear here once they are added to ",
-      tags$code("www/ncyi_gallery/"), "."
+      tags$code("www/ncyi_gallery/thumbs/"), "."
     ))
   }
+  thumb_base <- "assets/ncyi_gallery/thumbs/"
+  full_base <- "assets/ncyi_gallery/full/"
+  legacy_flat <- !dir.exists(here::here("www", "ncyi_gallery", "thumbs"))
   tags$div(
     class = "ncyi-gallery",
     lapply(files, function(f) {
-      src <- paste0("assets/ncyi_gallery/", f)
+      thumb_src <- if (legacy_flat) paste0("assets/ncyi_gallery/", f) else paste0(thumb_base, f)
+      full_src <- if (legacy_flat) thumb_src else paste0(full_base, f)
       tags$a(
-        href = src,
+        href = full_src,
         target = "_blank",
         rel = "noopener noreferrer",
         class = "ncyi-gallery__link",
         title = "Open photo full size",
         tags$img(
-          src = src,
+          src = thumb_src,
           alt = "NC Youth Institute conference photo",
           class = "ncyi-gallery__img",
-          loading = "lazy"
+          loading = "lazy",
+          decoding = "async"
         )
       )
     })
