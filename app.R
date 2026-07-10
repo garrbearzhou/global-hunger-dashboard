@@ -5388,7 +5388,33 @@ body <- dashboardBody(
             tags$ul(
               style = "font-size: 14px; color: #555; line-height: 1.8;",
               tags$li("Duke University and Duke Libraries for providing the resources and support for this research"),
-              tags$li("Professor Hannah Jacobs for her mentorship, guidance, and expertise in Digital Humanities"),
+              tags$li(
+                "Professor Hannah Jacobs for her mentorship, guidance, and expertise in Digital Humanities"
+              ),
+              tags$li(
+                tags$a(href = "https://globalhealth.duke.edu/people/ariely-sumedha", target = "_blank", rel = "noopener noreferrer", "Professor Sumedha Gupta Ariely"),
+                " for her guidance on global health research"
+              ),
+              tags$li(
+                tags$a(href = "https://directory.library.duke.edu/staff/eric.monson", target = "_blank", rel = "noopener noreferrer", "Eric Monson"),
+                " for help with data visualization"
+              ),
+              tags$li(
+                tags$a(href = "https://directory.library.duke.edu/staff/drew.keener", target = "_blank", rel = "noopener noreferrer", "Drew Keener"),
+                " for help with maps and geospatial data"
+              ),
+              tags$li(
+                "The ",
+                tags$a(href = "https://www.worldfoodprize.org/index.cfm?nodeID=87698&audienceID=1", target = "_blank", rel = "noopener noreferrer", "North Carolina Youth Institute"),
+                " and ",
+                tags$a(href = "https://www.worldfoodprize.org/", target = "_blank", rel = "noopener noreferrer", "World Food Prize"),
+                " for hosting a great research conference"
+              ),
+              tags$li(
+                "The ",
+                tags$a(href = "https://foodbankcenc.org/locations/durham", target = "_blank", rel = "noopener noreferrer", "Food Bank of Central & Eastern North Carolina"),
+                " (Durham) for their work addressing hunger locally"
+              ),
               tags$li("All data providers including the World Bank, FAO, WFP, WHO, and other organizations that make their data publicly available"),
               tags$li("The global research community working to address hunger and food insecurity")
             ),
