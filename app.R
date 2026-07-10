@@ -75,6 +75,7 @@ load_hunger_data <- function() {
       "pop_DYN.IMRT.IN" = "SP.DYN.IMRT.IN",
       "agriculture_CON.FERT.ZS" = "AG.CON.FERT.ZS",
       "agriculture_LND.ARBL.ZS" = "AG.LND.ARBL.ZS",
+      "agriculture_LND.TOTL.K2" = "AG.LND.TOTL.K2",
       "pop_POP.GROW" = "SP.POP.GROW",
       "gdp_GDP.MKTP.KD.ZG" = "NY.GDP.MKTP.KD.ZG"
     )
@@ -103,6 +104,7 @@ load_hunger_data <- function() {
       "SP.DYN.IMRT.IN",        # Mortality rate, infant (per 1,000 live births)
       "AG.CON.FERT.ZS",        # Fertilizer consumption
       "AG.LND.ARBL.ZS",        # Arable land (% of land area)
+      "AG.LND.TOTL.K2",        # Land area (sq. km)
       "SP.POP.GROW",           # Population growth (annual %)
       "NY.GDP.MKTP.KD.ZG",     # GDP growth (annual %)
       "NE.TRD.GNFS.ZS",        # Trade (% of GDP)
@@ -1296,6 +1298,7 @@ hunger_summary_from_wb <- hunger_data %>%
     life_expectancy = last(SP.DYN.LE00.IN, order_by = year),
     infant_mortality = last(SP.DYN.IMRT.IN, order_by = year),
     literacy = last(SE.ADT.LITR.ZS, order_by = year),
+    land_area_km2 = if ("AG.LND.TOTL.K2" %in% names(hunger_data)) last(AG.LND.TOTL.K2, order_by = year) else NA_real_,
     iso3c = first(iso3c),
     region = first(region),
     .groups = "drop"
@@ -1326,6 +1329,21 @@ country_backbone <- bind_rows(
 # Start latest_summary from backbone so every country (including Pacific islands) has a row
 latest_summary <- country_backbone %>%
   left_join(hunger_summary_from_wb %>% select(-iso3c), by = "country")
+
+if (file.exists("data/raw/land_area_km2.csv")) {
+  land_area_lookup <- readr::read_csv("data/raw/land_area_km2.csv", show_col_types = FALSE) %>%
+    dplyr::filter(!is.na(iso3c) & nchar(trimws(iso3c)) == 3) %>%
+    dplyr::distinct(iso3c, .keep_all = TRUE)
+  if (nrow(land_area_lookup) > 0) {
+    latest_summary <- latest_summary %>%
+      dplyr::left_join(land_area_lookup, by = "iso3c", relationship = "many-to-one")
+    if ("land_area_km2.x" %in% names(latest_summary)) {
+      latest_summary <- latest_summary %>%
+        dplyr::mutate(land_area_km2 = dplyr::coalesce(land_area_km2.x, land_area_km2.y)) %>%
+        dplyr::select(-land_area_km2.x, -land_area_km2.y)
+    }
+  }
+}
 
 # Merge all additional data sources - ensure one row per country
 # Map each source's country names to backbone (fuzzy match fallback) before joining
@@ -1964,7 +1982,7 @@ body <- dashboardBody(
           },
           map: {
             title: 'Global Hunger Vulnerability Map',
-            description: 'Interactive global hunger vulnerability map with country score, population, and agricultural land.'
+            description: 'Interactive global hunger vulnerability map with country score, population, and total land area.'
           },
           country_details: {
             title: 'Country Hunger Profile | Global Hunger Dashboard',
@@ -3784,7 +3802,7 @@ body <- dashboardBody(
               "and other structural indicators drawn from FAO, World Bank, and humanitarian data sources."
             ),
             tags$p(
-              "Hover over a country to see its name, vulnerability score, population, and agricultural land share. ",
+              "Hover over a country to see its name, vulnerability score, population, and total land area. ",
               "Click a country to open its detailed hunger profile. Use the score multipliers below the map ",
               "to test how sensitive rankings are to each pillar, or apply map filters to focus on specific ",
               "years, score ranges, and economic or health statistics."
@@ -4772,7 +4790,22 @@ body <- dashboardBody(
                 "How much hunger variation aligns with vulnerability alone? This sparse benchmark defines the adaptation buffer."
               ),
               uiOutput("paper_model1_meta"),
-              DT::dataTableOutput("paper_model1_tbl", width = "100%")
+              DT::dataTableOutput("paper_model1_tbl", width = "100%"),
+              tags$div(
+                style = "background: #ecfdf5; border: 1px solid #a7f3d0; border-radius: 8px; padding: 16px; margin-top: 16px;",
+                tags$h5(style = "margin: 0 0 10px 0; color: #065f46; font-size: 14px; font-weight: 700;", "What we discovered"),
+                tags$ul(
+                  style = "font-size: 13px; line-height: 1.7; color: #064e3b; margin: 0; padding-left: 18px;",
+                  tags$li(strong("Climate vulnerability is a strong predictor of hunger — but only partly."),
+                          " ND-GAIN vulnerability alone explains 42.3% of cross-country variation in undernourishment (R² = 0.423, p < 0.001). A 0.1-point rise in vulnerability (0–1 scale) is associated with ~6.9 percentage points higher undernourishment."),
+                  tags$li(strong("Most hunger variation is not explained by climate exposure."),
+                          " The remaining ~58% — with a residual spread of about 7.5 percentage points — is where adaptation, institutions, conflict, and policy matter. This unexplained gap is what we call the adaptation buffer."),
+                  tags$li(strong("The benchmark is precise enough to use globally."),
+                          " Bootstrap resampling (Model 4) puts a 90% interval of [58.3, 81.5] on the vulnerability slope, so the headline gradient is not driven by a handful of outliers."),
+                  tags$li(strong("Worked example — Bangladesh:"),
+                          " Vulnerability 0.569 predicts 19.4% undernourishment; actual is 10.4%. Buffer ≈ +9.0 pp — millions of people who, on climate fundamentals alone, would be expected to be hungrier than they are.")
+                )
+              )
             ),
             tabPanel(
               title = "Model 2 — Multivariate",
@@ -4782,7 +4815,22 @@ body <- dashboardBody(
                 "Does the climate–hunger link survive controls for income, rurality, disasters, and conflict?"
               ),
               uiOutput("paper_model2_meta"),
-              DT::dataTableOutput("paper_model2_tbl", width = "100%")
+              DT::dataTableOutput("paper_model2_tbl", width = "100%"),
+              tags$div(
+                style = "background: #ecfdf5; border: 1px solid #a7f3d0; border-radius: 8px; padding: 16px; margin-top: 16px;",
+                tags$h5(style = "margin: 0 0 10px 0; color: #065f46; font-size: 14px; font-weight: 700;", "What we discovered"),
+                tags$ul(
+                  style = "font-size: 13px; line-height: 1.7; color: #064e3b; margin: 0; padding-left: 18px;",
+                  tags$li(strong("The climate–hunger link is real, not just a poverty proxy."),
+                          " Vulnerability stays large and highly significant (β ≈ 40, p < 0.001) after controlling for GDP per capita, rural share, disaster counts, and conflict fatalities."),
+                  tags$li(strong("About 40% of the raw climate gradient runs through development channels."),
+                          " The vulnerability coefficient falls from ~69 (Model 1) to ~40 (Model 2), meaning a substantial share of the bivariate association co-moves with income and shock observables."),
+                  tags$li(strong("Income robustly predicts hunger levels."),
+                          " Each log-point of GDP per capita is associated with ~2.8 percentage points lower undernourishment (p = 0.006)."),
+                  tags$li(strong("Crude disaster and conflict aggregates show no linear signal here — but that does not mean shocks are irrelevant."),
+                          " Underperformance in the buffer rankings (Haiti, Syria, Kenya) suggests conflict destroys food security through channels this simple cross-section cannot capture cleanly.")
+                )
+              )
             ),
             tabPanel(
               title = "Model 3 — Buffer determinants",
@@ -4792,7 +4840,22 @@ body <- dashboardBody(
                 "What correlates with beating the climate-only benchmark? Vulnerability is excluded (it already enters the predicted value)."
               ),
               uiOutput("paper_model3_meta"),
-              DT::dataTableOutput("paper_model3_tbl", width = "100%")
+              DT::dataTableOutput("paper_model3_tbl", width = "100%"),
+              tags$div(
+                style = "background: #ecfdf5; border: 1px solid #a7f3d0; border-radius: 8px; padding: 16px; margin-top: 16px;",
+                tags$h5(style = "margin: 0 0 10px 0; color: #065f46; font-size: 14px; font-weight: 700;", "What we discovered"),
+                tags$ul(
+                  style = "font-size: 13px; line-height: 1.7; color: #064e3b; margin: 0; padding-left: 18px;",
+                  tags$li(strong("Standard covariates barely explain who beats their climate odds."),
+                          " The model explains only ~6% of buffer variation (R² = 0.057). The buffer is not a repackaging of GDP, readiness, rurality, disasters, or conflict in this form."),
+                  tags$li(strong("ND-GAIN readiness is the most promising correlate."),
+                          " Higher adaptive capacity is associated with larger buffers (β ≈ 13.4; a 0.1-point readiness increase ≈ +1.3 pp buffer), though p ≈ 0.12 at this sample size — hypothesis-generating, not definitive."),
+                  tags$li(strong("Income does not predict the buffer after netting out vulnerability."),
+                          " GDP predicts hunger levels (Model 2) but not residual over/under-performance, because the buffer already removes the part of hunger that tracks climate exposure."),
+                  tags$li(strong("Policy implication: buffers must be monitored directly."),
+                          " Because overperformance cannot be inferred from standard indicators, countries need annual buffer tracking — not vulnerability rankings alone.")
+                )
+              )
             )
           )
         )
@@ -4819,12 +4882,73 @@ body <- dashboardBody(
             tabPanel(
               title = "Top 15 overperformers",
               br(),
+              tags$p(
+                style = "font-size: 13px; color: #475569; margin: 0 0 12px 0;",
+                "Countries reporting substantially less hunger than ND-GAIN vulnerability alone would predict."
+              ),
               DT::dataTableOutput("buffer_top_tbl", width = "100%")
             ),
             tabPanel(
               title = "Bottom 10 underperformers",
               br(),
+              tags$p(
+                style = "font-size: 13px; color: #475569; margin: 0 0 12px 0;",
+                "Countries reporting substantially more hunger than their climate burden alone would predict."
+              ),
               DT::dataTableOutput("buffer_bottom_tbl", width = "100%")
+            ),
+            tabPanel(
+              title = "Analyzed trends",
+              br(),
+              tags$div(
+                style = "font-size: 13px; line-height: 1.7; color: #334155;",
+                tags$div(
+                  style = "background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px; padding: 16px; margin-bottom: 16px;",
+                  tags$h5(style = "margin: 0 0 10px 0; color: #991b1b; font-size: 14px; font-weight: 700;",
+                          icon("exclamation-triangle"), " Trend 1 — Conflict and weak governance destroy buffers"),
+                  tags$p(style = "margin: 0 0 8px 0;",
+                         "The deepest underperformers are dominated by political violence and state fragility, not by being the most climate-exposed countries on Earth."),
+                  tags$ul(style = "margin: 0; padding-left: 18px;",
+                    tags$li(strong("Haiti"), " (−38.8 pp): institutional collapse and repeated crises; hunger far above climate prediction."),
+                    tags$li(strong("Syria"), " (−25.2 pp), ", strong("Kenya"), " (−22.1 pp), ", strong("Madagascar"), " (−20.7 pp), ", strong("Liberia"), " (−18.1 pp): conflict, displacement, or governance breakdown eroding food systems."),
+                    tags$li(strong("Central African Republic"), " (−9.7 pp) and ", strong("Afghanistan"), " (rank 129, −7.3 pp): hunger exceeds climate fundamentals where violence disrupts agriculture and aid."),
+                    tags$li(tags$em("Significance:"), " Vulnerability-weighted aid would systematically miss the countries where hunger most exceeds climate exposure — and overlook that conflict destroys buffers faster than climate alone erodes them.")
+                  )
+                ),
+                tags$div(
+                  style = "background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 16px; margin-bottom: 16px;",
+                  tags$h5(style = "margin: 0 0 10px 0; color: #166534; font-size: 14px; font-weight: 700;",
+                          icon("seedling"), " Trend 2 — Overperformance clusters in two distinct groups"),
+                  tags$ul(style = "margin: 0; padding-left: 18px;",
+                    tags$li(strong("Pacific & Indian Ocean small island states"), " (Kiribati, Samoa, Vanuatu, Seychelles): very high exposure scores but low measured undernourishment — partly exposure-driven index mechanics; flagged for robustness."),
+                    tags$li(strong("Agrarian states with sustained investment"), " (Bangladesh +9.0, Senegal +12.1, Nepal +8.7, Cambodia +8.1, Philippines +7.9, Viet Nam +7.1): agricultural progress, social protection, and disaster preparedness beating climate odds."),
+                    tags$li(strong("Sahelian overperformers"), " (Senegal, Mauritania, Niger, Mali): among the world's most climate-exposed, yet hunger below prediction — suggesting adaptation can work even under extreme exposure."),
+                    tags$li(tags$em("Significance:"), " Effective adaptation is visible in outcome data, not only in plans. These countries are candidates for studying what policies actually work.")
+                  )
+                ),
+                tags$div(
+                  style = "background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 16px; margin-bottom: 16px;",
+                  tags$h5(style = "margin: 0 0 10px 0; color: #1e40af; font-size: 14px; font-weight: 700;",
+                          icon("balance-scale"), " Trend 3 — Buffer and vulnerability diverge in the tails"),
+                  tags$p(style = "margin: 0 0 8px 0;",
+                         "A vulnerability ranking and a buffer ranking would direct aid to substantially different country lists."),
+                  tags$ul(style = "margin: 0; padding-left: 18px;",
+                    tags$li(strong("Niger"), " (V = 0.636, among the most vulnerable) posts a ", strong("+11.2 pp"), " buffer — beating its climate odds."),
+                    tags$li(strong("Botswana"), " (V = 0.431, mid-range vulnerability) posts a ", strong("−14.1 pp"), " buffer — hunger far above its climate burden."),
+                    tags$li(strong("Middle-income underperformers"), " (Botswana, Gabon): negative buffers point to inequality and distributional failure, not raw climate hazard."),
+                    tags$li(tags$em("Significance:"), " Climate vulnerability does not equal hunger. The buffer makes performance — not just exposure — visible and trackable.")
+                  )
+                ),
+                tags$div(
+                  style = "background: #faf5ff; border: 1px solid #e9d5ff; border-radius: 8px; padding: 16px;",
+                  tags$h5(style = "margin: 0 0 10px 0; color: #6b21a8; font-size: 14px; font-weight: 700;",
+                          icon("compass"), " Policy takeaway"),
+                  tags$p(style = "margin: 0;",
+                         "Aid and adaptation finance should use a two-axis screen: ",
+                         strong("vulnerability level"), " × ", strong("buffer trend"),
+                         ". Target countries with large but shrinking buffers (the Bangladesh-2007 cyclone pattern) for preventive finance — defending existing adaptive gains is often cheaper than rebuilding after collapse. Because Model 3 explains only ~6% of buffer variation, the watch-list must come from direct buffer monitoring each year, not from forecasting models alone.")
+                )
+              )
             )
           )
         )
@@ -4848,10 +4972,32 @@ body <- dashboardBody(
               "66 countries are robust over-performers (P(buffer > 0) ≥ 90%); 42 are robust under-performers."
             ),
             tags$p(
-              style = "font-size: 14px; line-height: 1.6; color: #555; margin: 0;",
+              style = "font-size: 14px; line-height: 1.6; color: #555; margin: 0 0 12px 0;",
               tags$strong("Model 5 (collapse):"),
               " Simulated 20-year buffer paths under random climate/conflict shocks. ",
               "A Bangladesh-like +9 pp buffer has a 41% chance of collapsing below zero within 20 years under baseline shocks, but only 4% once resilience investments soften shocks and speed recovery."
+            )
+          ),
+          tags$div(
+            style = "background: #ecfdf5; border: 1px solid #a7f3d0; border-radius: 8px; padding: 16px; margin-bottom: 20px;",
+            tags$h5(style = "margin: 0 0 10px 0; color: #065f46; font-size: 14px; font-weight: 700;", "What the Monte Carlo simulations show"),
+            tags$div(
+              style = "font-size: 13px; line-height: 1.7; color: #064e3b;",
+              tags$p(style = "margin: 0 0 10px 0; font-weight: 600;", "Model 4 — Are the rankings real, or statistical noise?"),
+              tags$ul(style = "margin: 0 0 14px 0; padding-left: 18px;",
+                tags$li("The benchmark regression line is precisely estimated: vulnerability slope 90% CI [58.3, 81.5]; R² CI [0.34, 0.53]."),
+                tags$li("Nearly three-quarters of countries land in a clear camp: 66 robust over-performers, 42 robust under-performers, only 35 ambiguous."),
+                tags$li(strong("Bangladesh"), " stays positive in 100% of 20,000 simulations (90% CI [+6.1, +12.1] pp); even the pessimistic tail leaves it a clear over-performer."),
+                tags$li(strong("Haiti"), " and ", strong("Kenya"), " stay negative in 100% of simulations — the underperformer list is not a coin-flip."),
+                tags$li(tags$em("Significance:"), " Point estimates from the rankings tables are trustworthy enough for policy prioritization; uncertainty is concentrated in countries near the benchmark line.")
+              ),
+              tags$p(style = "margin: 0 0 10px 0; font-weight: 600;", "Model 5 — How fragile is a healthy buffer?"),
+              tags$ul(style = "margin: 0; padding-left: 18px;",
+                tags$li("A +9 pp buffer (Bangladesh-like) has a 41% chance of falling below zero at least once within 20 years under severe shocks and slow recovery."),
+                tags$li("The same starting buffer has only a 4.4% collapse probability once resilience investments reduce shock damage (~40%) and speed recovery."),
+                tags$li("Expected years underwater drop from 1.01 to 0.05 per 20-year window — both countries face identical climate exposure; the difference is absorptive capacity."),
+                tags$li(tags$em("Significance:"), " Buffers are assets that can be built and lost. Defending a buffer through early warning, storage, safety nets, and flood protection has far higher marginal return than waiting for hunger statistics to spike — and this risk is invisible to vulnerability indices alone.")
+              )
             )
           ),
           tags$h5(style = "color: #2c3e50; margin-bottom: 8px;", "Selected countries — Monte Carlo buffer confidence"),
@@ -7145,8 +7291,10 @@ server <- function(input, output, session) {
           TRUE ~ format(round(population, 0), big.mark = ",", scientific = FALSE)
         ),
         .hover_area = dplyr::case_when(
-          !is.na(agriculture_land) ~ paste0(round(agriculture_land, 1), "% agricultural land"),
-          TRUE ~ "No data"
+          !is.na(land_area_km2) ~ paste0(
+            format(round(land_area_km2, 0), big.mark = ",", scientific = FALSE), " km²"
+          ),
+          TRUE ~ "Not Reported by World Bank"
         ),
         hover_text = ifelse(
           !map_active,
