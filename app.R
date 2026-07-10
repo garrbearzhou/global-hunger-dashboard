@@ -5231,10 +5231,10 @@ body <- dashboardBody(
               tags$h4(icon("heart"), " Research Interests", style = "color: #3c8dbc;"),
             tags$ul(
                 style = "font-size: 14px; color: #555; line-height: 1.8;",
+                tags$li("Digital and computational humanities"),
                 tags$li("Global hunger and food insecurity"),
                 tags$li("Data-driven policy solutions"),
-                tags$li("Food systems and sustainability"),
-                tags$li("Public health and nutrition")
+                tags$li("Food systems and sustainability")
               ),
               
               tags$h4(icon("envelope"), " Contact & Links", style = "color: #3c8dbc;"),
@@ -5356,28 +5356,16 @@ body <- dashboardBody(
             style = "padding: 20px;",
             tags$h3("About This Collaboration", style = "color: #2c3e50; margin-top: 0;"),
             tags$p(
-              "This research project is a collaboration between me and a Duke University professor specializing in Digital Humanities. ",
-              "Through this mentorship, I'm learning to apply data science and digital research methodologies ",
-              "to understand complex global challenges.",
+              "I work with ",
+              tags$a(href = "https://scholars.duke.edu/person/hannah.jacobs", target = "_blank", rel = "noopener noreferrer", "Professor Hannah Jacobs"),
+              " at ",
+              tags$a(href = "https://library.duke.edu/", target = "_blank", rel = "noopener noreferrer", "Duke Libraries"),
+              " on this project. She helps me figure out how to turn a big question — why are people still hungry? — into something I can actually measure, analyze, and write about.",
               style = "font-size: 15px; line-height: 1.8; color: #555; margin-bottom: 20px;"
             ),
             tags$p(
-              "I've combined rigorous statistical analysis with interactive data visualization to make ",
-              "hunger research accessible to policymakers, researchers, and the public. By integrating multiple ",
-              "data sources and applying advanced analytical techniques, I aim to provide actionable ",
-              "insights into the factors driving global hunger and food insecurity.",
-              style = "font-size: 15px; line-height: 1.8; color: #555; margin-bottom: 20px;"
-            ),
-            tags$div(
-              style = "background: #fff3cd; padding: 15px; border-radius: 5px; border-left: 4px solid #ffc107;",
-              tags$p(
-                strong("Mentorship Approach: "),
-                "Professor Jacobs provides guidance on research methodology, data analysis techniques, and digital ",
-                "scholarship practices. Her expertise in Digital Humanities helps bridge traditional research ",
-                "approaches with modern computational methods, enabling innovative approaches to understanding ",
-                "global hunger patterns.",
-                style = "font-size: 14px; color: #856404; margin: 0; line-height: 1.6;"
-              )
+              "The dashboard pulls together public data on hunger, conflict, climate, and governance. I built the maps and models because I wanted to see the patterns myself, not just read about them in a report. If it helps someone else understand the issue a little better, that's a win.",
+              style = "font-size: 15px; line-height: 1.8; color: #555; margin-bottom: 0;"
             )
           )
         )
