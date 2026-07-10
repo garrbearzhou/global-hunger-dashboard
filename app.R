@@ -5217,6 +5217,12 @@ body <- dashboardBody(
                 style = "font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 10px;"
               ),
               tags$p(
+                "I first got interested in food security when I started volunteering at the ",
+                tags$a(href = "https://foodbankcenc.org/locations/durham", target = "_blank", rel = "noopener noreferrer", "Durham Food Bank of Central & Eastern North Carolina"),
+                ". Seeing how many people in my own community were actually struggling made hunger feel real in a way I hadn't before.",
+                style = "font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 10px;"
+              ),
+              tags$p(
                 "Outside the classroom, I play for the ",
                 tags$a(href = "https://www.ncfcyouth.com/boys-academy", target = "_blank", rel = "noopener noreferrer", "NCFC Academy"),
                 " ECNL boys soccer team, affiliated with ",
@@ -5397,11 +5403,9 @@ body <- dashboardBody(
               ),
               tags$li(
                 tags$a(href = "https://directory.library.duke.edu/staff/eric.monson", target = "_blank", rel = "noopener noreferrer", "Eric Monson"),
-                " for help with data visualization"
-              ),
-              tags$li(
+                " and ",
                 tags$a(href = "https://directory.library.duke.edu/staff/drew.keener", target = "_blank", rel = "noopener noreferrer", "Drew Keener"),
-                " for help with maps and geospatial data"
+                " for a joint call that helped with data visualization and geospatial mapping"
               ),
               tags$li(
                 "The ",
