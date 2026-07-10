@@ -5153,7 +5153,7 @@ body <- dashboardBody(
           tags$div(
             style = "background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 5px; margin-bottom: 20px; color: white; text-align: center;",
             tags$h2("Global Hunger Research Project", style = "margin: 0 0 10px 0; color: white;"),
-            tags$p("A collaborative research initiative at Duke University", style = "font-size: 16px; margin: 0; color: rgba(255,255,255,0.9);")
+            tags$p("A collaborative research initiative at ", tags$a(href = "https://www.duke.edu/", target = "_blank", rel = "noopener noreferrer", "Duke University"), style = "font-size: 16px; margin: 0; color: rgba(255,255,255,0.9);")
           )
         )
       ),
@@ -5203,8 +5203,8 @@ body <- dashboardBody(
               style = "background: #f8f9fa; padding: 20px; border-radius: 8px; text-align: left; margin-top: 20px;",
               tags$h4(icon("university"), " Affiliation", style = "color: #3c8dbc; margin-top: 0;"),
               tags$p(
-                "Durham Academy", tags$br(),
-                "Durham, North Carolina",
+                tags$a(href = "https://www.da.org/", target = "_blank", rel = "noopener noreferrer", "Durham Academy"), tags$br(),
+                tags$a(href = "https://www.durhamnc.gov/", target = "_blank", rel = "noopener noreferrer", "Durham"), ", North Carolina",
                 style = "font-size: 14px; color: #555; margin-bottom: 15px;"
               ),
               
@@ -5213,6 +5213,14 @@ body <- dashboardBody(
                 "Garrett is a high school student passionate about addressing global hunger and food insecurity. ",
                 "Through this research project, he aims to understand the complex factors driving hunger worldwide ",
                 "and develop data-driven solutions to help combat this critical issue.",
+                style = "font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 10px;"
+              ),
+              tags$p(
+                "Outside the classroom, he plays for the ",
+                tags$a(href = "https://www.ncfcyouth.com/boys-academy", target = "_blank", rel = "noopener noreferrer", "NCFC Academy"),
+                " ECNL boys soccer team, affiliated with ",
+                tags$a(href = "https://www.northcarolinafc.com/", target = "_blank", rel = "noopener noreferrer", "NCFC"),
+                ".",
                 style = "font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 15px;"
               ),
               
@@ -5275,7 +5283,10 @@ body <- dashboardBody(
                 onerror = "this.style.display='none';"
               )
             ),
-            tags$h3("Professor Hannah Jacobs", style = "color: #2c3e50; margin: 0 0 10px 0; font-size: 24px;"),
+            tags$h3(
+              tags$a(href = "https://scholars.duke.edu/person/hannah.jacobs", target = "_blank", rel = "noopener noreferrer", style = "color: #2c3e50; text-decoration: none;", "Professor Hannah Jacobs"),
+              style = "margin: 0 0 10px 0; font-size: 24px;"
+            ),
             tags$p(
               style = "font-size: 16px; color: #666; margin-bottom: 20px; font-style: italic;",
               "Professor of Duke Libraries"
@@ -5285,7 +5296,7 @@ body <- dashboardBody(
               tags$h4(icon("university"), " Affiliation", style = "color: #28a745; margin-top: 0;"),
               tags$p(
                 "Duke University", tags$br(),
-                "Duke Libraries",
+                tags$a(href = "https://library.duke.edu/", target = "_blank", rel = "noopener noreferrer", "Duke Libraries"),
                 style = "font-size: 14px; color: #555; margin-bottom: 15px;"
               ),
               
@@ -5300,9 +5311,19 @@ body <- dashboardBody(
               tags$h4(icon("award"), " Education & Expertise", style = "color: #28a745;"),
             tags$ul(
                 style = "font-size: 14px; color: #555; line-height: 1.8;",
-                tags$li("MS in Information Science, UNC Chapel Hill"),
-                tags$li("MA in Digital Humanities, King's College London"),
-                tags$li("BA in English and Theatre, Warren Wilson College"),
+                tags$li(
+                  "MS in Information Science, ",
+                  tags$a(href = "https://www.unc.edu/", target = "_blank", rel = "noopener noreferrer", "UNC"),
+                  " Chapel Hill"
+                ),
+                tags$li(
+                  "MA in Digital Humanities, ",
+                  tags$a(href = "https://www.kcl.ac.uk/", target = "_blank", rel = "noopener noreferrer", "King's College London")
+                ),
+                tags$li(
+                  "BA in English and Theatre, ",
+                  tags$a(href = "https://www.warren-wilson.edu/", target = "_blank", rel = "noopener noreferrer", "Warren Wilson College")
+                ),
                 tags$li("Digital Humanities topics broadly"),
                 tags$li("Information science and data management"),
                 tags$li("Digital scholarship and research methodologies")
@@ -5312,11 +5333,7 @@ body <- dashboardBody(
               tags$p(
                 tags$a(href = "mailto:hannah.jacobs@duke.edu", "hannah.jacobs@duke.edu",
                        style = "color: #28a745; text-decoration: none;"),
-                tags$br(),
-                tags$a(href = "https://library.duke.edu/", target = "_blank",
-                       icon("external-link-alt", style = "margin-right: 5px;"), "Duke Libraries",
-                       style = "color: #28a745; text-decoration: none; display: inline-block; margin-top: 5px;"),
-                style = "font-size: 14px; color: #555;"
+                style = "font-size: 14px; color: #555; margin: 0;"
               )
             )
           )
@@ -5383,6 +5400,17 @@ body <- dashboardBody(
               tags$li("Professor Hannah Jacobs for her mentorship, guidance, and expertise in Digital Humanities"),
               tags$li("All data providers including the World Bank, FAO, WFP, WHO, and other organizations that make their data publicly available"),
               tags$li("The global research community working to address hunger and food insecurity")
+            ),
+            tags$p(
+              style = "font-size: 14px; color: #555; margin: 18px 0 0 0; line-height: 1.6;",
+              "Learn more about Professor Jacobs at ",
+              tags$a(
+                href = "https://hannahlangstonjacobs.com/",
+                target = "_blank",
+                rel = "noopener noreferrer",
+                "hannahlangstonjacobs.com"
+              ),
+              "."
             )
           )
         )
