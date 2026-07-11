@@ -3571,6 +3571,18 @@ body <- dashboardBody(
           width = 12,
           tags$div(
             style = "font-size: 16px; line-height: 1.8; padding: 20px;",
+            tags$div(
+              style = "text-align: center; margin-bottom: 24px;",
+              tags$img(
+                src = "assets/og-social-preview.png",
+                alt = "Global Hunger Vulnerability Dashboard — interactive food security research across countries",
+                style = paste(
+                  "max-width: 100%; height: auto; display: block; margin: 0 auto;",
+                  "border-radius: 10px; border: 1px solid #e2e8f0;",
+                  "box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);"
+                )
+              )
+            ),
             tags$h2("Understanding Global Hunger: A Comprehensive Research Initiative", 
                    style = "color: #2c3e50; margin-bottom: 20px;"),
             tags$h3("Why this dashboard exists", style = "color: #3c8dbc; margin-top: 24px; margin-bottom: 12px;"),
