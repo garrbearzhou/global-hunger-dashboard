@@ -21,17 +21,47 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://globalhungerdashboard.com/?tab=bangladesh_research</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globalhungerdashboard.com/?tab=about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://globalhungerdashboard.com/?tab=overview</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globalhungerdashboard.com/?tab=scenario_lab</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://globalhungerdashboard.com/?tab=timeseries</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://globalhungerdashboard.com/?tab=analysis</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://globalhungerdashboard.com/?tab=grfc_trends</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globalhungerdashboard.com/?tab=ghi_comparison</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globalhungerdashboard.com/?tab=explorer</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

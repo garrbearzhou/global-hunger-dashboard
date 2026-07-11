@@ -2044,8 +2044,50 @@ body <- dashboardBody(
           analysis: {
             title: 'Hunger Statistical Analysis',
             description: 'Adaptation buffer research: OLS models, global buffer rankings, and Monte Carlo uncertainty across 143 countries.'
+          },
+          citations: {
+            title: 'Data Sources & Citations | Global Hunger Dashboard',
+            description: 'Chicago-style citations for FAO, World Bank, WFP, WHO, and other datasets used in the hunger vulnerability dashboard.'
+          },
+          data_coverage: {
+            title: 'Data Coverage | Global Hunger Dashboard',
+            description: 'Country and indicator coverage across integrated hunger, climate, conflict, and governance datasets.'
+          },
+          bangladesh_research: {
+            title: 'Bangladesh Climate & Food Security Research',
+            description: 'North Carolina Youth Institute research on Bangladesh floods, cyclones, sea-level rise, and food security.'
+          },
+          about: {
+            title: 'About | Global Hunger Research Project',
+            description: 'Meet Garrett Zhou and Professor Hannah Jacobs — Duke University research on global hunger and food insecurity.'
+          },
+          scenario_lab: {
+            title: 'Scenario Lab | Global Hunger Dashboard',
+            description: 'Adjust vulnerability pillar weights and explore how rankings change across countries.'
+          },
+          grfc_trends: {
+            title: 'GRFC Trends | Global Hunger Dashboard',
+            description: 'Trends from the Global Report on Food Crises — acute food insecurity and crisis severity over time.'
+          },
+          ghi_comparison: {
+            title: 'Global Hunger Index Comparison',
+            description: 'Compare Global Hunger Index metrics with dashboard vulnerability scores across countries.'
+          },
+          explorer: {
+            title: 'Data Explorer | Global Hunger Dashboard',
+            description: 'Search and browse country-level hunger, nutrition, climate, and governance indicators.'
           }
         };
+
+        function setCanonical(url) {
+          let el = document.querySelector('link[rel=\"canonical\"]');
+          if (!el) {
+            el = document.createElement('link');
+            el.setAttribute('rel', 'canonical');
+            document.head.appendChild(el);
+          }
+          el.setAttribute('href', url);
+        }
 
         function setMeta(attr, key, value) {
           let el = document.querySelector('meta[' + attr + '=\"' + key + '\"]');
@@ -2068,6 +2110,7 @@ body <- dashboardBody(
           setMeta('property', 'og:url', pageUrl);
           setMeta('name', 'twitter:title', seo.title);
           setMeta('name', 'twitter:description', seo.description);
+          setCanonical(pageUrl);
         }
 
         function syncTabParam(tab) {
