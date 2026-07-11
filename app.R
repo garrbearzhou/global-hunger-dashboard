@@ -2012,12 +2012,15 @@ body <- dashboardBody(
     tags$meta(property = "og:url", content = "https://globalhungerdashboard.com/"),
     tags$meta(property = "og:title", content = "Global Hunger Vulnerability Dashboard"),
     tags$meta(property = "og:description", content = "Interactive global hunger vulnerability map with country hunger profiles, undernourishment data, and food security indicators."),
-    tags$meta(property = "og:image", content = "https://globalhungerdashboard.com/assets/scenario_country_landscape.svg"),
+    tags$meta(property = "og:image", content = "https://globalhungerdashboard.com/assets/og-social-preview.png"),
+    tags$meta(property = "og:image:width", content = "1200"),
+    tags$meta(property = "og:image:height", content = "630"),
+    tags$meta(property = "og:image:alt", content = "Global Hunger Vulnerability Dashboard — interactive food security map and country profiles"),
     tags$meta(property = "og:site_name", content = "Global Hunger Dashboard"),
     tags$meta(name = "twitter:card", content = "summary_large_image"),
     tags$meta(name = "twitter:title", content = "Global Hunger Vulnerability Dashboard"),
     tags$meta(name = "twitter:description", content = "Explore the global hunger vulnerability map and country-level food security profiles."),
-    tags$meta(name = "twitter:image", content = "https://globalhungerdashboard.com/assets/scenario_country_landscape.svg"),
+    tags$meta(name = "twitter:image", content = "https://globalhungerdashboard.com/assets/og-social-preview.png"),
     tags$script(HTML("
       (function() {
         const SEO_BY_TAB = {
@@ -4435,6 +4438,31 @@ body <- dashboardBody(
     tabItem(
       tabName = "bangladesh_research",
       fluidRow(
+        column(
+          12,
+          tags$section(
+            class = "seo-intro-block",
+            tags$h1("Bangladesh Climate Change & Food Security Research"),
+            tags$h2("North Carolina Youth Institute and World Food Prize paper"),
+            tags$p(
+              "This page shares my research on how climate stressors — floods, cyclones, sea-level rise, ",
+              "and salinity intrusion — interact with food security in Bangladesh. I developed the work for ",
+              "the North Carolina Youth Institute / World Food Prize program, combining narrative evidence ",
+              "from the Ganges–Brahmaputra–Meghna delta with cross-country regression, Bangladesh time-series ",
+              "analysis, and a policy optimization model for nutrition and climate-resilient agriculture."
+            ),
+            tags$p(
+              "The research asks how climate vulnerability relates to undernourishment globally, what that ",
+              "implies for Bangladesh specifically, and which interventions — school feeding, saline-tolerant ",
+              "rice, storage, irrigation, and early warning — offer the strongest returns under realistic ",
+              "budget and political constraints. Open ",
+              tags$a(href = "?tab=country_details", "Country Details"),
+              " and select Bangladesh to compare dashboard indicators with the paper findings."
+            )
+          )
+        )
+      ),
+      fluidRow(
         box(
           title = "Bangladesh, Climate Change & Food Security",
           status = "primary",
@@ -5185,6 +5213,38 @@ body <- dashboardBody(
     # About Tab
     tabItem(
       tabName = "about",
+      fluidRow(
+        column(
+          12,
+          tags$section(
+            class = "seo-intro-block",
+            tags$h1("About the Global Hunger Research Project"),
+            tags$h2("Student-led hunger research at Duke University"),
+            tags$p(
+              "I am Garrett Zhou, a high school researcher at ",
+              tags$a(href = "https://www.da.org/", target = "_blank", rel = "noopener noreferrer", "Durham Academy"),
+              ", working with ",
+              tags$a(href = "https://scholars.duke.edu/person/hannah.jacobs", target = "_blank", rel = "noopener noreferrer", "Professor Hannah Jacobs"),
+              " at ",
+              tags$a(href = "https://library.duke.edu/", target = "_blank", rel = "noopener noreferrer", "Duke Libraries"),
+              " on this interactive dashboard. My interest in food security started when I volunteered at the ",
+              tags$a(href = "https://foodbankcenc.org/locations/durham", target = "_blank", rel = "noopener noreferrer", "Durham Food Bank of Central & Eastern North Carolina"),
+              " and saw how many people in my community were struggling with hunger."
+            ),
+            tags$p(
+              "The project maps hunger-related risk across countries, runs statistical models on adaptation ",
+              "buffers and undernourishment drivers, and includes my Bangladesh climate and food security ",
+              "research from the North Carolina Youth Institute. Explore the ",
+              tags$a(href = "?tab=map", "global hunger vulnerability map"),
+              ", read the ",
+              tags$a(href = "?tab=bangladesh_research", "Bangladesh research page"),
+              ", or review ",
+              tags$a(href = "?tab=analysis", "statistical analysis"),
+              " for the adaptation-buffer models."
+            )
+          )
+        )
+      ),
       # Page Header
       fluidRow(
         box(

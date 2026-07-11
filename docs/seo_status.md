@@ -67,11 +67,12 @@ Full instructions: **`docs/backlinks_playbook.md`**
 - [x] Sitemap expanded to 15 URLs (6 new tabs)
 - [x] `SEO_BY_TAB` covers all public menu tabs
 - [x] Per-tab canonical URLs update in browser
+- [x] `seo-intro-block` on Bangladesh and About tabs
+- [x] `landing.html` refreshed with new section links
+- [x] OG/Twitter preview image: `assets/og-social-preview.png` (1200×630)
 
 ## Optional next SEO work
 
 - [x] Static landing page with crawlable intro copy
 - [x] Open Graph / Twitter meta tags
 - [ ] Backlinks — in progress (see playbook)
-- [ ] `seo-intro-block` on Bangladesh and About tabs
-- [ ] Refresh `landing.html` with new tab links
