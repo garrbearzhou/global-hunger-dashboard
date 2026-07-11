@@ -156,7 +156,7 @@ def main():
     )
 
     draw_vulnerability_bar(draw, title_x, title_y + 248, width=360, label_font=meta_label_font, small_font=meta_small_font)
-    draw_scenario_lab_card(draw, x=title_x, y=title_y + 318, label_font=meta_label_font, small_font=meta_small_font)
+    draw_scenario_lab_card(draw, x=title_x, y=title_y + 292, label_font=meta_label_font, small_font=meta_small_font)
 
     draw.text((MARGIN_LEFT, 518), "globalhungerdashboard.com", font=url_font, fill=ACCENT_DARK)
     draw.text(

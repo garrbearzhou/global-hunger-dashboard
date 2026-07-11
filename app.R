@@ -2012,7 +2012,7 @@ body <- dashboardBody(
     tags$meta(property = "og:url", content = "https://globalhungerdashboard.com/"),
     tags$meta(property = "og:title", content = "Global Hunger Vulnerability Dashboard"),
     tags$meta(property = "og:description", content = "Interactive global hunger vulnerability map with country hunger profiles, undernourishment data, and food security indicators."),
-    tags$meta(property = "og:image", content = "https://globalhungerdashboard.com/assets/og-social-preview.png?v=9"),
+    tags$meta(property = "og:image", content = "https://globalhungerdashboard.com/assets/og-social-preview.png?v=10"),
     tags$meta(property = "og:image:width", content = "1200"),
     tags$meta(property = "og:image:height", content = "630"),
     tags$meta(property = "og:image:alt", content = "Global Hunger Vulnerability Dashboard — interactive food security map and country profiles"),
@@ -2020,7 +2020,7 @@ body <- dashboardBody(
     tags$meta(name = "twitter:card", content = "summary_large_image"),
     tags$meta(name = "twitter:title", content = "Global Hunger Vulnerability Dashboard"),
     tags$meta(name = "twitter:description", content = "Explore the global hunger vulnerability map and country-level food security profiles."),
-    tags$meta(name = "twitter:image", content = "https://globalhungerdashboard.com/assets/og-social-preview.png?v=9"),
+    tags$meta(name = "twitter:image", content = "https://globalhungerdashboard.com/assets/og-social-preview.png?v=10"),
     tags$script(HTML("
       (function() {
         const SEO_BY_TAB = {
