@@ -62,7 +62,7 @@ def draw_subtle_grid(draw):
 def draw_vulnerability_bar(draw, x, y, width):
     label_font = load_font(15, "sans")
     tick_font = load_font(13, "sans")
-    draw.text((x, y - 24), "Vulnerability score (0–100)", font=label_font, fill="#64748b")
+    draw.text((x, y - 24), "Trademark Vulnerability Score (0–100)", font=label_font, fill="#64748b")
 
     seg_w = width // len(SCALE)
     bar_h = 12
@@ -73,16 +73,6 @@ def draw_vulnerability_bar(draw, x, y, width):
 
     draw.text((x, y + bar_h + 8), "Lower risk", font=tick_font, fill="#94a3b8")
     draw.text((x + width - 72, y + bar_h + 8), "Higher risk", font=tick_font, fill="#94a3b8")
-
-
-def draw_stat_chip(draw, x, y, text, font):
-    bbox = draw.textbbox((0, 0), text, font=font)
-    pad_x, pad_y = 14, 8
-    w = bbox[2] - bbox[0] + pad_x * 2
-    h = bbox[3] - bbox[1] + pad_y * 2
-    draw.rounded_rectangle((x, y, x + w, y + h), radius=10, outline="#e2e8f0", fill="#f1f5f9")
-    draw.text((x + pad_x, y + pad_y - 1), text, font=font, fill=MUTED)
-    return w
 
 
 def draw_scenario_lab_card(draw, x, y):
@@ -145,7 +135,6 @@ def main():
     sub_font = load_font(26, "serif")
     url_font = load_font(22, "sans")
     credit_font = load_font(19, "sans")
-    chip_font = load_font(16, "sans")
 
     draw.text((title_x, title_y), "Global Hunger", font=title_font, fill=INK)
     draw.text((title_x, title_y + 58), "Vulnerability Dashboard", font=title_font, fill=INK)
@@ -165,14 +154,7 @@ def main():
     )
 
     draw_vulnerability_bar(draw, title_x, title_y + 248, width=360)
-
-    chip_y = title_y + 310
-    chip_x = title_x
-    chip_x += draw_stat_chip(draw, chip_x, chip_y, "143 countries", chip_font) + 12
-    chip_x += draw_stat_chip(draw, chip_x, chip_y, "12-pillar score", chip_font) + 12
-    draw_stat_chip(draw, chip_x, chip_y, "Scenario lab", chip_font)
-
-    draw_scenario_lab_card(draw, x=400, y=chip_y - 8)
+    draw_scenario_lab_card(draw, x=title_x, y=title_y + 318)
 
     draw.text((MARGIN_LEFT, 492), "globalhungerdashboard.com", font=url_font, fill=ACCENT_DARK)
     draw.text(
