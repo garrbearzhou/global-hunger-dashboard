@@ -2219,14 +2219,18 @@ body <- dashboardBody(
         box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
       }
       .site-brand-preview-header > a {
-        padding: 5px 12px !important;
+        padding: 3px 10px !important;
         line-height: 0 !important;
         background: transparent !important;
+        height: 50px;
+        display: flex !important;
+        align-items: center !important;
       }
       .site-brand-preview-header__img,
       .site-brand-preview-header img {
-        height: 38px;
+        height: 44px;
         width: auto;
+        max-height: 44px;
         display: block;
         border-radius: 5px;
         border: 1px solid rgba(255, 255, 255, 0.28);
