@@ -85,6 +85,31 @@ def draw_stat_chip(draw, x, y, text, font):
     return w
 
 
+def draw_scenario_lab_card(draw, x, y):
+    """Mini Scenario lab panel — pillar sliders + country landscape hint."""
+    w, h = 248, 124
+    draw.rounded_rectangle((x, y, x + w, y + h), radius=12, outline="#e2e8f0", fill="#f8fafc")
+    title_font = load_font(15, "sans")
+    sub_font = load_font(12, "sans")
+    draw.text((x + 14, y + 12), "Scenario lab", font=title_font, fill=INK)
+    draw.text((x + 14, y + 34), "Adjust pillar multipliers", font=sub_font, fill="#64748b")
+
+    # Mini country landscape (ocean + land), echoing the dashboard tab
+    draw.rounded_rectangle((x + 14, y + 58, x + 96, y + 106), radius=6, fill="#7dd3fc")
+    land = [
+        (x + 36, y + 90), (x + 48, y + 74), (x + 62, y + 70), (x + 76, y + 78),
+        (x + 82, y + 92), (x + 68, y + 98), (x + 50, y + 96),
+    ]
+    draw.polygon(land, fill="#f97316", outline="#1c1917")
+
+    # Slider tracks + thumbs
+    for i, thumb in enumerate([0.25, 0.55, 0.8]):
+        sy = y + 60 + i * 16
+        draw.rounded_rectangle((x + 112, sy, x + 228, sy + 6), radius=3, fill="#e2e8f0")
+        tx = x + 112 + int(116 * thumb)
+        draw.ellipse((tx - 5, sy - 3, tx + 5, sy + 9), fill=ACCENT)
+
+
 def draw_faint_connector(draw):
     """Soft curve linking text block to globe."""
     draw.arc((520, 180, 900, 520), 300, 30, fill="#cbd5e1", width=2)
@@ -144,10 +169,18 @@ def main():
     chip_y = title_y + 310
     chip_x = title_x
     chip_x += draw_stat_chip(draw, chip_x, chip_y, "143 countries", chip_font) + 12
-    draw_stat_chip(draw, chip_x, chip_y, "12-pillar score", chip_font)
+    chip_x += draw_stat_chip(draw, chip_x, chip_y, "12-pillar score", chip_font) + 12
+    draw_stat_chip(draw, chip_x, chip_y, "Scenario lab", chip_font)
+
+    draw_scenario_lab_card(draw, x=400, y=chip_y - 8)
 
     draw.text((MARGIN_LEFT, 492), "globalhungerdashboard.com", font=url_font, fill=ACCENT_DARK)
-    draw.text((MARGIN_LEFT, 524), "Garrett Zhou", font=credit_font, fill="#94a3b8")
+    draw.text(
+        (MARGIN_LEFT, 524),
+        "Garrett Zhou  ·  Durham Academy Upper School",
+        font=credit_font,
+        fill="#94a3b8",
+    )
     draw.text(
         (MARGIN_LEFT, 550),
         "Professor Hannah Jacobs, Duke Libraries",
