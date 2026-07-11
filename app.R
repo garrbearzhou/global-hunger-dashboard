@@ -1933,18 +1933,7 @@ ncyi_gallery_ui <- function() {
 # Header
 header <- dashboardHeader(
   title = "Global Hunger Research Dashboard",
-  titleWidth = 350,
-  tags$li(
-    class = "dropdown",
-    tags$a(
-      href = "https://github.com/garrbearzhou",
-      target = "_blank",
-      rel = "noopener noreferrer",
-      title = "GitHub profile — garrbearzhou",
-      icon("github", "fa-2x"),
-      style = "padding: 10px;"
-    )
-  )
+  titleWidth = 350
 )
 
 # Sidebar
@@ -1998,6 +1987,18 @@ sidebar <- dashboardSidebar(
       )
     )
 
+  ),
+  tags$div(
+    class = "sidebar-github-link",
+    style = "padding: 14px 18px 18px; border-top: 1px solid rgba(255,255,255,0.12); margin-top: 8px;",
+    tags$a(
+      href = "https://github.com/garrbearzhou/global-hunger-dashboard",
+      target = "_blank",
+      rel = "noopener noreferrer",
+      title = "Global Hunger Dashboard — source code on GitHub",
+      icon("github"),
+      " GitHub repository"
+    )
   )
 )
 
@@ -2192,6 +2193,32 @@ body <- dashboardBody(
         margin: 0 0 10px;
       }
       .seo-intro-block p:last-child { margin-bottom: 0; }
+      .intro-preview-corner {
+        float: right;
+        width: min(38%, 320px);
+        margin: 0 0 18px 22px;
+      }
+      .intro-preview-corner img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
+      }
+      .intro-preview-clear { clear: both; }
+      .sidebar-github-link a {
+        color: #bae6fd !important;
+        font-size: 13px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .sidebar-github-link a:hover {
+        color: #ffffff !important;
+        text-decoration: underline;
+      }
       .sr-only {
         position: absolute;
         width: 1px;
@@ -3572,15 +3599,10 @@ body <- dashboardBody(
           tags$div(
             style = "font-size: 16px; line-height: 1.8; padding: 20px;",
             tags$div(
-              style = "text-align: center; margin-bottom: 24px;",
+              class = "intro-preview-corner",
               tags$img(
                 src = "assets/og-social-preview.png",
-                alt = "Global Hunger Vulnerability Dashboard — interactive food security research across countries",
-                style = paste(
-                  "max-width: 100%; height: auto; display: block; margin: 0 auto;",
-                  "border-radius: 10px; border: 1px solid #e2e8f0;",
-                  "box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);"
-                )
+                alt = "Global Hunger Vulnerability Dashboard — interactive food security research across countries"
               )
             ),
             tags$h2("Understanding Global Hunger: A Comprehensive Research Initiative", 
@@ -3643,6 +3665,7 @@ body <- dashboardBody(
               )
             ),
             
+            tags$div(class = "intro-preview-clear"),
             tags$hr(style = "margin: 30px 0;"),
             tags$div(
               style = "text-align: center; color: #7f8c8d; font-size: 14px;",
