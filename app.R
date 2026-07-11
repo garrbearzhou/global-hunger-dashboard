@@ -1933,7 +1933,19 @@ ncyi_gallery_ui <- function() {
 # Header
 header <- dashboardHeader(
   title = "Global Hunger Research Dashboard",
-  titleWidth = 350
+  titleWidth = 350,
+  tags$li(
+    class = "dropdown site-brand-preview-header",
+    tags$a(
+      href = "#shiny-tab-introduction",
+      title = "Global Hunger Vulnerability Dashboard",
+      tags$img(
+        src = "assets/og-social-preview.png",
+        alt = "Global Hunger Vulnerability Dashboard",
+        class = "site-brand-preview-header__img"
+      )
+    )
+  )
 )
 
 # Sidebar
@@ -2206,30 +2218,24 @@ body <- dashboardBody(
         border: 1px solid #e2e8f0;
         box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
       }
-      .site-brand-preview {
-        position: fixed;
-        top: 58px;
-        right: 14px;
-        z-index: 1040;
-        width: 128px;
+      .site-brand-preview-header > a {
+        padding: 5px 12px !important;
+        line-height: 0 !important;
+        background: transparent !important;
       }
-      .site-brand-preview a {
+      .site-brand-preview-header__img,
+      .site-brand-preview-header img {
+        height: 38px;
+        width: auto;
         display: block;
-        line-height: 0;
-      }
-      .site-brand-preview img {
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 2px 10px rgba(15, 23, 42, 0.14);
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        box-shadow: 0 1px 6px rgba(15, 23, 42, 0.25);
         background: #faf9f7;
       }
-      .site-brand-preview a:hover img {
-        box-shadow: 0 4px 14px rgba(15, 23, 42, 0.2);
-      }
-      @media (max-width: 768px) {
-        .site-brand-preview { width: 96px; top: 52px; right: 8px; }
+      .site-brand-preview-header > a:hover,
+      .site-brand-preview-header > a:focus {
+        background: rgba(255, 255, 255, 0.08) !important;
       }
       .sidebar-github-link a {
         color: #bae6fd !important;
@@ -3608,21 +3614,6 @@ body <- dashboardBody(
         }
       })();
     "))
-  ),
-
-  conditionalPanel(
-    condition = "input.tabs != 'introduction'",
-    tags$div(
-      class = "site-brand-preview",
-      tags$a(
-        href = "#shiny-tab-introduction",
-        title = "Back to Introduction",
-        tags$img(
-          src = "assets/og-social-preview.png",
-          alt = "Global Hunger Vulnerability Dashboard"
-        )
-      )
-    )
   ),
 
   tabItems(
