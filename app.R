@@ -2193,20 +2193,44 @@ body <- dashboardBody(
         margin: 0 0 10px;
       }
       .seo-intro-block p:last-child { margin-bottom: 0; }
-      .intro-preview-corner {
-        float: right;
-        width: min(38%, 320px);
-        margin: 0 0 18px 22px;
+      .intro-preview-hero {
+        text-align: center;
+        margin-bottom: 24px;
       }
-      .intro-preview-corner img {
-        width: 100%;
+      .intro-preview-hero img {
+        max-width: 100%;
         height: auto;
         display: block;
+        margin: 0 auto;
         border-radius: 10px;
         border: 1px solid #e2e8f0;
         box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
       }
-      .intro-preview-clear { clear: both; }
+      .site-brand-preview {
+        position: fixed;
+        top: 58px;
+        right: 14px;
+        z-index: 1040;
+        width: 128px;
+      }
+      .site-brand-preview a {
+        display: block;
+        line-height: 0;
+      }
+      .site-brand-preview img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 2px 10px rgba(15, 23, 42, 0.14);
+        background: #faf9f7;
+      }
+      .site-brand-preview a:hover img {
+        box-shadow: 0 4px 14px rgba(15, 23, 42, 0.2);
+      }
+      @media (max-width: 768px) {
+        .site-brand-preview { width: 96px; top: 52px; right: 8px; }
+      }
       .sidebar-github-link a {
         color: #bae6fd !important;
         font-size: 13px;
@@ -3585,7 +3609,22 @@ body <- dashboardBody(
       })();
     "))
   ),
-  
+
+  conditionalPanel(
+    condition = "input.tabs != 'introduction'",
+    tags$div(
+      class = "site-brand-preview",
+      tags$a(
+        href = "#shiny-tab-introduction",
+        title = "Back to Introduction",
+        tags$img(
+          src = "assets/og-social-preview.png",
+          alt = "Global Hunger Vulnerability Dashboard"
+        )
+      )
+    )
+  ),
+
   tabItems(
     # Introduction Tab (Landing Page)
     tabItem(
@@ -3599,7 +3638,7 @@ body <- dashboardBody(
           tags$div(
             style = "font-size: 16px; line-height: 1.8; padding: 20px;",
             tags$div(
-              class = "intro-preview-corner",
+              class = "intro-preview-hero",
               tags$img(
                 src = "assets/og-social-preview.png",
                 alt = "Global Hunger Vulnerability Dashboard — interactive food security research across countries"
@@ -3665,7 +3704,6 @@ body <- dashboardBody(
               )
             ),
             
-            tags$div(class = "intro-preview-clear"),
             tags$hr(style = "margin: 30px 0;"),
             tags$div(
               style = "text-align: center; color: #7f8c8d; font-size: 14px;",

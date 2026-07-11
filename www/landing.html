@@ -81,19 +81,35 @@
     .cta:hover { background: #155e75; }
     .links a { color: var(--accent); }
     .hero-preview {
-      float: right;
-      width: min(42%, 300px);
-      margin: 0 0 16px 20px;
-      text-align: right;
+      text-align: center;
+      margin: 20px 0 28px;
     }
     .hero-preview img {
-      width: 100%;
+      max-width: 100%;
       height: auto;
       border-radius: 10px;
       border: 1px solid var(--border);
       box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
     }
-    .content-clear { clear: both; }
+    .site-brand-preview {
+      position: fixed;
+      top: 16px;
+      right: 16px;
+      z-index: 10;
+      width: 112px;
+    }
+    .site-brand-preview a {
+      display: block;
+      line-height: 0;
+    }
+    .site-brand-preview img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      box-shadow: 0 2px 10px rgba(15, 23, 42, 0.12);
+      background: #faf9f7;
+    }
     footer {
       text-align: center;
       font-size: 0.9rem;
@@ -103,7 +119,25 @@
   </style>
 </head>
 <body>
+  <div class="site-brand-preview">
+    <a href="https://globalhungerdashboard.com/" title="Open the interactive dashboard">
+      <img
+        src="og-social-preview.png"
+        alt="Global Hunger Vulnerability Dashboard"
+        width="1200"
+        height="630"
+      >
+    </a>
+  </div>
   <main>
+    <h1>Global Hunger Vulnerability Dashboard</h1>
+    <p>
+      This research dashboard maps hunger-related risk across countries using integrated data from
+      the FAO, World Bank, climate vulnerability indices, conflict and disaster records, and related
+      food security sources. It is designed for students, researchers, and anyone exploring how
+      economic, environmental, and crisis factors relate to undernourishment worldwide.
+    </p>
+
     <div class="hero-preview">
       <img
         src="og-social-preview.png"
@@ -112,13 +146,6 @@
         height="630"
       >
     </div>
-    <h1>Global Hunger Vulnerability Dashboard</h1>
-    <p>
-      This research dashboard maps hunger-related risk across countries using integrated data from
-      the FAO, World Bank, climate vulnerability indices, conflict and disaster records, and related
-      food security sources. It is designed for students, researchers, and anyone exploring how
-      economic, environmental, and crisis factors relate to undernourishment worldwide.
-    </p>
 
     <h2>What you can explore</h2>
     <ul>
