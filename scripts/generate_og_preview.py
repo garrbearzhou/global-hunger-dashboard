@@ -20,6 +20,10 @@ PAPER_EDGE = "#e7e5e4"
 SCALE = ["#22c55e", "#84cc16", "#eab308", "#f97316", "#dc2626"]
 
 MARGIN_LEFT = 40
+META_LABEL_SIZE = 15
+META_SMALL_SIZE = 13
+META_LABEL_COLOR = "#64748b"
+META_SMALL_COLOR = "#94a3b8"
 
 
 def load_font(size, style="regular"):
@@ -59,10 +63,8 @@ def draw_subtle_grid(draw):
             draw.ellipse((x, y, x + 2, y + 2), fill="#e2e8f0")
 
 
-def draw_vulnerability_bar(draw, x, y, width):
-    label_font = load_font(15, "sans")
-    tick_font = load_font(13, "sans")
-    draw.text((x, y - 24), "Trademark Vulnerability Score (0–100)", font=label_font, fill="#64748b")
+def draw_vulnerability_bar(draw, x, y, width, label_font, small_font):
+    draw.text((x, y - 24), "Trademark Vulnerability Score (0–100)", font=label_font, fill=META_LABEL_COLOR)
 
     seg_w = width // len(SCALE)
     bar_h = 12
@@ -71,18 +73,16 @@ def draw_vulnerability_bar(draw, x, y, width):
         right = left + seg_w - (2 if i < len(SCALE) - 1 else 0)
         draw.rectangle((left, y, right, y + bar_h), fill=color)
 
-    draw.text((x, y + bar_h + 8), "Lower risk", font=tick_font, fill="#94a3b8")
-    draw.text((x + width - 72, y + bar_h + 8), "Higher risk", font=tick_font, fill="#94a3b8")
+    draw.text((x, y + bar_h + 8), "Lower risk", font=small_font, fill=META_SMALL_COLOR)
+    draw.text((x + width - 72, y + bar_h + 8), "Higher risk", font=small_font, fill=META_SMALL_COLOR)
 
 
-def draw_scenario_lab_card(draw, x, y):
+def draw_scenario_lab_card(draw, x, y, label_font, small_font):
     """Mini Scenario lab panel — pillar sliders + country landscape hint."""
     w, h = 248, 124
     draw.rounded_rectangle((x, y, x + w, y + h), radius=12, outline="#e2e8f0", fill="#f8fafc")
-    title_font = load_font(15, "sans")
-    sub_font = load_font(12, "sans")
-    draw.text((x + 14, y + 12), "Scenario lab", font=title_font, fill=INK)
-    draw.text((x + 14, y + 34), "Adjust pillar multipliers", font=sub_font, fill="#64748b")
+    draw.text((x + 14, y + 12), "Scenario lab", font=label_font, fill=META_LABEL_COLOR)
+    draw.text((x + 14, y + 34), "Adjust pillar multipliers", font=small_font, fill=META_SMALL_COLOR)
 
     # Mini country landscape (ocean + land), echoing the dashboard tab
     draw.rounded_rectangle((x + 14, y + 58, x + 96, y + 106), radius=6, fill="#7dd3fc")
@@ -133,6 +133,8 @@ def main():
     title_y = 64
     title_font = load_font(50, "serif_bold")
     sub_font = load_font(26, "serif")
+    meta_label_font = load_font(META_LABEL_SIZE, "sans")
+    meta_small_font = load_font(META_SMALL_SIZE, "sans")
     url_font = load_font(22, "sans")
     credit_font = load_font(19, "sans")
 
@@ -153,18 +155,18 @@ def main():
         fill=MUTED,
     )
 
-    draw_vulnerability_bar(draw, title_x, title_y + 248, width=360)
-    draw_scenario_lab_card(draw, x=title_x, y=title_y + 318)
+    draw_vulnerability_bar(draw, title_x, title_y + 248, width=360, label_font=meta_label_font, small_font=meta_small_font)
+    draw_scenario_lab_card(draw, x=title_x, y=title_y + 318, label_font=meta_label_font, small_font=meta_small_font)
 
-    draw.text((MARGIN_LEFT, 492), "globalhungerdashboard.com", font=url_font, fill=ACCENT_DARK)
+    draw.text((MARGIN_LEFT, 518), "globalhungerdashboard.com", font=url_font, fill=ACCENT_DARK)
     draw.text(
-        (MARGIN_LEFT, 524),
+        (MARGIN_LEFT, 550),
         "Garrett Zhou  ·  Durham Academy Upper School",
         font=credit_font,
         fill="#94a3b8",
     )
     draw.text(
-        (MARGIN_LEFT, 550),
+        (MARGIN_LEFT, 576),
         "Professor Hannah Jacobs, Duke Libraries",
         font=credit_font,
         fill="#94a3b8",
