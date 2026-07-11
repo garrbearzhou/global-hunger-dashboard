@@ -167,7 +167,7 @@ def main():
     )
     draw.text(
         (MARGIN_LEFT, 576),
-        "Professor Hannah Jacobs, Duke Libraries",
+        "Professor Hannah Jacobs · Duke Libraries",
         font=credit_font,
         fill="#94a3b8",
     )
