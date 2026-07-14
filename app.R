@@ -3811,7 +3811,7 @@ body <- dashboardBody(
             tags$div(
               style = "text-align: center; color: #7f8c8d; font-size: 14px;",
               tags$p(strong("Author:"), " Garrett Zhou"),
-              tags$p(strong("Project:"), " Global Hunger Research - 2024"),
+              tags$p(strong("Project:"), " Global Hunger Research - 2025"),
               tags$p(strong("Last Updated:"), format(Sys.Date(), "%B %Y"))
             )
           )
