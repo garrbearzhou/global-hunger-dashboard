@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate 1200x630 Open Graph / Twitter preview PNG for globalhungerdashboard.com."""
 
+import re
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
@@ -9,6 +10,8 @@ W, H = 1200, 630
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "www" / "og-social-preview.png"
 WORLD_GLOBE = ROOT / "www" / "world.png"
+US_SHAPE_SVG = ROOT / "www" / "scenario_country_landscape.svg"
+US_LAND_COLOR = "#f97316"
 
 # Dashboard + research palette
 INK = "#1e293b"
@@ -24,6 +27,59 @@ META_LABEL_SIZE = 15
 META_SMALL_SIZE = 13
 META_LABEL_COLOR = "#64748b"
 META_SMALL_COLOR = "#94a3b8"
+
+
+def parse_svg_path_points(path_d):
+    tokens = re.findall(r"[MLZ]|[-+]?(?:\d*\.\d+|\d+)", path_d)
+    points = []
+    i = 0
+    while i < len(tokens):
+        token = tokens[i]
+        if token in {"M", "L"}:
+            i += 1
+            x = float(tokens[i])
+            y = float(tokens[i + 1])
+            points.append((x, y))
+            i += 2
+        elif token == "Z":
+            i += 1
+        else:
+            x = float(token)
+            y = float(tokens[i + 1])
+            points.append((x, y))
+            i += 2
+    return points
+
+
+def load_us_shape_points():
+    svg_text = US_SHAPE_SVG.read_text(encoding="utf-8")
+    match = re.search(r'class="scenario-country-shape"[^>]*\s+d="([^"]+)"', svg_text)
+    if not match:
+        raise ValueError(f"Could not find US shape path in {US_SHAPE_SVG}")
+    return parse_svg_path_points(match.group(1))
+
+
+US_SHAPE_POINTS = load_us_shape_points()
+
+
+def scale_points_to_box(points, box_left, box_top, box_w, box_h, padding=3):
+    xs = [p[0] for p in points]
+    ys = [p[1] for p in points]
+    min_x, max_x = min(xs), max(xs)
+    min_y, max_y = min(ys), max(ys)
+    src_w = max(max_x - min_x, 1)
+    src_h = max(max_y - min_y, 1)
+    inner_w = max(box_w - 2 * padding, 1)
+    inner_h = max(box_h - 2 * padding, 1)
+    scale = min(inner_w / src_w, inner_h / src_h)
+    cx_src = (min_x + max_x) / 2
+    cy_src = (min_y + max_y) / 2
+    cx_dst = box_left + box_w / 2
+    cy_dst = box_top + box_h / 2
+    return [
+        (cx_dst + (px - cx_src) * scale, cy_dst + (py - cy_src) * scale)
+        for px, py in points
+    ]
 
 
 def load_font(size, style="regular"):
@@ -84,13 +140,13 @@ def draw_scenario_lab_card(draw, x, y, label_font, small_font):
     draw.text((x + 14, y + 12), "Scenario lab", font=label_font, fill=META_LABEL_COLOR)
     draw.text((x + 14, y + 34), "Adjust pillar multipliers", font=small_font, fill=META_SMALL_COLOR)
 
-    # Mini country landscape (ocean + land), echoing the dashboard tab
-    draw.rounded_rectangle((x + 14, y + 58, x + 96, y + 106), radius=6, fill="#7dd3fc")
-    land = [
-        (x + 36, y + 90), (x + 48, y + 74), (x + 62, y + 70), (x + 76, y + 78),
-        (x + 82, y + 92), (x + 68, y + 98), (x + 50, y + 96),
-    ]
-    draw.polygon(land, fill="#f97316", outline="#1c1917")
+    # Mini country landscape (ocean + US-shaped land), echoing the dashboard tab
+    ocean_left, ocean_top, ocean_right, ocean_bottom = x + 14, y + 58, x + 96, y + 106
+    draw.rounded_rectangle((ocean_left, ocean_top, ocean_right, ocean_bottom), radius=6, fill="#7dd3fc")
+    ocean_w = ocean_right - ocean_left
+    ocean_h = ocean_bottom - ocean_top
+    us_land = scale_points_to_box(US_SHAPE_POINTS, ocean_left, ocean_top, ocean_w, ocean_h, padding=3)
+    draw.polygon(us_land, fill=US_LAND_COLOR, outline="#1c1917")
 
     # Slider tracks + thumbs
     for i, thumb in enumerate([0.25, 0.55, 0.8]):

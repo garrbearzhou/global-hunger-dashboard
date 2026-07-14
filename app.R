@@ -2025,7 +2025,7 @@ body <- dashboardBody(
     tags$meta(property = "og:url", content = "https://globalhungerdashboard.com/"),
     tags$meta(property = "og:title", content = "Global Hunger Vulnerability Dashboard"),
     tags$meta(property = "og:description", content = "Interactive global hunger vulnerability map with country hunger profiles, undernourishment data, and food security indicators."),
-    tags$meta(property = "og:image", content = "https://globalhungerdashboard.com/assets/og-social-preview.png?v=12"),
+    tags$meta(property = "og:image", content = "https://globalhungerdashboard.com/assets/og-social-preview.png?v=13"),
     tags$meta(property = "og:image:width", content = "1200"),
     tags$meta(property = "og:image:height", content = "630"),
     tags$meta(property = "og:image:alt", content = "Global Hunger Vulnerability Dashboard — interactive food security map and country profiles"),
@@ -2033,7 +2033,7 @@ body <- dashboardBody(
     tags$meta(name = "twitter:card", content = "summary_large_image"),
     tags$meta(name = "twitter:title", content = "Global Hunger Vulnerability Dashboard"),
     tags$meta(name = "twitter:description", content = "Explore the global hunger vulnerability map and country-level food security profiles."),
-    tags$meta(name = "twitter:image", content = "https://globalhungerdashboard.com/assets/og-social-preview.png?v=12"),
+    tags$meta(name = "twitter:image", content = "https://globalhungerdashboard.com/assets/og-social-preview.png?v=13"),
     tags$script(HTML("
       (function() {
         const SEO_BY_TAB = {
@@ -2132,19 +2132,90 @@ body <- dashboardBody(
         function syncTabParam(tab) {
           if (!tab) return;
           const url = new URL(window.location.href);
-          url.searchParams.set('tab', tab);
-          history.replaceState({}, '', url.pathname + url.search);
+          if (tab === 'introduction') {
+            url.searchParams.delete('tab');
+          } else {
+            url.searchParams.set('tab', tab);
+          }
+          history.replaceState({}, '', url.pathname + url.search + url.hash);
+        }
+
+        function sidebarLinkForTab(tab) {
+          return document.querySelector(
+            '.sidebar-menu a[href=\"#shiny-tab-' + tab + '\"], ' +
+            '.sidebar-menu a[data-value=\"' + tab + '\"]'
+          );
+        }
+
+        function isTabActive(tab) {
+          const pane = document.getElementById('shiny-tab-' + tab);
+          if (pane && pane.classList.contains('active')) return true;
+          const link = sidebarLinkForTab(tab);
+          if (!link) return false;
+          const li = link.closest('li');
+          return !!(li && li.classList.contains('active'));
+        }
+
+        // AdminLTE/shinydashboard often ignores early updateTabItems; click the
+        // sidebar link (with retries) so deep links and refresh actually switch tabs.
+        function activateDashboardTab(tab, opts) {
+          const options = opts || {};
+          const notifyServer = options.notifyServer !== false;
+          if (!tab || !SEO_BY_TAB[tab]) tab = 'introduction';
+          applySeoForTab(tab);
+          syncTabParam(tab);
+
+          function tryActivate(attempt) {
+            if (isTabActive(tab)) {
+              if (notifyServer && window.Shiny && typeof window.Shiny.setInputValue === 'function') {
+                window.Shiny.setInputValue('tabs', tab, {priority: 'event'});
+              }
+              return;
+            }
+            const link = sidebarLinkForTab(tab);
+            if (link) {
+              link.click();
+            } else if (notifyServer && window.Shiny && typeof window.Shiny.setInputValue === 'function') {
+              window.Shiny.setInputValue('initial_tab_from_url', tab, {priority: 'event'});
+            }
+            if (attempt < 12) {
+              setTimeout(function() { tryActivate(attempt + 1); }, 80 + attempt * 40);
+            } else if (notifyServer && window.Shiny && typeof window.Shiny.setInputValue === 'function') {
+              window.Shiny.setInputValue('initial_tab_from_url', tab, {priority: 'event'});
+            }
+          }
+          tryActivate(0);
+        }
+
+        function tabFromUrl() {
+          const params = new URLSearchParams(window.location.search);
+          const tab = params.get('tab');
+          return (tab && SEO_BY_TAB[tab]) ? tab : 'introduction';
         }
 
         document.addEventListener('shiny:connected', function() {
-          const params = new URLSearchParams(window.location.search);
-          const tab = params.get('tab') || 'introduction';
-          applySeoForTab(tab);
-          syncTabParam(tab);
-          if (window.Shiny && typeof window.Shiny.setInputValue === 'function') {
-            window.Shiny.setInputValue('initial_tab_from_url', tab, {priority: 'event'});
-          }
+          activateDashboardTab(tabFromUrl());
         });
+
+        // Same-origin ?tab= links should switch tabs without relying on a reload race.
+        document.addEventListener('click', function(ev) {
+          const a = ev.target && ev.target.closest ? ev.target.closest('a[href]') : null;
+          if (!a) return;
+          const href = a.getAttribute('href') || '';
+          if (!href || href.charAt(0) === '#' || href.indexOf('javascript:') === 0) return;
+          let url;
+          try {
+            url = new URL(href, window.location.origin);
+          } catch (e) {
+            return;
+          }
+          if (url.origin !== window.location.origin) return;
+          if (url.pathname !== '/' && url.pathname !== window.location.pathname) return;
+          const tab = url.searchParams.get('tab');
+          if (!tab || !SEO_BY_TAB[tab]) return;
+          ev.preventDefault();
+          activateDashboardTab(tab);
+        }, true);
 
         document.addEventListener('shown.bs.tab', function(ev) {
           const target = ev && ev.target;
@@ -2154,6 +2225,19 @@ body <- dashboardBody(
           const tab = href.replace('#shiny-tab-', '');
           applySeoForTab(tab);
           syncTabParam(tab);
+        });
+
+        // AdminLTE activates tabs via sidebar clicks (not always shown.bs.tab).
+        document.addEventListener('click', function(ev) {
+          const a = ev.target && ev.target.closest ? ev.target.closest('.sidebar-menu a[href^=\"#shiny-tab-\"]') : null;
+          if (!a) return;
+          const href = a.getAttribute('href') || '';
+          const tab = href.replace('#shiny-tab-', '');
+          if (!SEO_BY_TAB[tab]) return;
+          setTimeout(function() {
+            applySeoForTab(tab);
+            syncTabParam(tab);
+          }, 0);
         });
       })();
     ")),
@@ -6580,6 +6664,23 @@ server <- function(input, output, session) {
     "bangladesh_research", "ghi_comparison", "explorer", "about", "model"
   )
 
+  # Deep-link / refresh: URL has ?tab=, but shinydashboard still boots on
+  # Introduction (selected = TRUE). Re-select after the first UI flush; the
+  # client script also clicks the sidebar link with retries.
+  apply_tab_from_query <- function() {
+    query <- parseQueryString(isolate(session$clientData$url_search))
+    tab <- query[["tab"]]
+    if (is.null(tab) || !nzchar(tab) || !(tab %in% valid_dashboard_tabs)) {
+      return(invisible(NULL))
+    }
+    updateTabItems(session, "tabs", selected = tab)
+    invisible(NULL)
+  }
+
+  session$onFlushed(function() {
+    apply_tab_from_query()
+  }, once = TRUE)
+
   observeEvent(input$initial_tab_from_url, {
     tab <- as.character(input$initial_tab_from_url)
     if (!is.null(tab) && length(tab) == 1 && nzchar(tab) && tab %in% valid_dashboard_tabs) {
@@ -6590,7 +6691,12 @@ server <- function(input, output, session) {
   observeEvent(input$tabs, {
     tab <- as.character(input$tabs)
     if (!is.null(tab) && length(tab) == 1 && nzchar(tab) && tab %in% valid_dashboard_tabs) {
-      shiny::updateQueryString(paste0("?tab=", utils::URLencode(tab, reserved = TRUE)), mode = "replace")
+      qs <- if (identical(tab, "introduction")) {
+        "?"
+      } else {
+        paste0("?tab=", utils::URLencode(tab, reserved = TRUE))
+      }
+      shiny::updateQueryString(qs, mode = "replace")
     }
   }, ignoreInit = TRUE)
 
