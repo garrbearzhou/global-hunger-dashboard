@@ -3588,6 +3588,8 @@ body <- dashboardBody(
       }
       .content a { color: var(--gh-primary); }
       .content a:hover { color: var(--gh-primary-dark); }
+      /* Keep punctuation tight against inline links (no gaps from tag whitespace). */
+      .content p a { margin: 0; padding: 0; }
       .btn-primary {
         background-color: var(--gh-primary) !important;
         border-color: var(--gh-primary-dark) !important;
@@ -5559,9 +5561,11 @@ body <- dashboardBody(
               style = "background: #f8f9fa; padding: 20px; border-radius: 8px; text-align: left; margin-top: 20px;",
               tags$h4(icon("university"), " Affiliation", style = "color: #3c8dbc; margin-top: 0;"),
               tags$p(
-                tags$a(href = "https://www.da.org/", target = "_blank", rel = "noopener noreferrer", "Durham Academy"), tags$br(),
-                tags$a(href = "https://www.durhamnc.gov/", target = "_blank", rel = "noopener noreferrer", "Durham"), ", ",
-                tags$a(href = "https://www.nc.gov/", target = "_blank", rel = "noopener noreferrer", "North Carolina"),
+                HTML(paste0(
+                  '<a href="https://www.da.org/" target="_blank" rel="noopener noreferrer">Durham Academy</a><br>',
+                  '<a href="https://www.durhamnc.gov/" target="_blank" rel="noopener noreferrer">Durham</a>, ',
+                  '<a href="https://www.nc.gov/" target="_blank" rel="noopener noreferrer">North Carolina</a>'
+                )),
                 style = "font-size: 14px; color: #555; margin-bottom: 15px;"
               ),
               
@@ -5573,15 +5577,19 @@ body <- dashboardBody(
                 style = "font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 10px;"
               ),
               tags$p(
-                "I first got interested in food security when I started volunteering at the ",
-                tags$a(href = "https://foodbankcenc.org/locations/durham", target = "_blank", rel = "noopener noreferrer", "Durham Food Bank of Central & Eastern North Carolina"),
-                ". Seeing how many people in my own community were actually struggling made hunger feel real in a way I hadn't before.",
+                HTML(paste0(
+                  "I first got interested in food security when I started volunteering at the ",
+                  '<a href="https://foodbankcenc.org/locations/durham" target="_blank" rel="noopener noreferrer">Durham Food Bank of Central &amp; Eastern North Carolina</a>. ',
+                  "Seeing how many people in my own community were actually struggling made hunger feel real in a way I hadn't before."
+                )),
                 style = "font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 10px;"
               ),
               tags$p(
-                "I am the founder of ",
-                tags$a(href = "https://harvesthelp.app/", target = "_blank", rel = "noopener noreferrer", "HarvestHelp"),
-                ", a project focused on connecting communities with food support and reducing hunger locally.",
+                HTML(paste0(
+                  "I am the founder of ",
+                  '<a href="https://harvesthelp.app/" target="_blank" rel="noopener noreferrer">HarvestHelp</a>, ',
+                  "a project focused on connecting communities with food support and reducing hunger locally."
+                )),
                 style = "font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 10px;"
               ),
               tags$p(
@@ -5597,7 +5605,8 @@ body <- dashboardBody(
                   "I have also played in the ",
                   '<a href="https://premier.upsl.com/" target="_blank" rel="noopener noreferrer">UPSL</a>, ',
                   '<a href="https://www.usl-academy.com/" target="_blank" rel="noopener noreferrer">USL Academy</a>, and ',
-                  '<a href="https://www.uslleaguetwo.com/" target="_blank" rel="noopener noreferrer">USL League Two</a>.'
+                  '<a href="https://www.uslleaguetwo.com/" target="_blank" rel="noopener noreferrer">USL League Two</a>',
+                  "."
                 )),
                 style = "font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 15px;"
               ),
