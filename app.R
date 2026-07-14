@@ -4679,11 +4679,20 @@ body <- dashboardBody(
           tags$section(
             class = "seo-intro-block",
             tags$h1("Bangladesh Climate Change & Food Security Research"),
-            tags$h2("North Carolina Youth Institute and World Food Prize paper"),
+            tags$h2(
+              tags$a(href = "https://www.worldfoodprize.org/en/youth_programs/world_food_prize_youth_institutes/north_carolina/", target = "_blank", rel = "noopener noreferrer", "North Carolina Youth Institute"),
+              " and ",
+              tags$a(href = "https://www.worldfoodprize.org/", target = "_blank", rel = "noopener noreferrer", "World Food Prize"),
+              " paper"
+            ),
             tags$p(
               "This page shares my research on how climate stressors — floods, cyclones, sea-level rise, ",
               "and salinity intrusion — interact with food security in Bangladesh. I developed the work for ",
-              "the North Carolina Youth Institute / World Food Prize program, combining narrative evidence ",
+              "the ",
+              tags$a(href = "https://www.worldfoodprize.org/en/youth_programs/world_food_prize_youth_institutes/north_carolina/", target = "_blank", rel = "noopener noreferrer", "North Carolina Youth Institute"),
+              " / ",
+              tags$a(href = "https://www.worldfoodprize.org/", target = "_blank", rel = "noopener noreferrer", "World Food Prize"),
+              " program, combining narrative evidence ",
               "from the Ganges–Brahmaputra–Meghna delta with cross-country regression, Bangladesh time-series ",
               "analysis, and a policy optimization model for nutrition and climate-resilient agriculture."
             ),
@@ -4707,7 +4716,11 @@ body <- dashboardBody(
           tags$p(
             style = "font-size: 15px; line-height: 1.7; color: #333;",
             "I prepared this page to share my ",
-            strong("North Carolina Youth Institute / World Food Prize"),
+            tags$strong(
+              tags$a(href = "https://www.worldfoodprize.org/en/youth_programs/world_food_prize_youth_institutes/north_carolina/", target = "_blank", rel = "noopener noreferrer", "North Carolina Youth Institute"),
+              " / ",
+              tags$a(href = "https://www.worldfoodprize.org/", target = "_blank", rel = "noopener noreferrer", "World Food Prize")
+            ),
             " research on how climate stressors interact with food security in Bangladesh — a densely populated delta where I focused on floods, cyclones, and sea-level rise."
           )
         )
@@ -4720,7 +4733,11 @@ body <- dashboardBody(
           width = 12,
           tags$p(
             style = "font-size: 14px; line-height: 1.65; color: #475569; margin: 0 0 12px 0;",
-            "Photos from my North Carolina Youth Institute / World Food Prize conference presentation. Click any image to open it full size."
+            "Photos from my ",
+            tags$a(href = "https://www.worldfoodprize.org/en/youth_programs/world_food_prize_youth_institutes/north_carolina/", target = "_blank", rel = "noopener noreferrer", "North Carolina Youth Institute"),
+            " / ",
+            tags$a(href = "https://www.worldfoodprize.org/", target = "_blank", rel = "noopener noreferrer", "World Food Prize"),
+            " conference presentation. Click any image to open it full size."
           ),
           ncyi_gallery_ui()
         )
@@ -5568,21 +5585,20 @@ body <- dashboardBody(
                 style = "font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 10px;"
               ),
               tags$p(
-                "Outside the classroom, I play for the ",
-                tags$a(href = "https://www.ncfcyouth.com/boys-academy", target = "_blank", rel = "noopener noreferrer", "NCFC Academy"),
-                " ECNL boys soccer team, affiliated with ",
-                tags$a(href = "https://www.northcarolinafc.com/", target = "_blank", rel = "noopener noreferrer", "NCFC"), ".",
-                " NCFC youth teams participate in ",
-                tags$a(href = "https://theecnl.com/sports/ecnl-boys", target = "_blank", rel = "noopener noreferrer", "ECNL"), ",",
-                " and the NCFC pro team plays in the ",
-                tags$a(href = "https://www.uslchampionship.com/", target = "_blank", rel = "noopener noreferrer", "USL Championship"), ".",
-                " I have also played in the ",
-                tags$a(href = "https://premier.upsl.com/", target = "_blank", rel = "noopener noreferrer", "UPSL"),
-                ", ",
-                tags$a(href = "https://www.usl-academy.com/", target = "_blank", rel = "noopener noreferrer", "USL Academy"),
-                ", and ",
-                tags$a(href = "https://www.uslleaguetwo.com/", target = "_blank", rel = "noopener noreferrer", "USL League Two"),
-                ".",
+                HTML(paste0(
+                  "Outside the classroom, I play for the ",
+                  '<a href="https://www.ncfcyouth.com/boys-academy" target="_blank" rel="noopener noreferrer">NCFC Academy</a>',
+                  " ECNL boys soccer team, affiliated with ",
+                  '<a href="https://www.northcarolinafc.com/" target="_blank" rel="noopener noreferrer">NCFC</a>. ',
+                  "NCFC youth teams participate in ",
+                  '<a href="https://theecnl.com/sports/ecnl-boys" target="_blank" rel="noopener noreferrer">ECNL</a>, ',
+                  "and the NCFC pro team plays in the ",
+                  '<a href="https://www.uslchampionship.com/" target="_blank" rel="noopener noreferrer">USL Championship</a>. ',
+                  "I have also played in the ",
+                  '<a href="https://premier.upsl.com/" target="_blank" rel="noopener noreferrer">UPSL</a>, ',
+                  '<a href="https://www.usl-academy.com/" target="_blank" rel="noopener noreferrer">USL Academy</a>, and ',
+                  '<a href="https://www.uslleaguetwo.com/" target="_blank" rel="noopener noreferrer">USL League Two</a>.'
+                )),
                 style = "font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 15px;"
               ),
               
@@ -5764,7 +5780,7 @@ body <- dashboardBody(
               ),
               tags$li(
                 "The ",
-                tags$a(href = "https://www.worldfoodprize.org/index.cfm?nodeID=87698&audienceID=1", target = "_blank", rel = "noopener noreferrer", "North Carolina Youth Institute"),
+                tags$a(href = "https://www.worldfoodprize.org/en/youth_programs/world_food_prize_youth_institutes/north_carolina/", target = "_blank", rel = "noopener noreferrer", "North Carolina Youth Institute"),
                 " and ",
                 tags$a(href = "https://www.worldfoodprize.org/", target = "_blank", rel = "noopener noreferrer", "World Food Prize"),
                 " for hosting a great research conference"
