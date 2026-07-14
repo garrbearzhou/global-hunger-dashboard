@@ -1948,76 +1948,130 @@ header <- dashboardHeader(
   )
 )
 
-# Sidebar
-sidebar <- dashboardSidebar(
-  width = 300,
-  sidebarMenu(
-    id = "tabs",
-    menuItem("Introduction", tabName = "introduction", icon = icon("book"), selected = TRUE),
-    menuItem("Interactive Map", tabName = "map", icon = icon("map")),
-    menuItem("Scenario lab", tabName = "scenario_lab", icon = icon("flask")),
-    menuItem("Overview", tabName = "overview", icon = icon("globe")),
-    menuItem("Country Details", tabName = "country_details", icon = icon("flag")),
-    menuItem("Time Series", tabName = "timeseries", icon = icon("chart-line")),
-    menuItem("Statistical Analysis", tabName = "analysis", icon = icon("calculator")),
-    menuItem("Data Sources", tabName = "citations", icon = icon("file-text")),
-    menuItem("Data Coverage", tabName = "data_coverage", icon = icon("table")),
-    menuItem("GRFC Trends", tabName = "grfc_trends", icon = icon("chart-line")),
-    menuItem("Bangladesh Research", tabName = "bangladesh_research", icon = icon("seedling")),
-    menuItem("GHI Comparison", tabName = "ghi_comparison", icon = icon("balance-scale")),
-    menuItem("Data Explorer", tabName = "explorer", icon = icon("search")),
-    menuItem("About", tabName = "about", icon = icon("info-circle")),
-    
-    # Filters (map-only)
-    conditionalPanel(
-      condition = "input.tabs == 'map'",
-      tags$div(
-        style = "padding: 8px 14px 8px 14px;",
+# Sidebar — selected tab comes from ?tab= so refresh/deep links do not boot on Introduction
+DASHBOARD_TAB_NAMES <- c(
+  "introduction", "map", "scenario_lab", "overview", "country_details",
+  "timeseries", "analysis", "citations", "data_coverage", "grfc_trends",
+  "bangladesh_research", "ghi_comparison", "explorer", "about", "model"
+)
+
+build_sidebar <- function(selected_tab = "introduction") {
+  if (is.null(selected_tab) || !nzchar(selected_tab) || !(selected_tab %in% DASHBOARD_TAB_NAMES)) {
+    selected_tab <- "introduction"
+  }
+  sel <- function(name) identical(selected_tab, name)
+
+  dashboardSidebar(
+    width = 300,
+    sidebarMenu(
+      id = "tabs",
+      menuItem("Introduction", tabName = "introduction", icon = icon("book"), selected = sel("introduction")),
+      menuItem("Interactive Map", tabName = "map", icon = icon("map"), selected = sel("map")),
+      menuItem("Scenario lab", tabName = "scenario_lab", icon = icon("flask"), selected = sel("scenario_lab")),
+      menuItem("Overview", tabName = "overview", icon = icon("globe"), selected = sel("overview")),
+      menuItem("Country Details", tabName = "country_details", icon = icon("flag"), selected = sel("country_details")),
+      menuItem("Time Series", tabName = "timeseries", icon = icon("chart-line"), selected = sel("timeseries")),
+      menuItem("Statistical Analysis", tabName = "analysis", icon = icon("calculator"), selected = sel("analysis")),
+      menuItem("Data Sources", tabName = "citations", icon = icon("file-text"), selected = sel("citations")),
+      menuItem("Data Coverage", tabName = "data_coverage", icon = icon("table"), selected = sel("data_coverage")),
+      menuItem("GRFC Trends", tabName = "grfc_trends", icon = icon("chart-line"), selected = sel("grfc_trends")),
+      menuItem("Bangladesh Research", tabName = "bangladesh_research", icon = icon("seedling"), selected = sel("bangladesh_research")),
+      menuItem("GHI Comparison", tabName = "ghi_comparison", icon = icon("balance-scale"), selected = sel("ghi_comparison")),
+      menuItem("Data Explorer", tabName = "explorer", icon = icon("search"), selected = sel("explorer")),
+      menuItem("About", tabName = "about", icon = icon("info-circle"), selected = sel("about")),
+
+      # Filters (map-only)
+      conditionalPanel(
+        condition = "input.tabs == 'map'",
         tags$div(
-          style = "display: flex; align-items: center; justify-content: space-between; gap: 8px;",
-          h4("Filters", style = "color: #7dd3fc; margin-top: 0; margin-bottom: 0; font-weight: 600; letter-spacing: 0.02em;"),
-          actionLink(
-            "filters_help",
-            label = NULL,
-            icon = icon("question-circle"),
-            title = "How to use filters",
-            style = "font-size: 16px; color: #7dd3fc; padding-top: 2px;"
+          style = "padding: 8px 14px 8px 14px;",
+          tags$div(
+            style = "display: flex; align-items: center; justify-content: space-between; gap: 8px;",
+            h4("Filters", style = "color: #7dd3fc; margin-top: 0; margin-bottom: 0; font-weight: 600; letter-spacing: 0.02em;"),
+            actionLink(
+              "filters_help",
+              label = NULL,
+              icon = icon("question-circle"),
+              title = "How to use filters",
+              style = "font-size: 16px; color: #7dd3fc; padding-top: 2px;"
+            )
+          ),
+          selectInput(
+            "selected_countries",
+            "Select Countries:",
+            choices = c("All", sort(unique(latest_summary$country))),
+            selected = "All",
+            multiple = TRUE
+          ),
+          tags$p(
+            style = "font-size: 11px; color: #94a3b8; margin-top: 12px; line-height: 1.45;",
+            icon("info-circle"),
+            " Country selection applies here. Year, vulnerability, and other map filters are under the map (multipliers first, then Map Filters)."
           )
-        ),
-    selectInput(
-      "selected_countries",
-      "Select Countries:",
-      choices = c("All", sort(unique(latest_summary$country))),
-      selected = "All",
-      multiple = TRUE
-    ),
-        tags$p(
-          style = "font-size: 11px; color: #94a3b8; margin-top: 12px; line-height: 1.45;",
-          icon("info-circle"),
-          " Country selection applies here. Year, vulnerability, and other map filters are under the map (multipliers first, then Map Filters)."
         )
       )
-    )
-
-  ),
-  tags$div(
-    class = "sidebar-github-link",
-    style = "padding: 14px 18px 18px; border-top: 1px solid rgba(255,255,255,0.12); margin-top: 8px;",
-    tags$a(
-      href = "https://github.com/garrbearzhou/global-hunger-dashboard",
-      target = "_blank",
-      rel = "noopener noreferrer",
-      title = "Global Hunger Dashboard — source code on GitHub",
-      icon("github"),
-      " GitHub repository"
+    ),
+    tags$div(
+      class = "sidebar-github-link",
+      style = "padding: 14px 18px 18px; border-top: 1px solid rgba(255,255,255,0.12); margin-top: 8px;",
+      tags$a(
+        href = "https://github.com/garrbearzhou/global-hunger-dashboard",
+        target = "_blank",
+        rel = "noopener noreferrer",
+        title = "Global Hunger Dashboard — source code on GitHub",
+        icon("github"),
+        " GitHub repository"
+      )
     )
   )
-)
+}
+
+# Default sidebar for tools that expect a static object; live UI uses build_sidebar().
+sidebar <- build_sidebar("introduction")
 
 # Body
 body <- dashboardBody(
   # Custom CSS
   tags$head(
+    # Before-paint: show the ?tab= pane immediately so Intro never flashes first
+    tags$script(HTML("
+      (function() {
+        var params = new URLSearchParams(window.location.search);
+        var tab = params.get('tab') || 'introduction';
+        if (!/^[a-z0-9_]+$/i.test(tab)) tab = 'introduction';
+        window.__ghInitialTab = tab;
+        var style = document.createElement('style');
+        style.id = 'gh-initial-tab-style';
+        style.textContent =
+          '.content-wrapper .tab-content > .tab-pane{display:none!important;}' +
+          '.content-wrapper .tab-content > .tab-pane#shiny-tab-' + tab + '{display:block!important;}';
+        document.head.appendChild(style);
+        window.__ghClearInitialTabStyle = function() {
+          var el = document.getElementById('gh-initial-tab-style');
+          if (el) el.parentNode.removeChild(el);
+        };
+        function markInitialTabActive() {
+          var panes = document.querySelectorAll('.content-wrapper .tab-content > .tab-pane');
+          if (!panes.length) return false;
+          panes.forEach(function(pane) {
+            pane.classList.toggle('active', pane.id === 'shiny-tab-' + tab);
+          });
+          var links = document.querySelectorAll('.sidebar-menu a[href^=\"#shiny-tab-\"]');
+          links.forEach(function(link) {
+            var li = link.closest('li');
+            if (!li) return;
+            var href = link.getAttribute('href') || '';
+            li.classList.toggle('active', href === '#shiny-tab-' + tab);
+          });
+          return true;
+        }
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', markInitialTabActive);
+        } else {
+          markInitialTabActive();
+        }
+      })();
+    ")),
     tags$meta(name = "description", content = "Interactive global hunger vulnerability map with country profiles, population and climate risk indicators, and food security analysis."),
     tags$meta(name = "robots", content = "index, follow"),
     tags$link(rel = "canonical", href = "https://globalhungerdashboard.com/"),
@@ -2165,8 +2219,20 @@ body <- dashboardBody(
           applySeoForTab(tab);
           syncTabParam(tab);
 
+          function ensurePaneActive(tabName) {
+            const pane = document.getElementById('shiny-tab-' + tabName);
+            if (!pane) return false;
+            document.querySelectorAll('.content-wrapper .tab-content > .tab-pane').forEach(function(p) {
+              p.classList.toggle('active', p === pane);
+            });
+            return true;
+          }
+
           function tryActivate(attempt) {
-            if (isTabActive(tab)) {
+            if (isTabActive(tab) && ensurePaneActive(tab)) {
+              if (typeof window.__ghClearInitialTabStyle === 'function') {
+                window.__ghClearInitialTabStyle();
+              }
               if (notifyServer && window.Shiny && typeof window.Shiny.setInputValue === 'function') {
                 window.Shiny.setInputValue('tabs', tab, {priority: 'event'});
               }
@@ -2175,13 +2241,20 @@ body <- dashboardBody(
             const link = sidebarLinkForTab(tab);
             if (link) {
               link.click();
+              ensurePaneActive(tab);
             } else if (notifyServer && window.Shiny && typeof window.Shiny.setInputValue === 'function') {
               window.Shiny.setInputValue('initial_tab_from_url', tab, {priority: 'event'});
             }
             if (attempt < 12) {
               setTimeout(function() { tryActivate(attempt + 1); }, 80 + attempt * 40);
-            } else if (notifyServer && window.Shiny && typeof window.Shiny.setInputValue === 'function') {
-              window.Shiny.setInputValue('initial_tab_from_url', tab, {priority: 'event'});
+            } else {
+              ensurePaneActive(tab);
+              if (typeof window.__ghClearInitialTabStyle === 'function') {
+                window.__ghClearInitialTabStyle();
+              }
+              if (notifyServer && window.Shiny && typeof window.Shiny.setInputValue === 'function') {
+                window.Shiny.setInputValue('initial_tab_from_url', tab, {priority: 'event'});
+              }
             }
           }
           tryActivate(0);
@@ -6658,11 +6731,7 @@ server <- function(input, output, session) {
     updateTabItems(session, "tabs", "bangladesh_research")
   })
 
-  valid_dashboard_tabs <- c(
-    "introduction", "map", "scenario_lab", "overview", "country_details",
-    "timeseries", "analysis", "citations", "data_coverage", "grfc_trends",
-    "bangladesh_research", "ghi_comparison", "explorer", "about", "model"
-  )
+  valid_dashboard_tabs <- DASHBOARD_TAB_NAMES
 
   # Deep-link / refresh: URL has ?tab=, but shinydashboard still boots on
   # Introduction (selected = TRUE). Re-select after the first UI flush; the
@@ -9910,12 +9979,22 @@ server <- function(input, output, session) {
 # RUN THE APPLICATION
 # =============================================================================
 
-# Create ui object for runApp() compatibility
-ui <- dashboardPage(
-  header, sidebar, body,
-  title = "Global Hunger Vulnerability Map & Country Profiles",
-  skin = "blue"
-)
+# Create ui as a request function so ?tab= selects the right menu item in the
+# first HTML response (avoids Intro flash on refresh / pasted deep links).
+ui <- function(request) {
+  query <- parseQueryString(request$QUERY_STRING)
+  tab <- query[["tab"]]
+  if (is.null(tab) || !nzchar(tab) || !(tab %in% DASHBOARD_TAB_NAMES)) {
+    tab <- "introduction"
+  }
+  dashboardPage(
+    header,
+    build_sidebar(tab),
+    body,
+    title = "Global Hunger Vulnerability Map & Country Profiles",
+    skin = "blue"
+  )
+}
 
 # Only run shinyApp if this file is executed directly (not sourced)
 # This allows the app to be sourced for testing/debugging or used with runApp()
