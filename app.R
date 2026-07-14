@@ -5541,14 +5541,26 @@ body <- dashboardBody(
                 style = "font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 10px;"
               ),
               tags$p(
+                "I am the founder of ",
+                tags$a(href = "https://harvesthelp.app/", target = "_blank", rel = "noopener noreferrer", "HarvestHelp"),
+                ", a project focused on connecting communities with food support and reducing hunger locally.",
+                style = "font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 10px;"
+              ),
+              tags$p(
                 "Outside the classroom, I play for the ",
                 tags$a(href = "https://www.ncfcyouth.com/boys-academy", target = "_blank", rel = "noopener noreferrer", "NCFC Academy"),
                 " ECNL boys soccer team, affiliated with ",
                 tags$a(href = "https://www.northcarolinafc.com/", target = "_blank", rel = "noopener noreferrer", "NCFC"), ".",
                 " NCFC youth teams participate in ",
                 tags$a(href = "https://theecnl.com/sports/ecnl-boys", target = "_blank", rel = "noopener noreferrer", "ECNL"), ",",
-                " and the NCFC pro team plays in ",
-                tags$a(href = "https://www.uslleagueone.com/", target = "_blank", rel = "noopener noreferrer", "USL League One"), ".",
+                " and the NCFC pro team plays in the ",
+                tags$a(href = "https://www.uslchampionship.com/", target = "_blank", rel = "noopener noreferrer", "USL Championship"), ".",
+                " I have also played in the ",
+                tags$a(href = "https://premier.upsl.com/", target = "_blank", rel = "noopener noreferrer", "UPSL"), ",",
+                " ",
+                tags$a(href = "https://www.usl-academy.com/", target = "_blank", rel = "noopener noreferrer", "USL Academy"), ",",
+                " and ",
+                tags$a(href = "https://www.uslleaguetwo.com/", target = "_blank", rel = "noopener noreferrer", "USL League Two"), ".",
                 style = "font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 15px;"
               ),
               
@@ -5565,6 +5577,9 @@ body <- dashboardBody(
               tags$p(
                 tags$a(href = "mailto:garrettzhou09@gmail.com", "garrettzhou09@gmail.com", 
                        style = "color: #3c8dbc; text-decoration: none;"), tags$br(),
+                tags$a(href = "https://harvesthelp.app/", target = "_blank", rel = "noopener noreferrer",
+                       icon("seedling", style = "margin-right: 5px;"), "HarvestHelp",
+                       style = "color: #3c8dbc; text-decoration: none; display: inline-block; margin-top: 5px;"), tags$br(),
                 tags$a(href = "https://garrbearsblog.wordpress.com/", target = "_blank", 
                        icon("blog", style = "margin-right: 5px;"), "Blog: A Grain Of Change", 
                        style = "color: #3c8dbc; text-decoration: none; display: inline-block; margin-top: 5px;"), tags$br(),
