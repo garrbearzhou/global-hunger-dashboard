@@ -2182,7 +2182,7 @@ body <- dashboardBody(
           setCanonical(pageUrl);
         }
 
-        function syncTabParam(tab) {
+        function syncTabParam(tab, mode) {
           if (!tab) return;
           const url = new URL(window.location.href);
           if (tab === 'introduction') {
@@ -2190,7 +2190,13 @@ body <- dashboardBody(
           } else {
             url.searchParams.set('tab', tab);
           }
-          history.replaceState({}, '', url.pathname + url.search + url.hash);
+          const next = url.pathname + url.search + url.hash;
+          const current = window.location.pathname + window.location.search + window.location.hash;
+          if (mode === 'push' && next !== current) {
+            history.pushState({ tab: tab }, '', next);
+          } else if (next !== current || mode === 'replace') {
+            history.replaceState({ tab: tab }, '', next);
+          }
         }
 
         function clearBootStyle() {
@@ -2205,19 +2211,30 @@ body <- dashboardBody(
           );
         }
 
-        // One-shot switch for in-page ?tab= links (no retry loops — those fighting
-        // AdminLTE made sidebar clicks fail and felt slow).
-        function goToTab(tab) {
+        // When we programmatically click a sidebar link (in-page link / back button),
+        // skip a second history entry from the sidebar click handler.
+        let suppressTabHistory = false;
+
+        function showTab(tab) {
           if (!tab || !SEO_BY_TAB[tab]) tab = 'introduction';
           clearBootStyle();
           applySeoForTab(tab);
-          syncTabParam(tab);
           const link = sidebarLinkForTab(tab);
+          suppressTabHistory = true;
           if (link) {
             link.click();
           } else if (window.Shiny && typeof window.Shiny.setInputValue === 'function') {
             window.Shiny.setInputValue('initial_tab_from_url', tab, {priority: 'event'});
           }
+          setTimeout(function() { suppressTabHistory = false; }, 0);
+        }
+
+        // In-page ?tab= links: push history, then switch.
+        function goToTab(tab) {
+          if (!tab || !SEO_BY_TAB[tab]) tab = 'introduction';
+          applySeoForTab(tab);
+          syncTabParam(tab, 'push');
+          showTab(tab);
         }
 
         function tabFromUrl() {
@@ -2227,12 +2244,18 @@ body <- dashboardBody(
         }
 
         // Refresh / deep link: HTML already has the right menuItem selected.
-        // Only sync SEO and unlock boot CSS — do not keep re-clicking the sidebar.
         document.addEventListener('shiny:connected', function() {
           const tab = tabFromUrl();
           clearBootStyle();
           applySeoForTab(tab);
-          syncTabParam(tab);
+          syncTabParam(tab, 'replace');
+        });
+
+        // Browser back / forward
+        window.addEventListener('popstate', function() {
+          const tab = tabFromUrl();
+          applySeoForTab(tab);
+          showTab(tab);
         });
 
         // Same-origin ?tab= links switch tabs in-place.
@@ -2263,10 +2286,10 @@ body <- dashboardBody(
           const tab = href.replace('#shiny-tab-', '');
           clearBootStyle();
           applySeoForTab(tab);
-          syncTabParam(tab);
+          // History is owned by the sidebar / goToTab / popstate handlers.
         });
 
-        // Unlock boot CSS before AdminLTE handles the click; then sync the URL.
+        // Unlock boot CSS before AdminLTE handles the click; push a history entry.
         document.addEventListener('click', function(ev) {
           const a = ev.target && ev.target.closest
             ? ev.target.closest('.sidebar-menu a[href^=\"#shiny-tab-\"]')
@@ -2277,7 +2300,7 @@ body <- dashboardBody(
           const tab = href.replace('#shiny-tab-', '');
           if (!SEO_BY_TAB[tab]) return;
           applySeoForTab(tab);
-          syncTabParam(tab);
+          if (!suppressTabHistory) syncTabParam(tab, 'push');
         }, true);
       })();
     ")),
@@ -6725,6 +6748,7 @@ server <- function(input, output, session) {
   observeEvent(input$tabs, {
     tab <- as.character(input$tabs)
     if (!is.null(tab) && length(tab) == 1 && nzchar(tab) && tab %in% valid_dashboard_tabs) {
+      # Client JS owns back/forward via pushState; keep this as replace-only sync.
       qs <- if (identical(tab, "introduction")) {
         "?"
       } else {
