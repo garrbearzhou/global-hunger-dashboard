@@ -2033,7 +2033,8 @@ sidebar <- build_sidebar("introduction")
 body <- dashboardBody(
   # Custom CSS
   tags$head(
-    # Before-paint: show the ?tab= pane immediately so Intro never flashes first
+    # Before-paint: show the ?tab= pane immediately so Intro never flashes first.
+    # Cleared as soon as the DOM is ready (and again on any sidebar click).
     tags$script(HTML("
       (function() {
         var params = new URLSearchParams(window.location.search);
@@ -2048,22 +2049,20 @@ body <- dashboardBody(
         document.head.appendChild(style);
         window.__ghClearInitialTabStyle = function() {
           var el = document.getElementById('gh-initial-tab-style');
-          if (el) el.parentNode.removeChild(el);
+          if (el && el.parentNode) el.parentNode.removeChild(el);
         };
         function markInitialTabActive() {
           var panes = document.querySelectorAll('.content-wrapper .tab-content > .tab-pane');
-          if (!panes.length) return false;
           panes.forEach(function(pane) {
             pane.classList.toggle('active', pane.id === 'shiny-tab-' + tab);
           });
-          var links = document.querySelectorAll('.sidebar-menu a[href^=\"#shiny-tab-\"]');
-          links.forEach(function(link) {
+          document.querySelectorAll('.sidebar-menu a[href^=\"#shiny-tab-\"]').forEach(function(link) {
             var li = link.closest('li');
             if (!li) return;
-            var href = link.getAttribute('href') || '';
-            li.classList.toggle('active', href === '#shiny-tab-' + tab);
+            li.classList.toggle('active', (link.getAttribute('href') || '') === '#shiny-tab-' + tab);
           });
-          return true;
+          // Unlock normal AdminLTE tab switching — do not leave !important CSS attached.
+          window.__ghClearInitialTabStyle();
         }
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', markInitialTabActive);
@@ -2194,70 +2193,31 @@ body <- dashboardBody(
           history.replaceState({}, '', url.pathname + url.search + url.hash);
         }
 
+        function clearBootStyle() {
+          if (typeof window.__ghClearInitialTabStyle === 'function') {
+            window.__ghClearInitialTabStyle();
+          }
+        }
+
         function sidebarLinkForTab(tab) {
           return document.querySelector(
-            '.sidebar-menu a[href=\"#shiny-tab-' + tab + '\"], ' +
-            '.sidebar-menu a[data-value=\"' + tab + '\"]'
+            '.sidebar-menu a[href=\"#shiny-tab-' + tab + '\"]'
           );
         }
 
-        function isTabActive(tab) {
-          const pane = document.getElementById('shiny-tab-' + tab);
-          if (pane && pane.classList.contains('active')) return true;
-          const link = sidebarLinkForTab(tab);
-          if (!link) return false;
-          const li = link.closest('li');
-          return !!(li && li.classList.contains('active'));
-        }
-
-        // AdminLTE/shinydashboard often ignores early updateTabItems; click the
-        // sidebar link (with retries) so deep links and refresh actually switch tabs.
-        function activateDashboardTab(tab, opts) {
-          const options = opts || {};
-          const notifyServer = options.notifyServer !== false;
+        // One-shot switch for in-page ?tab= links (no retry loops — those fighting
+        // AdminLTE made sidebar clicks fail and felt slow).
+        function goToTab(tab) {
           if (!tab || !SEO_BY_TAB[tab]) tab = 'introduction';
+          clearBootStyle();
           applySeoForTab(tab);
           syncTabParam(tab);
-
-          function ensurePaneActive(tabName) {
-            const pane = document.getElementById('shiny-tab-' + tabName);
-            if (!pane) return false;
-            document.querySelectorAll('.content-wrapper .tab-content > .tab-pane').forEach(function(p) {
-              p.classList.toggle('active', p === pane);
-            });
-            return true;
+          const link = sidebarLinkForTab(tab);
+          if (link) {
+            link.click();
+          } else if (window.Shiny && typeof window.Shiny.setInputValue === 'function') {
+            window.Shiny.setInputValue('initial_tab_from_url', tab, {priority: 'event'});
           }
-
-          function tryActivate(attempt) {
-            if (isTabActive(tab) && ensurePaneActive(tab)) {
-              if (typeof window.__ghClearInitialTabStyle === 'function') {
-                window.__ghClearInitialTabStyle();
-              }
-              if (notifyServer && window.Shiny && typeof window.Shiny.setInputValue === 'function') {
-                window.Shiny.setInputValue('tabs', tab, {priority: 'event'});
-              }
-              return;
-            }
-            const link = sidebarLinkForTab(tab);
-            if (link) {
-              link.click();
-              ensurePaneActive(tab);
-            } else if (notifyServer && window.Shiny && typeof window.Shiny.setInputValue === 'function') {
-              window.Shiny.setInputValue('initial_tab_from_url', tab, {priority: 'event'});
-            }
-            if (attempt < 12) {
-              setTimeout(function() { tryActivate(attempt + 1); }, 80 + attempt * 40);
-            } else {
-              ensurePaneActive(tab);
-              if (typeof window.__ghClearInitialTabStyle === 'function') {
-                window.__ghClearInitialTabStyle();
-              }
-              if (notifyServer && window.Shiny && typeof window.Shiny.setInputValue === 'function') {
-                window.Shiny.setInputValue('initial_tab_from_url', tab, {priority: 'event'});
-              }
-            }
-          }
-          tryActivate(0);
         }
 
         function tabFromUrl() {
@@ -2266,11 +2226,16 @@ body <- dashboardBody(
           return (tab && SEO_BY_TAB[tab]) ? tab : 'introduction';
         }
 
+        // Refresh / deep link: HTML already has the right menuItem selected.
+        // Only sync SEO and unlock boot CSS — do not keep re-clicking the sidebar.
         document.addEventListener('shiny:connected', function() {
-          activateDashboardTab(tabFromUrl());
+          const tab = tabFromUrl();
+          clearBootStyle();
+          applySeoForTab(tab);
+          syncTabParam(tab);
         });
 
-        // Same-origin ?tab= links should switch tabs without relying on a reload race.
+        // Same-origin ?tab= links switch tabs in-place.
         document.addEventListener('click', function(ev) {
           const a = ev.target && ev.target.closest ? ev.target.closest('a[href]') : null;
           if (!a) return;
@@ -2287,7 +2252,7 @@ body <- dashboardBody(
           const tab = url.searchParams.get('tab');
           if (!tab || !SEO_BY_TAB[tab]) return;
           ev.preventDefault();
-          activateDashboardTab(tab);
+          goToTab(tab);
         }, true);
 
         document.addEventListener('shown.bs.tab', function(ev) {
@@ -2296,22 +2261,24 @@ body <- dashboardBody(
           const href = target.getAttribute('href') || '';
           if (!href.startsWith('#shiny-tab-')) return;
           const tab = href.replace('#shiny-tab-', '');
+          clearBootStyle();
           applySeoForTab(tab);
           syncTabParam(tab);
         });
 
-        // AdminLTE activates tabs via sidebar clicks (not always shown.bs.tab).
+        // Unlock boot CSS before AdminLTE handles the click; then sync the URL.
         document.addEventListener('click', function(ev) {
-          const a = ev.target && ev.target.closest ? ev.target.closest('.sidebar-menu a[href^=\"#shiny-tab-\"]') : null;
+          const a = ev.target && ev.target.closest
+            ? ev.target.closest('.sidebar-menu a[href^=\"#shiny-tab-\"]')
+            : null;
           if (!a) return;
+          clearBootStyle();
           const href = a.getAttribute('href') || '';
           const tab = href.replace('#shiny-tab-', '');
           if (!SEO_BY_TAB[tab]) return;
-          setTimeout(function() {
-            applySeoForTab(tab);
-            syncTabParam(tab);
-          }, 0);
-        });
+          applySeoForTab(tab);
+          syncTabParam(tab);
+        }, true);
       })();
     ")),
     tags$style(HTML("
@@ -6733,9 +6700,7 @@ server <- function(input, output, session) {
 
   valid_dashboard_tabs <- DASHBOARD_TAB_NAMES
 
-  # Deep-link / refresh: URL has ?tab=, but shinydashboard still boots on
-  # Introduction (selected = TRUE). Re-select after the first UI flush; the
-  # client script also clicks the sidebar link with retries.
+  # Deep-link safety net if the menu selected state did not stick.
   apply_tab_from_query <- function() {
     query <- parseQueryString(isolate(session$clientData$url_search))
     tab <- query[["tab"]]
