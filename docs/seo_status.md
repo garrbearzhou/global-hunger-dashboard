@@ -15,7 +15,7 @@ Last updated: 2026-07-11
 | `?tab=scenario_lab` | **Request after deploy** | New in sitemap Jul 11 |
 | `?tab=timeseries` | Indexing requested | |
 | `?tab=analysis` | Indexing requested | |
-| `?tab=grfc_trends` | **Request after deploy** | New in sitemap Jul 11 |
+| `?tab=grfc_trends` | Removed | Tab removed Jul 2026 |
 | `?tab=ghi_comparison` | **Request after deploy** | New in sitemap Jul 11 |
 | `?tab=explorer` | **Request after deploy** | New in sitemap Jul 11 |
 | `?tab=data_coverage` | Indexing requested | |
@@ -39,7 +39,6 @@ Full URLs: `https://globalhungerdashboard.com/?tab=<name>`
    - `https://globalhungerdashboard.com/?tab=bangladesh_research`
    - `https://globalhungerdashboard.com/?tab=about`
    - `https://globalhungerdashboard.com/?tab=scenario_lab`
-   - `https://globalhungerdashboard.com/?tab=grfc_trends`
    - `https://globalhungerdashboard.com/?tab=ghi_comparison`
    - `https://globalhungerdashboard.com/?tab=explorer`
 

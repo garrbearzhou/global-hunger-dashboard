@@ -73,7 +73,7 @@ build_dashboard_citations <- function(raw_root = file.path("data", "raw")) {
       "wfp_grfc", "Food Security & Nutrition",
       "Food Security Information Network (FSIN) and World Food Programme (WFP)",
       "Global Report on Food Crises (GRFC) — acute food insecurity",
-      "IPC phase and population in crisis; used for acute food insecurity and GRFC/IPC trend panels.",
+      "IPC phase and population in crisis; used for acute food insecurity context in country profiles.",
       url = "https://www.fsinplatform.org/global-report-food-crises",
       year = "2025",
       patterns = c("wfp/grfc*_data.csv", "wfp/grfc*.xlsx"),

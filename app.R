@@ -1951,7 +1951,7 @@ header <- dashboardHeader(
 # Sidebar — selected tab comes from ?tab= so refresh/deep links do not boot on Introduction
 DASHBOARD_TAB_NAMES <- c(
   "introduction", "map", "scenario_lab", "overview", "country_details",
-  "timeseries", "analysis", "citations", "data_coverage", "grfc_trends",
+  "timeseries", "analysis", "citations", "data_coverage",
   "bangladesh_research", "ghi_comparison", "explorer", "about", "model"
 )
 
@@ -1974,7 +1974,6 @@ build_sidebar <- function(selected_tab = "introduction") {
       menuItem("Statistical Analysis", tabName = "analysis", icon = icon("calculator"), selected = sel("analysis")),
       menuItem("Data Sources", tabName = "citations", icon = icon("file-text"), selected = sel("citations")),
       menuItem("Data Coverage", tabName = "data_coverage", icon = icon("table"), selected = sel("data_coverage")),
-      menuItem("GRFC Trends", tabName = "grfc_trends", icon = icon("chart-line"), selected = sel("grfc_trends")),
       menuItem("Bangladesh Research", tabName = "bangladesh_research", icon = icon("seedling"), selected = sel("bangladesh_research")),
       menuItem("GHI Comparison", tabName = "ghi_comparison", icon = icon("balance-scale"), selected = sel("ghi_comparison")),
       menuItem("Data Explorer", tabName = "explorer", icon = icon("search"), selected = sel("explorer")),
@@ -2137,10 +2136,6 @@ body <- dashboardBody(
           scenario_lab: {
             title: 'Scenario Lab | Global Hunger Dashboard',
             description: 'Adjust vulnerability pillar weights and explore how rankings change across countries.'
-          },
-          grfc_trends: {
-            title: 'GRFC Trends | Global Hunger Dashboard',
-            description: 'Trends from the Global Report on Food Crises — acute food insecurity and crisis severity over time.'
           },
           ghi_comparison: {
             title: 'Global Hunger Index Comparison',
@@ -3443,63 +3438,6 @@ body <- dashboardBody(
         line-height: 1.5;
       }
 
-      /* GRFC Trends tab */
-      #shiny-tab-grfc_trends .grfc-trends-controls {
-        margin: 4px 0 18px 0;
-        padding: 14px 16px;
-        background: #f8fafc;
-        border: 1px solid #e2e8f0;
-        border-radius: 10px;
-      }
-      #shiny-tab-grfc_trends .grfc-trends-controls .control-label {
-        font-size: 12px;
-        font-weight: 600;
-        color: #64748b;
-        margin-bottom: 6px;
-      }
-      #shiny-tab-grfc_trends .grfc-trends-countries .selectize-input {
-        min-height: 44px;
-        height: auto !important;
-        padding: 8px 10px;
-        line-height: 1.45;
-        border-radius: 8px;
-        border-color: #cbd5e1;
-        background: #fff;
-      }
-      #shiny-tab-grfc_trends .grfc-trends-countries .selectize-input.focus {
-        border-color: #6366f1;
-        box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.15);
-      }
-      #shiny-tab-grfc_trends .grfc-trends-countries .selectize-input > div.item {
-        margin: 3px 6px 3px 0;
-        padding: 4px 10px;
-        border-radius: 999px;
-        background: #eef2ff;
-        border: 1px solid #c7d2fe;
-        color: #3730a3;
-        font-size: 12px;
-        font-weight: 500;
-      }
-      #shiny-tab-grfc_trends .grfc-trends-download {
-        display: flex;
-        align-items: flex-end;
-        height: 100%;
-        padding-bottom: 2px;
-      }
-      #shiny-tab-grfc_trends .grfc-trends-chart-wrap {
-        margin-top: 4px;
-        padding: 12px 8px 4px 8px;
-        background: #fff;
-        border: 1px solid #e2e8f0;
-        border-radius: 10px;
-      }
-      #shiny-tab-grfc_trends .grfc-trends-chart-title {
-        margin: 0 0 4px 4px;
-        font-size: 15px;
-        font-weight: 600;
-        color: #334155;
-      }
-
       /* Leaflet map: stronger hover cue for clickable areas */
       .leaflet-container {
         border-radius: 10px;
@@ -4463,6 +4401,21 @@ body <- dashboardBody(
 
     tabItem(
       tabName = "scenario_lab",
+      fluidRow(
+        box(
+          title = tagList(icon("flask"), " About this lab"),
+          status = "warning",
+          solidHeader = TRUE,
+          width = 12,
+          tags$p(
+            style = "margin: 0; font-size: 14px; line-height: 1.6; color: #334155;",
+            tags$strong("This is not real data."),
+            " Scenario Lab uses an imaginary country and inputs you choose. ",
+            "It is a what-if calculator that applies the dashboard’s vulnerability formula — ",
+            "not survey estimates, national statistics, or published country rankings."
+          )
+        )
+      ),
       fluidRow(
         box(
           title = tagList(icon("globe-americas"), " Your scenario — country landscape"),
@@ -5839,13 +5792,27 @@ body <- dashboardBody(
               )
             ),
             tags$div(
-              style = "background: #f8f9fa; border-radius: 8px; padding: 14px 16px; border: 1px solid #e9ecef;",
+              style = "background: #f8f9fa; border-radius: 8px; padding: 14px 16px; border: 1px solid #e9ecef; margin-bottom: 12px;",
               tags$p(
                 style = "margin: 0; font-size: 13px; color: #555;",
                 icon("info-circle"),
                 " Sources are listed in Chicago style with a short description of how each dataset is used in this dashboard. ",
                 tags$strong("In data/raw"),
                 " badges show which files are present on this computer."
+              )
+            ),
+            tags$div(
+              style = "background: #fff7ed; border-radius: 8px; padding: 14px 16px; border: 1px solid #fed7aa; margin-bottom: 12px;",
+              tags$p(
+                style = "margin: 0; font-size: 13px; color: #9a3412; line-height: 1.55;",
+                icon("exclamation-triangle"),
+                " ",
+                tags$strong("Missing data:"),
+                " Not every country has every indicator. A blank or missing value means the published source ",
+                "did not provide a usable figure for that country after our merge — not that hunger or climate risk ",
+                "is absent. Vulnerability scores omit missing pillar inputs for that country; use the ",
+                tags$a(href = "?tab=data_coverage", "Data Coverage"),
+                " tab to see where gaps remain."
               )
             ),
             tags$div(style = "margin-top: 18px;", uiOutput("citations_display"))
@@ -5901,6 +5868,18 @@ body <- dashboardBody(
               " = missing. Use it to prioritize collection and to sanity-check merges."
             )
           ),
+          tags$div(
+            style = "background: #fff7ed; border-radius: 8px; padding: 12px 14px; border: 1px solid #fed7aa; margin-bottom: 16px;",
+            tags$p(
+              style = "margin: 0; font-size: 13px; color: #9a3412; line-height: 1.55;",
+              icon("exclamation-triangle"),
+              " ",
+              tags$strong("Missing data:"),
+              " Gaps are expected. Many indicators cover only a subset of countries or years. ",
+              "Missing does not mean a country is low-risk — only that this dashboard does not have ",
+              "that series for that place. Scores and charts use available pillars and skip missing ones."
+            )
+          ),
           uiOutput("coverage_summary_kpis"),
           tags$p(class = "coverage-section-head", strong("Coverage by indicator"), " — share of countries with a non-missing value (see ", tags$em("Source"), " column)."),
           plotlyOutput("coverage_by_indicator_chart", height = "420px"),
@@ -5921,77 +5900,6 @@ body <- dashboardBody(
           h4("Per-country matrix", style = "color: #334155;"),
           tags$p(class = "coverage-section-head", "Filter by country or region. Sort by ", tags$em("% coverage"), " to find sparse profiles quickly."),
           DT::dataTableOutput("coverage_by_country_table")
-        )
-      )
-    ),
-    tabItem(
-      tabName = "grfc_trends",
-      fluidRow(
-        box(
-          title = tags$span(icon("chart-line"), " GRFC & IPC trends over time"),
-          status = "primary",
-          solidHeader = TRUE,
-          width = 12,
-          tags$div(
-            style = "background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); padding: 14px 16px; border-radius: 8px; color: white; margin-bottom: 14px;",
-            tags$h3(style = "margin: 0 0 6px 0; color: white; font-size: 17px;", "Acute food insecurity trajectories"),
-            tags$p(
-              style = "margin: 0; font-size: 13px; color: rgba(255,255,255,0.92);",
-              "Compare countries on ",
-              tags$strong("IPC phase"),
-              " or ",
-              tags$strong("population in phase 3+"),
-              ". GRFC uses the 2016–2024 master workbook; IPC uses the 2017–2025 historical file."
-            )
-          ),
-          uiOutput("grfc_trends_status"),
-          tags$div(
-            class = "grfc-trends-controls",
-            fluidRow(
-              column(3,
-                selectInput("grfc_trends_datasource", "Data source", choices = c("GRFC (2016–2024)" = "grfc", "IPC (2017–2025)" = "ipc"), selected = "grfc")
-              ),
-              column(5,
-                tags$div(
-                  class = "grfc-trends-countries",
-                  selectizeInput(
-                    "grfc_trends_countries",
-                    "Countries (select one or more)",
-                    choices = character(),
-                    selected = character(),
-                    multiple = TRUE,
-                    options = list(placeholder = "Choose countries to plot...")
-                  )
-                )
-              ),
-              column(2,
-                selectInput("grfc_trends_metric", "Metric", choices = c("IPC Phase" = "ipc_phase", "Phase 3+ Population (millions)" = "population_phase3_plus"), selected = "ipc_phase")
-              ),
-              column(2,
-                tags$div(
-                  class = "grfc-trends-download",
-                  downloadButton("grfc_panel_download", "Download CSV", class = "btn-default btn-block")
-                )
-              )
-            )
-          ),
-          tags$div(
-            class = "grfc-trends-chart-wrap",
-            uiOutput("grfc_trends_chart_title"),
-            plotlyOutput("grfc_trends_plot", height = "520px")
-          ),
-          tags$p(style = "font-size: 12px; color: #64748b; margin: 10px 0 0 0;",
-                 "Tip: If the chart is empty, pick countries above or switch data source. Phase 3+ population is shown in millions.")
-        )
-      ),
-      fluidRow(
-        box(
-          title = "Panel dataset preview",
-          status = "info",
-          solidHeader = TRUE,
-          width = 12,
-          tags$p("Country–year rows for the selected data source. Filter, sort, or export the full panel."),
-          DT::dataTableOutput("grfc_panel_table")
         )
       )
     )
@@ -6966,179 +6874,6 @@ server <- function(input, output, session) {
   outputOptions(output, "coverage_worst_countries", suspendWhenHidden = FALSE)
   outputOptions(output, "coverage_by_country_table", suspendWhenHidden = FALSE)
 
-  # GRFC/IPC Trends tab
-  trends_panel_raw <- reactive({
-    src <- input$grfc_trends_datasource
-    if (is.null(src)) src <- "grfc"
-    if (src == "ipc") ipc_panel else grfc_panel
-  })
-
-  trends_panel <- reactive({
-    normalize_trends_panel(trends_panel_raw())
-  })
-
-  sync_grfc_trends_country_choices <- function(metric = NULL) {
-    pan <- trends_panel()
-    choices <- sort(unique(pan$country))
-    if (length(choices) == 0) {
-      updateSelectizeInput(session, "grfc_trends_countries", choices = c(), selected = character())
-      return(invisible(NULL))
-    }
-    m <- if (!is.null(metric) && nzchar(metric)) metric else if (!is.null(input$grfc_trends_metric)) input$grfc_trends_metric else "ipc_phase"
-    defs <- default_trend_countries(pan, metric = m, n = 6L)
-    defs <- intersect(defs, choices)
-    if (length(defs) == 0) defs <- head(choices, 6L)
-    updateSelectizeInput(session, "grfc_trends_countries", choices = choices, selected = defs, server = FALSE)
-  }
-
-  observeEvent(input$grfc_trends_datasource, {
-    sync_grfc_trends_country_choices()
-  }, ignoreInit = FALSE)
-
-  observeEvent(input$grfc_trends_metric, {
-    if (is.null(input$grfc_trends_countries) || length(input$grfc_trends_countries) == 0) {
-      sync_grfc_trends_country_choices(input$grfc_trends_metric)
-    }
-  }, ignoreInit = FALSE)
-
-  output$grfc_trends_status <- renderUI({
-    src <- input$grfc_trends_datasource
-    if (is.null(src)) src <- "grfc"
-    pan <- trends_panel()
-    label <- if (src == "ipc") "IPC historical panel" else "GRFC master panel"
-    tags$p(
-      style = "margin: 0 0 12px 0; padding: 10px 12px; background: #f1f5f9; border-radius: 8px; font-size: 13px; color: #475569; border-left: 4px solid #6366f1;",
-      icon("info-circle"),
-      " ",
-      trends_panel_summary_text(pan, label)
-    )
-  })
-
-  output$grfc_trends_chart_title <- renderUI({
-    src <- input$grfc_trends_datasource
-    if (is.null(src)) src <- "grfc"
-    label <- if (src == "ipc") "IPC acute food insecurity over time" else "GRFC acute food insecurity over time"
-    tags$h4(class = "grfc-trends-chart-title", label)
-  })
-
-  output$grfc_trends_plot <- renderPlotly({
-    df <- trends_panel()
-    if (nrow(df) == 0) {
-      return(
-        plot_ly(type = "scatter", mode = "markers") %>%
-          add_annotations(
-            text = "No trend data loaded. Check data/raw/wfp/grfc2016-2024_data.xlsx and data/raw/ipc/, then restart the app.",
-            x = 0.5, y = 0.5, xref = "paper", yref = "paper", showarrow = FALSE,
-            font = list(size = 13, color = "#64748b")
-          ) %>%
-          layout(xaxis = list(visible = FALSE), yaxis = list(visible = FALSE), margin = list(t = 40, b = 20))
-      )
-    }
-    sel <- input$grfc_trends_countries
-    if (!is.null(sel) && length(sel) > 0) df <- df %>% filter(country %in% sel)
-    metric <- input$grfc_trends_metric
-    if (is.null(metric)) metric <- "ipc_phase"
-    if (metric == "population_phase3_plus") {
-      df <- df %>%
-        mutate(yval = population_phase3_plus / 1e6) %>%
-        filter(!is.na(yval), is.finite(yval), yval > 0)
-    } else {
-      df <- df %>%
-        mutate(yval = ipc_phase) %>%
-        filter(!is.na(yval), is.finite(yval))
-    }
-    if (nrow(df) == 0) {
-      return(
-        plot_ly(type = "scatter", mode = "markers") %>%
-          add_annotations(
-            text = "No values for this metric in the selected countries. Try Phase 3+ population or other countries.",
-            x = 0.5, y = 0.5, xref = "paper", yref = "paper", showarrow = FALSE,
-            font = list(size = 13, color = "#64748b")
-          ) %>%
-          layout(xaxis = list(visible = FALSE), yaxis = list(visible = FALSE))
-      )
-    }
-    n_series <- length(unique(df$country))
-    legend_rows <- max(1L, ceiling(n_series / 4L))
-    legend_bottom <- -0.12 - (legend_rows - 1L) * 0.07
-    bottom_margin <- 72L + legend_rows * 22L
-
-    plot_ly(df, x = ~assessment_year, y = ~yval, color = ~country, type = "scatter", mode = "lines+markers",
-            text = ~paste0(country, "<br>Year: ", assessment_year, "<br>Value: ", round(yval, 2)),
-            hoverinfo = "text",
-            line = list(width = 2.2), marker = list(size = 7)) %>%
-      layout(
-        paper_bgcolor = "#f8fafc",
-        plot_bgcolor = "#ffffff",
-        font = overview_plot_font,
-        xaxis = overview_ov_axis("Year", extras = list(dtick = 1)),
-        yaxis = overview_ov_axis(
-          if (metric == "population_phase3_plus") "Phase 3+ population (millions)" else "IPC Phase (1–5)",
-          extras = list(rangemode = if (metric == "ipc_phase") "tozero" else "normal")
-        ),
-        showlegend = TRUE,
-        legend = list(
-          orientation = "h",
-          x = 0.5,
-          xanchor = "center",
-          y = legend_bottom,
-          yanchor = "top",
-          bgcolor = "rgba(255, 255, 255, 0.95)",
-          bordercolor = "#e2e8f0",
-          borderwidth = 1,
-          font = list(size = 11, color = "#475569")
-        ),
-        margin = list(t = 24, r = 24, b = bottom_margin, l = 58)
-      ) %>%
-      config(displayModeBar = TRUE, modeBarButtonsToRemove = c("lasso2d", "select2d"))
-  })
-
-  output$grfc_panel_download <- downloadHandler(
-    filename = function() {
-      src <- input$grfc_trends_datasource
-      if (is.null(src)) src <- "grfc"
-      paste0(if (src == "ipc") "ipc" else "grfc", "_panel.csv")
-    },
-    content = function(file) {
-      df <- trends_panel()
-      if (is.null(df) || nrow(df) == 0) return()
-      export_cols <- c("country", "assessment_year", "ipc_phase", "population_phase3_plus", "population_phase4_plus", "population_phase5", "primary_driver", "secondary_driver")
-      out <- df %>% select(any_of(export_cols))
-      write_csv(out, file)
-    }
-  )
-
-  output$grfc_panel_table <- DT::renderDataTable({
-    df <- trends_panel()
-    if (nrow(df) == 0) {
-      return(DT::datatable(data.frame(Message = "No panel data loaded for this source."), rownames = FALSE))
-    }
-    grfc_panel_col_labels <- c(
-      country = "Country",
-      assessment_year = "Assessment year",
-      ipc_phase = "IPC phase",
-      population_phase3_plus = "Phase 3+ population (M)",
-      population_phase4_plus = "Phase 4+ population (M)",
-      population_phase5 = "Phase 5 population (M)",
-      primary_driver = "Primary driver",
-      secondary_driver = "Secondary driver"
-    )
-    disp <- df %>%
-      select(country, assessment_year, ipc_phase, population_phase3_plus, any_of(c("population_phase4_plus", "population_phase5", "primary_driver", "secondary_driver"))) %>%
-      mutate(
-        population_phase3_plus = round(population_phase3_plus / 1e6, 3),
-        across(any_of(c("population_phase4_plus", "population_phase5")), ~ round(.x / 1e6, 3))
-      )
-    present <- intersect(names(disp), names(grfc_panel_col_labels))
-    names(disp)[match(present, names(disp))] <- unname(grfc_panel_col_labels[present])
-    DT::datatable(disp, filter = "top", options = list(pageLength = 15, scrollX = TRUE, order = list(list(1, "desc"))), rownames = FALSE)
-  })
-
-  outputOptions(output, "grfc_trends_chart_title", suspendWhenHidden = FALSE)
-  outputOptions(output, "grfc_trends_status", suspendWhenHidden = FALSE)
-  outputOptions(output, "grfc_trends_plot", suspendWhenHidden = FALSE)
-  outputOptions(output, "grfc_panel_table", suspendWhenHidden = FALSE)
-  
   # Reactive data filtering
   filtered_data <- reactive({
     data <- hunger_data %>%

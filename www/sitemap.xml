@@ -51,11 +51,6 @@
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://globalhungerdashboard.com/?tab=grfc_trends</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://globalhungerdashboard.com/?tab=ghi_comparison</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
