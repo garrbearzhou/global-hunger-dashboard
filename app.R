@@ -2041,6 +2041,10 @@ body <- dashboardBody(
         var tab = params.get('tab') || 'introduction';
         if (!/^[a-z0-9_]+$/i.test(tab)) tab = 'introduction';
         window.__ghInitialTab = tab;
+        if ('scrollRestoration' in history) {
+          history.scrollRestoration = 'manual';
+        }
+        window.scrollTo(0, 0);
         var style = document.createElement('style');
         style.id = 'gh-initial-tab-style';
         style.textContent =
@@ -2205,6 +2209,16 @@ body <- dashboardBody(
           }
         }
 
+        function scrollToTop() {
+          window.scrollTo(0, 0);
+          if (document.documentElement) document.documentElement.scrollTop = 0;
+          if (document.body) document.body.scrollTop = 0;
+          const wrapper = document.querySelector('.content-wrapper');
+          if (wrapper) wrapper.scrollTop = 0;
+          const content = document.querySelector('.content');
+          if (content) content.scrollTop = 0;
+        }
+
         function sidebarLinkForTab(tab) {
           return document.querySelector(
             '.sidebar-menu a[href=\"#shiny-tab-' + tab + '\"]'
@@ -2226,6 +2240,7 @@ body <- dashboardBody(
           } else if (window.Shiny && typeof window.Shiny.setInputValue === 'function') {
             window.Shiny.setInputValue('initial_tab_from_url', tab, {priority: 'event'});
           }
+          scrollToTop();
           setTimeout(function() { suppressTabHistory = false; }, 0);
         }
 
@@ -2249,6 +2264,10 @@ body <- dashboardBody(
           clearBootStyle();
           applySeoForTab(tab);
           syncTabParam(tab, 'replace');
+          scrollToTop();
+          // Browser may restore scroll after load; force top again shortly after.
+          setTimeout(scrollToTop, 0);
+          setTimeout(scrollToTop, 50);
         });
 
         // Browser back / forward
@@ -2286,6 +2305,7 @@ body <- dashboardBody(
           const tab = href.replace('#shiny-tab-', '');
           clearBootStyle();
           applySeoForTab(tab);
+          scrollToTop();
           // History is owned by the sidebar / goToTab / popstate handlers.
         });
 
@@ -2301,6 +2321,7 @@ body <- dashboardBody(
           if (!SEO_BY_TAB[tab]) return;
           applySeoForTab(tab);
           if (!suppressTabHistory) syncTabParam(tab, 'push');
+          scrollToTop();
         }, true);
       })();
     ")),
@@ -5556,11 +5577,12 @@ body <- dashboardBody(
                 " and the NCFC pro team plays in the ",
                 tags$a(href = "https://www.uslchampionship.com/", target = "_blank", rel = "noopener noreferrer", "USL Championship"), ".",
                 " I have also played in the ",
-                tags$a(href = "https://premier.upsl.com/", target = "_blank", rel = "noopener noreferrer", "UPSL"), ",",
-                " ",
-                tags$a(href = "https://www.usl-academy.com/", target = "_blank", rel = "noopener noreferrer", "USL Academy"), ",",
-                " and ",
-                tags$a(href = "https://www.uslleaguetwo.com/", target = "_blank", rel = "noopener noreferrer", "USL League Two"), ".",
+                tags$a(href = "https://premier.upsl.com/", target = "_blank", rel = "noopener noreferrer", "UPSL"),
+                ", ",
+                tags$a(href = "https://www.usl-academy.com/", target = "_blank", rel = "noopener noreferrer", "USL Academy"),
+                ", and ",
+                tags$a(href = "https://www.uslleaguetwo.com/", target = "_blank", rel = "noopener noreferrer", "USL League Two"),
+                ".",
                 style = "font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 15px;"
               ),
               
