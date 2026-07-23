@@ -1,0 +1,13 @@
+check,spec,term,coef,se,pvalue,r2,n,note
+R1_fao_window,"M1, PoU window 2020-2022",vulnerability,68.7081,7.2121,0.0,0.4424,143,
+R2_alt_vulnerability,"M1, WRI 2025 vulnerability component",wri_vuln,31.4826,4.3127,0.0,0.2887,143,
+R2_alt_vulnerability,"M1, WRI 2025 composite index",wri_index,4.561,7.3029,0.5323,0.0021,143,
+R2_alt_vulnerability,"M1, GDL climate vulnerability 2022",gdl_vuln,39.8789,4.676,0.0,0.4082,92,
+R2_alt_vulnerability,"M1, ND-GAIN exposure sub-index",ndg_exposure,50.5995,9.8014,0.0,0.1529,143,
+R3_alt_outcome,Stunting (latest) on ND-GAIN V,vulnerability,110.8151,7.4283,0.0,0.624,121,
+R4_standardized_M2,M2 z-scored regressors,vulnerability,3.6669,1.0503,0.0005,0.4645,139,beta per 1 SD
+R4_standardized_M2,M2 z-scored regressors,ln_gdp_pcap,-3.9404,1.4386,0.0062,0.4645,139,beta per 1 SD
+R4_standardized_M2,M2 z-scored regressors,rural_pct,-1.0268,0.9736,0.2916,0.4645,139,beta per 1 SD
+R4_standardized_M2,M2 z-scored regressors,disaster_count,0.303,0.6194,0.6248,0.4645,139,beta per 1 SD
+R4_standardized_M2,M2 z-scored regressors,ln1_fatalities,0.1934,0.9115,0.832,0.4645,139,beta per 1 SD
+R5_no_small_states,"M1, population >= 1M",vulnerability,75.513,8.0283,0.0,0.4576,125,
