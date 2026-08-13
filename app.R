@@ -2028,16 +2028,44 @@ dashboard_seo_for <- function(tab) {
   list(tab = tab, title = seo$title, description = seo$description, url = url)
 }
 
-serve_www_file <- function(filename, content_type) {
-  path <- file.path("www", filename)
-  if (!file.exists(path)) {
+request_path <- function(request) {
+  raw <- c(request$PATH_INFO, request$path_info, request$REQUEST_URI, request$PATH)
+  raw <- raw[!vapply(raw, function(x) is.null(x) || !nzchar(as.character(x)), logical(1))]
+  if (length(raw) == 0) {
+    return("")
+  }
+  path <- as.character(raw[[1]])
+  path <- sub("^https?://[^/]+", "", path)
+  path <- sub("\\?.*$", "", path)
+  path
+}
+
+serve_www_file <- function(filename, content_type, binary = FALSE) {
+  candidates <- c(
+    file.path("www", filename),
+    file.path("assets", filename),
+    filename
+  )
+  path <- candidates[file.exists(candidates)][1]
+  if (is.na(path) || !nzchar(path)) {
     return(NULL)
   }
-  shiny::httpResponse(
-    status = 200L,
-    content_type = content_type,
-    content = readBin(path, "raw", n = file.info(path)$size)
-  )
+  tryCatch({
+    if (isTRUE(binary)) {
+      payload <- readBin(path, "raw", n = file.info(path)$size)
+    } else {
+      payload <- paste(readLines(path, warn = FALSE, encoding = "UTF-8"), collapse = "\n")
+      if (!grepl("\n$", payload)) {
+        payload <- paste0(payload, "\n")
+      }
+    }
+    shiny::httpResponse(
+      status = 200L,
+      content_type = content_type,
+      content = payload,
+      headers = list("Cache-Control" = "public, max-age=3600")
+    )
+  }, error = function(e) NULL)
 }
 
 build_sidebar <- function(selected_tab = "introduction") {
@@ -9862,20 +9890,18 @@ server <- function(input, output, session) {
 # Create ui as a request function so ?tab= selects the right menu item in the
 # first HTML response (avoids Intro flash on refresh / pasted deep links).
 ui <- function(request) {
-  path <- request$PATH_INFO
-  if (!is.null(path)) {
-    if (path %in% c("/favicon.ico", "favicon.ico")) {
-      resp <- serve_www_file("favicon.ico", "image/x-icon")
-      if (!is.null(resp)) return(resp)
-    }
-    if (path %in% c("/sitemap.xml", "sitemap.xml")) {
-      resp <- serve_www_file("sitemap.xml", "application/xml; charset=utf-8")
-      if (!is.null(resp)) return(resp)
-    }
-    if (path %in% c("/robots.txt", "robots.txt")) {
-      resp <- serve_www_file("robots.txt", "text/plain; charset=utf-8")
-      if (!is.null(resp)) return(resp)
-    }
+  path <- request_path(request)
+  if (grepl("(^|/)favicon\\.ico$", path)) {
+    resp <- serve_www_file("favicon.ico", "image/x-icon", binary = TRUE)
+    if (!is.null(resp)) return(resp)
+  }
+  if (grepl("(^|/)sitemap\\.xml$", path)) {
+    resp <- serve_www_file("sitemap.xml", "application/xml; charset=utf-8")
+    if (!is.null(resp)) return(resp)
+  }
+  if (grepl("(^|/)robots\\.txt$", path)) {
+    resp <- serve_www_file("robots.txt", "text/plain; charset=utf-8")
+    if (!is.null(resp)) return(resp)
   }
   query <- parseQueryString(request$QUERY_STRING)
   tab <- query[["tab"]]
