@@ -1955,6 +1955,91 @@ DASHBOARD_TAB_NAMES <- c(
   "bangladesh_research", "ghi_comparison", "explorer", "about", "model"
 )
 
+# Server-rendered SEO so Googlebot sees unique canonicals (JS-only tags are ignored).
+DASHBOARD_SEO <- list(
+  introduction = list(
+    title = "Global Hunger Vulnerability Dashboard",
+    description = "Explore the global hunger vulnerability map, country-level indicators, and food security trends."
+  ),
+  map = list(
+    title = "Global Hunger Vulnerability Map",
+    description = "Interactive global hunger vulnerability map with country score, population, and total land area."
+  ),
+  country_details = list(
+    title = "Country Hunger Profile | Global Hunger Dashboard",
+    description = "Country hunger profile with vulnerability score trends, drivers, and detailed food security indicators."
+  ),
+  overview = list(
+    title = "Global Hunger Overview",
+    description = "Cross-country overview of vulnerability, undernourishment, population, and key risk relationships."
+  ),
+  timeseries = list(
+    title = "Hunger Time Series Analysis",
+    description = "Analyze multi-year hunger and vulnerability trends with global time-series visualizations."
+  ),
+  analysis = list(
+    title = "Hunger Statistical Analysis",
+    description = "Adaptation buffer research: OLS models, global buffer rankings, and Monte Carlo uncertainty across 143 countries."
+  ),
+  citations = list(
+    title = "Data Sources & Citations | Global Hunger Dashboard",
+    description = "Chicago-style citations for FAO, World Bank, WFP, WHO, and other datasets used in the hunger vulnerability dashboard."
+  ),
+  data_coverage = list(
+    title = "Data Coverage | Global Hunger Dashboard",
+    description = "Country and indicator coverage across integrated hunger, climate, conflict, and governance datasets."
+  ),
+  bangladesh_research = list(
+    title = "Bangladesh Climate & Food Security Research",
+    description = "North Carolina Youth Institute research on Bangladesh floods, cyclones, sea-level rise, and food security."
+  ),
+  about = list(
+    title = "About | Global Hunger Research Project",
+    description = "Meet Garrett Zhou and Professor Hannah Jacobs — Duke University research on global hunger and food insecurity."
+  ),
+  scenario_lab = list(
+    title = "Scenario Lab | Global Hunger Dashboard",
+    description = "Adjust vulnerability pillar weights and explore how rankings change across countries."
+  ),
+  ghi_comparison = list(
+    title = "Global Hunger Index Comparison",
+    description = "Compare Global Hunger Index metrics with dashboard vulnerability scores across countries."
+  ),
+  explorer = list(
+    title = "Data Explorer | Global Hunger Dashboard",
+    description = "Search and browse country-level hunger, nutrition, climate, and governance indicators."
+  ),
+  model = list(
+    title = "Global Hunger Vulnerability Dashboard",
+    description = "Explore the global hunger vulnerability map, country-level indicators, and food security trends."
+  )
+)
+
+dashboard_seo_for <- function(tab) {
+  if (is.null(tab) || !nzchar(tab) || is.null(DASHBOARD_SEO[[tab]])) {
+    tab <- "introduction"
+  }
+  seo <- DASHBOARD_SEO[[tab]]
+  url <- if (identical(tab, "introduction")) {
+    "https://globalhungerdashboard.com/"
+  } else {
+    paste0("https://globalhungerdashboard.com/?tab=", tab)
+  }
+  list(tab = tab, title = seo$title, description = seo$description, url = url)
+}
+
+serve_www_file <- function(filename, content_type) {
+  path <- file.path("www", filename)
+  if (!file.exists(path)) {
+    return(NULL)
+  }
+  shiny::httpResponse(
+    status = 200L,
+    content_type = content_type,
+    content = readBin(path, "raw", n = file.info(path)$size)
+  )
+}
+
 build_sidebar <- function(selected_tab = "introduction") {
   if (is.null(selected_tab) || !nzchar(selected_tab) || !(selected_tab %in% DASHBOARD_TAB_NAMES)) {
     selected_tab <- "introduction"
@@ -2029,9 +2114,15 @@ build_sidebar <- function(selected_tab = "introduction") {
 sidebar <- build_sidebar("introduction")
 
 # Body
-body <- dashboardBody(
+build_body <- function(selected_tab = "introduction") {
+  seo <- dashboard_seo_for(selected_tab)
+  dashboardBody(
   # Custom CSS
   tags$head(
+    tags$link(rel = "icon", type = "image/png", sizes = "32x32", href = "assets/favicon-32.png?v=1"),
+    tags$link(rel = "icon", type = "image/png", sizes = "192x192", href = "assets/favicon-192.png?v=1"),
+    tags$link(rel = "apple-touch-icon", sizes = "180x180", href = "assets/apple-touch-icon.png?v=1"),
+    tags$link(rel = "shortcut icon", href = "assets/favicon.ico?v=1"),
     # Before-paint: show the ?tab= pane immediately so Intro never flashes first.
     # Cleared as soon as the DOM is ready (and again on any sidebar click).
     tags$script(HTML("
@@ -2074,21 +2165,21 @@ body <- dashboardBody(
         }
       })();
     ")),
-    tags$meta(name = "description", content = "Interactive global hunger vulnerability map with country profiles, population and climate risk indicators, and food security analysis."),
+    tags$meta(name = "description", content = seo$description),
     tags$meta(name = "robots", content = "index, follow"),
-    tags$link(rel = "canonical", href = "https://globalhungerdashboard.com/"),
+    tags$link(rel = "canonical", href = seo$url),
     tags$meta(property = "og:type", content = "website"),
-    tags$meta(property = "og:url", content = "https://globalhungerdashboard.com/"),
-    tags$meta(property = "og:title", content = "Global Hunger Vulnerability Dashboard"),
-    tags$meta(property = "og:description", content = "Interactive global hunger vulnerability map with country hunger profiles, undernourishment data, and food security indicators."),
+    tags$meta(property = "og:url", content = seo$url),
+    tags$meta(property = "og:title", content = seo$title),
+    tags$meta(property = "og:description", content = seo$description),
     tags$meta(property = "og:image", content = "https://globalhungerdashboard.com/assets/og-social-preview.png?v=13"),
     tags$meta(property = "og:image:width", content = "1200"),
     tags$meta(property = "og:image:height", content = "630"),
     tags$meta(property = "og:image:alt", content = "Global Hunger Vulnerability Dashboard — interactive food security map and country profiles"),
     tags$meta(property = "og:site_name", content = "Global Hunger Dashboard"),
     tags$meta(name = "twitter:card", content = "summary_large_image"),
-    tags$meta(name = "twitter:title", content = "Global Hunger Vulnerability Dashboard"),
-    tags$meta(name = "twitter:description", content = "Explore the global hunger vulnerability map and country-level food security profiles."),
+    tags$meta(name = "twitter:title", content = seo$title),
+    tags$meta(name = "twitter:description", content = seo$description),
     tags$meta(name = "twitter:image", content = "https://globalhungerdashboard.com/assets/og-social-preview.png?v=13"),
     tags$script(HTML("
       (function() {
@@ -5905,6 +5996,9 @@ body <- dashboardBody(
     )
   )
 )
+}
+
+body <- build_body("introduction")
 
 # Plotly defaults for Overview tab (aligned typography and grid styling)
 overview_plot_font <- list(family = "system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif", size = 11, color = "#334155")
@@ -9768,16 +9862,32 @@ server <- function(input, output, session) {
 # Create ui as a request function so ?tab= selects the right menu item in the
 # first HTML response (avoids Intro flash on refresh / pasted deep links).
 ui <- function(request) {
+  path <- request$PATH_INFO
+  if (!is.null(path)) {
+    if (path %in% c("/favicon.ico", "favicon.ico")) {
+      resp <- serve_www_file("favicon.ico", "image/x-icon")
+      if (!is.null(resp)) return(resp)
+    }
+    if (path %in% c("/sitemap.xml", "sitemap.xml")) {
+      resp <- serve_www_file("sitemap.xml", "application/xml; charset=utf-8")
+      if (!is.null(resp)) return(resp)
+    }
+    if (path %in% c("/robots.txt", "robots.txt")) {
+      resp <- serve_www_file("robots.txt", "text/plain; charset=utf-8")
+      if (!is.null(resp)) return(resp)
+    }
+  }
   query <- parseQueryString(request$QUERY_STRING)
   tab <- query[["tab"]]
   if (is.null(tab) || !nzchar(tab) || !(tab %in% DASHBOARD_TAB_NAMES)) {
     tab <- "introduction"
   }
+  seo <- dashboard_seo_for(tab)
   dashboardPage(
     header,
     build_sidebar(tab),
-    body,
-    title = "Global Hunger Vulnerability Map & Country Profiles",
+    build_body(tab),
+    title = seo$title,
     skin = "blue"
   )
 }

@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://globalhungerdashboard.com/sitemap.xml
 Sitemap: https://globalhungerdashboard.com/assets/sitemap.xml

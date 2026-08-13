@@ -21,3 +21,6 @@ terminals/
 # Python cache (if any helper scripts)
 __pycache__/
 *.pyc
+
+# Nested GitHub replication package (own repo)
+Global Research Paper/adaptation-buffer-replication/
